@@ -71,10 +71,17 @@
   .text-input { flex: 1; padding: 12px 16px; font-size: 16px; border: 2px solid var(--border); border-radius: 10px; font-family: inherit; }
   .text-input:focus { outline: none; border-color: var(--primary); }
   .canvas-wrap { margin: 16px 0; border: 2px dashed var(--border); border-radius: 12px; background: white; overflow: hidden; }
-  .canvas-toolbar { display: flex; gap: 8px; padding: 8px; border-bottom: 1px solid var(--border); background: #faf9f5; }
+  .canvas-toolbar { display: flex; gap: 8px; padding: 8px; border-bottom: 1px solid var(--border); background: #faf9f5; flex-wrap: wrap; }
   .canvas-toolbar button { padding: 6px 12px; font-size: 13px; background: white; border: 1px solid var(--border); color: var(--text); }
   .canvas-toolbar button.active { background: var(--primary); color: white; border-color: var(--primary); }
-  #scratchCanvas { display: block; width: 100%; height: 240px; touch-action: none; cursor: crosshair; }
+  .canvas-toolbar .draw-tools { display: none; gap: 8px; }
+  .canvas-toolbar.draw-mode .draw-tools { display: flex; }
+  .canvas-toolbar .toolbar-hint { margin-left: auto; color: var(--muted); font-size: 13px; align-self: center; }
+  #scratchCanvas { display: none; width: 100%; height: 240px; touch-action: none; cursor: crosshair; }
+  .canvas-wrap.draw-mode #scratchCanvas { display: block; }
+  .canvas-wrap.draw-mode #scratchText { display: none; }
+  #scratchText { display: block; width: 100%; min-height: 160px; padding: 12px 14px; border: 0; resize: vertical; font-family: inherit; font-size: 15px; line-height: 1.5; background: white; color: var(--text); box-sizing: border-box; }
+  #scratchText:focus { outline: none; }
   .actions { display: flex; gap: 8px; margin-top: 16px; flex-wrap: wrap; }
   .feedback { padding: 16px; border-radius: 10px; margin-top: 16px; }
   .feedback.correct { background: #e8f5e9; border-left: 4px solid var(--good); }
@@ -98,7 +105,8 @@
   .skill-row .skill-score { font-size: 12px; color: var(--muted); width: 30px; text-align: right; }
   .modal-bg { position: fixed; inset: 0; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; z-index: 100; padding: 16px; }
   .modal { background: white; border-radius: 16px; padding: 24px; max-width: 500px; width: 100%; max-height: 90vh; overflow-y: auto; }
-  .working-check-canvas { width: 100%; height: 200px; border: 1px solid var(--border); border-radius: 8px; }
+  .working-check-canvas { width: 100%; height: 200px; border: 1px solid var(--border); border-radius: 8px; box-sizing: border-box; }
+  .working-check-text { height: auto; min-height: 80px; padding: 12px 14px; white-space: pre-wrap; font-family: inherit; font-size: 15px; line-height: 1.5; background: #faf9f5; }
   .celebration { text-align: center; padding: 30px; }
   .celebration .emoji { font-size: 64px; margin-bottom: 16px; }
   .pill { display: inline-block; padding: 4px 12px; border-radius: 20px; font-size: 13px; font-weight: 600; }
@@ -848,13 +856,18 @@ function renderQuestion() {
     </div>`;
   }
   const canvasHtml = q.working_required ? `
-    <div class="canvas-wrap">
-      <div class="canvas-toolbar">
-        <button id="penBtn" class="active" onclick="setTool('pen')">✏️ Pen</button>
-        <button id="eraserBtn" onclick="setTool('eraser')">🧹 Eraser</button>
-        <button onclick="clearCanvas()">Clear</button>
-        <span style="margin-left: auto; color: var(--muted); font-size: 13px; align-self: center;">Show your working ↓</span>
+    <div class="canvas-wrap" id="workpadWrap">
+      <div class="canvas-toolbar" id="workpadToolbar">
+        <button id="textModeBtn" class="active" onclick="setWorkpadMode('text')">📝 Text</button>
+        <button id="drawModeBtn" onclick="setWorkpadMode('draw')">✏️ Draw</button>
+        <div class="draw-tools">
+          <button id="penBtn" class="active" onclick="setTool('pen')">Pen</button>
+          <button id="eraserBtn" onclick="setTool('eraser')">🧹 Eraser</button>
+        </div>
+        <button onclick="clearWorkpad()">Clear</button>
+        <span class="toolbar-hint">Show your working ↓</span>
       </div>
+      <textarea id="scratchText" placeholder="Type your working here..." spellcheck="false"></textarea>
       <canvas id="scratchCanvas"></canvas>
     </div>` : "";
 
@@ -894,7 +907,7 @@ function renderQuestion() {
     </div>
   `;
   if (q.type === "text" || q.type === "numeric") $("#textInput").focus();
-  if (q.working_required) initCanvas();
+  if (q.working_required) initWorkpad();
 }
 
 let currentSelections = []; // for multi-select
@@ -957,10 +970,10 @@ window.submitAnswer = async () => {
   $$("#optionsArea .option, #orderArea .order-item").forEach(o => o.classList.add("disabled"));
   if ($("#textInput")) $("#textInput").disabled = true;
 
-  // Save canvas if working required
+  // Save working pad if required
   if (q.working_required) {
-    const cv = $("#scratchCanvas");
-    if (cv) Session.canvasData[q.id] = cv.toDataURL("image/png");
+    const captured = captureWorkpad();
+    if (captured) Session.canvasData[q.id] = captured;
   }
 
   if (correct) {
@@ -1022,18 +1035,22 @@ function renderWorkingCheck() {
   // Pick a random recent correct answer
   const qid = Session.correctRecent[Math.floor(Math.random() * Session.correctRecent.length)];
   const q = Session.questions.find(qq => qq.id === qid);
-  if (!q || !Session.canvasData[qid]) {
-    // No canvas saved, skip check
+  const saved = Session.canvasData[qid];
+  if (!q || !saved) {
+    // No working saved, skip check
     Session.workingChecksDue = false;
     return renderQuestion();
   }
   Session.awaitingWorkingCheck = q;
+  const workingView = saved.type === "text"
+    ? `<div class="working-check-canvas working-check-text">${escapeHtml(saved.data)}</div>`
+    : `<img src="${saved.data}" class="working-check-canvas" alt="Your working">`;
   const main = $("#main");
   main.innerHTML = `
     <div class="card">
       <h2>🔍 Working check</h2>
       <p>Look at your working below. What was your final answer?</p>
-      <img src="${Session.canvasData[qid]}" class="working-check-canvas" alt="Your working">
+      ${workingView}
       <div class="input-row">
         <input type="text" class="text-input" id="checkInput" placeholder="Final answer..." autocomplete="off" onkeydown="if(event.key==='Enter') submitWorkingCheck()">
       </div>
@@ -1073,15 +1090,28 @@ window.finishWorkingCheck = () => {
 };
 
 //=============================================================================
-// CANVAS
+// WORKING PAD (text default, draw on demand)
 //=============================================================================
 let canvasCtx, canvasDrawing = false, canvasLast = null, canvasTool = "pen";
+let canvasReady = false, canvasHasInk = false, workpadMode = "text";
 
-function initCanvas() {
+function initWorkpad() {
+  workpadMode = "text";
+  canvasReady = false;
+  canvasHasInk = false;
+  canvasCtx = null;
+  const wrap = $("#workpadWrap");
+  const toolbar = $("#workpadToolbar");
+  if (wrap) wrap.classList.remove("draw-mode");
+  if (toolbar) toolbar.classList.remove("draw-mode");
+}
+
+function ensureCanvasReady() {
+  if (canvasReady) return;
   const cv = $("#scratchCanvas");
   if (!cv) return;
-  // Resize for crisp drawing
   const rect = cv.getBoundingClientRect();
+  if (rect.width === 0) return;
   cv.width = rect.width * window.devicePixelRatio;
   cv.height = rect.height * window.devicePixelRatio;
   canvasCtx = cv.getContext("2d");
@@ -1095,7 +1125,25 @@ function initCanvas() {
   cv.addEventListener("pointerup", canvasUp);
   cv.addEventListener("pointerleave", canvasUp);
   canvasTool = "pen";
+  canvasReady = true;
 }
+
+window.setWorkpadMode = (m) => {
+  workpadMode = m;
+  const wrap = $("#workpadWrap");
+  const toolbar = $("#workpadToolbar");
+  const isDraw = m === "draw";
+  if (wrap) wrap.classList.toggle("draw-mode", isDraw);
+  if (toolbar) toolbar.classList.toggle("draw-mode", isDraw);
+  $("#textModeBtn").classList.toggle("active", !isDraw);
+  $("#drawModeBtn").classList.toggle("active", isDraw);
+  if (isDraw) {
+    ensureCanvasReady();
+  } else {
+    const ta = $("#scratchText");
+    if (ta) ta.focus();
+  }
+};
 
 window.setTool = (t) => {
   canvasTool = t;
@@ -1103,10 +1151,28 @@ window.setTool = (t) => {
   $("#eraserBtn").classList.toggle("active", t === "eraser");
 };
 
-window.clearCanvas = () => {
-  const cv = $("#scratchCanvas");
-  canvasCtx.clearRect(0, 0, cv.width, cv.height);
+window.clearWorkpad = () => {
+  if (workpadMode === "draw") {
+    const cv = $("#scratchCanvas");
+    if (cv && canvasCtx) canvasCtx.clearRect(0, 0, cv.width, cv.height);
+    canvasHasInk = false;
+  } else {
+    const ta = $("#scratchText");
+    if (ta) { ta.value = ""; ta.focus(); }
+  }
 };
+
+function captureWorkpad() {
+  const ta = $("#scratchText");
+  const text = ta ? ta.value.trim() : "";
+  // If they drew something, prefer the drawing (richer working). Otherwise use text.
+  if (canvasHasInk) {
+    const cv = $("#scratchCanvas");
+    if (cv) return { type: "image", data: cv.toDataURL("image/png") };
+  }
+  if (text) return { type: "text", data: text };
+  return null;
+}
 
 function canvasPos(e) {
   const cv = $("#scratchCanvas");
@@ -1130,6 +1196,7 @@ function canvasMove(e) {
   canvasCtx.lineTo(pos.x, pos.y);
   canvasCtx.stroke();
   canvasLast = pos;
+  if (canvasTool === "pen") canvasHasInk = true;
 }
 
 function canvasUp() { canvasDrawing = false; canvasLast = null; }
