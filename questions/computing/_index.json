@@ -1,0 +1,40 @@
+{
+  "subject": "computing",
+  "units": [
+    {
+      "slug": "networks-hardware",
+      "name": "Networks & Hardware",
+      "topics": ["networks-hardware"]
+    },
+    {
+      "slug": "binary-data",
+      "name": "Binary & Data Representation",
+      "topics": ["binary-data"]
+    },
+    {
+      "slug": "cyber-security",
+      "name": "Cyber Security",
+      "topics": ["cyber-security"]
+    },
+    {
+      "slug": "computational-thinking",
+      "name": "Computational Thinking & Programming",
+      "topics": ["computational-thinking"]
+    },
+    {
+      "slug": "logic-gates",
+      "name": "Logic Gates & Truth Tables",
+      "topics": ["logic-gates", "truth-tables"]
+    },
+    {
+      "slug": "programming-fundamentals",
+      "name": "Programming Fundamentals",
+      "topics": ["programming-languages", "compilers", "ide", "constructs", "variables", "input-output", "pseudocode", "flowcharts"]
+    },
+    {
+      "slug": "programming-solutions",
+      "name": "Programming Solutions & Lifecycle",
+      "topics": ["requirements-analysis", "debugging", "testing", "iterative-development", "documentation"]
+    }
+  ]
+}

@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Parent Verifier — Bertie's Revision</title>
+<style>
+  :root {
+    --bg: #f4f1ea;
+    --card: #ffffff;
+    --primary: #5b4b8a;
+    --accent: #f0a93b;
+    --good: #4caf50;
+    --bad: #e74c3c;
+    --gold: #d4a017;
+    --text: #2c2c2c;
+    --muted: #888;
+    --border: #e0d9cc;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); }
+  .app { max-width: 800px; margin: 0 auto; padding: 16px; min-height: 100vh; }
+  .card { background: var(--card); border-radius: 16px; padding: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.06); margin-bottom: 16px; }
+  h1 { margin: 0 0 8px; font-size: 26px; }
+  h2 { margin: 0 0 12px; font-size: 20px; }
+  h3 { margin: 0 0 8px; font-size: 16px; }
+  p { line-height: 1.5; }
+  button { font-family: inherit; cursor: pointer; border: none; border-radius: 8px; padding: 12px 20px; font-size: 16px; font-weight: 600; transition: transform 0.1s, background 0.2s; }
+  .btn-primary { background: var(--primary); color: white; }
+  .btn-secondary { background: var(--card); color: var(--primary); border: 2px solid var(--primary); }
+  .btn-ghost { background: transparent; color: var(--muted); }
+  .input-row { display: flex; gap: 8px; align-items: center; }
+  .text-input { flex: 1; padding: 14px 16px; font-size: 18px; border: 2px solid var(--border); border-radius: 10px; font-family: 'Menlo', 'Consolas', monospace; }
+  .text-input:focus { outline: none; border-color: var(--primary); }
+  .verdict { padding: 24px; border-radius: 16px; text-align: center; margin: 20px 0; }
+  .verdict.small { background: linear-gradient(135deg, #5b4b8a, #3d3262); color: white; }
+  .verdict.big { background: linear-gradient(135deg, #f0a93b, #d68a1f); color: white; }
+  .verdict.win { background: linear-gradient(135deg, #f1c40f, #d4a017); color: #2c2c2c; }
+  .verdict.report { background: #f0f0f0; color: #555; }
+  .verdict.invalid { background: #ffebee; color: #c62828; border: 2px solid #e74c3c; }
+  .verdict h2 { margin: 0 0 8px; font-size: 24px; }
+  .verdict .badge { font-size: 14px; opacity: 0.9; }
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 12px; margin: 16px 0; }
+  .stat { background: rgba(255,255,255,0.15); padding: 12px; border-radius: 10px; text-align: center; }
+  .stat .v { font-size: 24px; font-weight: 700; }
+  .stat .l { font-size: 12px; opacity: 0.9; }
+  .treat-box { background: white; color: var(--text); padding: 16px; border-radius: 10px; margin-top: 16px; }
+  .treat-box h3 { color: var(--primary); margin-top: 0; }
+  .treat-box .reward { font-size: 18px; font-weight: 600; }
+  .ledger { margin-top: 16px; }
+  .ledger-entry { display: flex; justify-content: space-between; padding: 8px 12px; border-bottom: 1px solid var(--border); font-size: 14px; }
+  .ledger-entry .when { color: var(--muted); }
+  .ledger-entry .badge { padding: 2px 8px; border-radius: 4px; font-size: 11px; }
+  .badge-sm { background: #efeaff; color: var(--primary); }
+  .badge-big { background: #fff3e0; color: #d68a1f; }
+  .badge-win { background: #fffbe6; color: #d4a017; }
+  .badge-rp { background: #f0f0f0; color: #888; }
+  .badge-boss { background: #ffebee; color: #c0392b; font-weight: 700; }
+  .config { background: #fffbe6; padding: 16px; border-radius: 10px; margin: 16px 0; border-left: 4px solid var(--accent); font-size: 14px; }
+  .config label { display: block; margin-top: 8px; }
+  .config input[type="number"], .config input[type="text"] { padding: 6px 10px; border: 1px solid var(--border); border-radius: 6px; font-size: 14px; }
+  details summary { cursor: pointer; font-weight: 600; padding: 8px 0; }
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="card">
+    <h1>🔐 Parent Verifier</h1>
+    <p style="color: var(--muted);">Paste the code Bertie shows you. Verifies the session is real, decodes the stats, and tells you whether the agreed treat is earned.</p>
+    <div class="input-row">
+      <input type="text" id="codeInput" class="text-input" placeholder="e.g. SM-aBcDe-fGhIj-KlMnO-12345" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false">
+      <button class="btn-primary" onclick="verifyCode()">Verify</button>
+    </div>
+    <div id="verdict"></div>
+  </div>
+
+  <details class="card">
+    <summary>📋 Recently verified codes</summary>
+    <div id="ledger" class="ledger"></div>
+    <button class="btn-ghost" style="margin-top: 12px;" onclick="if(confirm('Clear verified-code ledger?')) { localStorage.removeItem('parentLedger'); renderLedger(); }">Clear ledger</button>
+  </details>
+
+  <details class="card">
+    <summary>⚙️ Treat thresholds and rewards</summary>
+    <div class="config" id="configBox">
+      <p><strong>Small code</strong> (evening treat) requires:</p>
+      <label>Min minutes: <input type="number" id="cfgSmMin" value="12"></label>
+      <label>Min accuracy (0–1): <input type="number" id="cfgSmAcc" value="0.65" step="0.05"></label>
+      <label>Min working checks passed: <input type="number" id="cfgSmWc" value="1"></label>
+      <label>Reward: <input type="text" id="cfgSmReward" value="Evening treat — 30 min Switch, biscuit, or pick tonight's pudding"></label>
+
+      <p style="margin-top: 16px;"><strong>Big code</strong> (full-day treat) requires:</p>
+      <label>Min minutes: <input type="number" id="cfgBigMin" value="25"></label>
+      <label>Min accuracy (0–1): <input type="number" id="cfgBigAcc" value="0.80" step="0.05"></label>
+      <label>Min working checks passed: <input type="number" id="cfgBigWc" value="2"></label>
+      <label>Min skills levelled: <input type="number" id="cfgBigSk" value="2"></label>
+      <label>Reward: <input type="text" id="cfgBigReward" value="Full-day treat — pick something within reason (cinema, day out, special meal)"></label>
+
+      <p style="margin-top: 16px;"><strong>Streak win</strong> (£5 pocket money):</p>
+      <label>Streak days needed: <input type="number" id="cfgWinDays" value="7"></label>
+      <label>Reward: <input type="text" id="cfgWinReward" value="£5 extra pocket money this week 🎉"></label>
+
+      <p style="margin-top: 16px;"><strong>Two-smalls-equals-big rule:</strong> If Bertie accumulates 2 small codes in the same weekend window (Fri–Sun), unlock the Big-tier treat too.</p>
+      <label><input type="checkbox" id="cfgTwoSmallRule" checked> Enabled</label>
+
+      <button class="btn-primary" style="margin-top: 16px;" onclick="saveConfig()">Save settings</button>
+    </div>
+  </details>
+
+  <details class="card">
+    <summary>ℹ️ How this works</summary>
+    <p>Each session emits one code. Codes are signed so Bertie can't forge or replay them. The verifier checks the signature, decodes the stats, and applies your treat thresholds (above).</p>
+    <ul>
+      <li><strong>SM-...</strong> Small — solid session.</li>
+      <li><strong>BIG-...</strong> Big — strong session that hit higher bars.</li>
+      <li><strong>WIN-...</strong> Streak milestone — earned after 7 consecutive days of small-or-better.</li>
+      <li><strong>BOSS-...</strong> Boss battle — 10-question mock test passed (70%+ accuracy, no hints, no retries). Counts as a Big-tier treat.</li>
+      <li><strong>RP-...</strong> Report — session happened but didn't hit the small-code bar. Still tells you what was done; no treat earned by the rules but you can recognise effort.</li>
+    </ul>
+    <p><strong>The HMAC secret must match the one in <code>index.html</code>.</strong> Change both files if you want to rotate the secret (and clear Bertie's localStorage so he can't replay old codes).</p>
+  </details>
+</div>
+
+<script>
+const APP = {
+  HMAC_SECRET: "change-me-bertie-2026-revision",  // MUST MATCH index.html
+};
+
+const DEFAULT_CONFIG = {
+  sm:  { min_minutes: 12, min_accuracy: 0.65, min_working_checks: 1, reward: "Evening treat" },
+  big: { min_minutes: 25, min_accuracy: 0.80, min_working_checks: 2, min_skills_levelled: 2, reward: "Full-day treat" },
+  win: { streak_days: 7, reward: "£5 pocket money" },
+  twoSmallRule: true
+};
+
+function loadConfig() {
+  try { return Object.assign({}, DEFAULT_CONFIG, JSON.parse(localStorage.getItem("parentConfig") || "{}")); }
+  catch { return DEFAULT_CONFIG; }
+}
+
+function paintConfig() {
+  const c = loadConfig();
+  document.getElementById("cfgSmMin").value = c.sm.min_minutes;
+  document.getElementById("cfgSmAcc").value = c.sm.min_accuracy;
+  document.getElementById("cfgSmWc").value = c.sm.min_working_checks;
+  document.getElementById("cfgSmReward").value = c.sm.reward;
+  document.getElementById("cfgBigMin").value = c.big.min_minutes;
+  document.getElementById("cfgBigAcc").value = c.big.min_accuracy;
+  document.getElementById("cfgBigWc").value = c.big.min_working_checks;
+  document.getElementById("cfgBigSk").value = c.big.min_skills_levelled;
+  document.getElementById("cfgBigReward").value = c.big.reward;
+  document.getElementById("cfgWinDays").value = c.win.streak_days;
+  document.getElementById("cfgWinReward").value = c.win.reward;
+  document.getElementById("cfgTwoSmallRule").checked = c.twoSmallRule;
+}
+
+function saveConfig() {
+  const c = {
+    sm: {
+      min_minutes: +document.getElementById("cfgSmMin").value,
+      min_accuracy: +document.getElementById("cfgSmAcc").value,
+      min_working_checks: +document.getElementById("cfgSmWc").value,
+      reward: document.getElementById("cfgSmReward").value
+    },
+    big: {
+      min_minutes: +document.getElementById("cfgBigMin").value,
+      min_accuracy: +document.getElementById("cfgBigAcc").value,
+      min_working_checks: +document.getElementById("cfgBigWc").value,
+      min_skills_levelled: +document.getElementById("cfgBigSk").value,
+      reward: document.getElementById("cfgBigReward").value
+    },
+    win: {
+      streak_days: +document.getElementById("cfgWinDays").value,
+      reward: document.getElementById("cfgWinReward").value
+    },
+    twoSmallRule: document.getElementById("cfgTwoSmallRule").checked
+  };
+  localStorage.setItem("parentConfig", JSON.stringify(c));
+  alert("Settings saved.");
+}
+
+async function hmac(message, secret) {
+  const enc = new TextEncoder();
+  const key = await crypto.subtle.importKey("raw", enc.encode(secret), { name: "HMAC", hash: "SHA-256" }, false, ["sign"]);
+  const sig = await crypto.subtle.sign("HMAC", key, enc.encode(message));
+  return Array.from(new Uint8Array(sig)).map(b => b.toString(16).padStart(2, "0")).join("");
+}
+
+function parseCode(code) {
+  // Expected: TIER-XXXXX-XXXXX-XXXXX-XXXXX  (TIER is case-insensitive, body is case-sensitive base64url)
+  const parts = code.trim().split("-");
+  if (parts.length < 2) throw new Error("Bad code format");
+  const tier = parts[0].toUpperCase();
+  if (!["SM", "BIG", "WIN", "RP", "BOSS"].includes(tier)) throw new Error("Unknown code type");
+  const body = parts.slice(1).join("");
+  // Last 8 chars are HMAC, rest is base64 payload
+  if (body.length < 12) throw new Error("Code too short");
+  const sig = body.substring(body.length - 8);
+  const b64 = body.substring(0, body.length - 8).replace(/-/g, "+").replace(/_/g, "/");
+  // base64 decode
+  let padding = b64.length % 4 ? "=".repeat(4 - b64.length % 4) : "";
+  let payload;
+  try { payload = atob(b64 + padding); } catch { throw new Error("Bad base64 payload"); }
+  // payload format: tier|day|ctr|mins|qs|correct|levels|wpass|wfail
+  const fields = payload.split("|");
+  if (fields.length !== 9) throw new Error("Bad payload structure");
+  return {
+    tier, sig, payloadString: payload,
+    day: +fields[1], ctr: +fields[2], mins: +fields[3], qs: +fields[4],
+    correct: +fields[5], levels: +fields[6], wpass: +fields[7], wfail: +fields[8]
+  };
+}
+
+async function verifyCode() {
+  const input = document.getElementById("codeInput").value.trim();
+  const verdict = document.getElementById("verdict");
+  if (!input) return;
+  let parsed;
+  try { parsed = parseCode(input); }
+  catch (e) {
+    verdict.innerHTML = `<div class="verdict invalid"><h2>❌ Invalid code</h2><p>${e.message}</p></div>`;
+    return;
+  }
+  // Recompute HMAC
+  const expectedSig = (await hmac(parsed.payloadString, APP.HMAC_SECRET)).substring(0, 8).toUpperCase();
+  if (expectedSig !== parsed.sig) {
+    verdict.innerHTML = `<div class="verdict invalid"><h2>❌ Code signature doesn't match</h2><p>This code wasn't issued by Bertie's app (or the shared secret is different). Did he make it up?</p></div>`;
+    return;
+  }
+  // Check replay protection
+  const ledger = JSON.parse(localStorage.getItem("parentLedger") || "[]");
+  if (ledger.some(e => e.code === input)) {
+    verdict.innerHTML = `<div class="verdict invalid"><h2>⚠️ Code already redeemed</h2><p>This exact code has been verified before. Bertie can't reuse it.</p></div>`;
+    return;
+  }
+
+  // Decode session
+  const accuracy = parsed.qs ? parsed.correct / parsed.qs : 0;
+  const cfg = loadConfig();
+  const sessionDate = new Date(new Date(2026, 0, 1).getTime() + parsed.day * 86400000);
+
+  // Tier verdict + treat eligibility
+  let treatBlocks = [];
+  if (parsed.tier === "BOSS") {
+    treatBlocks.push({ title: "⚔️ BOSS DEFEATED — Big treat earned", reward: cfg.big.reward + " (boss battle win)" });
+  }
+  if (parsed.tier === "WIN") {
+    treatBlocks.push({ title: "🏆 Streak bonus earned", reward: cfg.win.reward });
+  }
+  if (parsed.tier === "BIG" || parsed.tier === "WIN") {
+    if (parsed.mins >= cfg.big.min_minutes && accuracy >= cfg.big.min_accuracy
+        && parsed.wpass >= cfg.big.min_working_checks && parsed.levels >= cfg.big.min_skills_levelled) {
+      treatBlocks.push({ title: "🌟 Big treat earned", reward: cfg.big.reward });
+    }
+  }
+  if (parsed.tier === "SM" || parsed.tier === "BIG" || parsed.tier === "WIN") {
+    if (parsed.mins >= cfg.sm.min_minutes && accuracy >= cfg.sm.min_accuracy && parsed.wpass >= cfg.sm.min_working_checks) {
+      treatBlocks.push({ title: "🎉 Small treat earned", reward: cfg.sm.reward });
+    }
+  }
+
+  // Two-smalls rule check (weekend accumulator)
+  if (cfg.twoSmallRule && parsed.tier === "SM") {
+    const dow = sessionDate.getDay();
+    const inWeekendWindow = (dow >= 5 || dow === 0); // Fri, Sat, Sun
+    if (inWeekendWindow) {
+      const weekendCodes = ledger.filter(e => {
+        if (e.tier !== "SM") return false;
+        const ed = new Date(e.date);
+        return Math.abs(ed - sessionDate) < 3 * 86400000 && (ed.getDay() >= 5 || ed.getDay() === 0);
+      });
+      if (weekendCodes.length >= 1) {
+        treatBlocks.push({ title: "🌅 Weekend two-small bonus", reward: cfg.big.reward + " (accumulated)" });
+      }
+    }
+  }
+
+  if (parsed.tier === "RP" && treatBlocks.length === 0) {
+    treatBlocks.push({ title: "📝 Session report", reward: "No treat by your rules, but feel free to recognise effort." });
+  }
+
+  // Record in ledger
+  ledger.unshift({ code: input, date: sessionDate.toISOString(), tier: parsed.tier, mins: parsed.mins, qs: parsed.qs, correct: parsed.correct, levels: parsed.levels, wpass: parsed.wpass, wfail: parsed.wfail });
+  if (ledger.length > 200) ledger.length = 200;
+  localStorage.setItem("parentLedger", JSON.stringify(ledger));
+
+  const tierClass = parsed.tier === "BIG" || parsed.tier === "BOSS" ? "big" : parsed.tier === "WIN" ? "win" : parsed.tier === "RP" ? "report" : "small";
+  const tierName = { SM: "Small code", BIG: "Big code", WIN: "Streak win", RP: "Session report", BOSS: "⚔️ Boss Battle WIN" }[parsed.tier];
+
+  verdict.innerHTML = `
+    <div class="verdict ${tierClass}">
+      <h2>${tierName} verified ✓</h2>
+      <div class="badge">${sessionDate.toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long" })}</div>
+      <div class="stats">
+        <div class="stat"><div class="v">${parsed.mins}</div><div class="l">Minutes</div></div>
+        <div class="stat"><div class="v">${parsed.qs}</div><div class="l">Questions</div></div>
+        <div class="stat"><div class="v">${Math.round(accuracy * 100)}%</div><div class="l">Accuracy</div></div>
+        <div class="stat"><div class="v">${parsed.levels}</div><div class="l">Skills levelled</div></div>
+        <div class="stat"><div class="v">${parsed.wpass}/${parsed.wpass + parsed.wfail}</div><div class="l">Working checks</div></div>
+      </div>
+      ${treatBlocks.map(t => `
+        <div class="treat-box">
+          <h3>${t.title}</h3>
+          <div class="reward">${t.reward}</div>
+        </div>
+      `).join("")}
+    </div>
+  `;
+  renderLedger();
+}
+
+function renderLedger() {
+  const ledger = JSON.parse(localStorage.getItem("parentLedger") || "[]");
+  const el = document.getElementById("ledger");
+  if (!ledger.length) { el.innerHTML = "<p style='color: var(--muted);'>No codes verified yet.</p>"; return; }
+  el.innerHTML = ledger.slice(0, 20).map(e => {
+    const d = new Date(e.date);
+    const dateStr = d.toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "short" });
+    const acc = e.qs ? Math.round(100 * e.correct / e.qs) : 0;
+    const badgeClass = "badge-" + e.tier.toLowerCase();
+    return `<div class="ledger-entry">
+      <span><span class="badge ${badgeClass}">${e.tier}</span> ${dateStr}</span>
+      <span class="when">${e.mins}m · ${e.qs}q · ${acc}%</span>
+    </div>`;
+  }).join("");
+}
+
+paintConfig();
+renderLedger();
+// Enter in input triggers verify
+document.getElementById("codeInput").addEventListener("keydown", e => { if (e.key === "Enter") verifyCode(); });
+</script>
+</body>
+</html>

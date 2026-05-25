@@ -1,0 +1,25 @@
+{
+  "subject": "history",
+  "units": [
+    {
+      "slug": "stuart-era",
+      "name": "Stuart Era, Witch Craze & Age of Exploration",
+      "topics": ["stuart-era"]
+    },
+    {
+      "slug": "slave-trade",
+      "name": "Trans-Atlantic Slave Trade",
+      "topics": ["slave-trade"]
+    },
+    {
+      "slug": "industrial-revolution",
+      "name": "Industrial Revolution, Cottonopolis, Liberty's Dawn & Abolition",
+      "topics": ["industrial-revolution"]
+    },
+    {
+      "slug": "british-empire",
+      "name": "British Empire, Divide and Rule, Raj & Legacy",
+      "topics": ["british-empire"]
+    }
+  ]
+}

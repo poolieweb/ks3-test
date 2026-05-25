@@ -1,0 +1,15 @@
+{
+  "subject": "geography",
+  "units": [
+    {
+      "slug": "ten-billion-people",
+      "name": "Where will 10 billion people live?",
+      "topics": ["population", "migration", "urbanisation", "manchester-case-study"]
+    },
+    {
+      "slug": "asia-transformed",
+      "name": "How is Asia being transformed?",
+      "topics": ["asia-physical", "monsoon", "floods", "biomes", "karnataka", "china", "asia-economy"]
+    }
+  ]
+}

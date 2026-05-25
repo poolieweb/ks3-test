@@ -1,0 +1,30 @@
+{
+  "subject": "science",
+  "units": [
+    {
+      "slug": "organisms",
+      "name": "Organisms",
+      "topics": ["digestion", "nutrition", "respiration", "gas-exchange", "exercise", "skeleton", "cells", "breathing", "drugs"]
+    },
+    {
+      "slug": "acids-alkalis",
+      "name": "Acids and Alkalis",
+      "topics": ["ph-scale", "indicators", "common-substances", "neutralisation", "metal-reactions", "carbonate-reactions", "reactivity", "practical", "concentration", "safety", "applications"]
+    },
+    {
+      "slug": "waves-light-sound",
+      "name": "Waves, Light and Sound",
+      "topics": ["waves", "sound", "hearing", "echoes", "light", "reflection", "refraction", "dispersion", "colour", "eye", "em-spectrum"]
+    },
+    {
+      "slug": "rocks-climate-universe",
+      "name": "Rocks, Climate and Universe",
+      "topics": ["rock-types", "rock-cycle", "weathering", "fossils", "climate", "greenhouse", "climate-change", "carbon-cycle", "atmosphere", "solar-system", "gravity", "day-night-seasons", "moon", "universe", "applications", "renewables"]
+    },
+    {
+      "slug": "separating-techniques",
+      "name": "Separating Techniques (Y7 Summer)",
+      "topics": ["mixtures", "filtration", "evaporation", "distillation", "chromatography", "solutions", "applications"]
+    }
+  ]
+}

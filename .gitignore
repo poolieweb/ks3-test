@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Local design notes (don't ship to repo)
+*-design.md
+revision-game-design.md
+
+# Editor cruft
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Node (in case you add tooling later)
+node_modules/
+npm-debug.log
+
+# Local server playground
+.cache/

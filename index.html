@@ -1,0 +1,1290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bertie's Revision Game</title>
+<style>
+  :root {
+    --bg: #f4f1ea;
+    --card: #ffffff;
+    --primary: #5b4b8a;
+    --primary-dark: #3d3262;
+    --accent: #f0a93b;
+    --good: #4caf50;
+    --bad: #e74c3c;
+    --text: #2c2c2c;
+    --muted: #888;
+    --border: #e0d9cc;
+    --science: #2e86de;
+    --history: #d35400;
+    --geography: #16a085;
+    --computing: #8e44ad;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); }
+  .app { max-width: 900px; margin: 0 auto; padding: 16px; min-height: 100vh; }
+  .hidden { display: none !important; }
+  button { font-family: inherit; cursor: pointer; border: none; border-radius: 8px; padding: 12px 20px; font-size: 16px; font-weight: 600; transition: transform 0.1s, background 0.2s; }
+  button:hover { transform: translateY(-1px); }
+  button:active { transform: translateY(0); }
+  .btn-primary { background: var(--primary); color: white; }
+  .btn-primary:hover { background: var(--primary-dark); }
+  .btn-secondary { background: var(--card); color: var(--primary); border: 2px solid var(--primary); }
+  .btn-ghost { background: transparent; color: var(--muted); }
+  .card { background: var(--card); border-radius: 16px; padding: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.06); margin-bottom: 16px; }
+  h1 { margin: 0 0 8px; font-size: 28px; }
+  h2 { margin: 0 0 12px; font-size: 22px; }
+  h3 { margin: 0 0 8px; font-size: 18px; }
+  .topbar { display: flex; justify-content: space-between; align-items: center; padding: 16px 0; }
+  .topbar .logo { font-weight: 700; font-size: 20px; color: var(--primary); }
+  .topbar .stats { display: flex; gap: 16px; font-size: 14px; color: var(--muted); }
+  .topbar .stats span strong { color: var(--text); }
+  .subject-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; }
+  .subject-card { cursor: pointer; padding: 24px; border-radius: 16px; color: white; text-align: center; transition: transform 0.15s; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+  .subject-card:hover { transform: translateY(-4px); }
+  .subject-card .icon { font-size: 36px; margin-bottom: 8px; }
+  .subject-card h3 { margin: 0 0 4px; font-size: 18px; }
+  .subject-card .meta { font-size: 13px; opacity: 0.9; }
+  .subject-card.science { background: linear-gradient(135deg, #2e86de, #1f5fa8); }
+  .subject-card.history { background: linear-gradient(135deg, #d35400, #a04000); }
+  .subject-card.geography { background: linear-gradient(135deg, #16a085, #0e6655); }
+  .subject-card.computing { background: linear-gradient(135deg, #8e44ad, #5b2c6f); }
+  .progress { height: 8px; border-radius: 4px; background: var(--border); overflow: hidden; margin-top: 8px; }
+  .progress-bar { height: 100%; background: var(--accent); transition: width 0.4s; }
+  .session-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; flex-wrap: wrap; gap: 8px; }
+  .question-counter { color: var(--muted); font-size: 14px; }
+  .question-prompt { font-size: 20px; line-height: 1.5; margin-bottom: 20px; white-space: pre-wrap; }
+  .question-meta { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; font-size: 12px; }
+  .tag { background: var(--border); color: var(--muted); padding: 3px 8px; border-radius: 4px; }
+  .tag.tier-introduce { background: #e8f5e9; color: #2e7d32; }
+  .tag.tier-strengthen { background: #fff3e0; color: #e65100; }
+  .tag.tier-deepen { background: #f3e5f5; color: #6a1b9a; }
+  .options { display: flex; flex-direction: column; gap: 8px; }
+  .option { padding: 14px 16px; border: 2px solid var(--border); border-radius: 10px; cursor: pointer; background: white; transition: all 0.15s; font-size: 16px; }
+  .option:hover { border-color: var(--primary); background: #faf9f5; }
+  .option.selected { border-color: var(--primary); background: #efeaff; }
+  .option.correct { border-color: var(--good); background: #e8f5e9; }
+  .option.incorrect { border-color: var(--bad); background: #ffebee; }
+  .option.disabled { cursor: not-allowed; opacity: 0.7; }
+  .input-row { display: flex; gap: 8px; align-items: center; margin-top: 12px; }
+  .text-input { flex: 1; padding: 12px 16px; font-size: 16px; border: 2px solid var(--border); border-radius: 10px; font-family: inherit; }
+  .text-input:focus { outline: none; border-color: var(--primary); }
+  .canvas-wrap { margin: 16px 0; border: 2px dashed var(--border); border-radius: 12px; background: white; overflow: hidden; }
+  .canvas-toolbar { display: flex; gap: 8px; padding: 8px; border-bottom: 1px solid var(--border); background: #faf9f5; }
+  .canvas-toolbar button { padding: 6px 12px; font-size: 13px; background: white; border: 1px solid var(--border); color: var(--text); }
+  .canvas-toolbar button.active { background: var(--primary); color: white; border-color: var(--primary); }
+  #scratchCanvas { display: block; width: 100%; height: 240px; touch-action: none; cursor: crosshair; }
+  .actions { display: flex; gap: 8px; margin-top: 16px; flex-wrap: wrap; }
+  .feedback { padding: 16px; border-radius: 10px; margin-top: 16px; }
+  .feedback.correct { background: #e8f5e9; border-left: 4px solid var(--good); }
+  .feedback.incorrect { background: #ffebee; border-left: 4px solid var(--bad); }
+  .feedback h3 { margin: 0 0 8px; }
+  .feedback .explanation { font-size: 15px; line-height: 1.5; color: #444; }
+  .end-screen { text-align: center; padding: 24px; }
+  .end-screen .code-display { font-family: 'Menlo', 'Consolas', monospace; font-size: 28px; font-weight: 700; letter-spacing: 2px; background: var(--primary); color: white; padding: 16px 24px; border-radius: 12px; margin: 16px auto; display: inline-block; word-break: break-all; }
+  .end-screen .code-display.big { background: linear-gradient(135deg, var(--accent), #d68a1f); }
+  .end-screen .code-display.streak { background: linear-gradient(135deg, #f1c40f, #d4a017); animation: pulse 1.5s ease-in-out infinite; }
+  .end-screen .code-display.report { background: var(--muted); }
+  @keyframes pulse { 0%,100% { transform: scale(1); } 50% { transform: scale(1.05); } }
+  .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; margin: 20px 0; }
+  .stat-box { background: var(--card); padding: 16px; border-radius: 12px; text-align: center; }
+  .stat-box .value { font-size: 28px; font-weight: 700; color: var(--primary); }
+  .stat-box .label { font-size: 13px; color: var(--muted); margin-top: 4px; }
+  .skill-row { display: flex; align-items: center; gap: 12px; padding: 8px 0; }
+  .skill-row .skill-name { flex: 1; font-size: 14px; }
+  .skill-row .skill-bar { flex: 2; height: 10px; background: var(--border); border-radius: 5px; overflow: hidden; }
+  .skill-row .skill-bar-fill { height: 100%; background: var(--accent); transition: width 0.4s; }
+  .skill-row .skill-score { font-size: 12px; color: var(--muted); width: 30px; text-align: right; }
+  .modal-bg { position: fixed; inset: 0; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; z-index: 100; padding: 16px; }
+  .modal { background: white; border-radius: 16px; padding: 24px; max-width: 500px; width: 100%; max-height: 90vh; overflow-y: auto; }
+  .working-check-canvas { width: 100%; height: 200px; border: 1px solid var(--border); border-radius: 8px; }
+  .celebration { text-align: center; padding: 30px; }
+  .celebration .emoji { font-size: 64px; margin-bottom: 16px; }
+  .pill { display: inline-block; padding: 4px 12px; border-radius: 20px; font-size: 13px; font-weight: 600; }
+  .pill.good { background: #e8f5e9; color: #2e7d32; }
+  .pill.bad { background: #ffebee; color: #c62828; }
+  .pill.neutral { background: var(--border); color: var(--text); }
+  .order-list { display: flex; flex-direction: column; gap: 6px; }
+  .order-item { padding: 10px 14px; background: white; border: 2px solid var(--border); border-radius: 8px; cursor: grab; display: flex; align-items: center; gap: 8px; }
+  .order-item.dragging { opacity: 0.5; }
+  .order-item .grip { color: var(--muted); }
+  .order-item .move-btns { margin-left: auto; display: flex; gap: 4px; }
+  .order-item .move-btns button { padding: 4px 8px; font-size: 12px; background: var(--border); color: var(--text); }
+  /* Mastery tree */
+  .tree-node { margin-bottom: 6px; }
+  .tree-node summary { list-style: none; cursor: pointer; padding: 8px 12px; border-radius: 8px; display: flex; align-items: center; gap: 10px; }
+  .tree-node summary::-webkit-details-marker { display: none; }
+  .tree-node summary::before { content: "▸"; color: var(--muted); transition: transform 0.15s; display: inline-block; width: 14px; font-size: 14px; }
+  .tree-node[open] > summary::before { transform: rotate(90deg); }
+  .tree-node summary:hover { background: rgba(91,75,138,0.06); }
+  .tree-node-content { padding: 4px 0 4px 26px; border-left: 2px solid var(--border); margin-left: 12px; }
+  .tree-label { flex: 1; font-weight: 600; }
+  .tree-bar { width: 90px; height: 8px; background: var(--border); border-radius: 4px; overflow: hidden; flex-shrink: 0; }
+  .tree-bar-fill { height: 100%; transition: width 0.4s; }
+  .tree-pct { font-size: 13px; color: var(--muted); width: 38px; text-align: right; flex-shrink: 0; }
+  .tree-meta { font-size: 11px; color: var(--muted); margin-left: 8px; }
+  .tree-leaf { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 8px; font-size: 14px; }
+  .tree-leaf:hover { background: rgba(91,75,138,0.04); }
+  .tree-practice { background: transparent; color: var(--primary); border: 1px solid var(--primary); padding: 4px 10px; font-size: 12px; border-radius: 6px; cursor: pointer; }
+  .tree-practice:hover { background: var(--primary); color: white; }
+  /* Boss battle */
+  .boss-banner { background: linear-gradient(135deg, #c0392b, #7e2515); color: white; padding: 16px 20px; border-radius: 12px; margin-bottom: 16px; display: flex; align-items: center; gap: 16px; }
+  .boss-banner .icon { font-size: 36px; }
+  .boss-banner h3 { margin: 0; color: white; }
+  .boss-banner p { margin: 4px 0 0; font-size: 14px; opacity: 0.9; }
+  .boss-banner button { margin-left: auto; background: white; color: #c0392b; }
+  .boss-timer { font-family: monospace; font-size: 20px; font-weight: 700; padding: 4px 12px; border-radius: 6px; background: #ffebee; color: #c0392b; }
+  .boss-timer.warn { background: #ffe0b2; color: #d68a1f; }
+  .boss-timer.crit { background: #ffcdd2; color: #c0392b; animation: pulse 0.8s infinite; }
+  .achievement-toast { position: fixed; top: 20px; right: 20px; background: var(--card); border-left: 4px solid var(--accent); padding: 12px 16px; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.15); z-index: 200; max-width: 300px; animation: slideIn 0.4s ease-out; }
+  .achievement-toast .ach-title { font-weight: 700; color: var(--primary); }
+  .achievement-toast .ach-desc { font-size: 13px; color: var(--muted); margin-top: 2px; }
+  @keyframes slideIn { from { transform: translateX(120%); opacity: 0; } to { transform: translateX(0); opacity: 1; } }
+  .home-actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 12px; }
+  @media (max-width: 600px) {
+    .question-prompt { font-size: 17px; }
+    .topbar .stats { gap: 8px; font-size: 12px; }
+    .end-screen .code-display { font-size: 20px; }
+  }
+</style>
+</head>
+<body>
+<div class="app" id="app">
+  <div id="loading" class="card"><h2>Loading...</h2></div>
+</div>
+
+<script>
+//=============================================================================
+// CONFIG
+//=============================================================================
+const APP = {
+  HMAC_SECRET: "change-me-bertie-2026-revision",  // shared with parent.html — edit both!
+  EPOCH_DAYS_BASE: new Date(2026, 0, 1).getTime(),  // 1 Jan 2026
+  SESSION_TARGET_QUESTIONS: 15,
+  WORKING_CHECK_INTERVAL: 6,
+  MASTERY_THRESHOLDS: { introduce: 40, strengthen: 70, deepen: 90 },
+  ELO_K_FACTOR: 6,
+  REVIEW_INTERVALS_DAYS: [3, 7, 21, 60],
+  STREAK_BONUS_AFTER_DAYS: 7,
+  TIER_THRESHOLDS: {
+    small: { min_minutes: 12, min_accuracy: 0.65, min_working_checks: 1 },
+    big:   { min_minutes: 25, min_accuracy: 0.80, min_working_checks: 2, min_skills_levelled: 2 }
+  }
+};
+
+const SUBJECTS = [
+  { slug: "science",   name: "Science",   icon: "🧪" },
+  { slug: "history",   name: "History",   icon: "📜" },
+  { slug: "geography", name: "Geography", icon: "🌍" },
+  { slug: "computing", name: "Computing", icon: "💻" }
+];
+
+const ACHIEVEMENTS = [
+  { id: "first_session",   title: "First Steps",      desc: "Complete your first session",        check: (st) => st.totals.sessions >= 1 },
+  { id: "streak_3",        title: "On a Roll",         desc: "3-day streak",                        check: (st) => st.streak.current >= 3 },
+  { id: "streak_7",        title: "Week Warrior",      desc: "7-day streak — pocket money!",        check: (st) => st.streak.current >= 7 },
+  { id: "streak_14",       title: "Fortnight Force",   desc: "14-day streak",                       check: (st) => st.streak.current >= 14 },
+  { id: "questions_100",   title: "Century",           desc: "Answer 100 questions",                check: (st) => st.totals.questions >= 100 },
+  { id: "questions_500",   title: "Quintuple Century", desc: "Answer 500 questions",                check: (st) => st.totals.questions >= 500 },
+  { id: "first_master",    title: "First Mastery",     desc: "Get a skill to 90+",                  check: (st) => Object.values(st.mastery).some(m => m.score >= 90) },
+  { id: "ten_masters",     title: "Polymath",          desc: "Master 10 skills",                    check: (st) => Object.values(st.mastery).filter(m => m.score >= 90).length >= 10 },
+  { id: "level_5",         title: "Levelled Up",       desc: "Reach level 5",                       check: (st) => st.totals.level >= 5 },
+  { id: "level_10",        title: "Veteran",           desc: "Reach level 10",                      check: (st) => st.totals.level >= 10 },
+  { id: "boss_slayer",     title: "Boss Slayer",       desc: "Pass your first boss battle",         check: (st) => st.history.some(h => h.boss && h.tier !== "RP") },
+  { id: "boss_5",          title: "Boss Hunter",       desc: "Pass 5 boss battles",                 check: (st) => st.history.filter(h => h.boss && h.tier !== "RP").length >= 5 },
+  { id: "bookwork_pro",    title: "Bookwork Pro",      desc: "Pass 20 working checks total",        check: (st) => st.history.reduce((s,h) => s + (h.wpass||0), 0) >= 20 },
+  { id: "all_subjects",    title: "Renaissance",       desc: "Practise all four subjects",          check: (st) => new Set(st.history.map(h => h.subject)).size >= 4 }
+];
+
+//=============================================================================
+// STATE
+//=============================================================================
+let State = null;
+let QuestionBanks = {};  // { subject: { unit: [...questions] } }
+let Profile = { name: "Bertie", mascot: "owl", theme: "ocean" };
+let Session = null;
+
+function defaultState() {
+  return {
+    schema_version: 2,
+    created: new Date().toISOString(),
+    totals: { xp: 0, level: 1, sessions: 0, questions: 0, correct: 0, minutes: 0 },
+    streak: { current: 0, longest: 0, last_active: null, skips_available: 1 },
+    mastery: {},     // skill_tag -> { score, attempts, correct, last_seen, next_review }
+    history: [],     // session summaries
+    seen_questions: {}, // qid -> { attempts, last_seen }
+    achievements: [],   // unlocked achievement ids
+    boss_cooldown: {}   // subject -> last boss battle date (YYYY-MM-DD)
+  };
+}
+
+function ensureSchema() {
+  if (!State.achievements) State.achievements = [];
+  if (!State.boss_cooldown) State.boss_cooldown = {};
+}
+
+function loadState() {
+  try {
+    const raw = localStorage.getItem("revisionGameState");
+    State = raw ? JSON.parse(raw) : defaultState();
+  } catch (e) { State = defaultState(); }
+  ensureSchema();
+}
+
+function saveState() {
+  localStorage.setItem("revisionGameState", JSON.stringify(State));
+}
+
+//=============================================================================
+// LOADING QUESTION BANKS
+//=============================================================================
+async function loadQuestionBanks() {
+  for (const sub of SUBJECTS) {
+    try {
+      const idx = await fetch(`questions/${sub.slug}/_index.json`).then(r => r.json());
+      QuestionBanks[sub.slug] = { units: [], total: 0 };
+      for (const u of (idx.units || [])) {
+        try {
+          const file = await fetch(`questions/${sub.slug}/${u.slug}.json`).then(r => r.json());
+          const qs = file.questions || [];
+          QuestionBanks[sub.slug].units.push({ slug: u.slug, name: u.name || u.slug, questions: qs });
+          QuestionBanks[sub.slug].total += qs.length;
+        } catch (e) { console.warn(`Could not load ${sub.slug}/${u.slug}`, e); }
+      }
+    } catch (e) { console.warn(`Could not load index for ${sub.slug}`, e); QuestionBanks[sub.slug] = { units: [], total: 0 }; }
+  }
+}
+
+async function loadProfile() {
+  try { Profile = await fetch("profile.json").then(r => r.json()); }
+  catch (e) { /* use defaults */ }
+}
+
+//=============================================================================
+// CODE GENERATION (HMAC-SHA256, truncated)
+//=============================================================================
+async function hmac(message, secret) {
+  const enc = new TextEncoder();
+  const key = await crypto.subtle.importKey("raw", enc.encode(secret), { name: "HMAC", hash: "SHA-256" }, false, ["sign"]);
+  const sig = await crypto.subtle.sign("HMAC", key, enc.encode(message));
+  return Array.from(new Uint8Array(sig)).map(b => b.toString(16).padStart(2, "0")).join("");
+}
+
+function dayNumber() { return Math.floor((Date.now() - APP.EPOCH_DAYS_BASE) / 86400000); }
+
+async function generateCode(payload) {
+  // payload: { tier, day, ctr, mins, qs, correct, levels, wpass, wfail }
+  // Pack into a compact base32-like string
+  const data = `${payload.tier}|${payload.day}|${payload.ctr}|${payload.mins}|${payload.qs}|${payload.correct}|${payload.levels}|${payload.wpass}|${payload.wfail}`;
+  const sig = await hmac(data, APP.HMAC_SECRET);
+  const b64 = btoa(data).replace(/=/g, "").replace(/\+/g, "-").replace(/\//g, "_");
+  const sig8 = sig.substring(0, 8).toUpperCase();
+  const prefix = payload.tier;
+  // Split into readable chunks
+  const combined = b64 + sig8;
+  const chunked = combined.match(/.{1,5}/g).join("-");
+  return `${prefix}-${chunked}`;
+}
+
+function classifyTier(stats, opts = {}) {
+  if (opts.boss) {
+    // Boss: pass = BOSS, fail = RP
+    if (stats.accuracy >= 0.70 && stats.questions >= 8) return "BOSS";
+    return "RP";
+  }
+  const t = APP.TIER_THRESHOLDS;
+  const bigOk = stats.minutes >= t.big.min_minutes && stats.accuracy >= t.big.min_accuracy
+    && stats.working_passed >= (t.big.min_working_checks || 0)
+    && stats.skills_levelled >= (t.big.min_skills_levelled || 0);
+  if (bigOk) return "BIG";
+  const smOk = stats.minutes >= t.small.min_minutes && stats.accuracy >= t.small.min_accuracy
+    && stats.working_passed >= (t.small.min_working_checks || 0);
+  if (smOk) {
+    if (State.streak.current + 1 >= APP.STREAK_BONUS_AFTER_DAYS) return "WIN";
+    return "SM";
+  }
+  return "RP";
+}
+
+//=============================================================================
+// MASTERY ENGINE (Elo-style)
+//=============================================================================
+function getMastery(tag) {
+  if (!State.mastery[tag]) {
+    State.mastery[tag] = { score: 50, attempts: 0, correct: 0, last_seen: null, next_review: null };
+  }
+  return State.mastery[tag];
+}
+
+function expectedProb(masteryScore, difficulty) {
+  // Convert difficulty (1-5) to a "skill threshold" (20-100)
+  const skillTarget = 20 + (difficulty - 1) * 20;
+  const diff = masteryScore - skillTarget;
+  return 1 / (1 + Math.exp(-diff / 15));
+}
+
+function updateMastery(q, correct, hintUsed) {
+  const k = APP.ELO_K_FACTOR;
+  for (const tag of (q.skill_tags || [])) {
+    const m = getMastery(tag);
+    const expected = expectedProb(m.score, q.difficulty || 2);
+    const actual = correct ? (hintUsed ? 0.7 : 1) : 0;
+    m.score = Math.max(0, Math.min(100, m.score + k * (actual - expected)));
+    m.attempts++;
+    if (correct) m.correct++;
+    m.last_seen = new Date().toISOString();
+    // Spaced review: schedule next review based on score
+    if (m.score >= 90) {
+      // Mastered — schedule next review
+      const intervalDays = APP.REVIEW_INTERVALS_DAYS[Math.min(3, Math.floor((m.correct - 1) / 3))];
+      const next = new Date(); next.setDate(next.getDate() + intervalDays);
+      m.next_review = next.toISOString();
+    } else {
+      m.next_review = null;
+    }
+  }
+}
+
+function skillsLevelledThisSession() {
+  // Compare against snapshot taken at start of session
+  let count = 0;
+  if (!Session.masterySnapshot) return 0;
+  for (const tag in State.mastery) {
+    const before = Session.masterySnapshot[tag] || 50;
+    const after = State.mastery[tag].score;
+    const beforeTier = tierFor(before);
+    const afterTier = tierFor(after);
+    if (afterTier !== beforeTier && after > before) count++;
+  }
+  return count;
+}
+
+function tierFor(score) {
+  if (score >= APP.MASTERY_THRESHOLDS.deepen) return "mastered";
+  if (score >= APP.MASTERY_THRESHOLDS.strengthen) return "deepen";
+  if (score >= APP.MASTERY_THRESHOLDS.introduce) return "strengthen";
+  return "introduce";
+}
+
+//=============================================================================
+// SESSION COMPOSER
+//=============================================================================
+function pickSessionQuestions(subjectSlug, count, opts = {}) {
+  // opts: { skillFilter: string (only Qs with this tag), boss: bool (diverse mix), weakOnly: bool }
+  const bank = QuestionBanks[subjectSlug];
+  if (!bank || !bank.units.length) return [];
+  let all = bank.units.flatMap(u => u.questions);
+  if (opts.skillFilter) all = all.filter(q => (q.skill_tags || []).includes(opts.skillFilter));
+  if (opts.weakOnly) {
+    all = all.filter(q => {
+      const avg = (q.skill_tags || []).reduce((s, t) => s + getMastery(t).score, 0) / Math.max(1, q.skill_tags?.length || 1);
+      return avg < 70;
+    });
+  }
+  if (!all.length) return [];
+
+  // Score each question by need
+  const now = Date.now();
+  const scored = all.map(q => {
+    const seen = State.seen_questions[q.id];
+    let need = 50;
+    if (!seen) need += 20;
+    else {
+      const daysSince = (now - new Date(seen.last_seen).getTime()) / 86400000;
+      if (daysSince < 1) need -= 30;
+    }
+    const tagAvg = (q.skill_tags || []).reduce((s, t) => s + getMastery(t).score, 0) / Math.max(1, q.skill_tags?.length || 1);
+    if (opts.boss) {
+      // Boss mode: prefer diverse difficulty across the test, mid-to-high difficulty
+      need += (q.difficulty || 2) * 3;
+    } else {
+      // Adaptive: match difficulty to mastery
+      const targetDiff = Math.max(1, Math.min(5, Math.round(1 + tagAvg / 20)));
+      need -= Math.abs((q.difficulty || 2) - targetDiff) * 5;
+    }
+    for (const t of (q.skill_tags || [])) {
+      const m = getMastery(t);
+      if (m.next_review && new Date(m.next_review).getTime() <= now) need += 25;
+    }
+    return { q, need: need + Math.random() * 5 };
+  });
+
+  scored.sort((a, b) => b.need - a.need);
+  let selected = scored.slice(0, count).map(x => x.q);
+  // For boss mode, ensure variety across units
+  if (opts.boss && bank.units.length > 1) {
+    const byUnit = {};
+    for (const q of selected) byUnit[q.unit] = (byUnit[q.unit] || 0) + 1;
+    const targetPerUnit = Math.ceil(count / bank.units.length);
+    if (Object.values(byUnit).some(c => c > targetPerUnit + 1)) {
+      // Rebalance: pick top N from each unit
+      const perUnit = Math.ceil(count / bank.units.length);
+      selected = [];
+      for (const u of bank.units) {
+        const unitScored = scored.filter(s => s.q.unit === u.slug).slice(0, perUnit);
+        selected.push(...unitScored.map(s => s.q));
+      }
+      selected = selected.slice(0, count);
+    }
+  }
+  return selected;
+}
+
+function bossEligible(subjectSlug) {
+  const today = new Date().toISOString().split("T")[0];
+  if (State.boss_cooldown[subjectSlug] === today) return { ok: false, reason: "Already battled today — try again tomorrow." };
+  const mastery = subjectAvgMastery(subjectSlug);
+  if (mastery < 30) return { ok: false, reason: `Practise more first — boss unlocks at 30% mastery (you're at ${Math.round(mastery)}%).` };
+  return { ok: true };
+}
+
+//=============================================================================
+// ANSWER VALIDATION
+//=============================================================================
+function normaliseText(s) {
+  return String(s || "").trim().toLowerCase().replace(/\s+/g, " ");
+}
+
+function checkAnswer(q, response) {
+  if (q.type === "mcq") return response === q.answer;
+  if (q.type === "numeric") {
+    const r = normaliseText(response);
+    const accepted = [String(q.answer), ...(q.accepted || [])].map(normaliseText);
+    return accepted.includes(r);
+  }
+  if (q.type === "text") {
+    const r = normaliseText(response);
+    const accepted = [String(q.answer), ...(q.accepted || [])].map(normaliseText);
+    return accepted.includes(r);
+  }
+  if (q.type === "multi-select") {
+    if (!Array.isArray(response) || !Array.isArray(q.answer)) return false;
+    if (response.length !== q.answer.length) return false;
+    const r = [...response].sort();
+    const a = [...q.answer].sort();
+    return r.every((v, i) => v === a[i]);
+  }
+  if (q.type === "order") {
+    if (!Array.isArray(response) || !Array.isArray(q.answer)) return false;
+    return response.length === q.answer.length && response.every((v, i) => v === q.answer[i]);
+  }
+  return false;
+}
+
+//=============================================================================
+// RENDERING
+//=============================================================================
+const $ = (sel) => document.querySelector(sel);
+const $$ = (sel) => Array.from(document.querySelectorAll(sel));
+
+function renderApp() {
+  const app = $("#app");
+  app.innerHTML = `
+    <div class="topbar">
+      <div class="logo">${Profile.name}'s Revision</div>
+      <div class="stats">
+        <span>🔥 <strong>${State.streak.current}</strong> day streak</span>
+        <span>⭐ <strong>${State.totals.xp}</strong> XP</span>
+        <span>Lvl <strong>${State.totals.level}</strong></span>
+      </div>
+    </div>
+    <div id="main"></div>
+  `;
+  renderHome();
+}
+
+function renderHome() {
+  const main = $("#main");
+  const greeting = greetingFor();
+  const totals = State.totals;
+  main.innerHTML = `
+    <div class="card">
+      <h1>${greeting}, ${Profile.name}!</h1>
+      <p style="color: var(--muted); margin: 0;">Pick a subject to revise. Aim for 15–25 minutes per session. Practise daily for the streak bonus.</p>
+    </div>
+    <div class="subject-grid">
+      ${SUBJECTS.map(s => {
+        const bank = QuestionBanks[s.slug] || { total: 0 };
+        const mastery = subjectAvgMastery(s.slug);
+        const elig = bossEligible(s.slug);
+        return `
+          <div class="subject-card ${s.slug}">
+            <div style="cursor: pointer;" onclick="startSession('${s.slug}')">
+              <div class="icon">${s.icon}</div>
+              <h3>${s.name}</h3>
+              <div class="meta">${bank.total} questions</div>
+              <div class="progress"><div class="progress-bar" style="width: ${mastery}%"></div></div>
+              <div class="meta" style="margin-top: 6px;">${Math.round(mastery)}% mastered</div>
+            </div>
+            <div class="home-actions">
+              <button class="btn-secondary" style="padding: 6px 12px; font-size: 12px; background: rgba(255,255,255,0.2); color: white; border-color: rgba(255,255,255,0.4);" onclick="event.stopPropagation(); startPracticeWeak('${s.slug}')">Weak skills</button>
+              <button class="btn-secondary" style="padding: 6px 12px; font-size: 12px; background: ${elig.ok ? '#c0392b' : 'rgba(255,255,255,0.15)'}; color: white; border-color: rgba(255,255,255,0.4);" onclick="event.stopPropagation(); startBossBattle('${s.slug}')" ${elig.ok ? '' : 'title="' + escapeAttr(elig.reason) + '"'}>⚔️ Boss</button>
+            </div>
+          </div>
+        `;
+      }).join("")}
+    </div>
+    <div class="card" style="margin-top: 24px;">
+      <h3>📊 Your stats</h3>
+      <div class="stats-grid">
+        <div class="stat-box"><div class="value">${totals.sessions}</div><div class="label">Sessions</div></div>
+        <div class="stat-box"><div class="value">${totals.questions}</div><div class="label">Questions answered</div></div>
+        <div class="stat-box"><div class="value">${totals.questions ? Math.round(100 * totals.correct / totals.questions) : 0}%</div><div class="label">Accuracy</div></div>
+        <div class="stat-box"><div class="value">${totals.minutes}</div><div class="label">Total minutes</div></div>
+      </div>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-top: 16px;">
+        <button class="btn-secondary" onclick="showMasteryTree()">🌳 Mastery tree</button>
+        <button class="btn-secondary" onclick="showAchievements()">🏆 Achievements (${State.achievements.length}/${ACHIEVEMENTS.length})</button>
+        <button class="btn-secondary" onclick="showHistory()">📜 History</button>
+        <button class="btn-secondary" onclick="exportData()">💾 Export</button>
+        <button class="btn-ghost" onclick="if(confirm('Reset all progress? This cannot be undone.')) { localStorage.removeItem('revisionGameState'); location.reload(); }">Reset</button>
+      </div>
+    </div>
+  `;
+}
+
+function greetingFor() {
+  const h = new Date().getHours();
+  if (h < 12) return "Morning";
+  if (h < 17) return "Afternoon";
+  return "Evening";
+}
+
+function subjectAvgMastery(slug) {
+  const bank = QuestionBanks[slug];
+  if (!bank) return 0;
+  const tags = new Set();
+  for (const u of bank.units) for (const q of u.questions) for (const t of (q.skill_tags || [])) tags.add(t);
+  if (!tags.size) return 0;
+  let sum = 0;
+  for (const t of tags) sum += getMastery(t).score;
+  return sum / tags.size;
+}
+
+function masteryColor(score) {
+  if (score >= 90) return "#4caf50";       // mastered
+  if (score >= 70) return "#8bc34a";       // deepen
+  if (score >= 40) return "#f0a93b";       // strengthen
+  return "#cfa67a";                          // introduce
+}
+
+function buildMasteryTree() {
+  // Returns: { subject -> { name, icon, score, attempts, units: { unit -> { name, score, attempts, topics: { topic -> { name, score, attempts, skills: { tag -> mastery } } } } } } }
+  const tree = {};
+  for (const sub of SUBJECTS) {
+    const bank = QuestionBanks[sub.slug];
+    if (!bank || !bank.units.length) continue;
+    tree[sub.slug] = { name: sub.name, icon: sub.icon, units: {}, allTags: new Set() };
+    for (const unit of bank.units) {
+      const unitNode = { name: unit.name, topics: {}, tags: new Set() };
+      for (const q of unit.questions) {
+        const topicKey = q.topic || unit.slug;
+        if (!unitNode.topics[topicKey]) unitNode.topics[topicKey] = { name: topicKey, tags: new Set(), questionCount: 0 };
+        unitNode.topics[topicKey].questionCount++;
+        for (const t of (q.skill_tags || [])) {
+          unitNode.topics[topicKey].tags.add(t);
+          unitNode.tags.add(t);
+          tree[sub.slug].allTags.add(t);
+        }
+      }
+      tree[sub.slug].units[unit.slug] = unitNode;
+    }
+  }
+  return tree;
+}
+
+function avgMasteryOfTags(tags) {
+  if (!tags || !tags.size) return 0;
+  let sum = 0, n = 0;
+  for (const t of tags) { sum += getMastery(t).score; n++; }
+  return sum / n;
+}
+
+function sumAttemptsOfTags(tags) {
+  let sum = 0;
+  for (const t of tags) sum += getMastery(t).attempts;
+  return sum;
+}
+
+function showMasteryTree() {
+  const tree = buildMasteryTree();
+  let html = `<div class="card"><h2>🌳 Mastery Tree</h2>
+    <p style="color: var(--muted); font-size: 14px;">Click a subject to expand. Click <em>Practise</em> on any skill to start a focused session on just that skill.</p>`;
+
+  for (const subSlug in tree) {
+    const sub = tree[subSlug];
+    const subScore = avgMasteryOfTags(sub.allTags);
+    const subAttempts = sumAttemptsOfTags(sub.allTags);
+    const open = subScore < 70 ? "open" : "";
+    html += `
+      <details class="tree-node" ${open}>
+        <summary style="background: linear-gradient(90deg, rgba(91,75,138,0.04), transparent);">
+          <span style="font-size: 22px;">${sub.icon}</span>
+          <span class="tree-label" style="font-size: 17px;">${sub.name}</span>
+          <span class="tree-meta">${subAttempts} attempts</span>
+          <div class="tree-bar"><div class="tree-bar-fill" style="width: ${subScore}%; background: ${masteryColor(subScore)};"></div></div>
+          <span class="tree-pct">${Math.round(subScore)}%</span>
+        </summary>
+        <div class="tree-node-content">`;
+    for (const unitSlug in sub.units) {
+      const unit = sub.units[unitSlug];
+      const unitScore = avgMasteryOfTags(unit.tags);
+      const unitAttempts = sumAttemptsOfTags(unit.tags);
+      const topicCount = Object.keys(unit.topics).length;
+      // Don't show topic layer if it's identical to unit (single-topic units)
+      const showTopics = topicCount > 1;
+      html += `
+        <details class="tree-node">
+          <summary>
+            <span class="tree-label">${escapeHtml(unit.name)}</span>
+            <span class="tree-meta">${unitAttempts} attempts</span>
+            <div class="tree-bar"><div class="tree-bar-fill" style="width: ${unitScore}%; background: ${masteryColor(unitScore)};"></div></div>
+            <span class="tree-pct">${Math.round(unitScore)}%</span>
+          </summary>
+          <div class="tree-node-content">`;
+      if (showTopics) {
+        // Show topic layer
+        const sortedTopics = Object.entries(unit.topics).sort((a, b) => avgMasteryOfTags(a[1].tags) - avgMasteryOfTags(b[1].tags));
+        for (const [topicSlug, topic] of sortedTopics) {
+          const topicScore = avgMasteryOfTags(topic.tags);
+          const topicAttempts = sumAttemptsOfTags(topic.tags);
+          html += `
+            <details class="tree-node">
+              <summary>
+                <span class="tree-label">${escapeHtml(topic.name)}</span>
+                <span class="tree-meta">${topicAttempts} attempts · ${topic.questionCount} questions</span>
+                <div class="tree-bar"><div class="tree-bar-fill" style="width: ${topicScore}%; background: ${masteryColor(topicScore)};"></div></div>
+                <span class="tree-pct">${Math.round(topicScore)}%</span>
+              </summary>
+              <div class="tree-node-content">`;
+          const tags = Array.from(topic.tags).sort((a, b) => getMastery(a).score - getMastery(b).score);
+          for (const tag of tags) {
+            const m = getMastery(tag);
+            html += `<div class="tree-leaf">
+              <span class="tree-label" style="font-weight: 400;">${escapeHtml(tag)}</span>
+              <span class="tree-meta">${m.attempts}× tried</span>
+              <div class="tree-bar"><div class="tree-bar-fill" style="width: ${m.score}%; background: ${masteryColor(m.score)};"></div></div>
+              <span class="tree-pct">${Math.round(m.score)}</span>
+              <button class="tree-practice" onclick="startSkillFocus('${subSlug}', '${escapeAttr(tag)}')">Practise</button>
+            </div>`;
+          }
+          html += `</div></details>`;
+        }
+      } else {
+        // Just show the skills directly under the unit
+        const tags = Array.from(unit.tags).sort((a, b) => getMastery(a).score - getMastery(b).score);
+        for (const tag of tags) {
+          const m = getMastery(tag);
+          html += `<div class="tree-leaf">
+            <span class="tree-label" style="font-weight: 400;">${escapeHtml(tag)}</span>
+            <span class="tree-meta">${m.attempts}× tried</span>
+            <div class="tree-bar"><div class="tree-bar-fill" style="width: ${m.score}%; background: ${masteryColor(m.score)};"></div></div>
+            <span class="tree-pct">${Math.round(m.score)}</span>
+            <button class="tree-practice" onclick="startSkillFocus('${subSlug}', '${escapeAttr(tag)}')">Practise</button>
+          </div>`;
+        }
+      }
+      html += `</div></details>`;
+    }
+    html += `</div></details>`;
+  }
+  html += `<div style="margin-top: 16px; padding: 12px; background: var(--bg); border-radius: 8px; font-size: 13px; color: var(--muted);">
+    <strong>Colour key:</strong>
+    <span style="color: #cfa67a;">■ Introduce (0–40)</span> ·
+    <span style="color: #f0a93b;">■ Strengthen (40–70)</span> ·
+    <span style="color: #8bc34a;">■ Deepen (70–90)</span> ·
+    <span style="color: #4caf50;">■ Mastered (90+)</span>
+  </div>`;
+  html += `<button class="btn-primary" style="margin-top: 20px;" onclick="renderHome()">← Back</button></div>`;
+  $("#main").innerHTML = html;
+}
+
+function showAchievements() {
+  const main = $("#main");
+  let html = `<div class="card"><h2>🏆 Achievements</h2>
+    <p style="color: var(--muted);">Unlocked ${State.achievements.length} of ${ACHIEVEMENTS.length}.</p>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin-top: 16px;">`;
+  for (const ach of ACHIEVEMENTS) {
+    const unlocked = State.achievements.includes(ach.id);
+    html += `
+      <div style="padding: 16px; border-radius: 12px; background: ${unlocked ? '#fff8e1' : '#f5f5f5'}; border: 2px solid ${unlocked ? 'var(--accent)' : 'var(--border)'}; opacity: ${unlocked ? 1 : 0.5};">
+        <div style="font-size: 28px;">${unlocked ? '🏆' : '🔒'}</div>
+        <div style="font-weight: 700; margin-top: 4px;">${ach.title}</div>
+        <div style="font-size: 13px; color: var(--muted); margin-top: 4px;">${ach.desc}</div>
+      </div>`;
+  }
+  html += `</div><button class="btn-primary" style="margin-top: 20px;" onclick="renderHome()">← Back</button></div>`;
+  main.innerHTML = html;
+}
+
+function showHistory() {
+  const main = $("#main");
+  let html = `<div class="card"><h2>📜 Session History</h2>`;
+  if (!State.history.length) {
+    html += `<p style="color: var(--muted);">No sessions yet — pick a subject from the home page to start.</p>`;
+  } else {
+    html += `<div style="margin-top: 12px;">`;
+    for (const h of State.history.slice(0, 50)) {
+      const d = new Date(h.date);
+      const dateStr = d.toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
+      const tierBadge = { SM: 'badge-sm', BIG: 'badge-big', WIN: 'badge-win', RP: 'badge-rp', BOSS: 'badge-big' }[h.tier] || 'badge-rp';
+      html += `<div class="ledger-entry" style="display: grid; grid-template-columns: 80px 1fr auto auto; gap: 12px; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--border); font-size: 14px;">
+        <span class="badge ${tierBadge}" style="padding: 3px 8px; border-radius: 4px; font-size: 11px;">${h.boss ? '⚔️ ' : ''}${h.tier}</span>
+        <span>${escapeHtml(h.subject)} <span style="color: var(--muted); font-size: 12px;">${dateStr}</span></span>
+        <span style="color: var(--muted); font-size: 12px;">${h.minutes}m · ${h.questions}q · ${Math.round((h.accuracy || 0) * 100)}%</span>
+        <code style="font-size: 11px; color: var(--muted);">${escapeHtml(h.code).substring(0, 20)}...</code>
+      </div>`;
+    }
+    html += `</div>`;
+  }
+  html += `<button class="btn-primary" style="margin-top: 20px;" onclick="renderHome()">← Back</button></div>`;
+  main.innerHTML = html;
+}
+
+window.showMasteryTree = showMasteryTree;
+window.showAchievements = showAchievements;
+window.showHistory = showHistory;
+
+function showAchievementToast(ach) {
+  const toast = document.createElement("div");
+  toast.className = "achievement-toast";
+  toast.innerHTML = `🏆 <strong class="ach-title">${escapeHtml(ach.title)}</strong>
+    <div class="ach-desc">${escapeHtml(ach.desc)}</div>`;
+  document.body.appendChild(toast);
+  setTimeout(() => { toast.style.transition = "opacity 0.4s"; toast.style.opacity = "0"; setTimeout(() => toast.remove(), 400); }, 4000);
+}
+
+function exportData() {
+  const data = JSON.stringify(State, null, 2);
+  const blob = new Blob([data], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = `revision-progress-${new Date().toISOString().split('T')[0]}.json`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+//=============================================================================
+// SESSION
+//=============================================================================
+function startSession(subjectSlug, opts = {}) {
+  // opts: { boss: bool, skillFilter: string, weakOnly: bool }
+  const count = opts.boss ? 10 : APP.SESSION_TARGET_QUESTIONS;
+  const questions = pickSessionQuestions(subjectSlug, count, opts);
+  if (!questions.length) {
+    alert(opts.skillFilter ? "Not enough questions for this skill yet." : "No questions available for this subject yet.");
+    return;
+  }
+  const snap = {};
+  for (const t in State.mastery) snap[t] = State.mastery[t].score;
+  Session = {
+    subject: subjectSlug,
+    questions,
+    index: 0,
+    correct: 0,
+    answered: 0,
+    hintsUsed: 0,
+    startTime: Date.now(),
+    canvasData: {},
+    workingPassed: 0,
+    workingFailed: 0,
+    workingChecksDue: false,
+    awaitingWorkingCheck: null,
+    masterySnapshot: snap,
+    correctRecent: [],
+    boss: !!opts.boss,
+    skillFilter: opts.skillFilter || null,
+  };
+  if (opts.boss) State.boss_cooldown[subjectSlug] = new Date().toISOString().split("T")[0];
+  renderQuestion();
+}
+
+window.startBossBattle = (subjectSlug) => {
+  const elig = bossEligible(subjectSlug);
+  if (!elig.ok) { alert(elig.reason); return; }
+  const subj = SUBJECTS.find(s => s.slug === subjectSlug);
+  if (!confirm(`Boss battle: 10 questions across ${subj.name}, no hints, no retries. 70%+ wins the BIG code. Ready?`)) return;
+  startSession(subjectSlug, { boss: true });
+};
+
+window.startPracticeWeak = (subjectSlug) => startSession(subjectSlug, { weakOnly: true });
+window.startSkillFocus = (subjectSlug, skillTag) => startSession(subjectSlug, { skillFilter: skillTag });
+
+function renderQuestion() {
+  if (Session.index >= Session.questions.length) { return endSession(); }
+  // Working check fires every N questions (not in boss mode)
+  if (!Session.boss && Session.answered > 0 && Session.answered % APP.WORKING_CHECK_INTERVAL === 0 && !Session.workingChecksDue && Session.correctRecent.length > 0) {
+    Session.workingChecksDue = true;
+    return renderWorkingCheck();
+  }
+  Session.workingChecksDue = false;
+
+  const q = Session.questions[Session.index];
+  const main = $("#main");
+  const progress = ((Session.index) / Session.questions.length * 100).toFixed(0);
+  let inputHtml = "";
+  if (q.type === "mcq") {
+    inputHtml = `<div class="options" id="optionsArea">
+      ${q.options.map(opt => `<div class="option" data-opt="${escapeAttr(opt)}" onclick="selectMcq(this)">${escapeHtml(opt)}</div>`).join("")}
+    </div>`;
+  } else if (q.type === "multi-select") {
+    inputHtml = `<div class="options" id="optionsArea">
+      ${q.options.map(opt => `<div class="option" data-opt="${escapeAttr(opt)}" onclick="toggleMulti(this)">${escapeHtml(opt)}</div>`).join("")}
+    </div>`;
+  } else if (q.type === "order") {
+    const shuffled = [...q.options].sort(() => Math.random() - 0.5);
+    inputHtml = `<div class="order-list" id="orderArea">
+      ${shuffled.map((opt, i) => `<div class="order-item" data-opt="${escapeAttr(opt)}">
+        <span class="grip">≡</span><span>${escapeHtml(opt)}</span>
+        <div class="move-btns"><button onclick="moveOrder(this, -1)">↑</button><button onclick="moveOrder(this, 1)">↓</button></div>
+      </div>`).join("")}
+    </div>`;
+  } else {
+    const placeholder = q.type === "numeric" ? "Enter a number..." : "Type your answer...";
+    inputHtml = `<div class="input-row">
+      <input type="text" class="text-input" id="textInput" placeholder="${placeholder}" autocomplete="off" onkeydown="if(event.key==='Enter') submitAnswer()">
+    </div>`;
+  }
+  const canvasHtml = q.working_required ? `
+    <div class="canvas-wrap">
+      <div class="canvas-toolbar">
+        <button id="penBtn" class="active" onclick="setTool('pen')">✏️ Pen</button>
+        <button id="eraserBtn" onclick="setTool('eraser')">🧹 Eraser</button>
+        <button onclick="clearCanvas()">Clear</button>
+        <span style="margin-left: auto; color: var(--muted); font-size: 13px; align-self: center;">Show your working ↓</span>
+      </div>
+      <canvas id="scratchCanvas"></canvas>
+    </div>` : "";
+
+  const bossBanner = Session.boss ? `
+    <div class="boss-banner">
+      <div class="icon">⚔️</div>
+      <div>
+        <h3>BOSS BATTLE</h3>
+        <p>No hints, no retries. 70%+ wins the BIG code.</p>
+      </div>
+    </div>` : "";
+  const focusBanner = Session.skillFilter ? `
+    <div class="card" style="background: #efeaff; padding: 12px 16px; margin-bottom: 12px;">
+      <strong>🎯 Focus session:</strong> <code>${escapeHtml(Session.skillFilter)}</code>
+    </div>` : "";
+  main.innerHTML = `
+    ${bossBanner}${focusBanner}
+    <div class="card">
+      <div class="session-header">
+        <div class="question-counter">Question ${Session.index + 1} of ${Session.questions.length}${Session.boss ? " · BOSS" : ""}</div>
+        <button class="btn-ghost" onclick="if(confirm('End session early?')) endSession()">End session</button>
+      </div>
+      <div class="progress"><div class="progress-bar" style="width: ${progress}%"></div></div>
+      <div class="question-meta" style="margin-top: 16px;">
+        <span class="tag tier-${q.tier}">${q.tier}</span>
+        <span class="tag">${q.topic || q.unit}</span>
+        <span class="tag">~${q.estimated_seconds}s</span>
+      </div>
+      <div class="question-prompt">${escapeHtml(q.prompt)}</div>
+      ${inputHtml}
+      ${canvasHtml}
+      <div class="actions">
+        <button class="btn-primary" onclick="submitAnswer()">Submit</button>
+        ${Session.boss ? "" : `<button class="btn-secondary" id="hintBtn" onclick="showHint()">💡 Hint</button>`}
+      </div>
+      <div id="feedback"></div>
+    </div>
+  `;
+  if (q.type === "text" || q.type === "numeric") $("#textInput").focus();
+  if (q.working_required) initCanvas();
+}
+
+let currentSelections = []; // for multi-select
+
+window.selectMcq = (el) => {
+  $$("#optionsArea .option").forEach(o => o.classList.remove("selected"));
+  el.classList.add("selected");
+};
+window.toggleMulti = (el) => {
+  el.classList.toggle("selected");
+};
+window.moveOrder = (btn, dir) => {
+  const item = btn.closest(".order-item");
+  const parent = item.parentElement;
+  const items = Array.from(parent.children);
+  const i = items.indexOf(item);
+  if (dir === -1 && i > 0) parent.insertBefore(item, items[i - 1]);
+  if (dir === 1 && i < items.length - 1) parent.insertBefore(items[i + 1], item);
+};
+
+function getResponse(q) {
+  if (q.type === "mcq") {
+    const sel = $("#optionsArea .option.selected");
+    return sel ? sel.dataset.opt : null;
+  }
+  if (q.type === "multi-select") {
+    return $$("#optionsArea .option.selected").map(o => o.dataset.opt);
+  }
+  if (q.type === "order") {
+    return $$("#orderArea .order-item").map(o => o.dataset.opt);
+  }
+  return $("#textInput").value.trim();
+}
+
+let attemptHintUsed = false;
+let attemptCount = 0;
+
+window.showHint = () => {
+  const q = Session.questions[Session.index];
+  if (!q.hint) return;
+  attemptHintUsed = true;
+  const fb = $("#feedback");
+  fb.innerHTML = `<div class="feedback" style="background: #fff3e0; border-left: 4px solid var(--accent);">
+    <strong>💡 Hint:</strong> ${escapeHtml(q.hint)}
+  </div>`;
+};
+
+window.submitAnswer = async () => {
+  const q = Session.questions[Session.index];
+  const response = getResponse(q);
+  if (response == null || response === "" || (Array.isArray(response) && response.length === 0)) {
+    alert("Pick an answer first.");
+    return;
+  }
+  const correct = checkAnswer(q, response);
+  attemptCount++;
+  const fb = $("#feedback");
+
+  // Disable inputs
+  $$("#optionsArea .option, #orderArea .order-item").forEach(o => o.classList.add("disabled"));
+  if ($("#textInput")) $("#textInput").disabled = true;
+
+  // Save canvas if working required
+  if (q.working_required) {
+    const cv = $("#scratchCanvas");
+    if (cv) Session.canvasData[q.id] = cv.toDataURL("image/png");
+  }
+
+  if (correct) {
+    fb.innerHTML = `<div class="feedback correct">
+      <h3>✅ Correct${attemptHintUsed ? ' (with hint)' : '!'}</h3>
+      <div class="explanation">${escapeHtml(q.explanation || "")}</div>
+      <button class="btn-primary" style="margin-top: 12px;" onclick="nextQuestion()">Next →</button>
+    </div>`;
+    Session.correct++;
+    Session.correctRecent.push(q.id);
+    if (Session.correctRecent.length > 8) Session.correctRecent.shift();
+    updateMastery(q, true, attemptHintUsed);
+    State.totals.correct++;
+    State.totals.xp += 10 * (q.difficulty || 1) - (attemptHintUsed ? 3 : 0);
+  } else {
+    if (attemptCount < 2 && !Session.boss) {
+      // First wrong: allow retry (not in boss mode)
+      fb.innerHTML = `<div class="feedback incorrect">
+        <h3>❌ Not quite — try once more</h3>
+        <button class="btn-primary" style="margin-top: 12px;" onclick="retryQuestion()">Try again</button>
+      </div>`;
+      return;
+    } else {
+      // Second wrong: show answer + explanation
+      fb.innerHTML = `<div class="feedback incorrect">
+        <h3>❌ The answer was: <em>${escapeHtml(Array.isArray(q.answer) ? q.answer.join(", ") : q.answer)}</em></h3>
+        <div class="explanation">${escapeHtml(q.explanation || "")}</div>
+        <button class="btn-primary" style="margin-top: 12px;" onclick="nextQuestion()">Next →</button>
+      </div>`;
+      updateMastery(q, false, attemptHintUsed);
+    }
+  }
+  Session.answered++;
+  State.totals.questions++;
+  State.seen_questions[q.id] = { last_seen: new Date().toISOString(), attempts: (State.seen_questions[q.id]?.attempts || 0) + 1 };
+  saveState();
+};
+
+window.retryQuestion = () => {
+  // Re-enable inputs without resetting selections
+  $$("#optionsArea .option").forEach(o => o.classList.remove("disabled"));
+  $$("#orderArea .order-item").forEach(o => o.classList.remove("disabled"));
+  if ($("#textInput")) { $("#textInput").disabled = false; $("#textInput").focus(); }
+  $("#feedback").innerHTML = "";
+};
+
+window.nextQuestion = () => {
+  Session.index++;
+  attemptHintUsed = false;
+  attemptCount = 0;
+  currentSelections = [];
+  renderQuestion();
+};
+
+//=============================================================================
+// WORKING CHECK
+//=============================================================================
+function renderWorkingCheck() {
+  // Pick a random recent correct answer
+  const qid = Session.correctRecent[Math.floor(Math.random() * Session.correctRecent.length)];
+  const q = Session.questions.find(qq => qq.id === qid);
+  if (!q || !Session.canvasData[qid]) {
+    // No canvas saved, skip check
+    Session.workingChecksDue = false;
+    return renderQuestion();
+  }
+  Session.awaitingWorkingCheck = q;
+  const main = $("#main");
+  main.innerHTML = `
+    <div class="card">
+      <h2>🔍 Working check</h2>
+      <p>Look at your working below. What was your final answer?</p>
+      <img src="${Session.canvasData[qid]}" class="working-check-canvas" alt="Your working">
+      <div class="input-row">
+        <input type="text" class="text-input" id="checkInput" placeholder="Final answer..." autocomplete="off" onkeydown="if(event.key==='Enter') submitWorkingCheck()">
+      </div>
+      <div class="actions">
+        <button class="btn-primary" onclick="submitWorkingCheck()">Submit</button>
+        <button class="btn-ghost" onclick="skipWorkingCheck()">Skip</button>
+      </div>
+      <div id="checkFeedback"></div>
+    </div>
+  `;
+  $("#checkInput").focus();
+}
+
+window.submitWorkingCheck = () => {
+  const q = Session.awaitingWorkingCheck;
+  const response = $("#checkInput").value.trim();
+  const correct = checkAnswer(q, response);
+  const fb = $("#checkFeedback");
+  if (correct) {
+    Session.workingPassed++;
+    fb.innerHTML = `<div class="feedback correct"><h3>✅ Spot on!</h3>
+      <button class="btn-primary" style="margin-top: 8px;" onclick="finishWorkingCheck()">Continue</button></div>`;
+  } else {
+    Session.workingFailed++;
+    fb.innerHTML = `<div class="feedback incorrect"><h3>❌ Was: ${escapeHtml(String(q.answer))}</h3>
+      <p>Try to write your final answer clearly on the pad next time.</p>
+      <button class="btn-primary" style="margin-top: 8px;" onclick="finishWorkingCheck()">Continue</button></div>`;
+  }
+};
+
+window.skipWorkingCheck = () => { Session.workingFailed++; finishWorkingCheck(); };
+
+window.finishWorkingCheck = () => {
+  Session.workingChecksDue = false;
+  Session.awaitingWorkingCheck = null;
+  renderQuestion();
+};
+
+//=============================================================================
+// CANVAS
+//=============================================================================
+let canvasCtx, canvasDrawing = false, canvasLast = null, canvasTool = "pen";
+
+function initCanvas() {
+  const cv = $("#scratchCanvas");
+  if (!cv) return;
+  // Resize for crisp drawing
+  const rect = cv.getBoundingClientRect();
+  cv.width = rect.width * window.devicePixelRatio;
+  cv.height = rect.height * window.devicePixelRatio;
+  canvasCtx = cv.getContext("2d");
+  canvasCtx.scale(window.devicePixelRatio, window.devicePixelRatio);
+  canvasCtx.lineCap = "round";
+  canvasCtx.lineJoin = "round";
+  canvasCtx.strokeStyle = "#222";
+  canvasCtx.lineWidth = 2;
+  cv.addEventListener("pointerdown", canvasDown);
+  cv.addEventListener("pointermove", canvasMove);
+  cv.addEventListener("pointerup", canvasUp);
+  cv.addEventListener("pointerleave", canvasUp);
+  canvasTool = "pen";
+}
+
+window.setTool = (t) => {
+  canvasTool = t;
+  $("#penBtn").classList.toggle("active", t === "pen");
+  $("#eraserBtn").classList.toggle("active", t === "eraser");
+};
+
+window.clearCanvas = () => {
+  const cv = $("#scratchCanvas");
+  canvasCtx.clearRect(0, 0, cv.width, cv.height);
+};
+
+function canvasPos(e) {
+  const cv = $("#scratchCanvas");
+  const rect = cv.getBoundingClientRect();
+  return { x: e.clientX - rect.left, y: e.clientY - rect.top };
+}
+
+function canvasDown(e) {
+  canvasDrawing = true;
+  canvasLast = canvasPos(e);
+  e.target.setPointerCapture(e.pointerId);
+}
+
+function canvasMove(e) {
+  if (!canvasDrawing) return;
+  const pos = canvasPos(e);
+  canvasCtx.globalCompositeOperation = canvasTool === "eraser" ? "destination-out" : "source-over";
+  canvasCtx.lineWidth = canvasTool === "eraser" ? 20 : 2;
+  canvasCtx.beginPath();
+  canvasCtx.moveTo(canvasLast.x, canvasLast.y);
+  canvasCtx.lineTo(pos.x, pos.y);
+  canvasCtx.stroke();
+  canvasLast = pos;
+}
+
+function canvasUp() { canvasDrawing = false; canvasLast = null; }
+
+//=============================================================================
+// END SESSION
+//=============================================================================
+async function endSession() {
+  const minutes = Math.max(1, Math.round((Date.now() - Session.startTime) / 60000));
+  const accuracy = Session.answered ? Session.correct / Session.answered : 0;
+  const skillsLevelled = skillsLevelledThisSession();
+
+  State.totals.sessions++;
+  State.totals.minutes += minutes;
+  // XP -> level
+  const newLevel = Math.floor(State.totals.xp / 1000) + 1;
+  if (newLevel > State.totals.level) State.totals.level = newLevel;
+  // Streak
+  const today = new Date().toDateString();
+  const lastActive = State.streak.last_active ? new Date(State.streak.last_active).toDateString() : null;
+  if (today !== lastActive) {
+    const yesterday = new Date(); yesterday.setDate(yesterday.getDate() - 1);
+    if (lastActive === yesterday.toDateString()) {
+      State.streak.current++;
+    } else if (lastActive) {
+      State.streak.current = 1; // broken
+    } else {
+      State.streak.current = 1; // first
+    }
+    State.streak.last_active = new Date().toISOString();
+    if (State.streak.current > State.streak.longest) State.streak.longest = State.streak.current;
+  }
+
+  const stats = {
+    minutes,
+    accuracy,
+    skills_levelled: skillsLevelled,
+    working_passed: Session.workingPassed,
+    working_failed: Session.workingFailed,
+    questions: Session.answered,
+    correct: Session.correct,
+  };
+  const tier = classifyTier(stats, { boss: Session.boss });
+  // Boss mode bonus: extra XP for passing
+  if (Session.boss && tier === "BOSS") State.totals.xp += 100;
+  const code = await generateCode({
+    tier,
+    day: dayNumber(),
+    ctr: State.totals.sessions % 256,
+    mins: Math.min(255, minutes),
+    qs: Math.min(255, Session.answered),
+    correct: Math.min(255, Session.correct),
+    levels: Math.min(15, skillsLevelled),
+    wpass: Math.min(15, Session.workingPassed),
+    wfail: Math.min(15, Session.workingFailed)
+  });
+
+  State.history.unshift({
+    date: new Date().toISOString(),
+    subject: Session.subject,
+    minutes, questions: Session.answered, correct: Session.correct,
+    accuracy, skills_levelled: skillsLevelled,
+    wpass: Session.workingPassed, wfail: Session.workingFailed,
+    tier, code, boss: !!Session.boss
+  });
+  if (State.history.length > 100) State.history = State.history.slice(0, 100);
+  // Check achievements
+  const newly = checkAchievements();
+  saveState();
+  renderEndScreen(tier, code, stats, newly);
+}
+
+function checkAchievements() {
+  const newly = [];
+  for (const ach of ACHIEVEMENTS) {
+    if (!State.achievements.includes(ach.id) && ach.check(State)) {
+      State.achievements.push(ach.id);
+      newly.push(ach);
+    }
+  }
+  return newly;
+}
+
+function renderEndScreen(tier, code, stats, newly = []) {
+  const main = $("#main");
+  const emojis = { BIG: "🌟", SM: "🎉", WIN: "👑", RP: "📝", BOSS: "⚔️" };
+  const messages = {
+    BIG: `Brilliant work, ${Profile.name}! Big code earned.`,
+    SM:  `Nice session, ${Profile.name}! Small code earned.`,
+    WIN: `Streak milestone! Pocket-money code unlocked.`,
+    RP:  Session.boss ? `Boss got the better of you this time. Practise more and try again tomorrow.` : `Session report. Keep going — you'll earn a code next time.`,
+    BOSS: `⚔️ BOSS DEFEATED! Big code earned + 100 bonus XP.`
+  };
+  const codeClass = tier === "BIG" || tier === "BOSS" ? "big" : tier === "WIN" ? "streak" : tier === "RP" ? "report" : "";
+  setTimeout(() => { newly.forEach((a, i) => setTimeout(() => showAchievementToast(a), i * 800 + 600)); }, 400);
+  main.innerHTML = `
+    <div class="card end-screen">
+      <div class="celebration">
+        <div class="emoji">${emojis[tier]}</div>
+        <h1>${messages[tier]}</h1>
+        <div class="code-display ${codeClass}" id="codeBox">${code}</div>
+        <div style="margin-top: 8px;">
+          <button class="btn-secondary" onclick="copyCode('${code}')" id="copyBtn">📋 Copy code</button>
+        </div>
+        <p style="color: var(--muted); margin-top: 12px; font-size: 14px;">Click Copy, then paste into the Parent Verifier (parent.html).</p>
+      </div>
+      <div class="stats-grid">
+        <div class="stat-box"><div class="value">${stats.minutes}</div><div class="label">Minutes</div></div>
+        <div class="stat-box"><div class="value">${stats.questions}</div><div class="label">Questions</div></div>
+        <div class="stat-box"><div class="value">${Math.round(stats.accuracy * 100)}%</div><div class="label">Accuracy</div></div>
+        <div class="stat-box"><div class="value">${stats.skills_levelled}</div><div class="label">Skills levelled up</div></div>
+      </div>
+      <div style="margin-top: 16px;">
+        <p><span class="pill ${stats.working_passed > stats.working_failed ? 'good' : 'neutral'}">Working checks: ${stats.working_passed} ✓ / ${stats.working_failed} ✗</span></p>
+      </div>
+      <div class="actions" style="justify-content: center;">
+        <button class="btn-primary" onclick="renderHome()">Back to home</button>
+        <button class="btn-secondary" onclick="startSession('${Session.subject}')">Another session</button>
+      </div>
+    </div>
+  `;
+}
+
+//=============================================================================
+// UTILS
+//=============================================================================
+function escapeHtml(s) {
+  return String(s || "").replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
+}
+function escapeAttr(s) { return escapeHtml(s).replace(/"/g, "&quot;"); }
+window.copyCode = (code) => {
+  navigator.clipboard.writeText(code).then(() => {
+    const btn = document.getElementById("copyBtn");
+    if (btn) { btn.textContent = "✓ Copied!"; setTimeout(() => { btn.textContent = "📋 Copy code"; }, 2000); }
+  }).catch(() => alert("Copy failed — select the code and copy manually."));
+};
+
+//=============================================================================
+// BOOT
+//=============================================================================
+async function boot() {
+  loadState();
+  await loadProfile();
+  await loadQuestionBanks();
+  renderApp();
+}
+
+boot().catch(e => {
+  document.body.innerHTML = `<div style="padding: 32px; font-family: sans-serif;">
+    <h2>Error loading app</h2>
+    <pre>${e.stack || e}</pre>
+    <p>If you're opening this from disk (file://), you need to serve via HTTP. Run:<br>
+    <code>python3 -m http.server 8000</code> in this folder, then open <code>http://localhost:8000/</code>.</p>
+  </div>`;
+});
+</script>
+</body>
+</html>

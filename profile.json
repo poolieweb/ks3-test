@@ -1,0 +1,14 @@
+{
+  "name": "Bertie",
+  "mascot": "owl",
+  "theme": "ocean",
+  "personal": {
+    "school": "Chorlton High School",
+    "year": 8,
+    "favourite_team": null,
+    "family_pet": null,
+    "hobbies": [],
+    "in_jokes": []
+  },
+  "notes": "Edit this file to personalise greetings, celebration messages, and (later) word-problem contexts. Anything you add to 'personal' will be available to the engine and Claude when generating new questions. Personalisation never affects scoring or progress."
+}
