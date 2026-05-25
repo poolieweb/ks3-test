@@ -114,8 +114,8 @@
   .pill.bad { background: #ffebee; color: #c62828; }
   .pill.neutral { background: var(--border); color: var(--text); }
   .order-list { display: flex; flex-direction: column; gap: 6px; }
-  .order-item { padding: 10px 14px; background: white; border: 2px solid var(--border); border-radius: 8px; cursor: grab; display: flex; align-items: center; gap: 8px; }
-  .order-item.dragging { opacity: 0.5; }
+  .order-item { padding: 10px 14px; background: white; border: 2px solid var(--border); border-radius: 8px; cursor: grab; display: flex; align-items: center; gap: 8px; touch-action: none; user-select: none; -webkit-user-select: none; }
+  .order-item.dragging { opacity: 0.85; cursor: grabbing; box-shadow: 0 6px 16px rgba(0,0,0,0.15); border-color: var(--primary); z-index: 2; position: relative; }
   .order-item .grip { color: var(--muted); }
   .order-item .move-btns { margin-left: auto; display: flex; gap: 4px; }
   .order-item .move-btns button { padding: 4px 8px; font-size: 12px; background: var(--border); color: var(--text); }
@@ -565,9 +565,14 @@ function subjectAvgMastery(slug) {
   const tags = new Set();
   for (const u of bank.units) for (const q of u.questions) for (const t of (q.skill_tags || [])) tags.add(t);
   if (!tags.size) return 0;
-  let sum = 0;
-  for (const t of tags) sum += getMastery(t).score;
-  return sum / tags.size;
+  // Only count skills the player has actually attempted — untouched skills sit at the Elo
+  // midpoint of 50 internally, but showing that as "50% mastered" misleads a fresh player.
+  let sum = 0, n = 0;
+  for (const t of tags) {
+    const m = getMastery(t);
+    if (m.attempts > 0) { sum += m.score; n++; }
+  }
+  return n ? sum / n : 0;
 }
 
 function masteryColor(score) {
@@ -604,9 +609,13 @@ function buildMasteryTree() {
 
 function avgMasteryOfTags(tags) {
   if (!tags || !tags.size) return 0;
+  // Average only over attempted skills so fresh state reads 0%, not the Elo midpoint of 50.
   let sum = 0, n = 0;
-  for (const t of tags) { sum += getMastery(t).score; n++; }
-  return sum / n;
+  for (const t of tags) {
+    const m = getMastery(t);
+    if (m.attempts > 0) { sum += m.score; n++; }
+  }
+  return n ? sum / n : 0;
 }
 
 function sumAttemptsOfTags(tags) {
@@ -844,7 +853,7 @@ function renderQuestion() {
   } else if (q.type === "order") {
     const shuffled = [...q.options].sort(() => Math.random() - 0.5);
     inputHtml = `<div class="order-list" id="orderArea">
-      ${shuffled.map((opt, i) => `<div class="order-item" data-opt="${escapeAttr(opt)}">
+      ${shuffled.map((opt, i) => `<div class="order-item" data-opt="${escapeAttr(opt)}" onpointerdown="startOrderDrag(event, this)">
         <span class="grip">≡</span><span>${escapeHtml(opt)}</span>
         <div class="move-btns"><button onclick="moveOrder(this, -1)">↑</button><button onclick="moveOrder(this, 1)">↓</button></div>
       </div>`).join("")}
@@ -928,6 +937,59 @@ window.moveOrder = (btn, dir) => {
   if (dir === 1 && i < items.length - 1) parent.insertBefore(items[i + 1], item);
 };
 
+// Pointer-event drag (works on mouse + touch). HTML5 native drag is unreliable on iPad.
+let orderDrag = null;
+
+window.startOrderDrag = (e, item) => {
+  if (item.classList.contains("disabled")) return;
+  if (e.target.closest(".move-btns")) return;  // let arrow buttons handle their own clicks
+  e.preventDefault();
+  orderDrag = { item, parent: item.parentElement, startY: e.clientY, pointerId: e.pointerId };
+  item.setPointerCapture(e.pointerId);
+  item.classList.add("dragging");
+  item.style.transition = "none";
+  item.addEventListener("pointermove", onOrderDragMove);
+  item.addEventListener("pointerup", onOrderDragEnd);
+  item.addEventListener("pointercancel", onOrderDragEnd);
+};
+
+function onOrderDragMove(e) {
+  if (!orderDrag) return;
+  const { item, parent, startY } = orderDrag;
+  const delta = e.clientY - startY;
+  item.style.transform = `translateY(${delta}px)`;
+  const rect = item.getBoundingClientRect();
+  const mid = rect.top + rect.height / 2;
+  for (const other of Array.from(parent.children)) {
+    if (other === item) continue;
+    const r = other.getBoundingClientRect();
+    if (mid > r.top && mid < r.bottom) {
+      const items = Array.from(parent.children);
+      const dragIdx = items.indexOf(item);
+      const otherIdx = items.indexOf(other);
+      if (otherIdx < dragIdx) parent.insertBefore(item, other);
+      else parent.insertBefore(item, other.nextSibling);
+      // Reset origin so the item visually snaps to its new slot, no jump.
+      orderDrag.startY = e.clientY;
+      item.style.transform = "";
+      break;
+    }
+  }
+}
+
+function onOrderDragEnd(e) {
+  if (!orderDrag) return;
+  const { item, pointerId } = orderDrag;
+  item.style.transform = "";
+  item.style.transition = "";
+  item.classList.remove("dragging");
+  item.removeEventListener("pointermove", onOrderDragMove);
+  item.removeEventListener("pointerup", onOrderDragEnd);
+  item.removeEventListener("pointercancel", onOrderDragEnd);
+  try { item.releasePointerCapture(pointerId); } catch (_) {}
+  orderDrag = null;
+}
+
 function getResponse(q) {
   if (q.type === "mcq") {
     const sel = $("#optionsArea .option.selected");
@@ -948,7 +1010,13 @@ let attemptCount = 0;
 window.showHint = () => {
   const q = Session.questions[Session.index];
   if (!q.hint) return;
+  if (attemptCount >= 2) return;  // question resolved — don't clobber the Next button
   attemptHintUsed = true;
+  // Re-enable inputs in case a previous wrong submit disabled them. The user clicked Hint
+  // because they want to retry, so let them edit their answer.
+  $$("#optionsArea .option").forEach(o => o.classList.remove("disabled"));
+  $$("#orderArea .order-item").forEach(o => o.classList.remove("disabled"));
+  if ($("#textInput")) { $("#textInput").disabled = false; $("#textInput").focus(); }
   const fb = $("#feedback");
   fb.innerHTML = `<div class="feedback" style="background: #fff3e0; border-left: 4px solid var(--accent);">
     <strong>💡 Hint:</strong> ${escapeHtml(q.hint)}
@@ -977,6 +1045,7 @@ window.submitAnswer = async () => {
   }
 
   if (correct) {
+    if ($("#hintBtn")) $("#hintBtn").style.display = "none";
     fb.innerHTML = `<div class="feedback correct">
       <h3>✅ Correct${attemptHintUsed ? ' (with hint)' : '!'}</h3>
       <div class="explanation">${escapeHtml(q.explanation || "")}</div>
@@ -998,6 +1067,7 @@ window.submitAnswer = async () => {
       return;
     } else {
       // Second wrong: show answer + explanation
+      if ($("#hintBtn")) $("#hintBtn").style.display = "none";
       fb.innerHTML = `<div class="feedback incorrect">
         <h3>❌ The answer was: <em>${escapeHtml(Array.isArray(q.answer) ? q.answer.join(", ") : q.answer)}</em></h3>
         <div class="explanation">${escapeHtml(q.explanation || "")}</div>
