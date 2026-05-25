@@ -49,6 +49,7 @@ All question files use this schema. Files live at `/questions/<subject>/<topic-s
 | `estimated_seconds` | int | Realistic time for a Y8 to answer |
 | `source` | string | Curriculum source — Knowledge Map unit or "UK NC KS3" |
 | `version` | int | Bump if you edit. Old answers stay valid against old version. |
+| `further_learning` | array<{title,url}> \| null | Links shown after answering. Each entry: `{"title": "...", "url": "..."}`. Use Oak National Academy unit pages as primary, BBC Bitesize KS3 subject pages as secondary. Populated automatically by `add_further_learning.py` from `skill_tags`. |
 
 ## Question types
 

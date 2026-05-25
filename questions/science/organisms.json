@@ -8,12 +8,19 @@
       "subject": "science",
       "unit": "organisms",
       "topic": "digestion",
-      "skill_tags": ["digestion"],
+      "skill_tags": [
+        "digestion"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "mcq",
       "prompt": "What is digestion?",
-      "options": ["The movement of food through the body", "Breaking food into small soluble molecules the body can absorb", "Turning food into faeces", "Storing food in the stomach"],
+      "options": [
+        "The movement of food through the body",
+        "Breaking food into small soluble molecules the body can absorb",
+        "Turning food into faeces",
+        "Storing food in the stomach"
+      ],
       "answer": "Breaking food into small soluble molecules the body can absorb",
       "accepted": null,
       "hint": "Think about why food has to be broken down — what does the body need to do with it next?",
@@ -21,19 +28,37 @@
       "working_required": false,
       "estimated_seconds": 20,
       "source": "CHS Y8 Science KM, Unit 1 Organisms",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Human Digestive System – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/human-digestive-system/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.org.dig.002",
       "subject": "science",
       "unit": "organisms",
       "topic": "digestion",
-      "skill_tags": ["digestion", "enzymes"],
+      "skill_tags": [
+        "digestion",
+        "enzymes"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "Which enzyme breaks down proteins in the stomach?",
-      "options": ["Amylase", "Pepsin", "Lipase", "Maltase"],
+      "options": [
+        "Amylase",
+        "Pepsin",
+        "Lipase",
+        "Maltase"
+      ],
       "answer": "Pepsin",
       "accepted": null,
       "hint": "Stomach acid plus enzyme — the name starts with P.",
@@ -41,19 +66,37 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Science KM, Unit 1 Organisms",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Human Digestive System – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/human-digestive-system/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.org.dig.003",
       "subject": "science",
       "unit": "organisms",
       "topic": "digestion",
-      "skill_tags": ["digestion", "enzymes"],
+      "skill_tags": [
+        "digestion",
+        "enzymes"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "Amylase breaks down which food group?",
-      "options": ["Proteins", "Fats (lipids)", "Carbohydrates (starch)", "Vitamins"],
+      "options": [
+        "Proteins",
+        "Fats (lipids)",
+        "Carbohydrates (starch)",
+        "Vitamins"
+      ],
       "answer": "Carbohydrates (starch)",
       "accepted": null,
       "hint": "The clue is in the name — 'amyl' relates to starch.",
@@ -61,79 +104,163 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Science KM, Unit 1 Organisms",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Human Digestive System – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/human-digestive-system/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.org.dig.004",
       "subject": "science",
       "unit": "organisms",
       "topic": "digestion",
-      "skill_tags": ["digestion", "enzymes"],
+      "skill_tags": [
+        "digestion",
+        "enzymes"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "multi-select",
       "prompt": "Select all the enzymes involved in digestion.",
-      "options": ["Pepsin", "Amylase", "Haemoglobin", "Lipase", "Insulin", "Maltase"],
-      "answer": ["Pepsin", "Amylase", "Lipase", "Maltase"],
+      "options": [
+        "Pepsin",
+        "Amylase",
+        "Haemoglobin",
+        "Lipase",
+        "Insulin",
+        "Maltase"
+      ],
+      "answer": [
+        "Pepsin",
+        "Amylase",
+        "Lipase",
+        "Maltase"
+      ],
       "accepted": null,
       "hint": "Haemoglobin carries oxygen and insulin controls blood sugar — neither is a digestive enzyme.",
       "explanation": "Pepsin (protein), amylase (starch), lipase (fats) and maltase (maltose to glucose) are all digestive enzymes. Haemoglobin is a blood protein and insulin is a hormone.",
       "working_required": false,
       "estimated_seconds": 45,
       "source": "CHS Y8 Science KM, Unit 1 Organisms",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Human Digestive System – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/human-digestive-system/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.org.dig.005",
       "subject": "science",
       "unit": "organisms",
       "topic": "digestion",
-      "skill_tags": ["digestion"],
+      "skill_tags": [
+        "digestion"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "order",
       "prompt": "Put the parts of the digestive system in the order food passes through them.",
-      "options": ["Small intestine", "Mouth", "Large intestine", "Oesophagus", "Stomach", "Rectum"],
-      "answer": ["Mouth", "Oesophagus", "Stomach", "Small intestine", "Large intestine", "Rectum"],
+      "options": [
+        "Small intestine",
+        "Mouth",
+        "Large intestine",
+        "Oesophagus",
+        "Stomach",
+        "Rectum"
+      ],
+      "answer": [
+        "Mouth",
+        "Oesophagus",
+        "Stomach",
+        "Small intestine",
+        "Large intestine",
+        "Rectum"
+      ],
       "accepted": null,
       "hint": "Start at the top — where does food enter the body?",
       "explanation": "Food goes mouth → oesophagus → stomach → small intestine (where most digestion and absorption happens) → large intestine (water absorbed) → rectum (faeces stored).",
       "working_required": false,
       "estimated_seconds": 60,
       "source": "CHS Y8 Science KM, Unit 1 Organisms",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Human Digestive System – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/human-digestive-system/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.org.dig.006",
       "subject": "science",
       "unit": "organisms",
       "topic": "digestion",
-      "skill_tags": ["digestion"],
+      "skill_tags": [
+        "digestion"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "text",
       "prompt": "Where in the digestive system is most food absorbed into the blood?",
       "options": null,
       "answer": "small intestine",
-      "accepted": ["the small intestine", "small intestines", "ileum"],
+      "accepted": [
+        "the small intestine",
+        "small intestines",
+        "ileum"
+      ],
       "hint": "It's long and folded with villi to give a huge surface area.",
       "explanation": "The small intestine is lined with villi — finger-like projections that massively increase the surface area for absorbing soluble food molecules into the blood.",
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Science KM, Unit 1 Organisms",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Human Digestive System – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/human-digestive-system/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.org.dig.007",
       "subject": "science",
       "unit": "organisms",
       "topic": "digestion",
-      "skill_tags": ["digestion"],
+      "skill_tags": [
+        "digestion"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "Villi in the small intestine are well adapted for absorption. Which feature is NOT a reason for this?",
-      "options": ["They have a thin wall (one cell thick)", "They have a large surface area", "They have a good blood supply", "They produce hydrochloric acid"],
+      "options": [
+        "They have a thin wall (one cell thick)",
+        "They have a large surface area",
+        "They have a good blood supply",
+        "They produce hydrochloric acid"
+      ],
       "answer": "They produce hydrochloric acid",
       "accepted": null,
       "hint": "HCl is made somewhere else in the digestive system — think stomach.",
@@ -141,19 +268,36 @@
       "working_required": false,
       "estimated_seconds": 45,
       "source": "CHS Y8 Science KM, Unit 1 Organisms",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Human Digestive System – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/human-digestive-system/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.org.dig.008",
       "subject": "science",
       "unit": "organisms",
       "topic": "digestion",
-      "skill_tags": ["digestion"],
+      "skill_tags": [
+        "digestion"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What is the main job of the large intestine?",
-      "options": ["Producing bile", "Absorbing water from undigested food", "Digesting proteins", "Absorbing glucose into the blood"],
+      "options": [
+        "Producing bile",
+        "Absorbing water from undigested food",
+        "Digesting proteins",
+        "Absorbing glucose into the blood"
+      ],
       "answer": "Absorbing water from undigested food",
       "accepted": null,
       "hint": "By the time food reaches here, the nutrients have mostly been absorbed.",
@@ -161,39 +305,76 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Science KM, Unit 1 Organisms",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Human Digestive System – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/human-digestive-system/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.org.dig.009",
       "subject": "science",
       "unit": "organisms",
       "topic": "digestion",
-      "skill_tags": ["digestion", "enzymes"],
+      "skill_tags": [
+        "digestion",
+        "enzymes"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "text",
       "prompt": "Bile is made in the liver and stored in the gall bladder. What does bile do to fats to help lipase break them down?",
       "options": null,
       "answer": "emulsifies",
-      "accepted": ["emulsify", "emulsifies them", "emulsification", "breaks them into smaller droplets", "emulsifies fats"],
+      "accepted": [
+        "emulsify",
+        "emulsifies them",
+        "emulsification",
+        "breaks them into smaller droplets",
+        "emulsifies fats"
+      ],
       "hint": "It breaks fats into tiny droplets — a one-word answer ending in '-ifies'.",
       "explanation": "Bile emulsifies fats, breaking large droplets into many tiny ones. This increases the surface area so lipase can digest the fats much faster.",
       "working_required": false,
       "estimated_seconds": 45,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Human Digestive System – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/human-digestive-system/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.org.dig.010",
       "subject": "science",
       "unit": "organisms",
       "topic": "nutrition",
-      "skill_tags": ["digestion", "nutrition"],
+      "skill_tags": [
+        "digestion",
+        "nutrition"
+      ],
       "tier": "strengthen",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "Which food group is the body's main source of energy?",
-      "options": ["Proteins", "Carbohydrates", "Vitamins", "Fibre"],
+      "options": [
+        "Proteins",
+        "Carbohydrates",
+        "Vitamins",
+        "Fibre"
+      ],
       "answer": "Carbohydrates",
       "accepted": null,
       "hint": "Bread, pasta, rice, potatoes — what do these have in common?",
@@ -201,19 +382,36 @@
       "working_required": false,
       "estimated_seconds": 20,
       "source": "CHS Y8 Science KM, Unit 1 Organisms",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Human Digestive System – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/human-digestive-system/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.org.dig.011",
       "subject": "science",
       "unit": "organisms",
       "topic": "nutrition",
-      "skill_tags": ["nutrition"],
+      "skill_tags": [
+        "nutrition"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "Why does the body need protein?",
-      "options": ["For long-term energy storage", "For growth and repair of tissues", "To absorb water", "To digest fats"],
+      "options": [
+        "For long-term energy storage",
+        "For growth and repair of tissues",
+        "To absorb water",
+        "To digest fats"
+      ],
       "answer": "For growth and repair of tissues",
       "accepted": null,
       "hint": "Think about what muscles and skin are made of.",
@@ -221,19 +419,36 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Science KM, Unit 1 Organisms",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Human Digestive System – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/human-digestive-system/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.org.dig.012",
       "subject": "science",
       "unit": "organisms",
       "topic": "nutrition",
-      "skill_tags": ["nutrition"],
+      "skill_tags": [
+        "nutrition"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "A lack of vitamin C in the diet causes which deficiency disease?",
-      "options": ["Rickets", "Scurvy", "Anaemia", "Kwashiorkor"],
+      "options": [
+        "Rickets",
+        "Scurvy",
+        "Anaemia",
+        "Kwashiorkor"
+      ],
       "answer": "Scurvy",
       "accepted": null,
       "hint": "Historically affected sailors who couldn't eat fresh fruit.",
@@ -241,19 +456,36 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Science KM, Unit 1 Organisms",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Human Digestive System – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/human-digestive-system/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.org.dig.013",
       "subject": "science",
       "unit": "organisms",
       "topic": "nutrition",
-      "skill_tags": ["nutrition"],
+      "skill_tags": [
+        "nutrition"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "Iron deficiency leads to anaemia. Why does this make you feel tired?",
-      "options": ["You can't digest food properly", "Your blood can't carry as much oxygen", "Your bones become weak", "Your muscles don't work"],
+      "options": [
+        "You can't digest food properly",
+        "Your blood can't carry as much oxygen",
+        "Your bones become weak",
+        "Your muscles don't work"
+      ],
       "answer": "Your blood can't carry as much oxygen",
       "accepted": null,
       "hint": "Iron is in haemoglobin — what does haemoglobin do?",
@@ -261,39 +493,72 @@
       "working_required": false,
       "estimated_seconds": 40,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Human Digestive System – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/human-digestive-system/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.org.dig.014",
       "subject": "science",
       "unit": "organisms",
       "topic": "nutrition",
-      "skill_tags": ["nutrition"],
+      "skill_tags": [
+        "nutrition"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "text",
       "prompt": "What is the name of the indigestible part of food that helps it move through the gut?",
       "options": null,
       "answer": "fibre",
-      "accepted": ["dietary fibre", "roughage", "fiber"],
+      "accepted": [
+        "dietary fibre",
+        "roughage",
+        "fiber"
+      ],
       "hint": "Found in wholemeal bread, fruit and veg — also called roughage.",
       "explanation": "Fibre (or roughage) is plant material the body can't digest. It adds bulk to faeces and helps muscles push food along the gut by peristalsis.",
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Science KM, Unit 1 Organisms",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Human Digestive System – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/human-digestive-system/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.org.res.001",
       "subject": "science",
       "unit": "organisms",
       "topic": "respiration",
-      "skill_tags": ["respiration"],
+      "skill_tags": [
+        "respiration"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "mcq",
       "prompt": "What is the purpose of respiration?",
-      "options": ["To breathe air in and out", "To release energy from glucose", "To produce oxygen", "To digest food"],
+      "options": [
+        "To breathe air in and out",
+        "To release energy from glucose",
+        "To produce oxygen",
+        "To digest food"
+      ],
       "answer": "To release energy from glucose",
       "accepted": null,
       "hint": "Respiration is NOT the same as breathing — it happens in cells.",
@@ -301,39 +566,72 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Science KM, Unit 1 Organisms",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Breathing and Respiration – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/breathing-and-respiration/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.org.res.002",
       "subject": "science",
       "unit": "organisms",
       "topic": "respiration",
-      "skill_tags": ["respiration"],
+      "skill_tags": [
+        "respiration"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "text",
       "prompt": "Complete the word equation: glucose + oxygen → ___ + water (+ energy)",
       "options": null,
       "answer": "carbon dioxide",
-      "accepted": ["CO2", "CO₂", "carbon-dioxide"],
+      "accepted": [
+        "CO2",
+        "CO₂",
+        "carbon-dioxide"
+      ],
       "hint": "It's the gas you breathe out — two words.",
       "explanation": "Aerobic respiration: glucose + oxygen → carbon dioxide + water (+ energy). The carbon dioxide is breathed out and the water leaves in breath, urine and sweat.",
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Science KM, Unit 1 Organisms",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Breathing and Respiration – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/breathing-and-respiration/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.org.res.003",
       "subject": "science",
       "unit": "organisms",
       "topic": "respiration",
-      "skill_tags": ["respiration"],
+      "skill_tags": [
+        "respiration"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What is the difference between aerobic and anaerobic respiration?",
-      "options": ["Aerobic uses glucose, anaerobic uses fat", "Aerobic uses oxygen, anaerobic does not", "Aerobic happens in plants, anaerobic in animals", "Aerobic releases CO2, anaerobic releases O2"],
+      "options": [
+        "Aerobic uses glucose, anaerobic uses fat",
+        "Aerobic uses oxygen, anaerobic does not",
+        "Aerobic happens in plants, anaerobic in animals",
+        "Aerobic releases CO2, anaerobic releases O2"
+      ],
       "answer": "Aerobic uses oxygen, anaerobic does not",
       "accepted": null,
       "hint": "The 'aer-' bit means air. So what's missing in anaerobic?",
@@ -341,39 +639,71 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y8 Science KM, Unit 1 Organisms",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Breathing and Respiration – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/breathing-and-respiration/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.org.res.004",
       "subject": "science",
       "unit": "organisms",
       "topic": "respiration",
-      "skill_tags": ["respiration"],
+      "skill_tags": [
+        "respiration"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "text",
       "prompt": "What waste product builds up in muscle cells during anaerobic respiration in humans?",
       "options": null,
       "answer": "lactic acid",
-      "accepted": ["lactate", "lactic-acid"],
+      "accepted": [
+        "lactate",
+        "lactic-acid"
+      ],
       "hint": "Two words — it makes your muscles ache after sprinting.",
       "explanation": "Without enough oxygen, glucose only partly breaks down and produces lactic acid. The build-up causes muscle fatigue and cramp during intense exercise.",
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y8 Science KM, Unit 1 Organisms",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Breathing and Respiration – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/breathing-and-respiration/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.org.res.005",
       "subject": "science",
       "unit": "organisms",
       "topic": "respiration",
-      "skill_tags": ["respiration"],
+      "skill_tags": [
+        "respiration"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "After hard exercise, why do you keep breathing heavily for a few minutes (oxygen debt)?",
-      "options": ["To cool the body down", "To bring in extra oxygen to break down lactic acid", "To breathe out excess oxygen", "To stop the heart racing"],
+      "options": [
+        "To cool the body down",
+        "To bring in extra oxygen to break down lactic acid",
+        "To breathe out excess oxygen",
+        "To stop the heart racing"
+      ],
       "answer": "To bring in extra oxygen to break down lactic acid",
       "accepted": null,
       "hint": "You owe your body something — what did anaerobic respiration leave behind?",
@@ -381,39 +711,72 @@
       "working_required": false,
       "estimated_seconds": 45,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Breathing and Respiration – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/breathing-and-respiration/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.org.res.006",
       "subject": "science",
       "unit": "organisms",
       "topic": "respiration",
-      "skill_tags": ["respiration"],
+      "skill_tags": [
+        "respiration"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "text",
       "prompt": "Yeast carries out anaerobic respiration. The products are carbon dioxide and one other substance, used in brewing. Name it.",
       "options": null,
       "answer": "ethanol",
-      "accepted": ["alcohol", "ethyl alcohol"],
+      "accepted": [
+        "alcohol",
+        "ethyl alcohol"
+      ],
       "hint": "It's an alcohol — found in beer and wine.",
       "explanation": "In yeast: glucose → ethanol + carbon dioxide. This process is fermentation. Brewers use it for the ethanol; bakers use it for the CO2 that makes bread rise.",
       "working_required": false,
       "estimated_seconds": 40,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Breathing and Respiration – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/breathing-and-respiration/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.org.gas.001",
       "subject": "science",
       "unit": "organisms",
       "topic": "gas-exchange",
-      "skill_tags": ["gas-exchange", "respiratory"],
+      "skill_tags": [
+        "gas-exchange",
+        "respiratory"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "Where in the lungs does gas exchange take place?",
-      "options": ["Trachea", "Bronchi", "Alveoli", "Diaphragm"],
+      "options": [
+        "Trachea",
+        "Bronchi",
+        "Alveoli",
+        "Diaphragm"
+      ],
       "answer": "Alveoli",
       "accepted": null,
       "hint": "Tiny air sacs at the end of the smallest tubes.",
@@ -421,39 +784,90 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Science KM, Unit 1 Organisms",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Cells – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/cells/lessons"
+        },
+        {
+          "title": "Breathing and Respiration – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/breathing-and-respiration/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.org.gas.002",
       "subject": "science",
       "unit": "organisms",
       "topic": "gas-exchange",
-      "skill_tags": ["gas-exchange", "respiratory"],
+      "skill_tags": [
+        "gas-exchange",
+        "respiratory"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "multi-select",
       "prompt": "Which features make alveoli good for gas exchange?",
-      "options": ["Thick muscular walls", "Large surface area", "Thin walls (one cell thick)", "Good blood supply", "Filled with mucus", "Moist surface"],
-      "answer": ["Large surface area", "Thin walls (one cell thick)", "Good blood supply", "Moist surface"],
+      "options": [
+        "Thick muscular walls",
+        "Large surface area",
+        "Thin walls (one cell thick)",
+        "Good blood supply",
+        "Filled with mucus",
+        "Moist surface"
+      ],
+      "answer": [
+        "Large surface area",
+        "Thin walls (one cell thick)",
+        "Good blood supply",
+        "Moist surface"
+      ],
       "accepted": null,
       "hint": "You want a short diffusion path and a steep concentration gradient.",
       "explanation": "Alveoli are adapted with huge surface area, very thin walls (short diffusion distance), rich blood supply (keeps the concentration gradient steep), and a moist lining for gases to dissolve.",
       "working_required": false,
       "estimated_seconds": 60,
       "source": "CHS Y8 Science KM, Unit 1 Organisms",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Cells – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/cells/lessons"
+        },
+        {
+          "title": "Breathing and Respiration – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/breathing-and-respiration/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.org.gas.003",
       "subject": "science",
       "unit": "organisms",
       "topic": "gas-exchange",
-      "skill_tags": ["gas-exchange", "respiratory"],
+      "skill_tags": [
+        "gas-exchange",
+        "respiratory"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "When you breathe IN, what happens to the diaphragm and ribs?",
-      "options": ["Diaphragm relaxes (domes up), ribs move down", "Diaphragm contracts (flattens), ribs move up and out", "Both relax", "Diaphragm flattens, ribs move down"],
+      "options": [
+        "Diaphragm relaxes (domes up), ribs move down",
+        "Diaphragm contracts (flattens), ribs move up and out",
+        "Both relax",
+        "Diaphragm flattens, ribs move down"
+      ],
       "answer": "Diaphragm contracts (flattens), ribs move up and out",
       "accepted": null,
       "hint": "Breathing in increases the volume of the chest — what has to happen to make more space?",
@@ -461,39 +875,76 @@
       "working_required": false,
       "estimated_seconds": 40,
       "source": "CHS Y8 Science KM, Unit 1 Organisms",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Cells – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/cells/lessons"
+        },
+        {
+          "title": "Breathing and Respiration – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/breathing-and-respiration/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.org.gas.004",
       "subject": "science",
       "unit": "organisms",
       "topic": "gas-exchange",
-      "skill_tags": ["gas-exchange"],
+      "skill_tags": [
+        "gas-exchange"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "text",
       "prompt": "What process moves oxygen from the alveoli into the blood (and CO2 the other way)?",
       "options": null,
       "answer": "diffusion",
-      "accepted": ["diffuses", "diffusing"],
+      "accepted": [
+        "diffuses",
+        "diffusing"
+      ],
       "hint": "Particles moving from high to low concentration — one word.",
       "explanation": "Diffusion is the net movement of particles from a higher concentration to a lower concentration. Oxygen is more concentrated in the alveoli than the blood, so it diffuses in. CO2 does the opposite.",
       "working_required": false,
       "estimated_seconds": 35,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Cells – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/cells/lessons"
+        },
+        {
+          "title": "Breathing and Respiration – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/breathing-and-respiration/lessons"
+        }
+      ]
     },
     {
       "id": "sci.org.gas.005",
       "subject": "science",
       "unit": "organisms",
       "topic": "gas-exchange",
-      "skill_tags": ["gas-exchange", "smoking"],
+      "skill_tags": [
+        "gas-exchange",
+        "smoking"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "Smoking damages the alveoli, often causing emphysema. Why does this make breathing harder?",
-      "options": ["The trachea collapses", "Alveoli walls break down, reducing surface area for gas exchange", "Blood stops reaching the lungs", "The diaphragm becomes paralysed"],
+      "options": [
+        "The trachea collapses",
+        "Alveoli walls break down, reducing surface area for gas exchange",
+        "Blood stops reaching the lungs",
+        "The diaphragm becomes paralysed"
+      ],
       "answer": "Alveoli walls break down, reducing surface area for gas exchange",
       "accepted": null,
       "hint": "Emphysema destroys the structure that allows efficient diffusion.",
@@ -501,19 +952,41 @@
       "working_required": false,
       "estimated_seconds": 50,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Cells – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/cells/lessons"
+        },
+        {
+          "title": "Breathing and Respiration – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/breathing-and-respiration/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.org.gas.006",
       "subject": "science",
       "unit": "organisms",
       "topic": "gas-exchange",
-      "skill_tags": ["gas-exchange", "smoking"],
+      "skill_tags": [
+        "gas-exchange",
+        "smoking"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Which substance in cigarette smoke binds to haemoglobin, reducing oxygen carried in the blood?",
-      "options": ["Tar", "Nicotine", "Carbon monoxide", "Carbon dioxide"],
+      "options": [
+        "Tar",
+        "Nicotine",
+        "Carbon monoxide",
+        "Carbon dioxide"
+      ],
       "answer": "Carbon monoxide",
       "accepted": null,
       "hint": "It's a colourless, odourless gas — also produced by faulty boilers.",
@@ -521,19 +994,41 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y8 Science KM, Unit 1 Organisms",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Cells – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/cells/lessons"
+        },
+        {
+          "title": "Breathing and Respiration – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/breathing-and-respiration/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.org.exe.001",
       "subject": "science",
       "unit": "organisms",
       "topic": "exercise",
-      "skill_tags": ["exercise", "respiration"],
+      "skill_tags": [
+        "exercise",
+        "respiration"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "Why does your heart rate increase during exercise?",
-      "options": ["To cool the body down", "To pump more blood, delivering more oxygen and glucose to muscles", "Because muscles produce heat", "To remove excess water"],
+      "options": [
+        "To cool the body down",
+        "To pump more blood, delivering more oxygen and glucose to muscles",
+        "Because muscles produce heat",
+        "To remove excess water"
+      ],
       "answer": "To pump more blood, delivering more oxygen and glucose to muscles",
       "accepted": null,
       "hint": "Muscles are respiring faster — what do they need more of?",
@@ -541,39 +1036,77 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Science KM, Unit 1 Organisms",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Human Skeleton and Muscles – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/human-skeleton-and-muscles/lessons"
+        },
+        {
+          "title": "Breathing and Respiration – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/breathing-and-respiration/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.org.exe.002",
       "subject": "science",
       "unit": "organisms",
       "topic": "exercise",
-      "skill_tags": ["exercise"],
+      "skill_tags": [
+        "exercise"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "numeric",
       "prompt": "A student's resting heart rate is 72 bpm. During exercise it rises to 144 bpm. By what factor did it increase?",
       "options": null,
       "answer": "2",
-      "accepted": ["x2", "2x", "two", "doubled"],
+      "accepted": [
+        "x2",
+        "2x",
+        "two",
+        "doubled"
+      ],
       "hint": "Divide 144 by 72.",
       "explanation": "144 ÷ 72 = 2. The heart rate doubled. Trained athletes have lower resting heart rates because their hearts pump more blood per beat (higher stroke volume).",
       "working_required": true,
       "estimated_seconds": 40,
       "source": "CHS Y8 Science KM, Unit 1 Organisms",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Human Skeleton and Muscles – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/human-skeleton-and-muscles/lessons"
+        },
+        {
+          "title": "Breathing and Respiration – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/breathing-and-respiration/lessons"
+        }
+      ]
     },
     {
       "id": "sci.org.exe.003",
       "subject": "science",
       "unit": "organisms",
       "topic": "exercise",
-      "skill_tags": ["exercise"],
+      "skill_tags": [
+        "exercise"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "Why do well-trained athletes generally have lower resting heart rates than untrained people?",
-      "options": ["Their blood carries less oxygen", "Their heart muscle is stronger and pumps more blood per beat", "They have smaller hearts", "They breathe less often"],
+      "options": [
+        "Their blood carries less oxygen",
+        "Their heart muscle is stronger and pumps more blood per beat",
+        "They have smaller hearts",
+        "They breathe less often"
+      ],
       "answer": "Their heart muscle is stronger and pumps more blood per beat",
       "accepted": null,
       "hint": "Think about what training does to the heart muscle itself.",
@@ -581,39 +1114,81 @@
       "working_required": false,
       "estimated_seconds": 45,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Human Skeleton and Muscles – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/human-skeleton-and-muscles/lessons"
+        },
+        {
+          "title": "Breathing and Respiration – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/breathing-and-respiration/lessons"
+        }
+      ]
     },
     {
       "id": "sci.org.skl.001",
       "subject": "science",
       "unit": "organisms",
       "topic": "skeleton",
-      "skill_tags": ["skeleton"],
+      "skill_tags": [
+        "skeleton"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "multi-select",
       "prompt": "Select all the functions of the human skeleton.",
-      "options": ["Support", "Protection of organs", "Movement (with muscles)", "Producing blood cells", "Digesting food", "Making hormones"],
-      "answer": ["Support", "Protection of organs", "Movement (with muscles)", "Producing blood cells"],
+      "options": [
+        "Support",
+        "Protection of organs",
+        "Movement (with muscles)",
+        "Producing blood cells",
+        "Digesting food",
+        "Making hormones"
+      ],
+      "answer": [
+        "Support",
+        "Protection of organs",
+        "Movement (with muscles)",
+        "Producing blood cells"
+      ],
       "accepted": null,
       "hint": "The skeleton holds you up, shields organs, lets you move and makes blood — it doesn't digest.",
       "explanation": "Skeleton functions: support body shape, protect organs (skull, ribs), allow movement with muscles, and make red and white blood cells in bone marrow.",
       "working_required": false,
       "estimated_seconds": 50,
       "source": "CHS Y8 Science KM, Unit 1 Organisms",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Human Skeleton and Muscles – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/human-skeleton-and-muscles/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.org.skl.002",
       "subject": "science",
       "unit": "organisms",
       "topic": "skeleton",
-      "skill_tags": ["skeleton", "muscles"],
+      "skill_tags": [
+        "skeleton",
+        "muscles"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Muscles that work in pairs across a joint are called what?",
-      "options": ["Tendons", "Antagonistic muscles", "Ligaments", "Cartilage pairs"],
+      "options": [
+        "Tendons",
+        "Antagonistic muscles",
+        "Ligaments",
+        "Cartilage pairs"
+      ],
       "answer": "Antagonistic muscles",
       "accepted": null,
       "hint": "One contracts while the other relaxes — they oppose each other.",
@@ -621,19 +1196,36 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y8 Science KM, Unit 1 Organisms",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Human Skeleton and Muscles – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/human-skeleton-and-muscles/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.org.skl.003",
       "subject": "science",
       "unit": "organisms",
       "topic": "skeleton",
-      "skill_tags": ["muscles"],
+      "skill_tags": [
+        "muscles"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Which pair of muscles works together at the elbow?",
-      "options": ["Quadriceps and hamstrings", "Biceps and triceps", "Deltoids and pectorals", "Calf and shin"],
+      "options": [
+        "Quadriceps and hamstrings",
+        "Biceps and triceps",
+        "Deltoids and pectorals",
+        "Calf and shin"
+      ],
       "answer": "Biceps and triceps",
       "accepted": null,
       "hint": "On the front and back of your upper arm.",
@@ -641,39 +1233,70 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Science KM, Unit 1 Organisms",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Human Skeleton and Muscles – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/human-skeleton-and-muscles/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.org.skl.004",
       "subject": "science",
       "unit": "organisms",
       "topic": "skeleton",
-      "skill_tags": ["skeleton"],
+      "skill_tags": [
+        "skeleton"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "text",
       "prompt": "What tough, flexible tissue attaches muscle to bone?",
       "options": null,
       "answer": "tendon",
-      "accepted": ["tendons"],
+      "accepted": [
+        "tendons"
+      ],
       "hint": "Not a ligament — that joins bone to bone.",
       "explanation": "Tendons attach muscle to bone. Ligaments are similar but join bone to bone at joints. Cartilage cushions the ends of bones.",
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Science KM, Unit 1 Organisms",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Human Skeleton and Muscles – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/human-skeleton-and-muscles/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.org.skl.005",
       "subject": "science",
       "unit": "organisms",
       "topic": "skeleton",
-      "skill_tags": ["skeleton"],
+      "skill_tags": [
+        "skeleton"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "Why is cartilage important at the ends of bones in a joint?",
-      "options": ["It produces blood cells", "It cushions and reduces friction between bones", "It contracts to move bones", "It carries nutrients to bone"],
+      "options": [
+        "It produces blood cells",
+        "It cushions and reduces friction between bones",
+        "It contracts to move bones",
+        "It carries nutrients to bone"
+      ],
       "answer": "It cushions and reduces friction between bones",
       "accepted": null,
       "hint": "Think about what would happen if bare bone rubbed against bare bone.",
@@ -681,19 +1304,36 @@
       "working_required": false,
       "estimated_seconds": 40,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Human Skeleton and Muscles – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/human-skeleton-and-muscles/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.org.skl.006",
       "subject": "science",
       "unit": "organisms",
       "topic": "skeleton",
-      "skill_tags": ["skeleton"],
+      "skill_tags": [
+        "skeleton"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "The elbow and knee are examples of which type of joint?",
-      "options": ["Ball and socket", "Hinge", "Pivot", "Fixed"],
+      "options": [
+        "Ball and socket",
+        "Hinge",
+        "Pivot",
+        "Fixed"
+      ],
       "answer": "Hinge",
       "accepted": null,
       "hint": "They only let you bend in one direction, like a door.",
@@ -701,39 +1341,80 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Science KM, Unit 1 Organisms",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Human Skeleton and Muscles – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/human-skeleton-and-muscles/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.org.cell.001",
       "subject": "science",
       "unit": "organisms",
       "topic": "cells",
-      "skill_tags": ["cells"],
+      "skill_tags": [
+        "cells"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "order",
       "prompt": "Order these from smallest to largest in size.",
-      "options": ["Organ", "Cell", "Tissue", "Organ system", "Organism"],
-      "answer": ["Cell", "Tissue", "Organ", "Organ system", "Organism"],
+      "options": [
+        "Organ",
+        "Cell",
+        "Tissue",
+        "Organ system",
+        "Organism"
+      ],
+      "answer": [
+        "Cell",
+        "Tissue",
+        "Organ",
+        "Organ system",
+        "Organism"
+      ],
       "accepted": null,
       "hint": "Cells group into tissues, tissues into organs...",
       "explanation": "Hierarchy of life: cells → tissues (groups of similar cells) → organs (different tissues working together) → organ systems → whole organism.",
       "working_required": false,
       "estimated_seconds": 45,
       "source": "CHS Y8 Science KM, Unit 1 Organisms",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Cells – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/cells/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.org.cell.002",
       "subject": "science",
       "unit": "organisms",
       "topic": "cells",
-      "skill_tags": ["cells"],
+      "skill_tags": [
+        "cells"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "Which is an example of an organ system?",
-      "options": ["The stomach", "A muscle cell", "The digestive system", "Connective tissue"],
+      "options": [
+        "The stomach",
+        "A muscle cell",
+        "The digestive system",
+        "Connective tissue"
+      ],
       "answer": "The digestive system",
       "accepted": null,
       "hint": "Look for the answer with 'system' in the name — it's a group of organs.",
@@ -741,19 +1422,37 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Science KM, Unit 1 Organisms",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Cells – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/cells/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.org.bre.001",
       "subject": "science",
       "unit": "organisms",
       "topic": "breathing",
-      "skill_tags": ["respiratory", "gas-exchange"],
+      "skill_tags": [
+        "respiratory",
+        "gas-exchange"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What is the difference between breathing and respiration?",
-      "options": ["They are the same thing", "Breathing is moving air in/out; respiration is releasing energy in cells", "Breathing happens in cells; respiration in lungs", "Breathing is only in animals; respiration in plants"],
+      "options": [
+        "They are the same thing",
+        "Breathing is moving air in/out; respiration is releasing energy in cells",
+        "Breathing happens in cells; respiration in lungs",
+        "Breathing is only in animals; respiration in plants"
+      ],
       "answer": "Breathing is moving air in/out; respiration is releasing energy in cells",
       "accepted": null,
       "hint": "One is mechanical (moving air); the other is chemical (in cells).",
@@ -761,39 +1460,77 @@
       "working_required": false,
       "estimated_seconds": 40,
       "source": "CHS Y8 Science KM, Unit 1 Organisms",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Breathing and Respiration – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/breathing-and-respiration/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        },
+        {
+          "title": "Cells – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/cells/lessons"
+        }
+      ]
     },
     {
       "id": "sci.org.bre.002",
       "subject": "science",
       "unit": "organisms",
       "topic": "breathing",
-      "skill_tags": ["respiratory"],
+      "skill_tags": [
+        "respiratory"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "numeric",
       "prompt": "Air breathed IN is about 21% oxygen. Air breathed OUT is about 16% oxygen. What percentage of the inhaled oxygen was absorbed by the body?",
       "options": null,
       "answer": "5",
-      "accepted": ["5%", "5 percent", "five"],
+      "accepted": [
+        "5%",
+        "5 percent",
+        "five"
+      ],
       "hint": "Subtract the exhaled percentage from the inhaled percentage.",
       "explanation": "21% − 16% = 5%. Around 5% of the air's oxygen is absorbed each breath. The body doesn't take all of it — there's always more O2 inhaled than is used.",
       "working_required": true,
       "estimated_seconds": 45,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Breathing and Respiration – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/breathing-and-respiration/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.org.dru.001",
       "subject": "science",
       "unit": "organisms",
       "topic": "drugs",
-      "skill_tags": ["drugs", "health"],
+      "skill_tags": [
+        "drugs",
+        "health"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Which is a long-term effect of drinking too much alcohol?",
-      "options": ["Improved memory", "Liver damage (cirrhosis)", "Stronger bones", "Increased lung capacity"],
+      "options": [
+        "Improved memory",
+        "Liver damage (cirrhosis)",
+        "Stronger bones",
+        "Increased lung capacity"
+      ],
       "answer": "Liver damage (cirrhosis)",
       "accepted": null,
       "hint": "The liver is the organ that breaks alcohol down — so it bears the damage.",
@@ -801,27 +1538,60 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Biodiversity – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/biodiversity/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        },
+        {
+          "title": "Breathing and Respiration – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/breathing-and-respiration/lessons"
+        }
+      ]
     },
     {
       "id": "sci.org.dru.002",
       "subject": "science",
       "unit": "organisms",
       "topic": "drugs",
-      "skill_tags": ["drugs", "smoking"],
+      "skill_tags": [
+        "drugs",
+        "smoking"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "text",
       "prompt": "What is the name of the addictive drug found in cigarettes?",
       "options": null,
       "answer": "nicotine",
-      "accepted": ["Nicotine"],
+      "accepted": [
+        "Nicotine"
+      ],
       "hint": "Starts with N — it's why people get hooked.",
       "explanation": "Nicotine is the addictive chemical in tobacco. It's also a stimulant — speeding up heart rate and raising blood pressure.",
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Science KM, Unit 1 Organisms",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Biodiversity – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/biodiversity/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        },
+        {
+          "title": "Breathing and Respiration – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/breathing-and-respiration/lessons"
+        }
+      ]
     }
   ]
 }

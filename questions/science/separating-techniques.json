@@ -8,12 +8,20 @@
       "subject": "science",
       "unit": "separating-techniques",
       "topic": "mixtures",
-      "skill_tags": ["mixtures", "separating"],
+      "skill_tags": [
+        "mixtures",
+        "separating"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "What is a mixture?",
-      "options": ["Two or more substances chemically bonded together", "Two or more substances mixed but not chemically joined", "A single pure substance", "A compound only"],
+      "options": [
+        "Two or more substances chemically bonded together",
+        "Two or more substances mixed but not chemically joined",
+        "A single pure substance",
+        "A compound only"
+      ],
       "answer": "Two or more substances mixed but not chemically joined",
       "accepted": null,
       "hint": "Can it be separated without a chemical reaction?",
@@ -21,19 +29,41 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y7 Science KM, Summer Term — Separating Techniques",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Separation Techniques – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/separation-techniques/lessons"
+        },
+        {
+          "title": "Solutions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/solutions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.st.fil.001",
       "subject": "science",
       "unit": "separating-techniques",
       "topic": "filtration",
-      "skill_tags": ["filtration", "separating"],
+      "skill_tags": [
+        "filtration",
+        "separating"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "Which separation technique would best separate sand from water?",
-      "options": ["Evaporation", "Filtration", "Distillation", "Chromatography"],
+      "options": [
+        "Evaporation",
+        "Filtration",
+        "Distillation",
+        "Chromatography"
+      ],
       "answer": "Filtration",
       "accepted": null,
       "hint": "Sand is insoluble — what would catch it?",
@@ -41,39 +71,71 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y7 Science KM, Summer Term — Separating Techniques",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Separation Techniques – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/separation-techniques/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.st.fil.002",
       "subject": "science",
       "unit": "separating-techniques",
       "topic": "filtration",
-      "skill_tags": ["filtration"],
+      "skill_tags": [
+        "filtration"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "text",
       "prompt": "When filtering, what name is given to the liquid that passes through the filter paper?",
       "options": null,
       "answer": "filtrate",
-      "accepted": ["the filtrate"],
+      "accepted": [
+        "the filtrate"
+      ],
       "hint": "Starts with 'filt-'.",
       "explanation": "Filtrate = the liquid that passes through. Residue = the solid left on the paper. The two terms get muddled — remember 'filtrate flows'.",
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y7 Science KM, Summer Term — Separating Techniques",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Separation Techniques – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/separation-techniques/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.st.evp.001",
       "subject": "science",
       "unit": "separating-techniques",
       "topic": "evaporation",
-      "skill_tags": ["evaporation", "separating"],
+      "skill_tags": [
+        "evaporation",
+        "separating"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "How would you separate salt from a salt-water solution if you only want the salt?",
-      "options": ["Filtration", "Evaporation (let the water evaporate)", "Distillation", "Chromatography"],
+      "options": [
+        "Filtration",
+        "Evaporation (let the water evaporate)",
+        "Distillation",
+        "Chromatography"
+      ],
       "answer": "Evaporation (let the water evaporate)",
       "accepted": null,
       "hint": "Filtering won't work — the salt is dissolved. You don't need the water back.",
@@ -81,19 +143,37 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y7 Science KM, Summer Term — Separating Techniques",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Separation Techniques – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/separation-techniques/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.st.dis.001",
       "subject": "science",
       "unit": "separating-techniques",
       "topic": "distillation",
-      "skill_tags": ["distillation", "separating"],
+      "skill_tags": [
+        "distillation",
+        "separating"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Which technique separates a liquid from a solution and keeps BOTH the solvent (e.g. water) and the solute (e.g. salt)?",
-      "options": ["Filtration", "Evaporation", "Simple distillation", "Chromatography"],
+      "options": [
+        "Filtration",
+        "Evaporation",
+        "Simple distillation",
+        "Chromatography"
+      ],
       "answer": "Simple distillation",
       "accepted": null,
       "hint": "Evaporation loses the water. We want it back.",
@@ -101,19 +181,36 @@
       "working_required": false,
       "estimated_seconds": 45,
       "source": "CHS Y7 Science KM, Summer Term — Separating Techniques",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Separation Techniques – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/separation-techniques/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.st.dis.002",
       "subject": "science",
       "unit": "separating-techniques",
       "topic": "distillation",
-      "skill_tags": ["distillation"],
+      "skill_tags": [
+        "distillation"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "Which technique would best separate ethanol from water (which boil at different temperatures)?",
-      "options": ["Filtration", "Fractional distillation", "Magnetism", "Chromatography"],
+      "options": [
+        "Filtration",
+        "Fractional distillation",
+        "Magnetism",
+        "Chromatography"
+      ],
       "answer": "Fractional distillation",
       "accepted": null,
       "hint": "Both are liquids that mix together — you need a method that uses boiling points.",
@@ -121,19 +218,37 @@
       "working_required": false,
       "estimated_seconds": 50,
       "source": "CHS Y7 Science KM, Summer Term — Separating Techniques",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Separation Techniques – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/separation-techniques/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.st.chr.001",
       "subject": "science",
       "unit": "separating-techniques",
       "topic": "chromatography",
-      "skill_tags": ["chromatography", "separating"],
+      "skill_tags": [
+        "chromatography",
+        "separating"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Chromatography is used to separate which kind of mixture?",
-      "options": ["Sand and water", "Different coloured dyes or inks", "Salt and water", "Sand and iron filings"],
+      "options": [
+        "Sand and water",
+        "Different coloured dyes or inks",
+        "Salt and water",
+        "Sand and iron filings"
+      ],
       "answer": "Different coloured dyes or inks",
       "accepted": null,
       "hint": "Think about putting a felt-tip dot on filter paper and dipping it in water.",
@@ -141,19 +256,36 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y7 Science KM, Summer Term — Separating Techniques",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Separation Techniques – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/separation-techniques/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.st.chr.002",
       "subject": "science",
       "unit": "separating-techniques",
       "topic": "chromatography",
-      "skill_tags": ["chromatography"],
+      "skill_tags": [
+        "chromatography"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "On a chromatogram, which type of dye travels the FURTHEST up the paper?",
-      "options": ["The heaviest", "The most soluble in the solvent used", "The least soluble in the solvent", "The darkest in colour"],
+      "options": [
+        "The heaviest",
+        "The most soluble in the solvent used",
+        "The least soluble in the solvent",
+        "The darkest in colour"
+      ],
       "answer": "The most soluble in the solvent used",
       "accepted": null,
       "hint": "Solubility — the more soluble, the more easily it's carried by the moving solvent.",
@@ -161,19 +293,37 @@
       "working_required": false,
       "estimated_seconds": 50,
       "source": "CHS Y7 Science KM, Summer Term — Separating Techniques",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Separation Techniques – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/separation-techniques/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.st.terms.001",
       "subject": "science",
       "unit": "separating-techniques",
       "topic": "solutions",
-      "skill_tags": ["mixtures", "solutions"],
+      "skill_tags": [
+        "mixtures",
+        "solutions"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "In a salt-water solution, what is the SOLUTE?",
-      "options": ["Salt", "Water", "Both", "Neither"],
+      "options": [
+        "Salt",
+        "Water",
+        "Both",
+        "Neither"
+      ],
       "answer": "Salt",
       "accepted": null,
       "hint": "Solute = the substance that dissolves.",
@@ -181,39 +331,77 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y7 Science KM, Summer Term — Separating Techniques",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Separation Techniques – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/separation-techniques/lessons"
+        },
+        {
+          "title": "Solutions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/solutions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.st.terms.002",
       "subject": "science",
       "unit": "separating-techniques",
       "topic": "solutions",
-      "skill_tags": ["solutions"],
+      "skill_tags": [
+        "solutions"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "text",
       "prompt": "What is the SOLVENT in a sugar-water solution?",
       "options": null,
       "answer": "water",
-      "accepted": ["the water", "H2O", "H₂O"],
+      "accepted": [
+        "the water",
+        "H2O",
+        "H₂O"
+      ],
       "hint": "The solvent does the dissolving.",
       "explanation": "Water is the solvent — it dissolves the sugar (the solute). Water is called the 'universal solvent' because it dissolves so many substances.",
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y7 Science KM, Summer Term — Separating Techniques",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Solutions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/solutions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.st.terms.003",
       "subject": "science",
       "unit": "separating-techniques",
       "topic": "solutions",
-      "skill_tags": ["solutions", "solubility"],
+      "skill_tags": [
+        "solutions",
+        "solubility"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What does it mean if a substance is 'insoluble' in water?",
-      "options": ["It dissolves completely", "It dissolves a little bit", "It does not dissolve", "It reacts with the water"],
+      "options": [
+        "It dissolves completely",
+        "It dissolves a little bit",
+        "It does not dissolve",
+        "It reacts with the water"
+      ],
       "answer": "It does not dissolve",
       "accepted": null,
       "hint": "'In-' means 'not'.",
@@ -221,19 +409,36 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y7 Science KM, Summer Term — Separating Techniques",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Solutions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/solutions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.st.app.001",
       "subject": "science",
       "unit": "separating-techniques",
       "topic": "applications",
-      "skill_tags": ["separating"],
+      "skill_tags": [
+        "separating"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "A student has a mixture of sand, salt, and water. Which sequence of techniques would separate all three?",
-      "options": ["Distill, then filter", "Filter (to remove sand), then evaporate the water (to get salt)", "Just evaporate", "Chromatography only"],
+      "options": [
+        "Distill, then filter",
+        "Filter (to remove sand), then evaporate the water (to get salt)",
+        "Just evaporate",
+        "Chromatography only"
+      ],
       "answer": "Filter (to remove sand), then evaporate the water (to get salt)",
       "accepted": null,
       "hint": "Get rid of the insoluble bit first, then deal with the dissolved bit.",
@@ -241,19 +446,36 @@
       "working_required": false,
       "estimated_seconds": 60,
       "source": "CHS Y7 Science KM, Summer Term — Separating Techniques",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Separation Techniques – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/separation-techniques/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.st.app.002",
       "subject": "science",
       "unit": "separating-techniques",
       "topic": "applications",
-      "skill_tags": ["separating"],
+      "skill_tags": [
+        "separating"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "How could you separate a mixture of iron filings and sand?",
-      "options": ["Filtration", "Use a magnet", "Distillation", "Evaporation"],
+      "options": [
+        "Filtration",
+        "Use a magnet",
+        "Distillation",
+        "Evaporation"
+      ],
       "answer": "Use a magnet",
       "accepted": null,
       "hint": "One of them is magnetic.",
@@ -261,39 +483,73 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y7 Science KM, Summer Term — Separating Techniques",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Separation Techniques – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/separation-techniques/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.st.app.003",
       "subject": "science",
       "unit": "separating-techniques",
       "topic": "applications",
-      "skill_tags": ["distillation", "separating"],
+      "skill_tags": [
+        "distillation",
+        "separating"
+      ],
       "tier": "deepen",
       "difficulty": 5,
       "type": "text",
       "prompt": "Seawater contains salt dissolved in water. Which separation technique would you use to produce DRINKABLE water from seawater?",
       "options": null,
       "answer": "distillation",
-      "accepted": ["simple distillation", "distill", "distilling"],
+      "accepted": [
+        "simple distillation",
+        "distill",
+        "distilling"
+      ],
       "hint": "You want to keep the water, not the salt.",
       "explanation": "Distillation evaporates water from seawater and condenses it back as pure liquid — the salt is left behind. Used in desalination plants in places like the Middle East.",
       "working_required": false,
       "estimated_seconds": 45,
       "source": "CHS Y7 Science KM, Summer Term — Separating Techniques",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Separation Techniques – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/separation-techniques/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.st.app.004",
       "subject": "science",
       "unit": "separating-techniques",
       "topic": "applications",
-      "skill_tags": ["chromatography"],
+      "skill_tags": [
+        "chromatography"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "A black ink is tested using paper chromatography. Three coloured spots appear above the original line. What can you conclude?",
-      "options": ["The ink is a pure substance", "The ink is a mixture of at least three different dyes", "The paper is contaminated", "The ink contains exactly three atoms"],
+      "options": [
+        "The ink is a pure substance",
+        "The ink is a mixture of at least three different dyes",
+        "The paper is contaminated",
+        "The ink contains exactly three atoms"
+      ],
       "answer": "The ink is a mixture of at least three different dyes",
       "accepted": null,
       "hint": "If it was pure, only one spot would appear.",
@@ -301,7 +557,17 @@
       "working_required": false,
       "estimated_seconds": 50,
       "source": "CHS Y7 Science KM, Summer Term — Separating Techniques",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Separation Techniques – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/separation-techniques/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     }
   ]
 }

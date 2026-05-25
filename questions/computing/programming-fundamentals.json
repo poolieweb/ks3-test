@@ -8,12 +8,19 @@
       "subject": "computing",
       "unit": "programming-fundamentals",
       "topic": "programming-fundamentals",
-      "skill_tags": ["programming-languages"],
+      "skill_tags": [
+        "programming-languages"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "mcq",
       "prompt": "Which type of programming language can a computer's CPU run directly, without any translation?",
-      "options": ["High-level language", "Assembly language", "Machine code", "Pseudocode"],
+      "options": [
+        "High-level language",
+        "Assembly language",
+        "Machine code",
+        "Pseudocode"
+      ],
       "answer": "Machine code",
       "accepted": null,
       "hint": "It's the only one written in pure 1s and 0s.",
@@ -21,19 +28,36 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Computing KM, Unit 2",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Python Programming – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-python-programming/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.pf.lang.002",
       "subject": "computing",
       "unit": "programming-fundamentals",
       "topic": "programming-fundamentals",
-      "skill_tags": ["programming-languages"],
+      "skill_tags": [
+        "programming-languages"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "mcq",
       "prompt": "Python is an example of which type of programming language?",
-      "options": ["Machine code", "Assembly language", "High-level language", "Binary"],
+      "options": [
+        "Machine code",
+        "Assembly language",
+        "High-level language",
+        "Binary"
+      ],
       "answer": "High-level language",
       "accepted": null,
       "hint": "It uses readable English-like words and is far from hardware.",
@@ -41,39 +65,76 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Computing KM, Unit 2",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Python Programming – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-python-programming/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.pf.lang.003",
       "subject": "computing",
       "unit": "programming-fundamentals",
       "topic": "programming-fundamentals",
-      "skill_tags": ["programming-languages"],
+      "skill_tags": [
+        "programming-languages"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "order",
       "prompt": "Put these languages in order from CLOSEST to the hardware (most low-level) to FURTHEST from the hardware (most high-level).",
-      "options": ["High-level language (Python)", "Machine code", "Assembly language"],
-      "answer": ["Machine code", "Assembly language", "High-level language (Python)"],
+      "options": [
+        "High-level language (Python)",
+        "Machine code",
+        "Assembly language"
+      ],
+      "answer": [
+        "Machine code",
+        "Assembly language",
+        "High-level language (Python)"
+      ],
       "accepted": null,
       "hint": "Machine code is what the CPU actually runs.",
       "explanation": "Machine code is closest to hardware (pure binary). Assembly uses short mnemonics for each CPU instruction. High-level languages like Python are furthest from hardware and easiest for humans.",
       "working_required": false,
       "estimated_seconds": 45,
       "source": "CHS Y8 Computing KM, Unit 2",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Python Programming – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-python-programming/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.pf.lang.004",
       "subject": "computing",
       "unit": "programming-fundamentals",
       "topic": "programming-fundamentals",
-      "skill_tags": ["programming-languages"],
+      "skill_tags": [
+        "programming-languages"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "Why do most programmers write code in high-level languages rather than machine code?",
-      "options": ["High-level code runs faster on the CPU", "High-level code is easier for humans to read and write", "Machine code does not exist any more", "High-level code uses less memory"],
+      "options": [
+        "High-level code runs faster on the CPU",
+        "High-level code is easier for humans to read and write",
+        "Machine code does not exist any more",
+        "High-level code uses less memory"
+      ],
       "answer": "High-level code is easier for humans to read and write",
       "accepted": null,
       "hint": "Think about what a wall of 1s and 0s looks like to a person.",
@@ -81,19 +142,36 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Computing KM, Unit 2",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Python Programming – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-python-programming/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.pf.cmp.005",
       "subject": "computing",
       "unit": "programming-fundamentals",
       "topic": "programming-fundamentals",
-      "skill_tags": ["compilers"],
+      "skill_tags": [
+        "compilers"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "What is the job of a compiler?",
-      "options": ["To run code one line at a time", "To translate an entire high-level program into machine code before it runs", "To find spelling mistakes in code", "To connect a program to the internet"],
+      "options": [
+        "To run code one line at a time",
+        "To translate an entire high-level program into machine code before it runs",
+        "To find spelling mistakes in code",
+        "To connect a program to the internet"
+      ],
       "answer": "To translate an entire high-level program into machine code before it runs",
       "accepted": null,
       "hint": "It does the whole translation in one big batch.",
@@ -101,19 +179,36 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Computing KM, Unit 2",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Python Programming – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-python-programming/lessons"
+        },
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        }
+      ]
     },
     {
       "id": "cmp.pf.cmp.006",
       "subject": "computing",
       "unit": "programming-fundamentals",
       "topic": "programming-fundamentals",
-      "skill_tags": ["compilers"],
+      "skill_tags": [
+        "compilers"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "What is the main difference between a compiler and an interpreter?",
-      "options": ["A compiler is faster to type than an interpreter", "An interpreter translates and runs code one line at a time; a compiler translates the whole program first", "An interpreter is only for games", "A compiler only works on phones"],
+      "options": [
+        "A compiler is faster to type than an interpreter",
+        "An interpreter translates and runs code one line at a time; a compiler translates the whole program first",
+        "An interpreter is only for games",
+        "A compiler only works on phones"
+      ],
       "answer": "An interpreter translates and runs code one line at a time; a compiler translates the whole program first",
       "accepted": null,
       "hint": "One does it all at once, the other line by line.",
@@ -121,19 +216,36 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y8 Computing KM, Unit 2",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Python Programming – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-python-programming/lessons"
+        },
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        }
+      ]
     },
     {
       "id": "cmp.pf.cmp.007",
       "subject": "computing",
       "unit": "programming-fundamentals",
       "topic": "programming-fundamentals",
-      "skill_tags": ["compilers"],
+      "skill_tags": [
+        "compilers"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Python normally uses which type of translator?",
-      "options": ["A compiler", "An interpreter", "An assembler", "A debugger"],
+      "options": [
+        "A compiler",
+        "An interpreter",
+        "An assembler",
+        "A debugger"
+      ],
       "answer": "An interpreter",
       "accepted": null,
       "hint": "Python runs your code line-by-line as you type it.",
@@ -141,59 +253,115 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Computing KM, Unit 2",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Python Programming – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-python-programming/lessons"
+        },
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        }
+      ]
     },
     {
       "id": "cmp.pf.ide.008",
       "subject": "computing",
       "unit": "programming-fundamentals",
       "topic": "programming-fundamentals",
-      "skill_tags": ["ide"],
+      "skill_tags": [
+        "ide"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "text",
       "prompt": "In computing, what does the abbreviation 'IDE' stand for?",
       "options": null,
       "answer": "Integrated Development Environment",
-      "accepted": ["integrated development environment", "Integrated development environment", "integrated-development-environment"],
+      "accepted": [
+        "integrated development environment",
+        "Integrated development environment",
+        "integrated-development-environment"
+      ],
       "hint": "Integrated... Development... E_________?",
       "explanation": "IDE stands for Integrated Development Environment — a single program that combines all the tools a programmer needs: editor, translator, debugger, and runner.",
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Computing KM, Unit 2",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Python Programming – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-python-programming/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.pf.ide.009",
       "subject": "computing",
       "unit": "programming-fundamentals",
       "topic": "programming-fundamentals",
-      "skill_tags": ["ide"],
+      "skill_tags": [
+        "ide"
+      ],
       "tier": "strengthen",
       "difficulty": 2,
       "type": "multi-select",
       "prompt": "Which of these are tools typically built into an IDE? (Select all that apply.)",
-      "options": ["Code editor", "Debugger", "Run/Play button", "Spreadsheet", "Translator (compiler or interpreter)"],
-      "answer": ["Code editor", "Debugger", "Run/Play button", "Translator (compiler or interpreter)"],
+      "options": [
+        "Code editor",
+        "Debugger",
+        "Run/Play button",
+        "Spreadsheet",
+        "Translator (compiler or interpreter)"
+      ],
+      "answer": [
+        "Code editor",
+        "Debugger",
+        "Run/Play button",
+        "Translator (compiler or interpreter)"
+      ],
       "accepted": null,
       "hint": "An IDE has everything to write, translate, run and fix code — but not data tables.",
       "explanation": "IDEs combine an editor, a translator (compiler/interpreter), a runner and a debugger in one place. Spreadsheets are not part of an IDE.",
       "working_required": false,
       "estimated_seconds": 45,
       "source": "CHS Y8 Computing KM, Unit 2",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Python Programming – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-python-programming/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.pf.cst.010",
       "subject": "computing",
       "unit": "programming-fundamentals",
       "topic": "programming-fundamentals",
-      "skill_tags": ["sequence"],
+      "skill_tags": [
+        "sequence"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "mcq",
       "prompt": "Which programming construct means running instructions one after another, in the order they are written?",
-      "options": ["Sequence", "Selection", "Iteration", "Abstraction"],
+      "options": [
+        "Sequence",
+        "Selection",
+        "Iteration",
+        "Abstraction"
+      ],
       "answer": "Sequence",
       "accepted": null,
       "hint": "Step 1, then Step 2, then Step 3...",
@@ -201,19 +369,36 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Computing KM, Unit 2",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Python Programming – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-python-programming/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.pf.cst.011",
       "subject": "computing",
       "unit": "programming-fundamentals",
       "topic": "programming-fundamentals",
-      "skill_tags": ["selection"],
+      "skill_tags": [
+        "selection"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "mcq",
       "prompt": "Which programming construct lets a program choose between different paths using IF statements?",
-      "options": ["Sequence", "Selection", "Iteration", "Variable"],
+      "options": [
+        "Sequence",
+        "Selection",
+        "Iteration",
+        "Variable"
+      ],
       "answer": "Selection",
       "accepted": null,
       "hint": "It selects which branch to follow based on a condition.",
@@ -221,19 +406,36 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Computing KM, Unit 2",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Python Programming – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-python-programming/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.pf.cst.012",
       "subject": "computing",
       "unit": "programming-fundamentals",
       "topic": "programming-fundamentals",
-      "skill_tags": ["iteration"],
+      "skill_tags": [
+        "iteration"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "mcq",
       "prompt": "Which programming construct repeats a block of code (a loop)?",
-      "options": ["Sequence", "Selection", "Iteration", "Input"],
+      "options": [
+        "Sequence",
+        "Selection",
+        "Iteration",
+        "Input"
+      ],
       "answer": "Iteration",
       "accepted": null,
       "hint": "Another word for 'looping' or 'repeating'.",
@@ -241,19 +443,38 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Computing KM, Unit 2",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Python Programming – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-python-programming/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.pf.cst.013",
       "subject": "computing",
       "unit": "programming-fundamentals",
       "topic": "programming-fundamentals",
-      "skill_tags": ["selection", "iteration", "sequence"],
+      "skill_tags": [
+        "selection",
+        "iteration",
+        "sequence"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "A program asks the user for a password and keeps asking until they get it right. Which construct is the main one being used to keep asking?",
-      "options": ["Sequence", "Selection", "Iteration", "Variable"],
+      "options": [
+        "Sequence",
+        "Selection",
+        "Iteration",
+        "Variable"
+      ],
       "answer": "Iteration",
       "accepted": null,
       "hint": "The 'keeps asking' part is the clue — it's a loop.",
@@ -261,39 +482,79 @@
       "working_required": false,
       "estimated_seconds": 40,
       "source": "CHS Y8 Computing KM, Unit 2",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Python Programming – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-python-programming/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.pf.cst.014",
       "subject": "computing",
       "unit": "programming-fundamentals",
       "topic": "programming-fundamentals",
-      "skill_tags": ["selection", "iteration", "sequence"],
+      "skill_tags": [
+        "selection",
+        "iteration",
+        "sequence"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "multi-select",
       "prompt": "A game shows a welcome message, asks the player's name, then keeps asking them to guess a number until they get it right. Which constructs does it use? (Select all that apply.)",
-      "options": ["Sequence", "Selection", "Iteration", "Compilation"],
-      "answer": ["Sequence", "Selection", "Iteration"],
+      "options": [
+        "Sequence",
+        "Selection",
+        "Iteration",
+        "Compilation"
+      ],
+      "answer": [
+        "Sequence",
+        "Selection",
+        "Iteration"
+      ],
       "accepted": null,
       "hint": "All three of the main programming constructs are in there.",
       "explanation": "Sequence runs the welcome and name steps in order. Selection checks whether each guess is right. Iteration keeps asking until the guess is correct.",
       "working_required": false,
       "estimated_seconds": 50,
       "source": "CHS Y8 Computing KM, Unit 2",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Python Programming – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-python-programming/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.pf.var.015",
       "subject": "computing",
       "unit": "programming-fundamentals",
       "topic": "programming-fundamentals",
-      "skill_tags": ["variables"],
+      "skill_tags": [
+        "variables"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "mcq",
       "prompt": "What is a variable in a program?",
-      "options": ["A named container that stores a value which can change", "A type of loop", "A built-in command", "A piece of hardware"],
+      "options": [
+        "A named container that stores a value which can change",
+        "A type of loop",
+        "A built-in command",
+        "A piece of hardware"
+      ],
       "answer": "A named container that stores a value which can change",
       "accepted": null,
       "hint": "Think of a labelled box that you can put things into and swap out later.",
@@ -301,14 +562,26 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Computing KM, Unit 2",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Python Programming – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-python-programming/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.pf.var.016",
       "subject": "computing",
       "unit": "programming-fundamentals",
       "topic": "programming-fundamentals",
-      "skill_tags": ["variables"],
+      "skill_tags": [
+        "variables"
+      ],
       "tier": "strengthen",
       "difficulty": 2,
       "type": "numeric",
@@ -321,14 +594,26 @@
       "working_required": true,
       "estimated_seconds": 40,
       "source": "CHS Y8 Computing KM, Unit 2",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Python Programming – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-python-programming/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.pf.var.017",
       "subject": "computing",
       "unit": "programming-fundamentals",
       "topic": "programming-fundamentals",
-      "skill_tags": ["variables"],
+      "skill_tags": [
+        "variables"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "numeric",
@@ -341,19 +626,36 @@
       "working_required": true,
       "estimated_seconds": 50,
       "source": "CHS Y8 Computing KM, Unit 2",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Python Programming – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-python-programming/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.pf.io.018",
       "subject": "computing",
       "unit": "programming-fundamentals",
       "topic": "programming-fundamentals",
-      "skill_tags": ["input-output"],
+      "skill_tags": [
+        "input-output"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "mcq",
       "prompt": "Which Python instruction is used to get a value typed in by the user?",
-      "options": ["print()", "input()", "if()", "loop()"],
+      "options": [
+        "print()",
+        "input()",
+        "if()",
+        "loop()"
+      ],
       "answer": "input()",
       "accepted": null,
       "hint": "The clue is in the name.",
@@ -361,19 +663,36 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Computing KM, Unit 2",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.pf.io.019",
       "subject": "computing",
       "unit": "programming-fundamentals",
       "topic": "programming-fundamentals",
-      "skill_tags": ["input-output"],
+      "skill_tags": [
+        "input-output"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "mcq",
       "prompt": "Which Python instruction shows a message on the screen?",
-      "options": ["input()", "show()", "print()", "display()"],
+      "options": [
+        "input()",
+        "show()",
+        "print()",
+        "display()"
+      ],
       "answer": "print()",
       "accepted": null,
       "hint": "Despite the name, nothing comes out of a printer.",
@@ -381,39 +700,77 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Computing KM, Unit 2",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.pf.io.020",
       "subject": "computing",
       "unit": "programming-fundamentals",
       "topic": "programming-fundamentals",
-      "skill_tags": ["input-output", "variables"],
+      "skill_tags": [
+        "input-output",
+        "variables"
+      ],
       "tier": "strengthen",
       "difficulty": 2,
       "type": "text",
       "prompt": "Fill in the blank Python instruction so the program asks the user for their name and stores it in a variable called name.\n\nname = ______(\"What is your name? \")",
       "options": null,
       "answer": "input",
-      "accepted": ["INPUT", "Input", "input()"],
+      "accepted": [
+        "INPUT",
+        "Input",
+        "input()"
+      ],
       "hint": "It's the Python keyword used to get user input.",
       "explanation": "input() prompts the user and returns whatever they type, which gets stored in the variable name.",
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Computing KM, Unit 2",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        },
+        {
+          "title": "Introduction to Python Programming – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-python-programming/lessons"
+        }
+      ]
     },
     {
       "id": "cmp.pf.psc.021",
       "subject": "computing",
       "unit": "programming-fundamentals",
       "topic": "programming-fundamentals",
-      "skill_tags": ["pseudocode"],
+      "skill_tags": [
+        "pseudocode"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "mcq",
       "prompt": "What is pseudocode?",
-      "options": ["A real programming language used only by professionals", "A way of writing algorithms in plain, structured English that isn't run by a computer", "A type of compiler", "A computer virus"],
+      "options": [
+        "A real programming language used only by professionals",
+        "A way of writing algorithms in plain, structured English that isn't run by a computer",
+        "A type of compiler",
+        "A computer virus"
+      ],
       "answer": "A way of writing algorithms in plain, structured English that isn't run by a computer",
       "accepted": null,
       "hint": "'Pseudo' means 'fake' — it's fake code for humans to read.",
@@ -421,39 +778,79 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Computing KM, Unit 2",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Python Programming – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-python-programming/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.pf.psc.022",
       "subject": "computing",
       "unit": "programming-fundamentals",
       "topic": "programming-fundamentals",
-      "skill_tags": ["pseudocode"],
+      "skill_tags": [
+        "pseudocode"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "order",
       "prompt": "Put these pseudocode lines in the correct order to make a program that asks for the user's age and tells them whether they are an adult.",
-      "options": ["IF age >= 18 THEN OUTPUT 'Adult'", "INPUT age", "OUTPUT 'Please enter your age'", "ELSE OUTPUT 'Not an adult yet'"],
-      "answer": ["OUTPUT 'Please enter your age'", "INPUT age", "IF age >= 18 THEN OUTPUT 'Adult'", "ELSE OUTPUT 'Not an adult yet'"],
+      "options": [
+        "IF age >= 18 THEN OUTPUT 'Adult'",
+        "INPUT age",
+        "OUTPUT 'Please enter your age'",
+        "ELSE OUTPUT 'Not an adult yet'"
+      ],
+      "answer": [
+        "OUTPUT 'Please enter your age'",
+        "INPUT age",
+        "IF age >= 18 THEN OUTPUT 'Adult'",
+        "ELSE OUTPUT 'Not an adult yet'"
+      ],
       "accepted": null,
       "hint": "Prompt first, get the input, then decide.",
       "explanation": "First we prompt the user, then read their answer, then use selection (IF/ELSE) to decide what to print.",
       "working_required": false,
       "estimated_seconds": 60,
       "source": "CHS Y8 Computing KM, Unit 2",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Python Programming – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-python-programming/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.pf.psc.023",
       "subject": "computing",
       "unit": "programming-fundamentals",
       "topic": "programming-fundamentals",
-      "skill_tags": ["pseudocode", "selection"],
+      "skill_tags": [
+        "pseudocode",
+        "selection"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "Look at this pseudocode:\n\nINPUT number\nIF number > 10 THEN\n    OUTPUT 'Big'\nELSE\n    OUTPUT 'Small'\nENDIF\n\nWhat will be displayed if the user enters 7?",
-      "options": ["Big", "Small", "Nothing", "Error"],
+      "options": [
+        "Big",
+        "Small",
+        "Nothing",
+        "Error"
+      ],
       "answer": "Small",
       "accepted": null,
       "hint": "Is 7 greater than 10? Follow the ELSE branch.",
@@ -461,19 +858,36 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y8 Computing KM, Unit 2",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Python Programming – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-python-programming/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.pf.flo.024",
       "subject": "computing",
       "unit": "programming-fundamentals",
       "topic": "programming-fundamentals",
-      "skill_tags": ["flowcharts"],
+      "skill_tags": [
+        "flowcharts"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "mcq",
       "prompt": "On a flowchart, which shape is used for START and STOP?",
-      "options": ["Rectangle", "Oval (rounded ends)", "Diamond", "Parallelogram"],
+      "options": [
+        "Rectangle",
+        "Oval (rounded ends)",
+        "Diamond",
+        "Parallelogram"
+      ],
       "answer": "Oval (rounded ends)",
       "accepted": null,
       "hint": "It's the only shape with curved ends.",
@@ -481,19 +895,36 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Computing KM, Unit 2",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Python Programming – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-python-programming/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.pf.flo.025",
       "subject": "computing",
       "unit": "programming-fundamentals",
       "topic": "programming-fundamentals",
-      "skill_tags": ["flowcharts"],
+      "skill_tags": [
+        "flowcharts"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "mcq",
       "prompt": "On a flowchart, which shape is used for a PROCESS (an instruction or calculation)?",
-      "options": ["Oval", "Rectangle", "Diamond", "Circle"],
+      "options": [
+        "Oval",
+        "Rectangle",
+        "Diamond",
+        "Circle"
+      ],
       "answer": "Rectangle",
       "accepted": null,
       "hint": "A plain four-sided box.",
@@ -501,19 +932,37 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Computing KM, Unit 2",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Python Programming – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-python-programming/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.pf.flo.026",
       "subject": "computing",
       "unit": "programming-fundamentals",
       "topic": "programming-fundamentals",
-      "skill_tags": ["flowcharts", "selection"],
+      "skill_tags": [
+        "flowcharts",
+        "selection"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "On a flowchart, which shape is used for a DECISION (a yes/no or true/false question)?",
-      "options": ["Oval", "Rectangle", "Diamond", "Parallelogram"],
+      "options": [
+        "Oval",
+        "Rectangle",
+        "Diamond",
+        "Parallelogram"
+      ],
       "answer": "Diamond",
       "accepted": null,
       "hint": "It has four points and usually has two arrows leaving it (Yes/No).",
@@ -521,19 +970,37 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Computing KM, Unit 2",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Python Programming – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-python-programming/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.pf.flo.027",
       "subject": "computing",
       "unit": "programming-fundamentals",
       "topic": "programming-fundamentals",
-      "skill_tags": ["flowcharts", "input-output"],
+      "skill_tags": [
+        "flowcharts",
+        "input-output"
+      ],
       "tier": "strengthen",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "On a flowchart, which shape is usually used for INPUT and OUTPUT?",
-      "options": ["Diamond", "Parallelogram (slanted rectangle)", "Oval", "Circle"],
+      "options": [
+        "Diamond",
+        "Parallelogram (slanted rectangle)",
+        "Oval",
+        "Circle"
+      ],
       "answer": "Parallelogram (slanted rectangle)",
       "accepted": null,
       "hint": "It's like a rectangle pushed sideways.",
@@ -541,19 +1008,40 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Computing KM, Unit 2",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Python Programming – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-python-programming/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        },
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        }
+      ]
     },
     {
       "id": "cmp.pf.flo.028",
       "subject": "computing",
       "unit": "programming-fundamentals",
       "topic": "programming-fundamentals",
-      "skill_tags": ["flowcharts"],
+      "skill_tags": [
+        "flowcharts"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Why do flowchart diamonds (decisions) usually have exactly two arrows leaving them?",
-      "options": ["Because they always check for the number 2", "Because they ask a yes/no question, so there is one arrow for Yes and one for No", "Because they always lead to STOP", "It's just decoration"],
+      "options": [
+        "Because they always check for the number 2",
+        "Because they ask a yes/no question, so there is one arrow for Yes and one for No",
+        "Because they always lead to STOP",
+        "It's just decoration"
+      ],
       "answer": "Because they ask a yes/no question, so there is one arrow for Yes and one for No",
       "accepted": null,
       "hint": "What kind of question gets a Yes or No answer?",
@@ -561,39 +1049,81 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y8 Computing KM, Unit 2",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Python Programming – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-python-programming/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.pf.flo.029",
       "subject": "computing",
       "unit": "programming-fundamentals",
       "topic": "programming-fundamentals",
-      "skill_tags": ["flowcharts"],
+      "skill_tags": [
+        "flowcharts"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "order",
       "prompt": "You are drawing a flowchart for: 'Ask the user for a number, then display it doubled'. Put the shapes in the order they should appear from top to bottom.",
-      "options": ["Rectangle: 'doubled = number * 2'", "Parallelogram: 'INPUT number'", "Oval: 'START'", "Oval: 'STOP'", "Parallelogram: 'OUTPUT doubled'"],
-      "answer": ["Oval: 'START'", "Parallelogram: 'INPUT number'", "Rectangle: 'doubled = number * 2'", "Parallelogram: 'OUTPUT doubled'", "Oval: 'STOP'"],
+      "options": [
+        "Rectangle: 'doubled = number * 2'",
+        "Parallelogram: 'INPUT number'",
+        "Oval: 'START'",
+        "Oval: 'STOP'",
+        "Parallelogram: 'OUTPUT doubled'"
+      ],
+      "answer": [
+        "Oval: 'START'",
+        "Parallelogram: 'INPUT number'",
+        "Rectangle: 'doubled = number * 2'",
+        "Parallelogram: 'OUTPUT doubled'",
+        "Oval: 'STOP'"
+      ],
       "accepted": null,
       "hint": "Always start with START, end with STOP. Input first, do the maths, output the answer.",
       "explanation": "Every flowchart begins with START and ends with STOP. In between: get input (parallelogram), do the calculation (rectangle), then output the answer (parallelogram).",
       "working_required": false,
       "estimated_seconds": 70,
       "source": "CHS Y8 Computing KM, Unit 2",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Python Programming – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-python-programming/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.pf.flo.030",
       "subject": "computing",
       "unit": "programming-fundamentals",
       "topic": "programming-fundamentals",
-      "skill_tags": ["flowcharts", "iteration"],
+      "skill_tags": [
+        "flowcharts",
+        "iteration"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "In a flowchart, what does it usually mean if an arrow loops back from a decision diamond to a step earlier in the flowchart?",
-      "options": ["The flowchart is broken", "It represents iteration (a loop)", "It is showing input being entered twice", "It is the end of the program"],
+      "options": [
+        "The flowchart is broken",
+        "It represents iteration (a loop)",
+        "It is showing input being entered twice",
+        "It is the end of the program"
+      ],
       "answer": "It represents iteration (a loop)",
       "accepted": null,
       "hint": "Repeating earlier steps is exactly what loops do.",
@@ -601,14 +1131,27 @@
       "working_required": false,
       "estimated_seconds": 40,
       "source": "CHS Y8 Computing KM, Unit 2",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Python Programming – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-python-programming/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.pf.psc.031",
       "subject": "computing",
       "unit": "programming-fundamentals",
       "topic": "programming-fundamentals",
-      "skill_tags": ["pseudocode", "iteration"],
+      "skill_tags": [
+        "pseudocode",
+        "iteration"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "numeric",
@@ -621,19 +1164,37 @@
       "working_required": true,
       "estimated_seconds": 60,
       "source": "CHS Y8 Computing KM, Unit 2",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Python Programming – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-python-programming/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.pf.lang.032",
       "subject": "computing",
       "unit": "programming-fundamentals",
       "topic": "programming-fundamentals",
-      "skill_tags": ["programming-languages", "compilers"],
+      "skill_tags": [
+        "programming-languages",
+        "compilers"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "A team is writing software that will be sold to customers and must run as fast as possible. Which translation method is generally most suitable?",
-      "options": ["Use an interpreter so customers can edit the source", "Use a compiler to produce machine code ahead of time", "Write the program in pseudocode and ship that", "Send the customers the source code only"],
+      "options": [
+        "Use an interpreter so customers can edit the source",
+        "Use a compiler to produce machine code ahead of time",
+        "Write the program in pseudocode and ship that",
+        "Send the customers the source code only"
+      ],
       "answer": "Use a compiler to produce machine code ahead of time",
       "accepted": null,
       "hint": "Pre-translated machine code runs straight on the CPU with no delay.",
@@ -641,7 +1202,21 @@
       "working_required": false,
       "estimated_seconds": 45,
       "source": "CHS Y8 Computing KM, Unit 2",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Python Programming – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-python-programming/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        },
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        }
+      ]
     }
   ]
 }

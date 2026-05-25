@@ -8,12 +8,20 @@
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "ph-scale",
-      "skill_tags": ["pH", "acids"],
+      "skill_tags": [
+        "pH",
+        "acids"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "mcq",
       "prompt": "What does the pH scale measure?",
-      "options": ["How heavy a substance is", "How acidic or alkaline a substance is", "The temperature of a solution", "The colour of a solution"],
+      "options": [
+        "How heavy a substance is",
+        "How acidic or alkaline a substance is",
+        "The temperature of a solution",
+        "The colour of a solution"
+      ],
       "answer": "How acidic or alkaline a substance is",
       "accepted": null,
       "hint": "It tells you whether something is an acid, neutral, or alkali.",
@@ -21,39 +29,72 @@
       "working_required": false,
       "estimated_seconds": 20,
       "source": "CHS Y8 Science KM, Unit 2 Acids and Alkalis",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.aa.ph.002",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "ph-scale",
-      "skill_tags": ["pH"],
+      "skill_tags": [
+        "pH"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "numeric",
       "prompt": "What pH value is neutral?",
       "options": null,
       "answer": "7",
-      "accepted": ["seven", "pH 7"],
+      "accepted": [
+        "seven",
+        "pH 7"
+      ],
       "hint": "It's right in the middle of the 0–14 scale.",
       "explanation": "pH 7 is neutral — pure water is the classic example. Below 7 is acidic, above is alkaline.",
       "working_required": false,
       "estimated_seconds": 20,
       "source": "CHS Y8 Science KM, Unit 2 Acids and Alkalis",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.aa.ph.003",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "ph-scale",
-      "skill_tags": ["pH", "acids"],
+      "skill_tags": [
+        "pH",
+        "acids"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "Which of these pH values represents the strongest acid?",
-      "options": ["pH 1", "pH 5", "pH 7", "pH 9"],
+      "options": [
+        "pH 1",
+        "pH 5",
+        "pH 7",
+        "pH 9"
+      ],
       "answer": "pH 1",
       "accepted": null,
       "hint": "Lower pH = more acidic.",
@@ -61,19 +102,37 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Science KM, Unit 2 Acids and Alkalis",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.aa.ph.004",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "ph-scale",
-      "skill_tags": ["pH", "alkalis"],
+      "skill_tags": [
+        "pH",
+        "alkalis"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "Which pH value represents the strongest alkali?",
-      "options": ["pH 14", "pH 7", "pH 1", "pH 10"],
+      "options": [
+        "pH 14",
+        "pH 7",
+        "pH 1",
+        "pH 10"
+      ],
       "answer": "pH 14",
       "accepted": null,
       "hint": "Higher pH = more alkaline. The scale goes up to 14.",
@@ -81,19 +140,37 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Science KM, Unit 2 Acids and Alkalis",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.aa.ph.005",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "indicators",
-      "skill_tags": ["indicators", "pH"],
+      "skill_tags": [
+        "indicators",
+        "pH"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "What is an indicator?",
-      "options": ["A substance that changes the pH of a solution", "A substance that changes colour in acids and alkalis", "A type of strong acid", "A measuring cylinder"],
+      "options": [
+        "A substance that changes the pH of a solution",
+        "A substance that changes colour in acids and alkalis",
+        "A type of strong acid",
+        "A measuring cylinder"
+      ],
       "answer": "A substance that changes colour in acids and alkalis",
       "accepted": null,
       "hint": "It 'indicates' something by changing colour.",
@@ -101,19 +178,36 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Science KM, Unit 2 Acids and Alkalis",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.aa.ph.006",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "indicators",
-      "skill_tags": ["indicators"],
+      "skill_tags": [
+        "indicators"
+      ],
       "tier": "strengthen",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "What colour does blue litmus turn in an acid?",
-      "options": ["Red", "Green", "Stays blue", "Yellow"],
+      "options": [
+        "Red",
+        "Green",
+        "Stays blue",
+        "Yellow"
+      ],
       "answer": "Red",
       "accepted": null,
       "hint": "Remember: 'Blue litmus in acid turns red'.",
@@ -121,19 +215,37 @@
       "working_required": false,
       "estimated_seconds": 20,
       "source": "CHS Y8 Science KM, Unit 2 Acids and Alkalis",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.aa.ph.007",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "indicators",
-      "skill_tags": ["indicators", "pH"],
+      "skill_tags": [
+        "indicators",
+        "pH"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Universal indicator turns purple. What does this tell you about the solution?",
-      "options": ["It's a weak acid", "It's neutral", "It's a strong alkali", "It's a weak alkali"],
+      "options": [
+        "It's a weak acid",
+        "It's neutral",
+        "It's a strong alkali",
+        "It's a weak alkali"
+      ],
       "answer": "It's a strong alkali",
       "accepted": null,
       "hint": "Purple is at the top end of the universal indicator colour scale.",
@@ -141,19 +253,37 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Science KM, Unit 2 Acids and Alkalis",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.aa.ph.008",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "indicators",
-      "skill_tags": ["indicators", "pH"],
+      "skill_tags": [
+        "indicators",
+        "pH"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Universal indicator turns green when added to a sample. What is the pH?",
-      "options": ["About 1", "About 4", "About 7", "About 13"],
+      "options": [
+        "About 1",
+        "About 4",
+        "About 7",
+        "About 13"
+      ],
       "answer": "About 7",
       "accepted": null,
       "hint": "Green is the middle colour on the chart.",
@@ -161,19 +291,36 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Science KM, Unit 2 Acids and Alkalis",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.aa.ph.009",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "indicators",
-      "skill_tags": ["indicators"],
+      "skill_tags": [
+        "indicators"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "Why is universal indicator more useful than litmus paper?",
-      "options": ["It's cheaper", "It tells you the strength of the acid or alkali, not just acid/alkali", "It works without water", "It changes colour faster"],
+      "options": [
+        "It's cheaper",
+        "It tells you the strength of the acid or alkali, not just acid/alkali",
+        "It works without water",
+        "It changes colour faster"
+      ],
       "answer": "It tells you the strength of the acid or alkali, not just acid/alkali",
       "accepted": null,
       "hint": "Litmus only gives two colours; universal gives a range.",
@@ -181,39 +328,81 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y8 Science KM, Unit 2 Acids and Alkalis",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.aa.ph.010",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "common-substances",
-      "skill_tags": ["pH", "acids", "alkalis"],
+      "skill_tags": [
+        "pH",
+        "acids",
+        "alkalis"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "multi-select",
       "prompt": "Which of these are alkaline?",
-      "options": ["Lemon juice", "Soap", "Bleach", "Vinegar", "Toothpaste", "Stomach acid"],
-      "answer": ["Soap", "Bleach", "Toothpaste"],
+      "options": [
+        "Lemon juice",
+        "Soap",
+        "Bleach",
+        "Vinegar",
+        "Toothpaste",
+        "Stomach acid"
+      ],
+      "answer": [
+        "Soap",
+        "Bleach",
+        "Toothpaste"
+      ],
       "accepted": null,
       "hint": "Cleaning products are usually alkaline; food acids and stomach acid are acidic.",
       "explanation": "Soap, bleach and toothpaste are alkaline. Lemon juice, vinegar and stomach acid are acidic. Toothpaste neutralises acid that bacteria produce on teeth.",
       "working_required": false,
       "estimated_seconds": 50,
       "source": "CHS Y8 Science KM, Unit 2 Acids and Alkalis",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.aa.ph.011",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "common-substances",
-      "skill_tags": ["acids"],
+      "skill_tags": [
+        "acids"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "Which acid is found in vinegar?",
-      "options": ["Hydrochloric acid", "Sulfuric acid", "Ethanoic acid", "Nitric acid"],
+      "options": [
+        "Hydrochloric acid",
+        "Sulfuric acid",
+        "Ethanoic acid",
+        "Nitric acid"
+      ],
       "answer": "Ethanoic acid",
       "accepted": null,
       "hint": "It's also called acetic acid.",
@@ -221,39 +410,72 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Science KM, Unit 2 Acids and Alkalis",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.aa.ph.012",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "common-substances",
-      "skill_tags": ["acids"],
+      "skill_tags": [
+        "acids"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "text",
       "prompt": "Which acid is found in the stomach to help digestion and kill bacteria?",
       "options": null,
       "answer": "hydrochloric acid",
-      "accepted": ["HCl", "hydrochloric", "hydrochloric-acid"],
+      "accepted": [
+        "HCl",
+        "hydrochloric",
+        "hydrochloric-acid"
+      ],
       "hint": "Its chemical formula is HCl.",
       "explanation": "Hydrochloric acid (HCl) is produced by cells in the stomach lining. It provides the low pH that pepsin needs and kills most ingested microbes.",
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Science KM, Unit 2 Acids and Alkalis",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.aa.ph.013",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "common-substances",
-      "skill_tags": ["acids"],
+      "skill_tags": [
+        "acids"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Citric acid is found in which everyday food?",
-      "options": ["Cheese", "Lemons and oranges", "Bread", "Butter"],
+      "options": [
+        "Cheese",
+        "Lemons and oranges",
+        "Bread",
+        "Butter"
+      ],
       "answer": "Lemons and oranges",
       "accepted": null,
       "hint": "Citrus fruits — the name's a giveaway.",
@@ -261,19 +483,36 @@
       "working_required": false,
       "estimated_seconds": 20,
       "source": "CHS Y8 Science KM, Unit 2 Acids and Alkalis",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.aa.ph.014",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "common-substances",
-      "skill_tags": ["alkalis"],
+      "skill_tags": [
+        "alkalis"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Which of these is a common alkali used in the lab?",
-      "options": ["Hydrochloric acid", "Sodium hydroxide", "Copper sulfate", "Ethanol"],
+      "options": [
+        "Hydrochloric acid",
+        "Sodium hydroxide",
+        "Copper sulfate",
+        "Ethanol"
+      ],
       "answer": "Sodium hydroxide",
       "accepted": null,
       "hint": "Its formula is NaOH — most strong alkalis end in 'hydroxide'.",
@@ -281,19 +520,36 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Science KM, Unit 2 Acids and Alkalis",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.aa.neu.001",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "neutralisation",
-      "skill_tags": ["neutralisation"],
+      "skill_tags": [
+        "neutralisation"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "What is neutralisation?",
-      "options": ["Mixing two acids together", "An acid reacting with an alkali to make a salt and water", "Heating an alkali", "Removing water from an acid"],
+      "options": [
+        "Mixing two acids together",
+        "An acid reacting with an alkali to make a salt and water",
+        "Heating an alkali",
+        "Removing water from an acid"
+      ],
       "answer": "An acid reacting with an alkali to make a salt and water",
       "accepted": null,
       "hint": "The pH ends up close to 7 — what could cancel out an acid?",
@@ -301,39 +557,73 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Science KM, Unit 2 Acids and Alkalis",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.aa.neu.002",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "neutralisation",
-      "skill_tags": ["neutralisation", "salts"],
+      "skill_tags": [
+        "neutralisation",
+        "salts"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "text",
       "prompt": "Complete the general word equation: acid + alkali → ___ + water",
       "options": null,
       "answer": "salt",
-      "accepted": ["a salt", "salts"],
+      "accepted": [
+        "a salt",
+        "salts"
+      ],
       "hint": "Not the kind on your chips — but related.",
       "explanation": "Acid + alkali → salt + water. The salt depends on which acid and alkali you used (e.g. hydrochloric + sodium hydroxide → sodium chloride + water).",
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Science KM, Unit 2 Acids and Alkalis",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.aa.neu.003",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "neutralisation",
-      "skill_tags": ["neutralisation", "salts"],
+      "skill_tags": [
+        "neutralisation",
+        "salts"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Hydrochloric acid + sodium hydroxide → ? + water",
-      "options": ["Sodium chloride", "Sodium sulfate", "Sodium nitrate", "Sodium carbonate"],
+      "options": [
+        "Sodium chloride",
+        "Sodium sulfate",
+        "Sodium nitrate",
+        "Sodium carbonate"
+      ],
       "answer": "Sodium chloride",
       "accepted": null,
       "hint": "The chlorine from HCl joins the sodium from NaOH.",
@@ -341,19 +631,37 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y8 Science KM, Unit 2 Acids and Alkalis",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.aa.neu.004",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "neutralisation",
-      "skill_tags": ["neutralisation", "salts"],
+      "skill_tags": [
+        "neutralisation",
+        "salts"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Sulfuric acid + sodium hydroxide → ? + water",
-      "options": ["Sodium chloride", "Sodium sulfate", "Sodium nitrate", "Sodium phosphate"],
+      "options": [
+        "Sodium chloride",
+        "Sodium sulfate",
+        "Sodium nitrate",
+        "Sodium phosphate"
+      ],
       "answer": "Sodium sulfate",
       "accepted": null,
       "hint": "Sulfuric acid → sulfate salts.",
@@ -361,19 +669,37 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y8 Science KM, Unit 2 Acids and Alkalis",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.aa.neu.005",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "neutralisation",
-      "skill_tags": ["neutralisation", "salts"],
+      "skill_tags": [
+        "neutralisation",
+        "salts"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "Which acid would you use to make a nitrate salt?",
-      "options": ["Hydrochloric acid", "Sulfuric acid", "Nitric acid", "Carbonic acid"],
+      "options": [
+        "Hydrochloric acid",
+        "Sulfuric acid",
+        "Nitric acid",
+        "Carbonic acid"
+      ],
       "answer": "Nitric acid",
       "accepted": null,
       "hint": "Nitrate comes from nitric.",
@@ -381,19 +707,36 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y8 Science KM, Unit 2 Acids and Alkalis",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.aa.neu.006",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "neutralisation",
-      "skill_tags": ["neutralisation"],
+      "skill_tags": [
+        "neutralisation"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "A farmer has acidic soil. Which substance is commonly added to the soil to neutralise it?",
-      "options": ["Vinegar", "Lime (calcium hydroxide)", "Sulfuric acid", "Sand"],
+      "options": [
+        "Vinegar",
+        "Lime (calcium hydroxide)",
+        "Sulfuric acid",
+        "Sand"
+      ],
       "answer": "Lime (calcium hydroxide)",
       "accepted": null,
       "hint": "It's an alkaline substance — added in the form of a powder.",
@@ -401,19 +744,36 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y8 Science KM, Unit 2 Acids and Alkalis",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.aa.neu.007",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "neutralisation",
-      "skill_tags": ["neutralisation"],
+      "skill_tags": [
+        "neutralisation"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Indigestion is caused by too much stomach acid. What do antacid tablets contain?",
-      "options": ["More hydrochloric acid", "Strong acids", "Weak alkalis (e.g. magnesium hydroxide)", "Pure water only"],
+      "options": [
+        "More hydrochloric acid",
+        "Strong acids",
+        "Weak alkalis (e.g. magnesium hydroxide)",
+        "Pure water only"
+      ],
       "answer": "Weak alkalis (e.g. magnesium hydroxide)",
       "accepted": null,
       "hint": "To neutralise stomach acid you need something with a high pH.",
@@ -421,19 +781,36 @@
       "working_required": false,
       "estimated_seconds": 40,
       "source": "CHS Y8 Science KM, Unit 2 Acids and Alkalis",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.aa.neu.008",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "neutralisation",
-      "skill_tags": ["neutralisation"],
+      "skill_tags": [
+        "neutralisation"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "A bee sting is slightly acidic. Which household item could help neutralise it?",
-      "options": ["Vinegar", "Lemon juice", "Baking soda paste", "Salt water"],
+      "options": [
+        "Vinegar",
+        "Lemon juice",
+        "Baking soda paste",
+        "Salt water"
+      ],
       "answer": "Baking soda paste",
       "accepted": null,
       "hint": "You need an alkali to neutralise the acid.",
@@ -441,19 +818,36 @@
       "working_required": false,
       "estimated_seconds": 45,
       "source": "CHS Y8 Science KM, Unit 2 Acids and Alkalis",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.aa.neu.009",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "neutralisation",
-      "skill_tags": ["neutralisation"],
+      "skill_tags": [
+        "neutralisation"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "A wasp sting is alkaline. What should you put on it?",
-      "options": ["Baking soda", "Soap", "Vinegar (acid)", "More alkali"],
+      "options": [
+        "Baking soda",
+        "Soap",
+        "Vinegar (acid)",
+        "More alkali"
+      ],
       "answer": "Vinegar (acid)",
       "accepted": null,
       "hint": "Wasps need an acid — opposite of bees.",
@@ -461,39 +855,75 @@
       "working_required": false,
       "estimated_seconds": 40,
       "source": "CHS Y8 Science KM, Unit 2 Acids and Alkalis",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.aa.neu.010",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "neutralisation",
-      "skill_tags": ["neutralisation"],
+      "skill_tags": [
+        "neutralisation"
+      ],
       "tier": "deepen",
       "difficulty": 5,
       "type": "text",
       "prompt": "Tooth decay is caused by acid produced by bacteria on teeth. Toothpaste contains a weak alkali. Explain in one sentence why brushing helps prevent decay.",
       "options": null,
       "answer": "neutralises",
-      "accepted": ["neutralises the acid", "neutralizes", "neutralises acid", "it neutralises the acid", "the alkali neutralises the acid"],
+      "accepted": [
+        "neutralises the acid",
+        "neutralizes",
+        "neutralises acid",
+        "it neutralises the acid",
+        "the alkali neutralises the acid"
+      ],
       "hint": "What does an alkali do to an acid? One key verb.",
       "explanation": "The alkali in toothpaste neutralises the acid produced by bacteria, raising the pH on the tooth surface. This stops the acid attacking tooth enamel.",
       "working_required": false,
       "estimated_seconds": 60,
       "source": "CHS Y8 Science KM, Unit 2 Acids and Alkalis",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.aa.met.001",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "metal-reactions",
-      "skill_tags": ["acids", "metal-reactions"],
+      "skill_tags": [
+        "acids",
+        "metal-reactions"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What is produced when an acid reacts with a metal?",
-      "options": ["Salt + oxygen", "Salt + water", "Salt + hydrogen", "Salt + carbon dioxide"],
+      "options": [
+        "Salt + oxygen",
+        "Salt + water",
+        "Salt + hydrogen",
+        "Salt + carbon dioxide"
+      ],
       "answer": "Salt + hydrogen",
       "accepted": null,
       "hint": "You can test this — it's the gas that goes 'pop' with a lit splint.",
@@ -501,39 +931,78 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Science KM, Unit 2 Acids and Alkalis",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.aa.met.002",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "metal-reactions",
-      "skill_tags": ["acids", "metal-reactions", "gas-tests"],
+      "skill_tags": [
+        "acids",
+        "metal-reactions",
+        "gas-tests"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "text",
       "prompt": "How do you test for hydrogen gas?",
       "options": null,
       "answer": "squeaky pop",
-      "accepted": ["lit splint squeaky pop", "lit splint", "burning splint pop", "splint pops", "pop with a lit splint", "squeaky-pop"],
+      "accepted": [
+        "lit splint squeaky pop",
+        "lit splint",
+        "burning splint pop",
+        "splint pops",
+        "pop with a lit splint",
+        "squeaky-pop"
+      ],
       "hint": "Use a burning splint and listen for a sound.",
       "explanation": "Hold a lit splint at the top of the tube. Hydrogen burns explosively in oxygen with a 'squeaky pop' sound — this is the standard hydrogen test.",
       "working_required": false,
       "estimated_seconds": 40,
       "source": "CHS Y8 Science KM, Unit 2 Acids and Alkalis",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.aa.met.003",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "carbonate-reactions",
-      "skill_tags": ["acids", "carbonate-reactions"],
+      "skill_tags": [
+        "acids",
+        "carbonate-reactions"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What is produced when an acid reacts with a metal carbonate?",
-      "options": ["Salt + water + hydrogen", "Salt + water + carbon dioxide", "Salt + oxygen + water", "Salt + carbon dioxide only"],
+      "options": [
+        "Salt + water + hydrogen",
+        "Salt + water + carbon dioxide",
+        "Salt + oxygen + water",
+        "Salt + carbon dioxide only"
+      ],
       "answer": "Salt + water + carbon dioxide",
       "accepted": null,
       "hint": "Three products this time. You'd see fizzing — what gas?",
@@ -541,79 +1010,153 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y8 Science KM, Unit 2 Acids and Alkalis",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.aa.met.004",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "carbonate-reactions",
-      "skill_tags": ["gas-tests", "carbonate-reactions"],
+      "skill_tags": [
+        "gas-tests",
+        "carbonate-reactions"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "text",
       "prompt": "How do you test for carbon dioxide gas?",
       "options": null,
       "answer": "limewater turns cloudy",
-      "accepted": ["bubble through limewater", "limewater goes cloudy", "limewater goes milky", "limewater turns milky", "turns limewater cloudy", "turns limewater milky"],
+      "accepted": [
+        "bubble through limewater",
+        "limewater goes cloudy",
+        "limewater goes milky",
+        "limewater turns milky",
+        "turns limewater cloudy",
+        "turns limewater milky"
+      ],
       "hint": "Bubble it through a colourless liquid in the lab — what colour change?",
       "explanation": "Bubble the gas through limewater (calcium hydroxide solution). If it turns cloudy/milky, the gas is carbon dioxide.",
       "working_required": false,
       "estimated_seconds": 45,
       "source": "CHS Y8 Science KM, Unit 2 Acids and Alkalis",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.aa.met.005",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "metal-reactions",
-      "skill_tags": ["acids", "metal-reactions", "salts"],
+      "skill_tags": [
+        "acids",
+        "metal-reactions",
+        "salts"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "text",
       "prompt": "Zinc + sulfuric acid → ? + hydrogen. Name the salt produced.",
       "options": null,
       "answer": "zinc sulfate",
-      "accepted": ["zinc-sulfate", "zinc sulphate", "ZnSO4"],
+      "accepted": [
+        "zinc-sulfate",
+        "zinc sulphate",
+        "ZnSO4"
+      ],
       "hint": "Sulfuric acid makes sulfate salts. The metal is zinc.",
       "explanation": "Zn + H₂SO₄ → ZnSO₄ + H₂. The metal (zinc) combines with the acid's sulfate to form zinc sulfate.",
       "working_required": false,
       "estimated_seconds": 45,
       "source": "CHS Y8 Science KM, Unit 2 Acids and Alkalis",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.aa.met.006",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "metal-reactions",
-      "skill_tags": ["acids", "metal-reactions", "salts"],
+      "skill_tags": [
+        "acids",
+        "metal-reactions",
+        "salts"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "text",
       "prompt": "Magnesium + hydrochloric acid → ? + hydrogen. Name the salt.",
       "options": null,
       "answer": "magnesium chloride",
-      "accepted": ["magnesium-chloride", "MgCl2", "MgCl₂"],
+      "accepted": [
+        "magnesium-chloride",
+        "MgCl2",
+        "MgCl₂"
+      ],
       "hint": "HCl makes chloride salts. Plus the metal.",
       "explanation": "Mg + 2HCl → MgCl₂ + H₂. Magnesium chloride is the salt; hydrogen bubbles off.",
       "working_required": false,
       "estimated_seconds": 45,
       "source": "CHS Y8 Science KM, Unit 2 Acids and Alkalis",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.aa.rea.001",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "reactivity",
-      "skill_tags": ["reactivity-series", "metal-reactions"],
+      "skill_tags": [
+        "reactivity-series",
+        "metal-reactions"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Which metal reacts most vigorously with dilute hydrochloric acid?",
-      "options": ["Copper", "Zinc", "Magnesium", "Iron"],
+      "options": [
+        "Copper",
+        "Zinc",
+        "Magnesium",
+        "Iron"
+      ],
       "answer": "Magnesium",
       "accepted": null,
       "hint": "Higher up the reactivity series = faster, more vigorous reaction.",
@@ -621,39 +1164,78 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y8 Science KM, Unit 2 Acids and Alkalis",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.aa.rea.002",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "reactivity",
-      "skill_tags": ["reactivity-series"],
+      "skill_tags": [
+        "reactivity-series"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "order",
       "prompt": "Order these metals from MOST to LEAST reactive.",
-      "options": ["Copper", "Magnesium", "Iron", "Zinc"],
-      "answer": ["Magnesium", "Zinc", "Iron", "Copper"],
+      "options": [
+        "Copper",
+        "Magnesium",
+        "Iron",
+        "Zinc"
+      ],
+      "answer": [
+        "Magnesium",
+        "Zinc",
+        "Iron",
+        "Copper"
+      ],
       "accepted": null,
       "hint": "Magnesium reacts vigorously, copper barely reacts.",
       "explanation": "Reactivity series (most → least common metals): K > Na > Ca > Mg > Al > Zn > Fe > Cu > Ag > Au. Magnesium is the most reactive of the four listed.",
       "working_required": false,
       "estimated_seconds": 50,
       "source": "CHS Y8 Science KM, Unit 2 Acids and Alkalis",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.aa.rea.003",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "reactivity",
-      "skill_tags": ["reactivity-series"],
+      "skill_tags": [
+        "reactivity-series"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "Copper does not react with dilute acids. Why?",
-      "options": ["It's too heavy", "It's below hydrogen in the reactivity series", "It's too soft", "It's coated in oxide"],
+      "options": [
+        "It's too heavy",
+        "It's below hydrogen in the reactivity series",
+        "It's too soft",
+        "It's coated in oxide"
+      ],
       "answer": "It's below hydrogen in the reactivity series",
       "accepted": null,
       "hint": "For a metal to react with an acid, it must be more reactive than hydrogen.",
@@ -661,19 +1243,36 @@
       "working_required": false,
       "estimated_seconds": 45,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.aa.rea.004",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "reactivity",
-      "skill_tags": ["reactivity-series"],
+      "skill_tags": [
+        "reactivity-series"
+      ],
       "tier": "deepen",
       "difficulty": 5,
       "type": "mcq",
       "prompt": "A more reactive metal can DISPLACE a less reactive one from its salt solution. Which reaction would happen?",
-      "options": ["Iron + copper sulfate → iron sulfate + copper", "Copper + iron sulfate → copper sulfate + iron", "Silver + copper sulfate → silver sulfate + copper", "Copper + magnesium chloride → copper chloride + magnesium"],
+      "options": [
+        "Iron + copper sulfate → iron sulfate + copper",
+        "Copper + iron sulfate → copper sulfate + iron",
+        "Silver + copper sulfate → silver sulfate + copper",
+        "Copper + magnesium chloride → copper chloride + magnesium"
+      ],
       "answer": "Iron + copper sulfate → iron sulfate + copper",
       "accepted": null,
       "hint": "The more reactive metal kicks the less reactive one out of the compound.",
@@ -681,39 +1280,80 @@
       "working_required": false,
       "estimated_seconds": 60,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.aa.exp.001",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "practical",
-      "skill_tags": ["neutralisation", "indicators"],
+      "skill_tags": [
+        "neutralisation",
+        "indicators"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "order",
       "prompt": "A student wants to find the volume of alkali needed to neutralise an acid using universal indicator. Order the steps.",
-      "options": ["Add alkali a few drops at a time, mixing each time", "Record the volume of alkali added when colour goes green", "Add a fixed volume of acid to a flask", "Add universal indicator to the acid"],
-      "answer": ["Add a fixed volume of acid to a flask", "Add universal indicator to the acid", "Add alkali a few drops at a time, mixing each time", "Record the volume of alkali added when colour goes green"],
+      "options": [
+        "Add alkali a few drops at a time, mixing each time",
+        "Record the volume of alkali added when colour goes green",
+        "Add a fixed volume of acid to a flask",
+        "Add universal indicator to the acid"
+      ],
+      "answer": [
+        "Add a fixed volume of acid to a flask",
+        "Add universal indicator to the acid",
+        "Add alkali a few drops at a time, mixing each time",
+        "Record the volume of alkali added when colour goes green"
+      ],
       "accepted": null,
       "hint": "Set up the acid first, then add indicator, then slowly add alkali.",
       "explanation": "This is a simple titration. Adding alkali slowly lets you spot exactly when the colour shifts to green (neutral, pH 7), giving the volume needed.",
       "working_required": false,
       "estimated_seconds": 60,
       "source": "CHS Y8 Science KM, Unit 2 Acids and Alkalis",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.aa.exp.002",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "practical",
-      "skill_tags": ["pH", "indicators"],
+      "skill_tags": [
+        "pH",
+        "indicators"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "A student adds universal indicator to four solutions. Which is most likely to be lemon juice?",
-      "options": ["Green (pH 7)", "Red (pH 2)", "Blue (pH 9)", "Purple (pH 13)"],
+      "options": [
+        "Green (pH 7)",
+        "Red (pH 2)",
+        "Blue (pH 9)",
+        "Purple (pH 13)"
+      ],
       "answer": "Red (pH 2)",
       "accepted": null,
       "hint": "Lemon juice is strongly acidic.",
@@ -721,39 +1361,72 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y8 Science KM, Unit 2 Acids and Alkalis",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.aa.exp.003",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "practical",
-      "skill_tags": ["pH"],
+      "skill_tags": [
+        "pH"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "numeric",
       "prompt": "A student dilutes a strong acid (pH 2) with water. After dilution the pH is 5. By how many units has the pH changed?",
       "options": null,
       "answer": "3",
-      "accepted": ["three", "+3"],
+      "accepted": [
+        "three",
+        "+3"
+      ],
       "hint": "Subtract the starting pH from the new pH.",
       "explanation": "5 − 2 = 3. Diluting an acid raises its pH towards 7 (neutral). Diluting an alkali lowers its pH towards 7.",
       "working_required": true,
       "estimated_seconds": 30,
       "source": "CHS Y8 Science KM, Unit 2 Acids and Alkalis",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.aa.con.001",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "concentration",
-      "skill_tags": ["acids", "concentration"],
+      "skill_tags": [
+        "acids",
+        "concentration"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "What is the difference between a 'strong' acid and a 'concentrated' acid?",
-      "options": ["They mean the same thing", "Strong means it dissociates fully; concentrated means lots of acid in little water", "Strong means hot; concentrated means cold", "Strong means dangerous; concentrated means safe"],
+      "options": [
+        "They mean the same thing",
+        "Strong means it dissociates fully; concentrated means lots of acid in little water",
+        "Strong means hot; concentrated means cold",
+        "Strong means dangerous; concentrated means safe"
+      ],
       "answer": "Strong means it dissociates fully; concentrated means lots of acid in little water",
       "accepted": null,
       "hint": "One is about HOW MUCH acid in water, the other is about WHAT KIND of acid.",
@@ -761,19 +1434,41 @@
       "working_required": false,
       "estimated_seconds": 60,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        },
+        {
+          "title": "Solutions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/solutions/lessons"
+        }
+      ]
     },
     {
       "id": "sci.aa.con.002",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "safety",
-      "skill_tags": ["acids", "safety"],
+      "skill_tags": [
+        "acids",
+        "safety"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "What safety equipment should you wear when working with acids and alkalis in the lab?",
-      "options": ["Sunglasses and gloves", "Safety goggles and a lab coat", "Just a lab coat", "Just gloves"],
+      "options": [
+        "Sunglasses and gloves",
+        "Safety goggles and a lab coat",
+        "Just a lab coat",
+        "Just gloves"
+      ],
       "answer": "Safety goggles and a lab coat",
       "accepted": null,
       "hint": "Protect your eyes first — splashes can cause serious damage.",
@@ -781,19 +1476,37 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Science KM, Unit 2 Acids and Alkalis",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.aa.con.003",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "safety",
-      "skill_tags": ["acids", "safety"],
+      "skill_tags": [
+        "acids",
+        "safety"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Which hazard symbol is shown on bottles of concentrated acid or alkali?",
-      "options": ["Flammable (flame)", "Toxic (skull)", "Corrosive (hand being eaten)", "Oxidising (flame on circle)"],
+      "options": [
+        "Flammable (flame)",
+        "Toxic (skull)",
+        "Corrosive (hand being eaten)",
+        "Oxidising (flame on circle)"
+      ],
       "answer": "Corrosive (hand being eaten)",
       "accepted": null,
       "hint": "Acids and alkalis chemically attack skin and metals.",
@@ -801,19 +1514,36 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y8 Science KM, Unit 2 Acids and Alkalis",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.aa.app.001",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "applications",
-      "skill_tags": ["neutralisation"],
+      "skill_tags": [
+        "neutralisation"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "Acid rain damages limestone buildings. Which reaction is happening?",
-      "options": ["Acid + metal", "Acid + alkali", "Acid + metal carbonate", "Acid + water"],
+      "options": [
+        "Acid + metal",
+        "Acid + alkali",
+        "Acid + metal carbonate",
+        "Acid + water"
+      ],
       "answer": "Acid + metal carbonate",
       "accepted": null,
       "hint": "Limestone is calcium carbonate.",
@@ -821,19 +1551,37 @@
       "working_required": false,
       "estimated_seconds": 45,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.aa.app.002",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "applications",
-      "skill_tags": ["acids", "pH"],
+      "skill_tags": [
+        "acids",
+        "pH"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "Rainwater is naturally slightly acidic (pH ~5.6). What causes this?",
-      "options": ["Pollution from cars", "Carbon dioxide in the air dissolving to form carbonic acid", "Sulfur in the soil", "Acidic plants"],
+      "options": [
+        "Pollution from cars",
+        "Carbon dioxide in the air dissolving to form carbonic acid",
+        "Sulfur in the soil",
+        "Acidic plants"
+      ],
       "answer": "Carbon dioxide in the air dissolving to form carbonic acid",
       "accepted": null,
       "hint": "Even unpolluted rain isn't pH 7 — what gas in air dissolves in water?",
@@ -841,47 +1589,98 @@
       "working_required": false,
       "estimated_seconds": 50,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.aa.app.003",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "applications",
-      "skill_tags": ["acids", "pH"],
+      "skill_tags": [
+        "acids",
+        "pH"
+      ],
       "tier": "deepen",
       "difficulty": 5,
       "type": "text",
       "prompt": "A lake's pH drops from 6.5 to 4.5 because of acid rain. Fish start to die. Has the water become MORE or LESS acidic?",
       "options": null,
       "answer": "more",
-      "accepted": ["more acidic", "more-acidic", "increased", "stronger"],
+      "accepted": [
+        "more acidic",
+        "more-acidic",
+        "increased",
+        "stronger"
+      ],
       "hint": "Lower pH = stronger acid.",
       "explanation": "pH dropped — that means more acidic. Each unit drop is roughly 10x more acidic (logarithmic scale). Fish can't tolerate the change in pH and their eggs fail to develop.",
       "working_required": false,
       "estimated_seconds": 45,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.aa.app.004",
       "subject": "science",
       "unit": "acids-alkalis",
       "topic": "applications",
-      "skill_tags": ["neutralisation"],
+      "skill_tags": [
+        "neutralisation"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "multi-select",
       "prompt": "Which of these are real-world examples of neutralisation?",
-      "options": ["Taking an antacid for indigestion", "Putting baking soda on a bee sting", "Adding lime to acidic soil", "Heating sugar to caramel", "Bubbling oxygen through water", "Adding shampoo to clean hair"],
-      "answer": ["Taking an antacid for indigestion", "Putting baking soda on a bee sting", "Adding lime to acidic soil"],
+      "options": [
+        "Taking an antacid for indigestion",
+        "Putting baking soda on a bee sting",
+        "Adding lime to acidic soil",
+        "Heating sugar to caramel",
+        "Bubbling oxygen through water",
+        "Adding shampoo to clean hair"
+      ],
+      "answer": [
+        "Taking an antacid for indigestion",
+        "Putting baking soda on a bee sting",
+        "Adding lime to acidic soil"
+      ],
       "accepted": null,
       "hint": "Neutralisation = acid meets alkali to make a neutral product.",
       "explanation": "All three correct answers involve adding an alkali to cancel out an acid. Heating sugar, bubbling oxygen and shampooing hair are not neutralisation reactions.",
       "working_required": false,
       "estimated_seconds": 50,
       "source": "CHS Y8 Science KM, Unit 2 Acids and Alkalis",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Understanding Chemical Reactions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/understanding-chemical-reactions/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     }
   ]
 }

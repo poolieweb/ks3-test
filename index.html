@@ -88,6 +88,10 @@
   .feedback.incorrect { background: #ffebee; border-left: 4px solid var(--bad); }
   .feedback h3 { margin: 0 0 8px; }
   .feedback .explanation { font-size: 15px; line-height: 1.5; color: #444; }
+  .feedback .further-learning { margin-top: 10px; font-size: 13px; }
+  .feedback .further-learning strong { display: block; color: #555; margin-bottom: 4px; }
+  .feedback .further-learning a { display: inline-block; margin-right: 10px; color: var(--primary); text-decoration: none; }
+  .feedback .further-learning a:hover { text-decoration: underline; }
   .end-screen { text-align: center; padding: 24px; }
   .end-screen .code-display { font-family: 'Menlo', 'Consolas', monospace; font-size: 28px; font-weight: 700; letter-spacing: 2px; background: var(--primary); color: white; padding: 16px 24px; border-radius: 12px; margin: 16px auto; display: inline-block; word-break: break-all; }
   .end-screen .code-display.big { background: linear-gradient(135deg, var(--accent), #d68a1f); }
@@ -1053,6 +1057,7 @@ window.submitAnswer = async () => {
     fb.innerHTML = `<div class="feedback correct">
       <h3>✅ Correct${attemptHintUsed ? ' (with hint)' : '!'}</h3>
       <div class="explanation">${escapeHtml(q.explanation || "")}</div>
+      ${renderFurtherLearning(q)}
       <button class="btn-primary" style="margin-top: 12px;" onclick="nextQuestion()">Next →</button>
     </div>`;
     Session.correct++;
@@ -1075,6 +1080,7 @@ window.submitAnswer = async () => {
       fb.innerHTML = `<div class="feedback incorrect">
         <h3>❌ The answer was: <em>${escapeHtml(Array.isArray(q.answer) ? q.answer.join(", ") : q.answer)}</em></h3>
         <div class="explanation">${escapeHtml(q.explanation || "")}</div>
+        ${renderFurtherLearning(q)}
         <button class="btn-primary" style="margin-top: 12px;" onclick="nextQuestion()">Next →</button>
       </div>`;
       updateMastery(q, false, attemptHintUsed);
@@ -1401,6 +1407,12 @@ function escapeHtml(s) {
   return String(s || "").replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
 }
 function escapeAttr(s) { return escapeHtml(s).replace(/"/g, "&quot;"); }
+function renderFurtherLearning(q) {
+  const links = q.further_learning;
+  if (!links || !links.length) return "";
+  const items = links.map(l => `<a href="${escapeAttr(l.url)}" target="_blank" rel="noopener">${escapeHtml(l.title)}</a>`).join(" &middot; ");
+  return `<div class="further-learning"><strong>Learn more:</strong>${items}</div>`;
+}
 window.copyCode = (code) => {
   navigator.clipboard.writeText(code).then(() => {
     const btn = document.getElementById("copyBtn");

@@ -8,12 +8,19 @@
       "subject": "computing",
       "unit": "logic-gates",
       "topic": "logic-gates",
-      "skill_tags": ["logic-gates"],
+      "skill_tags": [
+        "logic-gates"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "mcq",
       "prompt": "Which logic gate outputs 1 only when BOTH of its inputs are 1?",
-      "options": ["AND", "OR", "NOT", "XOR"],
+      "options": [
+        "AND",
+        "OR",
+        "NOT",
+        "XOR"
+      ],
       "answer": "AND",
       "accepted": null,
       "hint": "Think of the word — A AND B both have to be true.",
@@ -21,19 +28,36 @@
       "working_required": false,
       "estimated_seconds": 20,
       "source": "CHS Y8 Computing KM, Unit 1",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.lg.gates.002",
       "subject": "computing",
       "unit": "logic-gates",
       "topic": "logic-gates",
-      "skill_tags": ["logic-gates"],
+      "skill_tags": [
+        "logic-gates"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "mcq",
       "prompt": "Which logic gate outputs 1 when AT LEAST ONE of its inputs is 1?",
-      "options": ["AND", "OR", "NOT", "NAND"],
+      "options": [
+        "AND",
+        "OR",
+        "NOT",
+        "NAND"
+      ],
       "answer": "OR",
       "accepted": null,
       "hint": "One OR the other (or both) is enough.",
@@ -41,19 +65,36 @@
       "working_required": false,
       "estimated_seconds": 20,
       "source": "CHS Y8 Computing KM, Unit 1",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.lg.gates.003",
       "subject": "computing",
       "unit": "logic-gates",
       "topic": "logic-gates",
-      "skill_tags": ["logic-gates"],
+      "skill_tags": [
+        "logic-gates"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "mcq",
       "prompt": "Which logic gate has only ONE input and flips it (0 becomes 1, 1 becomes 0)?",
-      "options": ["AND", "OR", "NOT", "NOR"],
+      "options": [
+        "AND",
+        "OR",
+        "NOT",
+        "NOR"
+      ],
       "answer": "NOT",
       "accepted": null,
       "hint": "It inverts — the opposite of what goes in.",
@@ -61,39 +102,72 @@
       "working_required": false,
       "estimated_seconds": 20,
       "source": "CHS Y8 Computing KM, Unit 1",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.lg.gates.004",
       "subject": "computing",
       "unit": "logic-gates",
       "topic": "logic-gates",
-      "skill_tags": ["logic-gates"],
+      "skill_tags": [
+        "logic-gates"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "text",
       "prompt": "How many inputs does a NOT gate have?",
       "options": null,
       "answer": "1",
-      "accepted": ["one", "One", "1 input"],
+      "accepted": [
+        "one",
+        "One",
+        "1 input"
+      ],
       "hint": "It only needs the one signal to flip.",
       "explanation": "A NOT gate has exactly 1 input and 1 output. It inverts the input.",
       "working_required": false,
       "estimated_seconds": 20,
       "source": "CHS Y8 Computing KM, Unit 1",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.lg.gates.005",
       "subject": "computing",
       "unit": "logic-gates",
       "topic": "logic-gates",
-      "skill_tags": ["logic-gates"],
+      "skill_tags": [
+        "logic-gates"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "A logic gate is drawn as a flat-backed shape that curves to a point on the right (a 'D' shape). Which gate is it?",
-      "options": ["AND", "OR", "NOT", "XOR"],
+      "options": [
+        "AND",
+        "OR",
+        "NOT",
+        "XOR"
+      ],
       "answer": "AND",
       "accepted": null,
       "hint": "Two straight sides on top and bottom, rounded nose on the output side.",
@@ -101,19 +175,36 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Computing KM, Unit 1",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.lg.gates.006",
       "subject": "computing",
       "unit": "logic-gates",
       "topic": "logic-gates",
-      "skill_tags": ["logic-gates"],
+      "skill_tags": [
+        "logic-gates"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "A logic gate is drawn as a shape with a curved back and a pointed front, like a shield or rocket nose. Which gate is it?",
-      "options": ["AND", "OR", "NOT", "NAND"],
+      "options": [
+        "AND",
+        "OR",
+        "NOT",
+        "NAND"
+      ],
       "answer": "OR",
       "accepted": null,
       "hint": "Curved on the input side, comes to a point at the output.",
@@ -121,19 +212,36 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Computing KM, Unit 1",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.lg.gates.007",
       "subject": "computing",
       "unit": "logic-gates",
       "topic": "logic-gates",
-      "skill_tags": ["logic-gates"],
+      "skill_tags": [
+        "logic-gates"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "A logic gate is drawn as a triangle pointing right with a small circle (bubble) at its tip. Which gate is it?",
-      "options": ["AND", "OR", "NOT", "XOR"],
+      "options": [
+        "AND",
+        "OR",
+        "NOT",
+        "XOR"
+      ],
       "answer": "NOT",
       "accepted": null,
       "hint": "The little bubble on the output means 'invert'.",
@@ -141,14 +249,27 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Computing KM, Unit 1",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.lg.gates.008",
       "subject": "computing",
       "unit": "logic-gates",
       "topic": "logic-gates",
-      "skill_tags": ["truth-tables", "logic-gates"],
+      "skill_tags": [
+        "truth-tables",
+        "logic-gates"
+      ],
       "tier": "strengthen",
       "difficulty": 2,
       "type": "numeric",
@@ -161,14 +282,27 @@
       "working_required": false,
       "estimated_seconds": 20,
       "source": "CHS Y8 Computing KM, Unit 1",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.lg.gates.009",
       "subject": "computing",
       "unit": "logic-gates",
       "topic": "logic-gates",
-      "skill_tags": ["truth-tables", "logic-gates"],
+      "skill_tags": [
+        "truth-tables",
+        "logic-gates"
+      ],
       "tier": "strengthen",
       "difficulty": 2,
       "type": "numeric",
@@ -181,14 +315,27 @@
       "working_required": false,
       "estimated_seconds": 20,
       "source": "CHS Y8 Computing KM, Unit 1",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.lg.gates.010",
       "subject": "computing",
       "unit": "logic-gates",
       "topic": "logic-gates",
-      "skill_tags": ["truth-tables", "logic-gates"],
+      "skill_tags": [
+        "truth-tables",
+        "logic-gates"
+      ],
       "tier": "strengthen",
       "difficulty": 2,
       "type": "numeric",
@@ -201,14 +348,27 @@
       "working_required": false,
       "estimated_seconds": 20,
       "source": "CHS Y8 Computing KM, Unit 1",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.lg.gates.011",
       "subject": "computing",
       "unit": "logic-gates",
       "topic": "logic-gates",
-      "skill_tags": ["truth-tables", "logic-gates"],
+      "skill_tags": [
+        "truth-tables",
+        "logic-gates"
+      ],
       "tier": "strengthen",
       "difficulty": 2,
       "type": "numeric",
@@ -221,14 +381,27 @@
       "working_required": false,
       "estimated_seconds": 20,
       "source": "CHS Y8 Computing KM, Unit 1",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.lg.gates.012",
       "subject": "computing",
       "unit": "logic-gates",
       "topic": "logic-gates",
-      "skill_tags": ["truth-tables", "logic-gates"],
+      "skill_tags": [
+        "truth-tables",
+        "logic-gates"
+      ],
       "tier": "strengthen",
       "difficulty": 2,
       "type": "numeric",
@@ -241,19 +414,36 @@
       "working_required": false,
       "estimated_seconds": 15,
       "source": "CHS Y8 Computing KM, Unit 1",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.lg.gates.013",
       "subject": "computing",
       "unit": "logic-gates",
       "topic": "logic-gates",
-      "skill_tags": ["truth-tables"],
+      "skill_tags": [
+        "truth-tables"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Complete the AND truth table. What goes in the missing output?\n\nA | B | A AND B\n0 | 0 | 0\n0 | 1 | 0\n1 | 0 | ?\n1 | 1 | 1",
-      "options": ["0", "1", "Either 0 or 1", "Cannot be determined"],
+      "options": [
+        "0",
+        "1",
+        "Either 0 or 1",
+        "Cannot be determined"
+      ],
       "answer": "0",
       "accepted": null,
       "hint": "For AND, both inputs must be 1 — B is 0 here.",
@@ -261,19 +451,36 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Computing KM, Unit 1",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.lg.gates.014",
       "subject": "computing",
       "unit": "logic-gates",
       "topic": "logic-gates",
-      "skill_tags": ["truth-tables"],
+      "skill_tags": [
+        "truth-tables"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Complete the OR truth table. What goes in the missing output?\n\nA | B | A OR B\n0 | 0 | 0\n0 | 1 | ?\n1 | 0 | 1\n1 | 1 | 1",
-      "options": ["0", "1", "Both", "Neither"],
+      "options": [
+        "0",
+        "1",
+        "Both",
+        "Neither"
+      ],
       "answer": "1",
       "accepted": null,
       "hint": "OR needs at least one input to be 1.",
@@ -281,94 +488,203 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Computing KM, Unit 1",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.lg.gates.015",
       "subject": "computing",
       "unit": "logic-gates",
       "topic": "logic-gates",
-      "skill_tags": ["truth-tables", "logic-gates"],
+      "skill_tags": [
+        "truth-tables",
+        "logic-gates"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "order",
       "prompt": "Order the four outputs of an AND gate truth table, from the row A=0 B=0 down to A=1 B=1.",
-      "options": ["1", "0", "0", "0"],
-      "answer": ["0", "0", "0", "1"],
+      "options": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "answer": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
       "accepted": null,
       "hint": "Only the very last row (1 AND 1) outputs 1.",
       "explanation": "AND truth table outputs in order are: 0, 0, 0, 1. Only when both inputs are 1 does AND output 1.",
       "working_required": false,
       "estimated_seconds": 45,
       "source": "CHS Y8 Computing KM, Unit 1",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.lg.gates.016",
       "subject": "computing",
       "unit": "logic-gates",
       "topic": "logic-gates",
-      "skill_tags": ["truth-tables", "logic-gates"],
+      "skill_tags": [
+        "truth-tables",
+        "logic-gates"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "order",
       "prompt": "Order the four outputs of an OR gate truth table, from the row A=0 B=0 down to A=1 B=1.",
-      "options": ["1", "1", "0", "1"],
-      "answer": ["0", "1", "1", "1"],
+      "options": [
+        "1",
+        "1",
+        "0",
+        "1"
+      ],
+      "answer": [
+        "0",
+        "1",
+        "1",
+        "1"
+      ],
       "accepted": null,
       "hint": "Only the very first row (0 OR 0) outputs 0.",
       "explanation": "OR truth table outputs in order are: 0, 1, 1, 1. Only when both inputs are 0 does OR output 0.",
       "working_required": false,
       "estimated_seconds": 45,
       "source": "CHS Y8 Computing KM, Unit 1",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.lg.gates.017",
       "subject": "computing",
       "unit": "logic-gates",
       "topic": "logic-gates",
-      "skill_tags": ["truth-tables", "binary"],
+      "skill_tags": [
+        "truth-tables",
+        "binary"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "multi-select",
       "prompt": "Which of the following input combinations make an AND gate output 1? (Select all that apply.)",
-      "options": ["A=0, B=0", "A=0, B=1", "A=1, B=0", "A=1, B=1"],
-      "answer": ["A=1, B=1"],
+      "options": [
+        "A=0, B=0",
+        "A=0, B=1",
+        "A=1, B=0",
+        "A=1, B=1"
+      ],
+      "answer": [
+        "A=1, B=1"
+      ],
       "accepted": null,
       "hint": "AND only fires when BOTH inputs are 1.",
       "explanation": "An AND gate only outputs 1 for A=1, B=1. All three other combinations contain at least one 0, so the output is 0.",
       "working_required": false,
       "estimated_seconds": 40,
       "source": "CHS Y8 Computing KM, Unit 1",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        },
+        {
+          "title": "Data Representation: Text and Numbers – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/data-representation-text-and-numbers/lessons"
+        }
+      ]
     },
     {
       "id": "cmp.lg.gates.018",
       "subject": "computing",
       "unit": "logic-gates",
       "topic": "logic-gates",
-      "skill_tags": ["truth-tables", "binary"],
+      "skill_tags": [
+        "truth-tables",
+        "binary"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "multi-select",
       "prompt": "Which of the following input combinations make an OR gate output 1? (Select all that apply.)",
-      "options": ["A=0, B=0", "A=0, B=1", "A=1, B=0", "A=1, B=1"],
-      "answer": ["A=0, B=1", "A=1, B=0", "A=1, B=1"],
+      "options": [
+        "A=0, B=0",
+        "A=0, B=1",
+        "A=1, B=0",
+        "A=1, B=1"
+      ],
+      "answer": [
+        "A=0, B=1",
+        "A=1, B=0",
+        "A=1, B=1"
+      ],
       "accepted": null,
       "hint": "OR outputs 1 unless both inputs are 0.",
       "explanation": "OR outputs 1 whenever at least one input is 1. The only combination that gives 0 is A=0, B=0.",
       "working_required": false,
       "estimated_seconds": 40,
       "source": "CHS Y8 Computing KM, Unit 1",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        },
+        {
+          "title": "Data Representation: Text and Numbers – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/data-representation-text-and-numbers/lessons"
+        }
+      ]
     },
     {
       "id": "cmp.lg.gates.019",
       "subject": "computing",
       "unit": "logic-gates",
       "topic": "logic-gates",
-      "skill_tags": ["logic-gates", "truth-tables"],
+      "skill_tags": [
+        "logic-gates",
+        "truth-tables"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "numeric",
@@ -381,14 +697,27 @@
       "working_required": true,
       "estimated_seconds": 50,
       "source": "CHS Y8 Computing KM, Unit 1",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.lg.gates.020",
       "subject": "computing",
       "unit": "logic-gates",
       "topic": "logic-gates",
-      "skill_tags": ["logic-gates", "truth-tables"],
+      "skill_tags": [
+        "logic-gates",
+        "truth-tables"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "numeric",
@@ -401,19 +730,36 @@
       "working_required": true,
       "estimated_seconds": 50,
       "source": "CHS Y8 Computing KM, Unit 1",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.lg.gates.021",
       "subject": "computing",
       "unit": "logic-gates",
       "topic": "logic-gates",
-      "skill_tags": ["logic-gates"],
+      "skill_tags": [
+        "logic-gates"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "A burglar alarm rings only when the alarm is switched on AND a sensor detects movement. Which logic gate best models this?",
-      "options": ["AND", "OR", "NOT", "NAND"],
+      "options": [
+        "AND",
+        "OR",
+        "NOT",
+        "NAND"
+      ],
       "answer": "AND",
       "accepted": null,
       "hint": "Both conditions have to be true at the same time.",
@@ -421,19 +767,36 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y8 Computing KM, Unit 1",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "cmp.lg.gates.022",
       "subject": "computing",
       "unit": "logic-gates",
       "topic": "logic-gates",
-      "skill_tags": ["logic-gates"],
+      "skill_tags": [
+        "logic-gates"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "A car has a warning light that comes on if EITHER the driver's door is open OR the passenger door is open (or both). Which gate models this?",
-      "options": ["AND", "OR", "NOT", "XOR"],
+      "options": [
+        "AND",
+        "OR",
+        "NOT",
+        "XOR"
+      ],
       "answer": "OR",
       "accepted": null,
       "hint": "Either input being true is enough.",
@@ -441,7 +804,17 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y8 Computing KM, Unit 1",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     }
   ]
 }

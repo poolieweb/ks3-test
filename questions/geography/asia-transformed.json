@@ -8,12 +8,19 @@
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "asia-physical",
-      "skill_tags": ["asia-economy"],
+      "skill_tags": [
+        "asia-economy"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "mcq",
       "prompt": "Asia is the world's largest continent. Roughly what fraction of the world's population lives there?",
-      "options": ["About 1/10", "About 1/4", "About 3/5", "About 9/10"],
+      "options": [
+        "About 1/10",
+        "About 1/4",
+        "About 3/5",
+        "About 9/10"
+      ],
       "answer": "About 3/5",
       "accepted": null,
       "hint": "More than half of all people on Earth live in Asia.",
@@ -21,59 +28,108 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Geography KM, Summer — How is Asia being transformed?",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "China: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/china-a-global-superpower/lessons"
+        },
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        }
+      ]
     },
     {
       "id": "geo.asi.phy.002",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "asia-physical",
-      "skill_tags": ["asia-economy"],
+      "skill_tags": [
+        "asia-economy"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "text",
       "prompt": "What is the name of the world's highest mountain range, which stretches across northern India, Nepal and Bhutan?",
       "options": null,
       "answer": "Himalayas",
-      "accepted": ["the Himalayas", "Himalaya", "Himalayan mountains"],
+      "accepted": [
+        "the Himalayas",
+        "Himalaya",
+        "Himalayan mountains"
+      ],
       "hint": "Home to Mount Everest.",
       "explanation": "The Himalayas are the world's highest mountain range, formed by the Indian plate colliding with the Eurasian plate. They include Mount Everest (8,849 m).",
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Geography KM, Summer — How is Asia being transformed?",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "China: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/china-a-global-superpower/lessons"
+        },
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        }
+      ]
     },
     {
       "id": "geo.asi.phy.003",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "asia-physical",
-      "skill_tags": ["asia-economy"],
+      "skill_tags": [
+        "asia-economy"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "text",
       "prompt": "What is the world's highest mountain, found in the Himalayas?",
       "options": null,
       "answer": "Mount Everest",
-      "accepted": ["Everest", "Mt Everest", "Mt. Everest"],
+      "accepted": [
+        "Everest",
+        "Mt Everest",
+        "Mt. Everest"
+      ],
       "hint": "8,849 m above sea level — on the Nepal/China border.",
       "explanation": "Mount Everest is 8,849 m high, on the border of Nepal and China (Tibet). It is the world's tallest mountain above sea level.",
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Geography KM, Summer — How is Asia being transformed?",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "China: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/china-a-global-superpower/lessons"
+        },
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        }
+      ]
     },
     {
       "id": "geo.asi.phy.004",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "asia-physical",
-      "skill_tags": ["asia-economy"],
+      "skill_tags": [
+        "asia-economy"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Which two tectonic plates are colliding to form the Himalayas?",
-      "options": ["Pacific and North American", "African and Eurasian", "Indian and Eurasian", "Nazca and South American"],
+      "options": [
+        "Pacific and North American",
+        "African and Eurasian",
+        "Indian and Eurasian",
+        "Nazca and South American"
+      ],
       "answer": "Indian and Eurasian",
       "accepted": null,
       "hint": "One is named after India.",
@@ -81,59 +137,109 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "UK NC KS3 Geography — tectonics",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "China: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/china-a-global-superpower/lessons"
+        },
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        }
+      ]
     },
     {
       "id": "geo.asi.phy.005",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "asia-physical",
-      "skill_tags": ["asia-economy"],
+      "skill_tags": [
+        "asia-economy"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "text",
       "prompt": "What is the longest river in Asia, which flows through China?",
       "options": null,
       "answer": "Yangtze",
-      "accepted": ["the Yangtze", "Yangtze River", "Chang Jiang", "Yangzi"],
+      "accepted": [
+        "the Yangtze",
+        "Yangtze River",
+        "Chang Jiang",
+        "Yangzi"
+      ],
       "hint": "Sometimes called the 'Long River' in Chinese — Chang Jiang.",
       "explanation": "The Yangtze (Chang Jiang) is Asia's longest river at around 6,300 km. It flows from Tibet to the East China Sea at Shanghai.",
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Geography KM, Summer — How is Asia being transformed?",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "China: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/china-a-global-superpower/lessons"
+        },
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        }
+      ]
     },
     {
       "id": "geo.asi.phy.006",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "asia-physical",
-      "skill_tags": ["asia-economy"],
+      "skill_tags": [
+        "asia-economy"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "text",
       "prompt": "What sacred river flows through northern India and is a vital water source for hundreds of millions of people?",
       "options": null,
       "answer": "Ganges",
-      "accepted": ["the Ganges", "Ganges River", "Ganga"],
+      "accepted": [
+        "the Ganges",
+        "Ganges River",
+        "Ganga"
+      ],
       "hint": "It flows through Varanasi and into Bangladesh.",
       "explanation": "The Ganges (Ganga) is a major Asian river flowing across northern India into Bangladesh, where it joins the Brahmaputra to form the world's largest delta.",
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Geography KM, Summer — How is Asia being transformed?",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "China: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/china-a-global-superpower/lessons"
+        },
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        }
+      ]
     },
     {
       "id": "geo.asi.phy.007",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "asia-physical",
-      "skill_tags": ["asia-economy"],
+      "skill_tags": [
+        "asia-economy"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Which of these is the largest desert in Asia?",
-      "options": ["Atacama Desert", "Gobi Desert", "Sahara Desert", "Mojave Desert"],
+      "options": [
+        "Atacama Desert",
+        "Gobi Desert",
+        "Sahara Desert",
+        "Mojave Desert"
+      ],
       "answer": "Gobi Desert",
       "accepted": null,
       "hint": "It straddles China and Mongolia.",
@@ -141,59 +247,116 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "UK NC KS3 Geography — world deserts",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "China: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/china-a-global-superpower/lessons"
+        },
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        }
+      ]
     },
     {
       "id": "geo.asi.phy.008",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "asia-physical",
-      "skill_tags": ["asia-economy"],
+      "skill_tags": [
+        "asia-economy"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "multi-select",
       "prompt": "Which of these are countries in Asia?",
-      "options": ["India", "China", "Egypt", "Japan", "Brazil", "Indonesia"],
-      "answer": ["India", "China", "Japan", "Indonesia"],
+      "options": [
+        "India",
+        "China",
+        "Egypt",
+        "Japan",
+        "Brazil",
+        "Indonesia"
+      ],
+      "answer": [
+        "India",
+        "China",
+        "Japan",
+        "Indonesia"
+      ],
       "accepted": null,
       "hint": "Egypt is in Africa. Brazil is in South America.",
       "explanation": "India, China, Japan and Indonesia are all Asian countries. Egypt is in North Africa; Brazil is in South America.",
       "working_required": false,
       "estimated_seconds": 40,
       "source": "UK NC KS3 Geography — locational knowledge",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "China: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/china-a-global-superpower/lessons"
+        },
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        }
+      ]
     },
     {
       "id": "geo.asi.mon.001",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "monsoon",
-      "skill_tags": ["monsoon"],
+      "skill_tags": [
+        "monsoon"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "text",
       "prompt": "What is the name of the seasonal wind system that brings heavy rain to South Asia in summer?",
       "options": null,
       "answer": "monsoon",
-      "accepted": ["Monsoon", "the monsoon", "monsoons"],
+      "accepted": [
+        "Monsoon",
+        "the monsoon",
+        "monsoons"
+      ],
       "hint": "Starts with M — comes from an Arabic word for 'season'.",
       "explanation": "The monsoon is a seasonal reversal of winds that brings heavy summer rains to South Asia. India relies on it for around 70% of its annual rainfall.",
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Geography KM, Summer — Monsoon",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.mon.002",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "monsoon",
-      "skill_tags": ["monsoon"],
+      "skill_tags": [
+        "monsoon"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "During which months does the WET (summer) monsoon usually affect India?",
-      "options": ["December to February", "March to May", "June to September", "October to November"],
+      "options": [
+        "December to February",
+        "March to May",
+        "June to September",
+        "October to November"
+      ],
       "answer": "June to September",
       "accepted": null,
       "hint": "Indian summer — when it's hottest.",
@@ -201,19 +364,36 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Geography KM, Summer — Monsoon",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.mon.003",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "monsoon",
-      "skill_tags": ["monsoon"],
+      "skill_tags": [
+        "monsoon"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Why does the WET monsoon bring rain from the OCEAN onto the LAND?",
-      "options": ["The land heats up faster than the sea, so warm air rises over land and sucks moist air in from the sea", "The sea heats up faster than the land, sending warm air inland", "Winds always blow from west to east at this latitude", "The Earth tilts so rain falls south in summer"],
+      "options": [
+        "The land heats up faster than the sea, so warm air rises over land and sucks moist air in from the sea",
+        "The sea heats up faster than the land, sending warm air inland",
+        "Winds always blow from west to east at this latitude",
+        "The Earth tilts so rain falls south in summer"
+      ],
       "answer": "The land heats up faster than the sea, so warm air rises over land and sucks moist air in from the sea",
       "accepted": null,
       "hint": "In summer, the LAND gets hotter than the sea.",
@@ -221,19 +401,36 @@
       "working_required": false,
       "estimated_seconds": 50,
       "source": "CHS Y8 Geography KM, Summer — Monsoon",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.mon.004",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "monsoon",
-      "skill_tags": ["monsoon"],
+      "skill_tags": [
+        "monsoon"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Why does the DRY (winter) monsoon blow from the LAND towards the SEA?",
-      "options": ["The land is hotter than the sea, pushing winds out to sea", "The land cools faster than the sea in winter, so high pressure forms over land and dry winds blow seawards", "Earth's rotation reverses in winter", "Mountains physically push the air"],
+      "options": [
+        "The land is hotter than the sea, pushing winds out to sea",
+        "The land cools faster than the sea in winter, so high pressure forms over land and dry winds blow seawards",
+        "Earth's rotation reverses in winter",
+        "Mountains physically push the air"
+      ],
       "answer": "The land cools faster than the sea in winter, so high pressure forms over land and dry winds blow seawards",
       "accepted": null,
       "hint": "Winter = land cools FASTER than sea.",
@@ -241,59 +438,125 @@
       "working_required": false,
       "estimated_seconds": 50,
       "source": "CHS Y8 Geography KM, Summer — Monsoon",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.mon.005",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "monsoon",
-      "skill_tags": ["monsoon"],
+      "skill_tags": [
+        "monsoon"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "multi-select",
       "prompt": "Which of these are POSITIVE impacts of the monsoon?",
-      "options": ["Waters rice and wheat crops", "Refills reservoirs and groundwater", "Cools temperatures after the hot dry season", "Causes deadly flooding", "Triggers landslides in the Himalayas", "Generates hydro-electric power"],
-      "answer": ["Waters rice and wheat crops", "Refills reservoirs and groundwater", "Cools temperatures after the hot dry season", "Generates hydro-electric power"],
+      "options": [
+        "Waters rice and wheat crops",
+        "Refills reservoirs and groundwater",
+        "Cools temperatures after the hot dry season",
+        "Causes deadly flooding",
+        "Triggers landslides in the Himalayas",
+        "Generates hydro-electric power"
+      ],
+      "answer": [
+        "Waters rice and wheat crops",
+        "Refills reservoirs and groundwater",
+        "Cools temperatures after the hot dry season",
+        "Generates hydro-electric power"
+      ],
       "accepted": null,
       "hint": "POSITIVES = farming, water and power. Negatives = floods and landslides.",
       "explanation": "Monsoon rains feed crops, refill reservoirs, cool temperatures, and power hydroelectricity. Flooding and landslides are negative impacts when the rains are too heavy.",
       "working_required": false,
       "estimated_seconds": 55,
       "source": "CHS Y8 Geography KM, Summer — Monsoon",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.mon.006",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "monsoon",
-      "skill_tags": ["monsoon"],
+      "skill_tags": [
+        "monsoon"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "multi-select",
       "prompt": "Which of these are NEGATIVE impacts of the monsoon?",
-      "options": ["Deadly flooding in cities like Mumbai", "Landslides in the Himalayas", "Crops washed away or rotting", "Outbreaks of waterborne disease", "Refilled drinking water reservoirs", "Lower farm productivity"],
-      "answer": ["Deadly flooding in cities like Mumbai", "Landslides in the Himalayas", "Crops washed away or rotting", "Outbreaks of waterborne disease", "Lower farm productivity"],
+      "options": [
+        "Deadly flooding in cities like Mumbai",
+        "Landslides in the Himalayas",
+        "Crops washed away or rotting",
+        "Outbreaks of waterborne disease",
+        "Refilled drinking water reservoirs",
+        "Lower farm productivity"
+      ],
+      "answer": [
+        "Deadly flooding in cities like Mumbai",
+        "Landslides in the Himalayas",
+        "Crops washed away or rotting",
+        "Outbreaks of waterborne disease",
+        "Lower farm productivity"
+      ],
       "accepted": null,
       "hint": "Heavy rain = floods, landslides, ruined crops, disease.",
       "explanation": "Negative monsoon impacts include floods, landslides, ruined crops, cholera and typhoid outbreaks, and crop failure. Refilled reservoirs is a POSITIVE.",
       "working_required": false,
       "estimated_seconds": 55,
       "source": "CHS Y8 Geography KM, Summer — Monsoon",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.mon.007",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "monsoon",
-      "skill_tags": ["monsoon"],
+      "skill_tags": [
+        "monsoon"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "Roughly what percentage of India's annual rainfall comes from the summer monsoon?",
-      "options": ["About 20%", "About 40%", "About 70%", "About 95%"],
+      "options": [
+        "About 20%",
+        "About 40%",
+        "About 70%",
+        "About 95%"
+      ],
       "answer": "About 70%",
       "accepted": null,
       "hint": "More than half — most of India's rain falls in just 4 months.",
@@ -301,39 +564,79 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "UK NC KS3 Geography — climate of South Asia",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.mon.008",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "monsoon",
-      "skill_tags": ["monsoon"],
+      "skill_tags": [
+        "monsoon"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "order",
       "prompt": "Put these steps of the wet (summer) monsoon in order.",
-      "options": ["Moist air rises, cools and condenses over India", "Land heats up much faster than the Indian Ocean", "Heavy rain falls across India", "Low pressure forms over the hot land, sucking in moist sea air"],
-      "answer": ["Land heats up much faster than the Indian Ocean", "Low pressure forms over the hot land, sucking in moist sea air", "Moist air rises, cools and condenses over India", "Heavy rain falls across India"],
+      "options": [
+        "Moist air rises, cools and condenses over India",
+        "Land heats up much faster than the Indian Ocean",
+        "Heavy rain falls across India",
+        "Low pressure forms over the hot land, sucking in moist sea air"
+      ],
+      "answer": [
+        "Land heats up much faster than the Indian Ocean",
+        "Low pressure forms over the hot land, sucking in moist sea air",
+        "Moist air rises, cools and condenses over India",
+        "Heavy rain falls across India"
+      ],
       "accepted": null,
       "hint": "Start with WHY the land heats up. End with the RAIN.",
       "explanation": "The wet monsoon: land heats faster than sea → low pressure forms over land → moist sea air pulled in → air rises, cools, condenses → heavy rain.",
       "working_required": false,
       "estimated_seconds": 70,
       "source": "CHS Y8 Geography KM, Summer — Monsoon",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.flo.001",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "floods",
-      "skill_tags": ["monsoon", "flooding"],
+      "skill_tags": [
+        "monsoon",
+        "flooding"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "Which of these South Asian countries is most regularly hit by major monsoon flooding because it sits on a huge low-lying delta?",
-      "options": ["Bangladesh", "Saudi Arabia", "Mongolia", "Japan"],
+      "options": [
+        "Bangladesh",
+        "Saudi Arabia",
+        "Mongolia",
+        "Japan"
+      ],
       "answer": "Bangladesh",
       "accepted": null,
       "hint": "Two massive rivers (Ganges and Brahmaputra) meet in this country.",
@@ -341,119 +644,245 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Geography KM, Summer — Monsoon and floods",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        },
+        {
+          "title": "Forest Biomes – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/forest-biomes-why-are-forests-so-important/lessons"
+        }
+      ]
     },
     {
       "id": "geo.asi.flo.002",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "floods",
-      "skill_tags": ["flooding"],
+      "skill_tags": [
+        "flooding"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "multi-select",
       "prompt": "Which of these are PHYSICAL causes of severe flooding in Bangladesh?",
-      "options": ["Heavy monsoon rainfall", "Snowmelt from the Himalayas", "Low, flat delta land", "Building tower blocks", "Tropical cyclones in the Bay of Bengal", "Deforestation"],
-      "answer": ["Heavy monsoon rainfall", "Snowmelt from the Himalayas", "Low, flat delta land", "Tropical cyclones in the Bay of Bengal"],
+      "options": [
+        "Heavy monsoon rainfall",
+        "Snowmelt from the Himalayas",
+        "Low, flat delta land",
+        "Building tower blocks",
+        "Tropical cyclones in the Bay of Bengal",
+        "Deforestation"
+      ],
+      "answer": [
+        "Heavy monsoon rainfall",
+        "Snowmelt from the Himalayas",
+        "Low, flat delta land",
+        "Tropical cyclones in the Bay of Bengal"
+      ],
       "accepted": null,
       "hint": "Physical = natural. Tower blocks and deforestation are human factors.",
       "explanation": "Physical causes: monsoon rain, Himalayan snowmelt swelling rivers, low-lying delta, and cyclones whipping up storm surges from the Bay of Bengal. Deforestation and building are HUMAN causes.",
       "working_required": false,
       "estimated_seconds": 55,
       "source": "CHS Y8 Geography KM, Summer — Monsoon and floods",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Forest Biomes – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/forest-biomes-why-are-forests-so-important/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.flo.003",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "floods",
-      "skill_tags": ["flooding"],
+      "skill_tags": [
+        "flooding"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "multi-select",
       "prompt": "Which of these are HUMAN causes that make flooding in Bangladesh worse?",
-      "options": ["Deforestation in the Himalayas", "Urban growth in Dhaka covering soil with concrete", "Climate change raising sea levels", "Cyclones forming over the Bay of Bengal", "Failure to maintain embankments", "The Himalayas existing at all"],
-      "answer": ["Deforestation in the Himalayas", "Urban growth in Dhaka covering soil with concrete", "Climate change raising sea levels", "Failure to maintain embankments"],
+      "options": [
+        "Deforestation in the Himalayas",
+        "Urban growth in Dhaka covering soil with concrete",
+        "Climate change raising sea levels",
+        "Cyclones forming over the Bay of Bengal",
+        "Failure to maintain embankments",
+        "The Himalayas existing at all"
+      ],
+      "answer": [
+        "Deforestation in the Himalayas",
+        "Urban growth in Dhaka covering soil with concrete",
+        "Climate change raising sea levels",
+        "Failure to maintain embankments"
+      ],
       "accepted": null,
       "hint": "Human = stuff people are responsible for. Cyclones and mountains are physical.",
       "explanation": "Human causes include deforestation (less soil to absorb rain), urban concrete (water runs off), climate change (rising seas), and poor embankment maintenance. Cyclones are physical.",
       "working_required": false,
       "estimated_seconds": 55,
       "source": "CHS Y8 Geography KM, Summer — Monsoon and floods",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Forest Biomes – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/forest-biomes-why-are-forests-so-important/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.flo.004",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "floods",
-      "skill_tags": ["flooding"],
+      "skill_tags": [
+        "flooding"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "multi-select",
       "prompt": "Which of these are ways Bangladesh tries to MANAGE flooding?",
-      "options": ["Building embankments along rivers", "Cyclone shelters on raised ground", "Early warning systems by phone and radio", "Stopping the monsoon", "Floating schools and houses on stilts", "Banning rain"],
-      "answer": ["Building embankments along rivers", "Cyclone shelters on raised ground", "Early warning systems by phone and radio", "Floating schools and houses on stilts"],
+      "options": [
+        "Building embankments along rivers",
+        "Cyclone shelters on raised ground",
+        "Early warning systems by phone and radio",
+        "Stopping the monsoon",
+        "Floating schools and houses on stilts",
+        "Banning rain"
+      ],
+      "answer": [
+        "Building embankments along rivers",
+        "Cyclone shelters on raised ground",
+        "Early warning systems by phone and radio",
+        "Floating schools and houses on stilts"
+      ],
       "accepted": null,
       "hint": "You can't stop the monsoon or ban rain — but you CAN warn, shelter and build smart.",
       "explanation": "Bangladesh uses embankments, cyclone shelters, warning systems and adaptive housing (floating schools, stilt homes). Stopping rain or the monsoon isn't possible.",
       "working_required": false,
       "estimated_seconds": 55,
       "source": "CHS Y8 Geography KM, Summer — Floods",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Forest Biomes – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/forest-biomes-why-are-forests-so-important/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.flo.005",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "floods",
-      "skill_tags": ["flooding"],
+      "skill_tags": [
+        "flooding"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "text",
       "prompt": "What is the name of the giant delta in Bangladesh and India formed by the Ganges and Brahmaputra rivers?",
       "options": null,
       "answer": "Ganges Delta",
-      "accepted": ["Ganges-Brahmaputra Delta", "the Ganges Delta", "Sundarbans Delta", "Bengal Delta"],
+      "accepted": [
+        "Ganges-Brahmaputra Delta",
+        "the Ganges Delta",
+        "Sundarbans Delta",
+        "Bengal Delta"
+      ],
       "hint": "Named after the more famous of the two rivers — the world's largest delta.",
       "explanation": "The Ganges-Brahmaputra Delta (often called the Ganges Delta or Bengal Delta) is the world's largest. It covers most of Bangladesh and parts of West Bengal in India.",
       "working_required": false,
       "estimated_seconds": 40,
       "source": "UK NC KS3 Geography — physical geography of South Asia",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Forest Biomes – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/forest-biomes-why-are-forests-so-important/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.bio.001",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "biomes",
-      "skill_tags": ["biomes"],
+      "skill_tags": [
+        "biomes"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "text",
       "prompt": "What is the name for a large-scale ecosystem with a distinct climate, plants and animals (e.g. tropical rainforest, tundra)?",
       "options": null,
       "answer": "biome",
-      "accepted": ["a biome", "Biome", "biomes"],
+      "accepted": [
+        "a biome",
+        "Biome",
+        "biomes"
+      ],
       "hint": "5 letters — Bio + me.",
       "explanation": "A biome is a large-scale ecosystem defined by climate, plants and animals. Major biomes include tropical rainforest, desert, tundra, savanna and mountain.",
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Geography KM, Summer — Mountain biome",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Forest Biomes – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/forest-biomes-why-are-forests-so-important/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.bio.002",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "biomes",
-      "skill_tags": ["biomes"],
+      "skill_tags": [
+        "biomes"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "Which biome is found in the highest parts of the Himalayas?",
-      "options": ["Tropical rainforest", "Hot desert", "Mountain (alpine) biome", "Savanna grassland"],
+      "options": [
+        "Tropical rainforest",
+        "Hot desert",
+        "Mountain (alpine) biome",
+        "Savanna grassland"
+      ],
       "answer": "Mountain (alpine) biome",
       "accepted": null,
       "hint": "Cold, windy, treeless at the top — mountain.",
@@ -461,59 +890,122 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Geography KM, Summer — Mountain biome",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Forest Biomes – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/forest-biomes-why-are-forests-so-important/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.bio.003",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "biomes",
-      "skill_tags": ["biomes"],
+      "skill_tags": [
+        "biomes"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "multi-select",
       "prompt": "Which of these are FEATURES of the mountain (alpine) biome in the Himalayas?",
-      "options": ["Thin air with less oxygen", "Strong winds", "Short growing season", "Lush dense rainforest at the peaks", "Hardy plants like alpine flowers and lichens", "Hot, humid climate"],
-      "answer": ["Thin air with less oxygen", "Strong winds", "Short growing season", "Hardy plants like alpine flowers and lichens"],
+      "options": [
+        "Thin air with less oxygen",
+        "Strong winds",
+        "Short growing season",
+        "Lush dense rainforest at the peaks",
+        "Hardy plants like alpine flowers and lichens",
+        "Hot, humid climate"
+      ],
+      "answer": [
+        "Thin air with less oxygen",
+        "Strong winds",
+        "Short growing season",
+        "Hardy plants like alpine flowers and lichens"
+      ],
       "accepted": null,
       "hint": "Mountain biome is COLD, WINDY, DRY — not lush rainforest.",
       "explanation": "Mountain biomes have thin air, strong winds, cold temperatures, short growing seasons and tough plants like alpines and lichens. Rainforest is in tropical lowlands, not at peaks.",
       "working_required": false,
       "estimated_seconds": 55,
       "source": "CHS Y8 Geography KM, Summer — Mountain biome",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Forest Biomes – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/forest-biomes-why-are-forests-so-important/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.bio.004",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "biomes",
-      "skill_tags": ["biomes"],
+      "skill_tags": [
+        "biomes"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "order",
       "prompt": "From bottom to top, put these zones of a Himalayan mountainside in the correct order.",
-      "options": ["Snow and ice (permanent)", "Alpine meadow (grass, flowers)", "Coniferous forest", "Deciduous and tropical forest at the base"],
-      "answer": ["Deciduous and tropical forest at the base", "Coniferous forest", "Alpine meadow (grass, flowers)", "Snow and ice (permanent)"],
+      "options": [
+        "Snow and ice (permanent)",
+        "Alpine meadow (grass, flowers)",
+        "Coniferous forest",
+        "Deciduous and tropical forest at the base"
+      ],
+      "answer": [
+        "Deciduous and tropical forest at the base",
+        "Coniferous forest",
+        "Alpine meadow (grass, flowers)",
+        "Snow and ice (permanent)"
+      ],
       "accepted": null,
       "hint": "Bottom = warmest. Top = coldest. Trees disappear before snow takes over.",
       "explanation": "Going up the Himalayas: tropical/deciduous forest → coniferous forest → alpine meadow above the tree line → permanent snow and ice. Temperature drops about 6°C per 1,000m.",
       "working_required": false,
       "estimated_seconds": 70,
       "source": "UK NC KS3 Geography — mountain ecosystems",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Forest Biomes – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/forest-biomes-why-are-forests-so-important/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.bio.005",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "biomes",
-      "skill_tags": ["biomes"],
+      "skill_tags": [
+        "biomes"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What name is given to the altitude above which trees can no longer grow?",
-      "options": ["Equator line", "Tree line", "Snow line", "Tropic line"],
+      "options": [
+        "Equator line",
+        "Tree line",
+        "Snow line",
+        "Tropic line"
+      ],
       "answer": "Tree line",
       "accepted": null,
       "hint": "Two words — pretty literal.",
@@ -521,59 +1013,125 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "UK NC KS3 Geography — mountain ecosystems",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Forest Biomes – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/forest-biomes-why-are-forests-so-important/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.bio.006",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "biomes",
-      "skill_tags": ["biomes"],
+      "skill_tags": [
+        "biomes"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "multi-select",
       "prompt": "Which of these animals are adapted to live in the Himalayan mountain biome?",
-      "options": ["Snow leopard", "Yak", "Himalayan tahr", "Polar bear", "Camel", "Red panda"],
-      "answer": ["Snow leopard", "Yak", "Himalayan tahr", "Red panda"],
+      "options": [
+        "Snow leopard",
+        "Yak",
+        "Himalayan tahr",
+        "Polar bear",
+        "Camel",
+        "Red panda"
+      ],
+      "answer": [
+        "Snow leopard",
+        "Yak",
+        "Himalayan tahr",
+        "Red panda"
+      ],
       "accepted": null,
       "hint": "Polar bears are Arctic. Camels are desert.",
       "explanation": "Snow leopards, yaks, Himalayan tahrs and red pandas are all adapted to cold mountain conditions with thick fur and strong lungs. Polar bears live in the Arctic; camels in deserts.",
       "working_required": false,
       "estimated_seconds": 50,
       "source": "UK NC KS3 Geography — mountain biome adaptations",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Forest Biomes – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/forest-biomes-why-are-forests-so-important/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.bio.007",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "biomes",
-      "skill_tags": ["biomes"],
+      "skill_tags": [
+        "biomes"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "multi-select",
       "prompt": "Which of these are HUMAN threats to the Himalayan mountain biome?",
-      "options": ["Climate change melting glaciers", "Tourism and trekking pollution", "Deforestation for fuel and farms", "Plate tectonics", "Hunting and poaching", "Earth's rotation"],
-      "answer": ["Climate change melting glaciers", "Tourism and trekking pollution", "Deforestation for fuel and farms", "Hunting and poaching"],
+      "options": [
+        "Climate change melting glaciers",
+        "Tourism and trekking pollution",
+        "Deforestation for fuel and farms",
+        "Plate tectonics",
+        "Hunting and poaching",
+        "Earth's rotation"
+      ],
+      "answer": [
+        "Climate change melting glaciers",
+        "Tourism and trekking pollution",
+        "Deforestation for fuel and farms",
+        "Hunting and poaching"
+      ],
       "accepted": null,
       "hint": "Human = things people do. Plate tectonics and Earth's rotation are natural.",
       "explanation": "Threats include climate change, tourism waste, deforestation and poaching. Plate tectonics and Earth's rotation are natural and not 'threats' caused by humans.",
       "working_required": false,
       "estimated_seconds": 55,
       "source": "UK NC KS3 Geography — environmental change",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Forest Biomes – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/forest-biomes-why-are-forests-so-important/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.kar.001",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "karnataka",
-      "skill_tags": ["karnataka", "development"],
+      "skill_tags": [
+        "karnataka",
+        "development"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "mcq",
       "prompt": "In which country is the state of Karnataka?",
-      "options": ["China", "India", "Bangladesh", "Pakistan"],
+      "options": [
+        "China",
+        "India",
+        "Bangladesh",
+        "Pakistan"
+      ],
       "answer": "India",
       "accepted": null,
       "hint": "Indian state — its capital is Bangalore (Bengaluru).",
@@ -581,39 +1139,77 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Geography KM, Summer — Karnataka",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        },
+        {
+          "title": "Globalisation: Is the World Shrinking? – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/globalisation-is-the-world-shrinking/lessons"
+        }
+      ]
     },
     {
       "id": "geo.asi.kar.002",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "karnataka",
-      "skill_tags": ["karnataka"],
+      "skill_tags": [
+        "karnataka"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "text",
       "prompt": "What is the capital city of Karnataka, famous for its IT and tech industries?",
       "options": null,
       "answer": "Bengaluru",
-      "accepted": ["Bangalore", "bengaluru", "bangalore"],
+      "accepted": [
+        "Bangalore",
+        "bengaluru",
+        "bangalore"
+      ],
       "hint": "Two acceptable names — its older English name was 'Bangalore'.",
       "explanation": "Bengaluru (formerly Bangalore) is the capital of Karnataka. It's known as India's 'Silicon Valley' because of its huge tech industry.",
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Geography KM, Summer — Karnataka",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.kar.003",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "karnataka",
-      "skill_tags": ["karnataka", "asia-economy"],
+      "skill_tags": [
+        "karnataka",
+        "asia-economy"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Bengaluru is sometimes nicknamed India's…",
-      "options": ["Cottonopolis", "Silicon Valley", "Steel City", "Garden of England"],
+      "options": [
+        "Cottonopolis",
+        "Silicon Valley",
+        "Steel City",
+        "Garden of England"
+      ],
       "answer": "Silicon Valley",
       "accepted": null,
       "hint": "Named after the famous US tech region in California.",
@@ -621,79 +1217,189 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Geography KM, Summer — Karnataka",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        },
+        {
+          "title": "China: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/china-a-global-superpower/lessons"
+        }
+      ]
     },
     {
       "id": "geo.asi.kar.004",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "karnataka",
-      "skill_tags": ["karnataka", "asia-economy"],
+      "skill_tags": [
+        "karnataka",
+        "asia-economy"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "multi-select",
       "prompt": "Which of these are reasons Bengaluru became India's IT hub?",
-      "options": ["Lots of English-speaking graduates", "Government investment in tech parks", "Lower wages than the USA or UK", "It has the highest mountains in India", "Cool climate makes long working hours easier", "Strong universities like the Indian Institute of Science"],
-      "answer": ["Lots of English-speaking graduates", "Government investment in tech parks", "Lower wages than the USA or UK", "Cool climate makes long working hours easier", "Strong universities like the Indian Institute of Science"],
+      "options": [
+        "Lots of English-speaking graduates",
+        "Government investment in tech parks",
+        "Lower wages than the USA or UK",
+        "It has the highest mountains in India",
+        "Cool climate makes long working hours easier",
+        "Strong universities like the Indian Institute of Science"
+      ],
+      "answer": [
+        "Lots of English-speaking graduates",
+        "Government investment in tech parks",
+        "Lower wages than the USA or UK",
+        "Cool climate makes long working hours easier",
+        "Strong universities like the Indian Institute of Science"
+      ],
       "accepted": null,
       "hint": "Bengaluru is on a plateau (cool-ish) — NOT in the mountains.",
       "explanation": "Bengaluru's IT boom came from skilled English-speaking graduates, government tech parks, cheaper costs than Western firms, a relatively cool climate (it's on a 900m plateau) and elite universities. It's not in the highest mountains.",
       "working_required": false,
       "estimated_seconds": 60,
       "source": "CHS Y8 Geography KM, Summer — Karnataka",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        },
+        {
+          "title": "China: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/china-a-global-superpower/lessons"
+        }
+      ]
     },
     {
       "id": "geo.asi.kar.005",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "karnataka",
-      "skill_tags": ["karnataka", "asia-economy"],
+      "skill_tags": [
+        "karnataka",
+        "asia-economy"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "multi-select",
       "prompt": "Which of these are POSITIVE impacts of the IT boom on Karnataka?",
-      "options": ["Higher wages and salaries", "More skilled jobs", "Tax revenue for government services", "Growing inequality between rich and poor", "Better roads, airports and metro", "Strain on housing and water supply"],
-      "answer": ["Higher wages and salaries", "More skilled jobs", "Tax revenue for government services", "Better roads, airports and metro"],
+      "options": [
+        "Higher wages and salaries",
+        "More skilled jobs",
+        "Tax revenue for government services",
+        "Growing inequality between rich and poor",
+        "Better roads, airports and metro",
+        "Strain on housing and water supply"
+      ],
+      "answer": [
+        "Higher wages and salaries",
+        "More skilled jobs",
+        "Tax revenue for government services",
+        "Better roads, airports and metro"
+      ],
       "accepted": null,
       "hint": "Positive = the good stuff. Inequality and water strain are challenges.",
       "explanation": "The IT boom raised wages, created skilled jobs, generated tax revenue and funded better infrastructure. Rising inequality and pressure on water/housing are negative side effects.",
       "working_required": false,
       "estimated_seconds": 55,
       "source": "CHS Y8 Geography KM, Summer — Karnataka",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        },
+        {
+          "title": "China: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/china-a-global-superpower/lessons"
+        }
+      ]
     },
     {
       "id": "geo.asi.kar.006",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "karnataka",
-      "skill_tags": ["karnataka", "asia-economy"],
+      "skill_tags": [
+        "karnataka",
+        "asia-economy"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "multi-select",
       "prompt": "Which of these are NEGATIVE impacts of Bengaluru's rapid growth?",
-      "options": ["Traffic congestion", "Water shortages and lake pollution", "Loss of green space", "Less inequality", "Growth of informal settlements", "Cheaper housing for everyone"],
-      "answer": ["Traffic congestion", "Water shortages and lake pollution", "Loss of green space", "Growth of informal settlements"],
+      "options": [
+        "Traffic congestion",
+        "Water shortages and lake pollution",
+        "Loss of green space",
+        "Less inequality",
+        "Growth of informal settlements",
+        "Cheaper housing for everyone"
+      ],
+      "answer": [
+        "Traffic congestion",
+        "Water shortages and lake pollution",
+        "Loss of green space",
+        "Growth of informal settlements"
+      ],
       "accepted": null,
       "hint": "Rapid growth = strain on the city's resources and people.",
       "explanation": "Bengaluru's growth has caused congestion, water shortages, lake pollution, loss of parks/green space, and the spread of informal settlements where poorer migrants live.",
       "working_required": false,
       "estimated_seconds": 55,
       "source": "CHS Y8 Geography KM, Summer — Karnataka",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        },
+        {
+          "title": "China: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/china-a-global-superpower/lessons"
+        }
+      ]
     },
     {
       "id": "geo.asi.kar.007",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "karnataka",
-      "skill_tags": ["karnataka", "development"],
+      "skill_tags": [
+        "karnataka",
+        "development"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "India as a whole is best described as a…",
-      "options": ["Low-Income Country (LIC)", "Newly Emerging Economy (NEE)", "High-Income Country (HIC)", "Very poor country with no industry"],
+      "options": [
+        "Low-Income Country (LIC)",
+        "Newly Emerging Economy (NEE)",
+        "High-Income Country (HIC)",
+        "Very poor country with no industry"
+      ],
       "answer": "Newly Emerging Economy (NEE)",
       "accepted": null,
       "hint": "Three letters — N_E_E.",
@@ -701,39 +1407,82 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "UK NC KS3 Geography — development",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        },
+        {
+          "title": "Globalisation: Is the World Shrinking? – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/globalisation-is-the-world-shrinking/lessons"
+        }
+      ]
     },
     {
       "id": "geo.asi.chi.001",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "china",
-      "skill_tags": ["china-interdependence", "asia-economy"],
+      "skill_tags": [
+        "china-interdependence",
+        "asia-economy"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "text",
       "prompt": "What is the capital city of China?",
       "options": null,
       "answer": "Beijing",
-      "accepted": ["beijing", "Peking", "peking"],
+      "accepted": [
+        "beijing",
+        "Peking",
+        "peking"
+      ],
       "hint": "Two syllables, starts with B. Was once spelled 'Peking'.",
       "explanation": "Beijing is the capital of China and home to about 22 million people. It hosted the 2008 and 2022 Olympic Games.",
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Geography KM, Summer — China",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "China: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/china-a-global-superpower/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        },
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        }
+      ]
     },
     {
       "id": "geo.asi.chi.002",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "china",
-      "skill_tags": ["china-interdependence", "asia-economy"],
+      "skill_tags": [
+        "china-interdependence",
+        "asia-economy"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "China is the world's…",
-      "options": ["Smallest country by area", "Most populated country (in 2024 was overtaken by India)", "Only country in Asia", "Poorest country"],
+      "options": [
+        "Smallest country by area",
+        "Most populated country (in 2024 was overtaken by India)",
+        "Only country in Asia",
+        "Poorest country"
+      ],
       "answer": "Most populated country (in 2024 was overtaken by India)",
       "accepted": null,
       "hint": "Billions of people — only India has more.",
@@ -741,19 +1490,41 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Geography KM, Summer — China",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "China: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/china-a-global-superpower/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        },
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        }
+      ]
     },
     {
       "id": "geo.asi.chi.003",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "china",
-      "skill_tags": ["china-interdependence", "asia-economy"],
+      "skill_tags": [
+        "china-interdependence",
+        "asia-economy"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "China has the world's…",
-      "options": ["Smallest economy", "Second-largest economy (after the USA)", "Only communist economy", "Most agricultural economy"],
+      "options": [
+        "Smallest economy",
+        "Second-largest economy (after the USA)",
+        "Only communist economy",
+        "Most agricultural economy"
+      ],
       "answer": "Second-largest economy (after the USA)",
       "accepted": null,
       "hint": "It's second only to the USA by total GDP.",
@@ -761,179 +1532,403 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Geography KM, Summer — China",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "China: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/china-a-global-superpower/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        },
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        }
+      ]
     },
     {
       "id": "geo.asi.chi.004",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "china",
-      "skill_tags": ["china-interdependence", "asia-economy"],
+      "skill_tags": [
+        "china-interdependence",
+        "asia-economy"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "text",
       "prompt": "What nickname is China sometimes given because it produces so many of the world's manufactured goods?",
       "options": null,
       "answer": "the world's factory",
-      "accepted": ["world's factory", "Factory of the world", "factory of the world", "the workshop of the world"],
+      "accepted": [
+        "world's factory",
+        "Factory of the world",
+        "factory of the world",
+        "the workshop of the world"
+      ],
       "hint": "Where the world makes stuff — three words.",
       "explanation": "China is nicknamed 'the world's factory' because it manufactures around a third of global goods, from phones and toys to steel and clothes.",
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y8 Geography KM, Summer — China",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "China: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/china-a-global-superpower/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        },
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        }
+      ]
     },
     {
       "id": "geo.asi.chi.005",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "china",
-      "skill_tags": ["china-interdependence", "asia-economy"],
+      "skill_tags": [
+        "china-interdependence",
+        "asia-economy"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "multi-select",
       "prompt": "Which of these are commonly manufactured in China for export around the world?",
-      "options": ["Smartphones (e.g. iPhones assembled there)", "Clothing and textiles", "Toys and games", "Steel", "Champagne", "Solar panels"],
-      "answer": ["Smartphones (e.g. iPhones assembled there)", "Clothing and textiles", "Toys and games", "Steel", "Solar panels"],
+      "options": [
+        "Smartphones (e.g. iPhones assembled there)",
+        "Clothing and textiles",
+        "Toys and games",
+        "Steel",
+        "Champagne",
+        "Solar panels"
+      ],
+      "answer": [
+        "Smartphones (e.g. iPhones assembled there)",
+        "Clothing and textiles",
+        "Toys and games",
+        "Steel",
+        "Solar panels"
+      ],
       "accepted": null,
       "hint": "Champagne is a protected French product, not made in China.",
       "explanation": "China makes huge amounts of electronics, clothing, toys, steel and solar panels for global markets. Champagne is by law produced only in the Champagne region of France.",
       "working_required": false,
       "estimated_seconds": 55,
       "source": "CHS Y8 Geography KM, Summer — China",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "China: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/china-a-global-superpower/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        },
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        }
+      ]
     },
     {
       "id": "geo.asi.chi.006",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "china",
-      "skill_tags": ["china-interdependence", "asia-economy"],
+      "skill_tags": [
+        "china-interdependence",
+        "asia-economy"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "text",
       "prompt": "What is the term for countries relying on each other for trade, resources and finance?",
       "options": null,
       "answer": "interdependence",
-      "accepted": ["Interdependence", "inter-dependence", "interdependent"],
+      "accepted": [
+        "Interdependence",
+        "inter-dependence",
+        "interdependent"
+      ],
       "hint": "One word — 'inter' (between) + 'dependence' (relying on).",
       "explanation": "Interdependence is when countries depend on each other — for trade, jobs, resources or finance. Globalisation has made the UK and China deeply interdependent.",
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Geography KM, Summer — China",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "China: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/china-a-global-superpower/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        },
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        }
+      ]
     },
     {
       "id": "geo.asi.chi.007",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "china",
-      "skill_tags": ["china-interdependence", "asia-economy"],
+      "skill_tags": [
+        "china-interdependence",
+        "asia-economy"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "multi-select",
       "prompt": "Which of these show how the UK is INTERDEPENDENT with China?",
-      "options": ["UK imports phones, clothes and toys made in China", "Chinese tourists visit Manchester and London", "Chinese students study at UK universities", "Chinese investment in UK infrastructure (e.g. nuclear power)", "The UK supplies all of China's food", "China shares a land border with the UK"],
-      "answer": ["UK imports phones, clothes and toys made in China", "Chinese tourists visit Manchester and London", "Chinese students study at UK universities", "Chinese investment in UK infrastructure (e.g. nuclear power)"],
+      "options": [
+        "UK imports phones, clothes and toys made in China",
+        "Chinese tourists visit Manchester and London",
+        "Chinese students study at UK universities",
+        "Chinese investment in UK infrastructure (e.g. nuclear power)",
+        "The UK supplies all of China's food",
+        "China shares a land border with the UK"
+      ],
+      "answer": [
+        "UK imports phones, clothes and toys made in China",
+        "Chinese tourists visit Manchester and London",
+        "Chinese students study at UK universities",
+        "Chinese investment in UK infrastructure (e.g. nuclear power)"
+      ],
       "accepted": null,
       "hint": "The UK and China don't share a land border, and the UK doesn't feed China!",
       "explanation": "The UK and China are linked through imports, tourism, education and investment. They don't share a border, and the UK doesn't supply all China's food.",
       "working_required": false,
       "estimated_seconds": 60,
       "source": "CHS Y8 Geography KM, Summer — China",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "China: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/china-a-global-superpower/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        },
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        }
+      ]
     },
     {
       "id": "geo.asi.chi.008",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "china",
-      "skill_tags": ["china-interdependence", "asia-economy"],
+      "skill_tags": [
+        "china-interdependence",
+        "asia-economy"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "text",
       "prompt": "What name does China give its huge global trade and infrastructure project, launched in 2013, building roads, railways and ports across Asia, Africa and Europe?",
       "options": null,
       "answer": "Belt and Road Initiative",
-      "accepted": ["BRI", "the Belt and Road Initiative", "belt and road", "Belt and Road"],
+      "accepted": [
+        "BRI",
+        "the Belt and Road Initiative",
+        "belt and road",
+        "Belt and Road"
+      ],
       "hint": "Three words — sometimes abbreviated to BRI.",
       "explanation": "The Belt and Road Initiative (BRI) is China's massive plan to build trade routes, ports, railways and roads across more than 100 countries, expanding Chinese influence globally.",
       "working_required": false,
       "estimated_seconds": 40,
       "source": "UK NC KS3 Geography — global economy",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "China: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/china-a-global-superpower/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        },
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        }
+      ]
     },
     {
       "id": "geo.asi.chi.009",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "china",
-      "skill_tags": ["china-interdependence", "asia-economy"],
+      "skill_tags": [
+        "china-interdependence",
+        "asia-economy"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "multi-select",
       "prompt": "Which of these are POSITIVE impacts of China's rapid economic growth?",
-      "options": ["Hundreds of millions lifted out of poverty", "Huge investment in cities and transport", "Air and water pollution", "Becoming a global leader in solar and electric cars", "Loss of farmland", "Higher wages for Chinese workers"],
-      "answer": ["Hundreds of millions lifted out of poverty", "Huge investment in cities and transport", "Becoming a global leader in solar and electric cars", "Higher wages for Chinese workers"],
+      "options": [
+        "Hundreds of millions lifted out of poverty",
+        "Huge investment in cities and transport",
+        "Air and water pollution",
+        "Becoming a global leader in solar and electric cars",
+        "Loss of farmland",
+        "Higher wages for Chinese workers"
+      ],
+      "answer": [
+        "Hundreds of millions lifted out of poverty",
+        "Huge investment in cities and transport",
+        "Becoming a global leader in solar and electric cars",
+        "Higher wages for Chinese workers"
+      ],
       "accepted": null,
       "hint": "Positive = the good outcomes.",
       "explanation": "China's growth has lifted ~800 million people out of extreme poverty, built world-class infrastructure, made it a leader in renewables, and raised wages. Pollution and farmland loss are downsides.",
       "working_required": false,
       "estimated_seconds": 60,
       "source": "CHS Y8 Geography KM, Summer — China",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "China: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/china-a-global-superpower/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        },
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        }
+      ]
     },
     {
       "id": "geo.asi.chi.010",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "china",
-      "skill_tags": ["china-interdependence", "asia-economy"],
+      "skill_tags": [
+        "china-interdependence",
+        "asia-economy"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "multi-select",
       "prompt": "Which of these are NEGATIVE impacts of China's rapid growth?",
-      "options": ["Severe air pollution in big cities", "Water shortages in northern China", "Loss of farmland to factories and cities", "Reduced life expectancy", "More people lifted out of poverty", "Greenhouse gas emissions (now the world's largest)"],
-      "answer": ["Severe air pollution in big cities", "Water shortages in northern China", "Loss of farmland to factories and cities", "Greenhouse gas emissions (now the world's largest)"],
+      "options": [
+        "Severe air pollution in big cities",
+        "Water shortages in northern China",
+        "Loss of farmland to factories and cities",
+        "Reduced life expectancy",
+        "More people lifted out of poverty",
+        "Greenhouse gas emissions (now the world's largest)"
+      ],
+      "answer": [
+        "Severe air pollution in big cities",
+        "Water shortages in northern China",
+        "Loss of farmland to factories and cities",
+        "Greenhouse gas emissions (now the world's largest)"
+      ],
       "accepted": null,
       "hint": "Negative = environmental/health problems. Life expectancy has actually RISEN.",
       "explanation": "Negative impacts include air pollution, water shortages, loss of farmland and being the world's biggest CO2 emitter. Life expectancy has actually risen, and poverty has fallen.",
       "working_required": false,
       "estimated_seconds": 60,
       "source": "CHS Y8 Geography KM, Summer — China",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "China: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/china-a-global-superpower/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        },
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        }
+      ]
     },
     {
       "id": "geo.asi.chi.011",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "china",
-      "skill_tags": ["china-interdependence", "asia-economy"],
+      "skill_tags": [
+        "china-interdependence",
+        "asia-economy"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "text",
       "prompt": "What is the name of the huge dam on the Yangtze river — the largest hydroelectric dam in the world?",
       "options": null,
       "answer": "Three Gorges Dam",
-      "accepted": ["the Three Gorges Dam", "Three Gorges"],
+      "accepted": [
+        "the Three Gorges Dam",
+        "Three Gorges"
+      ],
       "hint": "Three words — named after three river canyons.",
       "explanation": "The Three Gorges Dam on the Yangtze is the world's largest hydroelectric power station. It generates massive clean energy but displaced over a million people and flooded ancient sites.",
       "working_required": false,
       "estimated_seconds": 40,
       "source": "CHS Y8 Geography KM, Summer — China",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "China: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/china-a-global-superpower/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        },
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        }
+      ]
     },
     {
       "id": "geo.asi.chi.012",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "china",
-      "skill_tags": ["china-interdependence", "asia-economy"],
+      "skill_tags": [
+        "china-interdependence",
+        "asia-economy"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "Roughly how many people have been lifted out of extreme poverty in China since 1980?",
-      "options": ["About 8 million", "About 80 million", "About 800 million", "About 8 billion"],
+      "options": [
+        "About 8 million",
+        "About 80 million",
+        "About 800 million",
+        "About 8 billion"
+      ],
       "answer": "About 800 million",
       "accepted": null,
       "hint": "Hundreds of millions — about the population of Europe.",
@@ -941,19 +1936,41 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "World Bank data — China poverty reduction",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "China: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/china-a-global-superpower/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        },
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        }
+      ]
     },
     {
       "id": "geo.asi.chi.013",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "china",
-      "skill_tags": ["china-interdependence", "urbanisation"],
+      "skill_tags": [
+        "china-interdependence",
+        "urbanisation"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Which Chinese city is the country's biggest port and a major financial centre?",
-      "options": ["Beijing", "Shanghai", "Guangzhou", "Chengdu"],
+      "options": [
+        "Beijing",
+        "Shanghai",
+        "Guangzhou",
+        "Chengdu"
+      ],
       "answer": "Shanghai",
       "accepted": null,
       "hint": "It's on the mouth of the Yangtze, with iconic skyscrapers across the Huangpu River.",
@@ -961,19 +1978,41 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "UK NC KS3 Geography — Chinese cities",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "China: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/china-a-global-superpower/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        },
+        {
+          "title": "Cities: What Are They Like to Live In? – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/cities-what-are-they-like-to-live-in/lessons"
+        }
+      ]
     },
     {
       "id": "geo.asi.eco.001",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "asia-economy",
-      "skill_tags": ["asia-economy", "development"],
+      "skill_tags": [
+        "asia-economy",
+        "development"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "Which of these phrases best describes Asia's role in the world economy today?",
-      "options": ["Insignificant and isolated", "A growing global economic powerhouse", "Mainly farming with no industry", "Smaller than the African economy"],
+      "options": [
+        "Insignificant and isolated",
+        "A growing global economic powerhouse",
+        "Mainly farming with no industry",
+        "Smaller than the African economy"
+      ],
       "answer": "A growing global economic powerhouse",
       "accepted": null,
       "hint": "Think factories, tech, exports, megacities.",
@@ -981,99 +2020,217 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y8 Geography KM, Summer — Asia as a global economic region",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "China: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/china-a-global-superpower/lessons"
+        },
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        },
+        {
+          "title": "Globalisation: Is the World Shrinking? – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/globalisation-is-the-world-shrinking/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.eco.002",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "asia-economy",
-      "skill_tags": ["asia-economy"],
+      "skill_tags": [
+        "asia-economy"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "multi-select",
       "prompt": "Which of these are major Asian economies?",
-      "options": ["China", "Japan", "India", "South Korea", "Argentina", "Indonesia"],
-      "answer": ["China", "Japan", "India", "South Korea", "Indonesia"],
+      "options": [
+        "China",
+        "Japan",
+        "India",
+        "South Korea",
+        "Argentina",
+        "Indonesia"
+      ],
+      "answer": [
+        "China",
+        "Japan",
+        "India",
+        "South Korea",
+        "Indonesia"
+      ],
       "accepted": null,
       "hint": "Argentina is in South America.",
       "explanation": "China, Japan, India, South Korea and Indonesia are all major Asian economies. Argentina is in South America.",
       "working_required": false,
       "estimated_seconds": 40,
       "source": "UK NC KS3 Geography — Asian economies",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "China: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/china-a-global-superpower/lessons"
+        },
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        }
+      ]
     },
     {
       "id": "geo.asi.eco.003",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "asia-economy",
-      "skill_tags": ["asia-economy", "development"],
+      "skill_tags": [
+        "asia-economy",
+        "development"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "text",
       "prompt": "What term describes how countries, businesses and people around the world are increasingly connected?",
       "options": null,
       "answer": "globalisation",
-      "accepted": ["Globalisation", "globalization", "global integration"],
+      "accepted": [
+        "Globalisation",
+        "globalization",
+        "global integration"
+      ],
       "hint": "Comes from the word 'global' — one word.",
       "explanation": "Globalisation is the increasing connection between countries through trade, technology, travel and culture. It is what made China the world's factory and Bengaluru a tech hub.",
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y8 Geography KM, Summer — Asia as a global economic region",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "China: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/china-a-global-superpower/lessons"
+        },
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        },
+        {
+          "title": "Globalisation: Is the World Shrinking? – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/globalisation-is-the-world-shrinking/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.eco.004",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "asia-economy",
-      "skill_tags": ["asia-economy"],
+      "skill_tags": [
+        "asia-economy"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "text",
       "prompt": "What is the term for a huge company that operates in many countries (e.g. Apple, Samsung)?",
       "options": null,
       "answer": "transnational corporation",
-      "accepted": ["TNC", "multinational corporation", "MNC", "transnational corporations"],
+      "accepted": [
+        "TNC",
+        "multinational corporation",
+        "MNC",
+        "transnational corporations"
+      ],
       "hint": "Three letters — T_N_C.",
       "explanation": "A Transnational Corporation (TNC) is a company that operates in multiple countries — like Apple, Samsung, Toyota or Tata. TNCs are key drivers of globalisation.",
       "working_required": false,
       "estimated_seconds": 40,
       "source": "UK NC KS3 Geography — globalisation",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "China: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/china-a-global-superpower/lessons"
+        },
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        }
+      ]
     },
     {
       "id": "geo.asi.eco.005",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "asia-economy",
-      "skill_tags": ["asia-economy"],
+      "skill_tags": [
+        "asia-economy"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "multi-select",
       "prompt": "Why do many TNCs choose to locate factories in Asia?",
-      "options": ["Lower wages than in Europe or the USA", "Large skilled workforce", "Looser environmental laws in some places", "Good ports and transport links", "The shortest distance to the Moon", "Strong government investment in infrastructure"],
-      "answer": ["Lower wages than in Europe or the USA", "Large skilled workforce", "Looser environmental laws in some places", "Good ports and transport links", "Strong government investment in infrastructure"],
+      "options": [
+        "Lower wages than in Europe or the USA",
+        "Large skilled workforce",
+        "Looser environmental laws in some places",
+        "Good ports and transport links",
+        "The shortest distance to the Moon",
+        "Strong government investment in infrastructure"
+      ],
+      "answer": [
+        "Lower wages than in Europe or the USA",
+        "Large skilled workforce",
+        "Looser environmental laws in some places",
+        "Good ports and transport links",
+        "Strong government investment in infrastructure"
+      ],
       "accepted": null,
       "hint": "Distance to the Moon is the same everywhere on Earth!",
       "explanation": "TNCs choose Asia for lower wages, big skilled workforces, looser regulations, excellent ports/infrastructure and government incentives. Distance to the Moon is irrelevant.",
       "working_required": false,
       "estimated_seconds": 60,
       "source": "CHS Y8 Geography KM, Summer — Asia as a global economic region",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "China: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/china-a-global-superpower/lessons"
+        },
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        }
+      ]
     },
     {
       "id": "geo.asi.eco.006",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "asia-economy",
-      "skill_tags": ["asia-economy", "development"],
+      "skill_tags": [
+        "asia-economy",
+        "development"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "Which of these is the BEST evidence that Asia is becoming a global economic region?",
-      "options": ["Asian countries lead in manufacturing, exports, tech and finance", "Asia's mountains are getting taller", "Asia has the largest desert in the world", "Asia is mostly farming and has no factories"],
+      "options": [
+        "Asian countries lead in manufacturing, exports, tech and finance",
+        "Asia's mountains are getting taller",
+        "Asia has the largest desert in the world",
+        "Asia is mostly farming and has no factories"
+      ],
       "answer": "Asian countries lead in manufacturing, exports, tech and finance",
       "accepted": null,
       "hint": "Economic = jobs, exports, money, trade.",
@@ -1081,39 +2238,91 @@
       "working_required": false,
       "estimated_seconds": 45,
       "source": "CHS Y8 Geography KM, Summer — Asia as a global economic region",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "China: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/china-a-global-superpower/lessons"
+        },
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        },
+        {
+          "title": "Globalisation: Is the World Shrinking? – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/globalisation-is-the-world-shrinking/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.eco.007",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "asia-economy",
-      "skill_tags": ["asia-economy", "development"],
+      "skill_tags": [
+        "asia-economy",
+        "development"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "text",
       "prompt": "What is the term for a country whose economy is growing fast but is not yet as wealthy as a HIC (e.g. India, Brazil, Indonesia)?",
       "options": null,
       "answer": "Newly Emerging Economy",
-      "accepted": ["NEE", "newly emerging economy", "Newly emerging economy", "newly industrialised country", "NIC"],
+      "accepted": [
+        "NEE",
+        "newly emerging economy",
+        "Newly emerging economy",
+        "newly industrialised country",
+        "NIC"
+      ],
       "hint": "Three letters — N_E_E.",
       "explanation": "Newly Emerging Economies (NEEs) are countries growing fast through industry and services — like India, China, Brazil, Mexico and Indonesia. Their wealth is rising but unevenly.",
       "working_required": false,
       "estimated_seconds": 40,
       "source": "CHS Y8 Geography KM, Summer — Development",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "China: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/china-a-global-superpower/lessons"
+        },
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        },
+        {
+          "title": "Globalisation: Is the World Shrinking? – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/globalisation-is-the-world-shrinking/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.eco.008",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "asia-economy",
-      "skill_tags": ["asia-economy"],
+      "skill_tags": [
+        "asia-economy"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Which Asian country was the first to industrialise rapidly after WW2, becoming an HIC?",
-      "options": ["China", "India", "Japan", "Bangladesh"],
+      "options": [
+        "China",
+        "India",
+        "Japan",
+        "Bangladesh"
+      ],
       "answer": "Japan",
       "accepted": null,
       "hint": "Famous for Toyota, Sony, Nintendo and bullet trains.",
@@ -1121,119 +2330,257 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "UK NC KS3 Geography — Asian development",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "China: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/china-a-global-superpower/lessons"
+        },
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        }
+      ]
     },
     {
       "id": "geo.asi.eco.009",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "asia-economy",
-      "skill_tags": ["asia-economy"],
+      "skill_tags": [
+        "asia-economy"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "multi-select",
       "prompt": "Which of these are famous Asian transnational corporations (TNCs)?",
-      "options": ["Samsung (South Korea)", "Toyota (Japan)", "Tata (India)", "Lego (Denmark)", "Huawei (China)", "Tesla (USA)"],
-      "answer": ["Samsung (South Korea)", "Toyota (Japan)", "Tata (India)", "Huawei (China)"],
+      "options": [
+        "Samsung (South Korea)",
+        "Toyota (Japan)",
+        "Tata (India)",
+        "Lego (Denmark)",
+        "Huawei (China)",
+        "Tesla (USA)"
+      ],
+      "answer": [
+        "Samsung (South Korea)",
+        "Toyota (Japan)",
+        "Tata (India)",
+        "Huawei (China)"
+      ],
       "accepted": null,
       "hint": "Lego is Danish. Tesla is American.",
       "explanation": "Samsung, Toyota, Tata and Huawei are major Asian TNCs. Lego is Danish; Tesla is American.",
       "working_required": false,
       "estimated_seconds": 45,
       "source": "UK NC KS3 Geography — TNCs in Asia",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "China: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/china-a-global-superpower/lessons"
+        },
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        }
+      ]
     },
     {
       "id": "geo.asi.eco.010",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "asia-economy",
-      "skill_tags": ["asia-economy", "development"],
+      "skill_tags": [
+        "asia-economy",
+        "development"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "order",
       "prompt": "Put these stages of Asia's economic transformation in chronological order.",
-      "options": ["India's IT boom in Bengaluru (1990s onwards)", "Japan rebuilds as a manufacturing power (1950s–70s)", "South Korea and the 'Asian Tigers' rise (1970s–80s)", "China opens up and becomes 'the world's factory' (1980s onwards)"],
-      "answer": ["Japan rebuilds as a manufacturing power (1950s–70s)", "South Korea and the 'Asian Tigers' rise (1970s–80s)", "China opens up and becomes 'the world's factory' (1980s onwards)", "India's IT boom in Bengaluru (1990s onwards)"],
+      "options": [
+        "India's IT boom in Bengaluru (1990s onwards)",
+        "Japan rebuilds as a manufacturing power (1950s–70s)",
+        "South Korea and the 'Asian Tigers' rise (1970s–80s)",
+        "China opens up and becomes 'the world's factory' (1980s onwards)"
+      ],
+      "answer": [
+        "Japan rebuilds as a manufacturing power (1950s–70s)",
+        "South Korea and the 'Asian Tigers' rise (1970s–80s)",
+        "China opens up and becomes 'the world's factory' (1980s onwards)",
+        "India's IT boom in Bengaluru (1990s onwards)"
+      ],
       "accepted": null,
       "hint": "Start with Japan after WW2. End with India in the 90s.",
       "explanation": "Asia's rise: Japan (1950s–70s) → Asian Tigers like South Korea (1970s–80s) → China (1980s onwards) → India (1990s onwards). Each wave used lessons from the last.",
       "working_required": false,
       "estimated_seconds": 80,
       "source": "UK NC KS3 Geography — Asian development",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "China: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/china-a-global-superpower/lessons"
+        },
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        },
+        {
+          "title": "Globalisation: Is the World Shrinking? – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/globalisation-is-the-world-shrinking/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.eco.011",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "asia-economy",
-      "skill_tags": ["asia-economy", "development"],
+      "skill_tags": [
+        "asia-economy",
+        "development"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "text",
       "prompt": "What is the collective nickname for South Korea, Taiwan, Hong Kong and Singapore, which industrialised rapidly from the 1960s?",
       "options": null,
       "answer": "Asian Tigers",
-      "accepted": ["the Asian Tigers", "Four Asian Tigers", "Asian tigers", "Tiger economies"],
+      "accepted": [
+        "the Asian Tigers",
+        "Four Asian Tigers",
+        "Asian tigers",
+        "Tiger economies"
+      ],
       "hint": "Named after a fierce big cat — strong and fast.",
       "explanation": "The 'Asian Tigers' — South Korea, Taiwan, Hong Kong and Singapore — were the first wave of fast-growing Asian economies after Japan, industrialising rapidly from the 1960s.",
       "working_required": false,
       "estimated_seconds": 40,
       "source": "UK NC KS3 Geography — Asian development",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "China: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/china-a-global-superpower/lessons"
+        },
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        },
+        {
+          "title": "Globalisation: Is the World Shrinking? – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/globalisation-is-the-world-shrinking/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.phy.009",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "asia-physical",
-      "skill_tags": ["asia-economy"],
+      "skill_tags": [
+        "asia-economy"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "text",
       "prompt": "What is the name of the high plateau in central Asia, often called the 'Roof of the World'?",
       "options": null,
       "answer": "Tibetan Plateau",
-      "accepted": ["Tibet", "the Tibetan Plateau", "Plateau of Tibet"],
+      "accepted": [
+        "Tibet",
+        "the Tibetan Plateau",
+        "Plateau of Tibet"
+      ],
       "hint": "Named after a Chinese region — part of China today.",
       "explanation": "The Tibetan Plateau is the highest and largest plateau in the world, averaging 4,500 m. It is the source of major rivers including the Yangtze, Mekong, Indus and Ganges.",
       "working_required": false,
       "estimated_seconds": 40,
       "source": "UK NC KS3 Geography — physical Asia",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "China: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/china-a-global-superpower/lessons"
+        },
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        }
+      ]
     },
     {
       "id": "geo.asi.phy.010",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "asia-physical",
-      "skill_tags": ["asia-economy"],
+      "skill_tags": [
+        "asia-economy"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "multi-select",
       "prompt": "Which of these major rivers have their SOURCE in the Himalayas or Tibetan Plateau?",
-      "options": ["Ganges", "Yangtze", "Brahmaputra", "Indus", "Thames", "Nile"],
-      "answer": ["Ganges", "Yangtze", "Brahmaputra", "Indus"],
+      "options": [
+        "Ganges",
+        "Yangtze",
+        "Brahmaputra",
+        "Indus",
+        "Thames",
+        "Nile"
+      ],
+      "answer": [
+        "Ganges",
+        "Yangtze",
+        "Brahmaputra",
+        "Indus"
+      ],
       "accepted": null,
       "hint": "The Thames is in England. The Nile is in Africa.",
       "explanation": "The Ganges, Yangtze, Brahmaputra and Indus all start in the Himalayas or Tibetan Plateau. The Thames is in southern England; the Nile flows north through Africa.",
       "working_required": false,
       "estimated_seconds": 55,
       "source": "UK NC KS3 Geography — physical Asia",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "China: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/china-a-global-superpower/lessons"
+        },
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        }
+      ]
     },
     {
       "id": "geo.asi.mon.009",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "monsoon",
-      "skill_tags": ["monsoon"],
+      "skill_tags": [
+        "monsoon"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "Which Indian region is famous for receiving some of the world's heaviest monsoon rainfall?",
-      "options": ["Rajasthan desert", "Cherrapunji / Mawsynram in the north-east", "The Deccan plateau", "Coastal Mumbai"],
+      "options": [
+        "Rajasthan desert",
+        "Cherrapunji / Mawsynram in the north-east",
+        "The Deccan plateau",
+        "Coastal Mumbai"
+      ],
       "answer": "Cherrapunji / Mawsynram in the north-east",
       "accepted": null,
       "hint": "Up against the foothills of the Himalayas, near Bangladesh.",
@@ -1241,19 +2588,37 @@
       "working_required": false,
       "estimated_seconds": 40,
       "source": "UK NC KS3 Geography — extreme weather",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.kar.008",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "karnataka",
-      "skill_tags": ["karnataka", "development"],
+      "skill_tags": [
+        "karnataka",
+        "development"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "Which sector employs the largest share of Karnataka's rural population?",
-      "options": ["IT and software", "Agriculture (rice, coffee, sugarcane)", "Banking", "Tourism"],
+      "options": [
+        "IT and software",
+        "Agriculture (rice, coffee, sugarcane)",
+        "Banking",
+        "Tourism"
+      ],
       "answer": "Agriculture (rice, coffee, sugarcane)",
       "accepted": null,
       "hint": "Cities = IT. RURAL = ?",
@@ -1261,19 +2626,41 @@
       "working_required": false,
       "estimated_seconds": 40,
       "source": "UK NC KS3 Geography — uneven development",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        },
+        {
+          "title": "Globalisation: Is the World Shrinking? – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/globalisation-is-the-world-shrinking/lessons"
+        }
+      ]
     },
     {
       "id": "geo.asi.chi.014",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "china",
-      "skill_tags": ["china-interdependence", "urbanisation"],
+      "skill_tags": [
+        "china-interdependence",
+        "urbanisation"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "Roughly what share of China's population lives in urban areas today?",
-      "options": ["About 20%", "About 50%", "About 65%", "About 95%"],
+      "options": [
+        "About 20%",
+        "About 50%",
+        "About 65%",
+        "About 95%"
+      ],
       "answer": "About 65%",
       "accepted": null,
       "hint": "It has more than doubled since 1980, when it was about 20%.",
@@ -1281,19 +2668,41 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "UK NC KS3 Geography — urbanisation in Asia",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "China: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/china-a-global-superpower/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        },
+        {
+          "title": "Cities: What Are They Like to Live In? – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/cities-what-are-they-like-to-live-in/lessons"
+        }
+      ]
     },
     {
       "id": "geo.asi.eco.012",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "asia-economy",
-      "skill_tags": ["asia-economy", "development"],
+      "skill_tags": [
+        "asia-economy",
+        "development"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Which of these measures economic development by averaging out a country's total income across its population?",
-      "options": ["GDP per capita", "Birth rate", "Population density", "Tree line"],
+      "options": [
+        "GDP per capita",
+        "Birth rate",
+        "Population density",
+        "Tree line"
+      ],
       "answer": "GDP per capita",
       "accepted": null,
       "hint": "'Per capita' means 'per person'.",
@@ -1301,39 +2710,79 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "UK NC KS3 Geography — development indicators",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "China: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/china-a-global-superpower/lessons"
+        },
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        },
+        {
+          "title": "Globalisation: Is the World Shrinking? – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/globalisation-is-the-world-shrinking/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.eco.013",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "asia-economy",
-      "skill_tags": ["development"],
+      "skill_tags": [
+        "development"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "text",
       "prompt": "What does HDI stand for — a measure of development combining income, education and life expectancy?",
       "options": null,
       "answer": "Human Development Index",
-      "accepted": ["human development index", "the Human Development Index"],
+      "accepted": [
+        "human development index",
+        "the Human Development Index"
+      ],
       "hint": "Three words — starts with 'Human'.",
       "explanation": "HDI (Human Development Index) combines GDP per capita, schooling and life expectancy into a single score 0–1. It gives a fuller picture than money alone.",
       "working_required": false,
       "estimated_seconds": 35,
       "source": "UK NC KS3 Geography — development indicators",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Globalisation: Is the World Shrinking? – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/globalisation-is-the-world-shrinking/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.flo.006",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "floods",
-      "skill_tags": ["flooding"],
+      "skill_tags": [
+        "flooding"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "Roughly what proportion of Bangladesh is flooded in a typical monsoon year?",
-      "options": ["About 5%", "About 20%", "About a third (~30%)", "About 90%"],
+      "options": [
+        "About 5%",
+        "About 20%",
+        "About a third (~30%)",
+        "About 90%"
+      ],
       "answer": "About a third (~30%)",
       "accepted": null,
       "hint": "Bangladesh floods every year — but not the whole country.",
@@ -1341,19 +2790,36 @@
       "working_required": false,
       "estimated_seconds": 40,
       "source": "UK NC KS3 Geography — flood risk",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Forest Biomes – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/forest-biomes-why-are-forests-so-important/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.bio.008",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "biomes",
-      "skill_tags": ["biomes"],
+      "skill_tags": [
+        "biomes"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "By approximately how much does temperature drop for every 1,000 metres climbed up a mountain?",
-      "options": ["About 1°C", "About 6°C", "About 15°C", "About 30°C"],
+      "options": [
+        "About 1°C",
+        "About 6°C",
+        "About 15°C",
+        "About 30°C"
+      ],
       "answer": "About 6°C",
       "accepted": null,
       "hint": "Roughly 6 — that's why mountain summits are freezing even in summer.",
@@ -1361,39 +2827,73 @@
       "working_required": false,
       "estimated_seconds": 40,
       "source": "UK NC KS3 Geography — climate and altitude",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Forest Biomes – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/forest-biomes-why-are-forests-so-important/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.bio.009",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "biomes",
-      "skill_tags": ["biomes"],
+      "skill_tags": [
+        "biomes"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "text",
       "prompt": "What word describes plants and animals that have changed over time to survive in a particular environment?",
       "options": null,
       "answer": "adapted",
-      "accepted": ["Adapted", "adaptation", "adaptations"],
+      "accepted": [
+        "Adapted",
+        "adaptation",
+        "adaptations"
+      ],
       "hint": "Verb starting with A — like a TV show being changed for a new audience.",
       "explanation": "Adapted species have features suited to their environment — yaks have thick fur, snow leopards have wide paws and big lungs, alpine plants stay small to escape wind.",
       "working_required": false,
       "estimated_seconds": 30,
       "source": "UK NC KS3 Geography — ecosystems",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Forest Biomes – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/forest-biomes-why-are-forests-so-important/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.chi.015",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "china",
-      "skill_tags": ["china-interdependence", "asia-economy"],
+      "skill_tags": [
+        "china-interdependence",
+        "asia-economy"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Which of these is one of China's MOST important exports?",
-      "options": ["Wheat", "Manufactured goods (electronics, clothing, machinery)", "Bananas", "Champagne"],
+      "options": [
+        "Wheat",
+        "Manufactured goods (electronics, clothing, machinery)",
+        "Bananas",
+        "Champagne"
+      ],
       "answer": "Manufactured goods (electronics, clothing, machinery)",
       "accepted": null,
       "hint": "China is 'the world's factory'.",
@@ -1401,39 +2901,85 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Geography KM, Summer — China",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "China: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/china-a-global-superpower/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        },
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        }
+      ]
     },
     {
       "id": "geo.asi.eco.014",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "asia-economy",
-      "skill_tags": ["asia-economy"],
+      "skill_tags": [
+        "asia-economy"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "multi-select",
       "prompt": "Which of these are reasons Asia has become so important to the global economy?",
-      "options": ["Huge populations providing both workers and consumers", "Rapid industrialisation", "Investment in education and tech", "Distance from the Moon", "Government-led economic planning in many countries", "Strategic shipping routes (Strait of Malacca, South China Sea)"],
-      "answer": ["Huge populations providing both workers and consumers", "Rapid industrialisation", "Investment in education and tech", "Government-led economic planning in many countries", "Strategic shipping routes (Strait of Malacca, South China Sea)"],
+      "options": [
+        "Huge populations providing both workers and consumers",
+        "Rapid industrialisation",
+        "Investment in education and tech",
+        "Distance from the Moon",
+        "Government-led economic planning in many countries",
+        "Strategic shipping routes (Strait of Malacca, South China Sea)"
+      ],
+      "answer": [
+        "Huge populations providing both workers and consumers",
+        "Rapid industrialisation",
+        "Investment in education and tech",
+        "Government-led economic planning in many countries",
+        "Strategic shipping routes (Strait of Malacca, South China Sea)"
+      ],
       "accepted": null,
       "hint": "Distance to the Moon is silly — ignore it.",
       "explanation": "Asia's huge populations, industrial growth, investment in education and tech, strong state planning and strategic shipping routes have made it central to the global economy.",
       "working_required": false,
       "estimated_seconds": 65,
       "source": "CHS Y8 Geography KM, Summer — Asia as a global economic region",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "China: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/china-a-global-superpower/lessons"
+        },
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        }
+      ]
     },
     {
       "id": "geo.asi.def.001",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "deforestation",
-      "skill_tags": ["deforestation"],
+      "skill_tags": [
+        "deforestation"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "mcq",
       "prompt": "What is deforestation?",
-      "options": ["Planting more trees in a forest", "The large-scale clearing or removal of forests", "A type of sustainable farming", "The natural death of old trees"],
+      "options": [
+        "Planting more trees in a forest",
+        "The large-scale clearing or removal of forests",
+        "A type of sustainable farming",
+        "The natural death of old trees"
+      ],
       "answer": "The large-scale clearing or removal of forests",
       "accepted": null,
       "hint": "'De-' means removing. Forest + removing = ?",
@@ -1441,39 +2987,78 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Forest Biomes – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/forest-biomes-why-are-forests-so-important/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.def.002",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "deforestation",
-      "skill_tags": ["deforestation"],
+      "skill_tags": [
+        "deforestation"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "multi-select",
       "prompt": "Which of these are main drivers of deforestation in Southeast Asia? (Select all that apply)",
-      "options": ["Palm oil plantations", "Commercial logging for timber", "Clearing land for farming", "Building ice rinks", "Mining for minerals"],
-      "answer": ["Palm oil plantations", "Commercial logging for timber", "Clearing land for farming"],
+      "options": [
+        "Palm oil plantations",
+        "Commercial logging for timber",
+        "Clearing land for farming",
+        "Building ice rinks",
+        "Mining for minerals"
+      ],
+      "answer": [
+        "Palm oil plantations",
+        "Commercial logging for timber",
+        "Clearing land for farming"
+      ],
       "accepted": null,
       "hint": "Think about economic reasons — what makes money from cleared forest land?",
       "explanation": "The main drivers of deforestation in Southeast Asia are palm oil agriculture, commercial logging, and subsistence or commercial farming. Palm oil is found in roughly half of all supermarket products.",
       "working_required": false,
       "estimated_seconds": 40,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Forest Biomes – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/forest-biomes-why-are-forests-so-important/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.def.003",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "deforestation",
-      "skill_tags": ["deforestation"],
+      "skill_tags": [
+        "deforestation"
+      ],
       "tier": "strengthen",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "How does deforestation contribute to climate change?",
-      "options": ["Trees absorb CO2; removing them releases stored carbon and reduces future absorption", "Trees produce CO2; removing them reduces greenhouse gases", "Deforestation cools the atmosphere by reflecting sunlight", "Forests have no effect on CO2 levels"],
+      "options": [
+        "Trees absorb CO2; removing them releases stored carbon and reduces future absorption",
+        "Trees produce CO2; removing them reduces greenhouse gases",
+        "Deforestation cools the atmosphere by reflecting sunlight",
+        "Forests have no effect on CO2 levels"
+      ],
       "answer": "Trees absorb CO2; removing them releases stored carbon and reduces future absorption",
       "accepted": null,
       "hint": "Trees are carbon stores. What happens when you burn or cut them down?",
@@ -1481,19 +3066,36 @@
       "working_required": false,
       "estimated_seconds": 40,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Forest Biomes – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/forest-biomes-why-are-forests-so-important/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.def.004",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "deforestation",
-      "skill_tags": ["deforestation"],
+      "skill_tags": [
+        "deforestation"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Which island in Asia is losing its rainforest most rapidly and is one of the world's biodiversity hotspots?",
-      "options": ["Sri Lanka", "Borneo (shared between Indonesia and Malaysia)", "Hokkaido (Japan)", "Taiwan"],
+      "options": [
+        "Sri Lanka",
+        "Borneo (shared between Indonesia and Malaysia)",
+        "Hokkaido (Japan)",
+        "Taiwan"
+      ],
       "answer": "Borneo (shared between Indonesia and Malaysia)",
       "accepted": null,
       "hint": "It is the third-largest island in the world, home to orang-utans.",
@@ -1501,19 +3103,36 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Forest Biomes – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/forest-biomes-why-are-forests-so-important/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.def.005",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "deforestation",
-      "skill_tags": ["deforestation"],
+      "skill_tags": [
+        "deforestation"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "How does deforestation increase the risk of flooding?",
-      "options": ["Trees cause flooding by blocking rivers", "Tree roots absorb rainfall and slow runoff; without them, water reaches rivers faster and in greater volume", "Deforestation reduces the amount of rain that falls", "There is no link between deforestation and flooding"],
+      "options": [
+        "Trees cause flooding by blocking rivers",
+        "Tree roots absorb rainfall and slow runoff; without them, water reaches rivers faster and in greater volume",
+        "Deforestation reduces the amount of rain that falls",
+        "There is no link between deforestation and flooding"
+      ],
       "answer": "Tree roots absorb rainfall and slow runoff; without them, water reaches rivers faster and in greater volume",
       "accepted": null,
       "hint": "Think about what tree roots do to rainwater before it reaches a river.",
@@ -1521,19 +3140,36 @@
       "working_required": false,
       "estimated_seconds": 45,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Forest Biomes – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/forest-biomes-why-are-forests-so-important/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.def.006",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "deforestation",
-      "skill_tags": ["deforestation"],
+      "skill_tags": [
+        "deforestation"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Why does deforestation reduce biodiversity?",
-      "options": ["It creates new habitats for wildlife", "It destroys the habitats that plants and animals depend on for food and shelter", "Biodiversity only depends on water, not trees", "Animals easily adapt to life without forests"],
+      "options": [
+        "It creates new habitats for wildlife",
+        "It destroys the habitats that plants and animals depend on for food and shelter",
+        "Biodiversity only depends on water, not trees",
+        "Animals easily adapt to life without forests"
+      ],
       "answer": "It destroys the habitats that plants and animals depend on for food and shelter",
       "accepted": null,
       "hint": "No habitat = nowhere to live, eat or reproduce.",
@@ -1541,39 +3177,78 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Forest Biomes – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/forest-biomes-why-are-forests-so-important/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.def.007",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "deforestation",
-      "skill_tags": ["deforestation"],
+      "skill_tags": [
+        "deforestation"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "order",
       "prompt": "Put this chain of consequences of deforestation in the correct order.",
-      "options": ["Rivers silt up, reducing their capacity and increasing flood risk", "Trees cleared and soil exposed", "Soil particles washed into rivers (siltation)", "Heavy rain hits bare soil and causes soil erosion"],
-      "answer": ["Trees cleared and soil exposed", "Heavy rain hits bare soil and causes soil erosion", "Soil particles washed into rivers (siltation)", "Rivers silt up, reducing their capacity and increasing flood risk"],
+      "options": [
+        "Rivers silt up, reducing their capacity and increasing flood risk",
+        "Trees cleared and soil exposed",
+        "Soil particles washed into rivers (siltation)",
+        "Heavy rain hits bare soil and causes soil erosion"
+      ],
+      "answer": [
+        "Trees cleared and soil exposed",
+        "Heavy rain hits bare soil and causes soil erosion",
+        "Soil particles washed into rivers (siltation)",
+        "Rivers silt up, reducing their capacity and increasing flood risk"
+      ],
       "accepted": null,
       "hint": "Start with the trees being cut. End with the flooded rivers.",
       "explanation": "The chain: trees removed → soil exposed → rain erodes soil → sediment washed into rivers (siltation) → rivers become shallower and flood more easily. Each step follows logically from the last.",
       "working_required": false,
       "estimated_seconds": 60,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Forest Biomes – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/forest-biomes-why-are-forests-so-important/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.def.008",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "deforestation",
-      "skill_tags": ["deforestation"],
+      "skill_tags": [
+        "deforestation"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "What does sustainable logging involve?",
-      "options": ["Cutting down every tree in an area as quickly as possible", "Selectively felling trees and replanting so the forest can regenerate", "Never cutting any trees at all", "Burning cleared areas to make them fertile"],
+      "options": [
+        "Cutting down every tree in an area as quickly as possible",
+        "Selectively felling trees and replanting so the forest can regenerate",
+        "Never cutting any trees at all",
+        "Burning cleared areas to make them fertile"
+      ],
       "answer": "Selectively felling trees and replanting so the forest can regenerate",
       "accepted": null,
       "hint": "'Sustainable' means meeting today's needs without harming the future.",
@@ -1581,19 +3256,36 @@
       "working_required": false,
       "estimated_seconds": 40,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Forest Biomes – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/forest-biomes-why-are-forests-so-important/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.phy.011",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "population diversity",
-      "skill_tags": ["asia-diversity"],
+      "skill_tags": [
+        "asia-diversity"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "mcq",
       "prompt": "Roughly what share of the world's population lives in Asia?",
-      "options": ["About 1 in 5 (20%)", "About 1 in 3 (33%)", "About 3 in 5 (60%)", "About 9 in 10 (90%)"],
+      "options": [
+        "About 1 in 5 (20%)",
+        "About 1 in 3 (33%)",
+        "About 3 in 5 (60%)",
+        "About 9 in 10 (90%)"
+      ],
       "answer": "About 3 in 5 (60%)",
       "accepted": null,
       "hint": "More than half of all humans live in Asia.",
@@ -1601,79 +3293,161 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.phy.012",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "population diversity",
-      "skill_tags": ["asia-diversity"],
+      "skill_tags": [
+        "asia-diversity"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "multi-select",
       "prompt": "Which of these religions are widely practised across Asia? (Select all that apply)",
-      "options": ["Hinduism", "Buddhism", "Islam", "Christianity", "All are equally absent from Asia"],
-      "answer": ["Hinduism", "Buddhism", "Islam", "Christianity"],
+      "options": [
+        "Hinduism",
+        "Buddhism",
+        "Islam",
+        "Christianity",
+        "All are equally absent from Asia"
+      ],
+      "answer": [
+        "Hinduism",
+        "Buddhism",
+        "Islam",
+        "Christianity"
+      ],
       "accepted": null,
       "hint": "Asia is the birthplace of most of the world's major religions.",
       "explanation": "Hinduism (India), Buddhism (Southeast/East Asia), Islam (South and Southeast Asia, Central Asia) and Christianity (Philippines, South Korea, parts of India) are all widely practised across Asia, reflecting its extraordinary religious diversity.",
       "working_required": false,
       "estimated_seconds": 35,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.phy.013",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "population diversity",
-      "skill_tags": ["asia-diversity"],
+      "skill_tags": [
+        "asia-diversity"
+      ],
       "tier": "strengthen",
       "difficulty": 2,
       "type": "text",
       "prompt": "Approximately what percentage of the world's population lives in Asia?",
       "options": null,
       "answer": "60",
-      "accepted": ["60%", "around 60%", "about 60%", "60 percent", "approximately 60%"],
+      "accepted": [
+        "60%",
+        "around 60%",
+        "about 60%",
+        "60 percent",
+        "approximately 60%"
+      ],
       "hint": "More than half — closer to three-fifths.",
       "explanation": "Approximately 60% of the world's population lives in Asia. This makes it by far the most populous continent, home to over 4.7 billion people.",
       "working_required": false,
       "estimated_seconds": 30,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.phy.014",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "population diversity",
-      "skill_tags": ["asia-diversity"],
+      "skill_tags": [
+        "asia-diversity"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "multi-select",
       "prompt": "Which of these are among the most widely spoken languages in Asia? (Select all that apply)",
-      "options": ["Mandarin Chinese", "Hindi", "Arabic", "Bengali", "French", "Portuguese"],
-      "answer": ["Mandarin Chinese", "Hindi", "Arabic", "Bengali"],
+      "options": [
+        "Mandarin Chinese",
+        "Hindi",
+        "Arabic",
+        "Bengali",
+        "French",
+        "Portuguese"
+      ],
+      "answer": [
+        "Mandarin Chinese",
+        "Hindi",
+        "Arabic",
+        "Bengali"
+      ],
       "accepted": null,
       "hint": "French and Portuguese are European languages most common in Europe and former colonies.",
       "explanation": "Mandarin Chinese, Hindi, Arabic and Bengali are among the most spoken languages in Asia. Asia has thousands of distinct languages, reflecting its enormous cultural and ethnic diversity.",
       "working_required": false,
       "estimated_seconds": 40,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "geo.asi.phy.015",
       "subject": "geography",
       "unit": "asia-transformed",
       "topic": "population diversity",
-      "skill_tags": ["asia-diversity"],
+      "skill_tags": [
+        "asia-diversity"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "Why is Asia's population described as 'dynamic'?",
-      "options": ["The population has stayed exactly the same for 100 years", "It is growing rapidly and changing in age structure and distribution", "Everyone in Asia is the same age", "Asia's population is shrinking uniformly across all countries"],
+      "options": [
+        "The population has stayed exactly the same for 100 years",
+        "It is growing rapidly and changing in age structure and distribution",
+        "Everyone in Asia is the same age",
+        "Asia's population is shrinking uniformly across all countries"
+      ],
       "answer": "It is growing rapidly and changing in age structure and distribution",
       "accepted": null,
       "hint": "Dynamic means fast-changing — think growing cities, ageing populations in some countries, young populations in others.",
@@ -1681,7 +3455,17 @@
       "working_required": false,
       "estimated_seconds": 45,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "India: A Global Superpower – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/india-a-global-superpower/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     }
   ]
 }

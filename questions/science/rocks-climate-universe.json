@@ -8,32 +8,63 @@
       "subject": "science",
       "unit": "rocks-climate-universe",
       "topic": "rock-types",
-      "skill_tags": ["rock-cycle"],
+      "skill_tags": [
+        "rock-cycle"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "multi-select",
       "prompt": "Select all three main types of rock.",
-      "options": ["Igneous", "Metallic", "Sedimentary", "Crystalline", "Metamorphic", "Volcanic only"],
-      "answer": ["Igneous", "Sedimentary", "Metamorphic"],
+      "options": [
+        "Igneous",
+        "Metallic",
+        "Sedimentary",
+        "Crystalline",
+        "Metamorphic",
+        "Volcanic only"
+      ],
+      "answer": [
+        "Igneous",
+        "Sedimentary",
+        "Metamorphic"
+      ],
       "accepted": null,
       "hint": "Three categories — formed by cooling, layering, and changing.",
       "explanation": "The three main types are igneous (from cooled magma), sedimentary (compressed layers), and metamorphic (changed by heat and pressure).",
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y8 Science KM, Unit 4 Rocks, Climate, Universe",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Atoms, Elements and Compounds – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/atoms-elements-and-compounds/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.rcu.rck.002",
       "subject": "science",
       "unit": "rocks-climate-universe",
       "topic": "rock-types",
-      "skill_tags": ["rock-cycle", "igneous"],
+      "skill_tags": [
+        "rock-cycle",
+        "igneous"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "How are igneous rocks formed?",
-      "options": ["By compacting layers of sediment", "By cooling and solidifying of magma or lava", "By heat and pressure changing existing rocks", "By erosion of older rocks"],
+      "options": [
+        "By compacting layers of sediment",
+        "By cooling and solidifying of magma or lava",
+        "By heat and pressure changing existing rocks",
+        "By erosion of older rocks"
+      ],
       "answer": "By cooling and solidifying of magma or lava",
       "accepted": null,
       "hint": "Think volcanoes.",
@@ -41,19 +72,37 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Science KM, Unit 4 Rocks, Climate, Universe",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Atoms, Elements and Compounds – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/atoms-elements-and-compounds/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.rcu.rck.003",
       "subject": "science",
       "unit": "rocks-climate-universe",
       "topic": "rock-types",
-      "skill_tags": ["rock-cycle", "sedimentary"],
+      "skill_tags": [
+        "rock-cycle",
+        "sedimentary"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "How are sedimentary rocks formed?",
-      "options": ["By volcanic eruption", "By layers of sediment being compacted and cemented over time", "By heat and pressure deep underground", "By rapid cooling"],
+      "options": [
+        "By volcanic eruption",
+        "By layers of sediment being compacted and cemented over time",
+        "By heat and pressure deep underground",
+        "By rapid cooling"
+      ],
       "answer": "By layers of sediment being compacted and cemented over time",
       "accepted": null,
       "hint": "Layers settle on top of each other and squash down.",
@@ -61,19 +110,37 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y8 Science KM, Unit 4 Rocks, Climate, Universe",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Atoms, Elements and Compounds – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/atoms-elements-and-compounds/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.rcu.rck.004",
       "subject": "science",
       "unit": "rocks-climate-universe",
       "topic": "rock-types",
-      "skill_tags": ["rock-cycle", "metamorphic"],
+      "skill_tags": [
+        "rock-cycle",
+        "metamorphic"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "How are metamorphic rocks formed?",
-      "options": ["By cooling lava", "By heat and pressure changing existing rocks (without melting)", "By layers of sediment compressing", "By chemicals dissolving in water"],
+      "options": [
+        "By cooling lava",
+        "By heat and pressure changing existing rocks (without melting)",
+        "By layers of sediment compressing",
+        "By chemicals dissolving in water"
+      ],
       "answer": "By heat and pressure changing existing rocks (without melting)",
       "accepted": null,
       "hint": "'Meta-' means 'changed'.",
@@ -81,19 +148,36 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y8 Science KM, Unit 4 Rocks, Climate, Universe",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Atoms, Elements and Compounds – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/atoms-elements-and-compounds/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.rcu.rck.005",
       "subject": "science",
       "unit": "rocks-climate-universe",
       "topic": "rock-types",
-      "skill_tags": ["rock-cycle"],
+      "skill_tags": [
+        "rock-cycle"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Marble is formed from which original rock under heat and pressure?",
-      "options": ["Granite", "Limestone", "Sandstone", "Basalt"],
+      "options": [
+        "Granite",
+        "Limestone",
+        "Sandstone",
+        "Basalt"
+      ],
       "answer": "Limestone",
       "accepted": null,
       "hint": "Both contain calcium carbonate.",
@@ -101,19 +185,36 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Science KM, Unit 4 Rocks, Climate, Universe",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Atoms, Elements and Compounds – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/atoms-elements-and-compounds/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.rcu.rck.006",
       "subject": "science",
       "unit": "rocks-climate-universe",
       "topic": "rock-types",
-      "skill_tags": ["rock-cycle"],
+      "skill_tags": [
+        "rock-cycle"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Slate is formed from which original rock?",
-      "options": ["Limestone", "Mudstone (or shale)", "Granite", "Sandstone"],
+      "options": [
+        "Limestone",
+        "Mudstone (or shale)",
+        "Granite",
+        "Sandstone"
+      ],
       "answer": "Mudstone (or shale)",
       "accepted": null,
       "hint": "Slate is flaky and splits into thin layers — formed from compacted mud.",
@@ -121,39 +222,79 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y8 Science KM, Unit 4 Rocks, Climate, Universe",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Atoms, Elements and Compounds – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/atoms-elements-and-compounds/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.rcu.rck.007",
       "subject": "science",
       "unit": "rocks-climate-universe",
       "topic": "rock-cycle",
-      "skill_tags": ["rock-cycle"],
+      "skill_tags": [
+        "rock-cycle"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "order",
       "prompt": "Order the steps in the rock cycle that turn igneous rock into sedimentary rock.",
-      "options": ["Compaction and cementation form sedimentary rock", "Weathering breaks igneous rock into smaller pieces", "Sediment is deposited in layers (often in water)", "Erosion transports fragments away"],
-      "answer": ["Weathering breaks igneous rock into smaller pieces", "Erosion transports fragments away", "Sediment is deposited in layers (often in water)", "Compaction and cementation form sedimentary rock"],
+      "options": [
+        "Compaction and cementation form sedimentary rock",
+        "Weathering breaks igneous rock into smaller pieces",
+        "Sediment is deposited in layers (often in water)",
+        "Erosion transports fragments away"
+      ],
+      "answer": [
+        "Weathering breaks igneous rock into smaller pieces",
+        "Erosion transports fragments away",
+        "Sediment is deposited in layers (often in water)",
+        "Compaction and cementation form sedimentary rock"
+      ],
       "accepted": null,
       "hint": "Weathering → erosion → deposition → compaction.",
       "explanation": "Rock cycle steps: weathering (breakdown), erosion (transport), deposition (settling), compaction and cementation (compressing into solid rock). All over millions of years.",
       "working_required": false,
       "estimated_seconds": 70,
       "source": "CHS Y8 Science KM, Unit 4 Rocks, Climate, Universe",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Atoms, Elements and Compounds – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/atoms-elements-and-compounds/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.rcu.wea.001",
       "subject": "science",
       "unit": "rocks-climate-universe",
       "topic": "weathering",
-      "skill_tags": ["weathering", "rock-cycle"],
+      "skill_tags": [
+        "weathering",
+        "rock-cycle"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What is the difference between weathering and erosion?",
-      "options": ["They are the same thing", "Weathering breaks rock down in place; erosion moves the pieces away", "Weathering happens in winter; erosion in summer", "Weathering is fast; erosion is slow"],
+      "options": [
+        "They are the same thing",
+        "Weathering breaks rock down in place; erosion moves the pieces away",
+        "Weathering happens in winter; erosion in summer",
+        "Weathering is fast; erosion is slow"
+      ],
       "answer": "Weathering breaks rock down in place; erosion moves the pieces away",
       "accepted": null,
       "hint": "One is breaking; the other is moving.",
@@ -161,19 +302,40 @@
       "working_required": false,
       "estimated_seconds": 45,
       "source": "CHS Y8 Science KM, Unit 4 Rocks, Climate, Universe",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Atoms, Elements and Compounds – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/atoms-elements-and-compounds/lessons"
+        },
+        {
+          "title": "Climate Change and Living Sustainably – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/climate-change-and-living-sustainably/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.rcu.wea.002",
       "subject": "science",
       "unit": "rocks-climate-universe",
       "topic": "weathering",
-      "skill_tags": ["weathering"],
+      "skill_tags": [
+        "weathering"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What is freeze-thaw weathering?",
-      "options": ["Sunlight cracking rocks", "Water freezing in cracks, expanding and breaking the rock apart", "Wind blowing sand at rocks", "Plant roots growing into rocks"],
+      "options": [
+        "Sunlight cracking rocks",
+        "Water freezing in cracks, expanding and breaking the rock apart",
+        "Wind blowing sand at rocks",
+        "Plant roots growing into rocks"
+      ],
       "answer": "Water freezing in cracks, expanding and breaking the rock apart",
       "accepted": null,
       "hint": "Water expands by about 9% when it freezes — what happens to a crack it's sitting in?",
@@ -181,19 +343,36 @@
       "working_required": false,
       "estimated_seconds": 40,
       "source": "CHS Y8 Science KM, Unit 4 Rocks, Climate, Universe",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Atoms, Elements and Compounds – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/atoms-elements-and-compounds/lessons"
+        },
+        {
+          "title": "Climate Change and Living Sustainably – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/climate-change-and-living-sustainably/lessons"
+        }
+      ]
     },
     {
       "id": "sci.rcu.wea.003",
       "subject": "science",
       "unit": "rocks-climate-universe",
       "topic": "weathering",
-      "skill_tags": ["weathering"],
+      "skill_tags": [
+        "weathering"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "Acid rain is a form of which type of weathering?",
-      "options": ["Physical weathering", "Chemical weathering", "Biological weathering", "Mechanical weathering"],
+      "options": [
+        "Physical weathering",
+        "Chemical weathering",
+        "Biological weathering",
+        "Mechanical weathering"
+      ],
       "answer": "Chemical weathering",
       "accepted": null,
       "hint": "It's a chemical reaction — acid reacting with the rock.",
@@ -201,19 +380,37 @@
       "working_required": false,
       "estimated_seconds": 40,
       "source": "CHS Y8 Science KM, Unit 4 Rocks, Climate, Universe",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Atoms, Elements and Compounds – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/atoms-elements-and-compounds/lessons"
+        },
+        {
+          "title": "Climate Change and Living Sustainably – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/climate-change-and-living-sustainably/lessons"
+        }
+      ]
     },
     {
       "id": "sci.rcu.foss.001",
       "subject": "science",
       "unit": "rocks-climate-universe",
       "topic": "fossils",
-      "skill_tags": ["fossils", "sedimentary"],
+      "skill_tags": [
+        "fossils",
+        "sedimentary"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "In which type of rock are fossils most commonly found?",
-      "options": ["Igneous", "Sedimentary", "Metamorphic", "Equally in all three"],
+      "options": [
+        "Igneous",
+        "Sedimentary",
+        "Metamorphic",
+        "Equally in all three"
+      ],
       "answer": "Sedimentary",
       "accepted": null,
       "hint": "Fossils need to be preserved gently in layers — heat and pressure destroy them.",
@@ -221,19 +418,40 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y8 Science KM, Unit 4 Rocks, Climate, Universe",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Biodiversity – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/biodiversity/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        },
+        {
+          "title": "Atoms, Elements and Compounds – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/atoms-elements-and-compounds/lessons"
+        }
+      ]
     },
     {
       "id": "sci.rcu.cli.001",
       "subject": "science",
       "unit": "rocks-climate-universe",
       "topic": "climate",
-      "skill_tags": ["climate"],
+      "skill_tags": [
+        "climate"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "What is the difference between weather and climate?",
-      "options": ["No difference — they're the same", "Weather is day-to-day conditions; climate is the average pattern over many years", "Weather is hot; climate is cold", "Weather is in cities; climate is in the countryside"],
+      "options": [
+        "No difference — they're the same",
+        "Weather is day-to-day conditions; climate is the average pattern over many years",
+        "Weather is hot; climate is cold",
+        "Weather is in cities; climate is in the countryside"
+      ],
       "answer": "Weather is day-to-day conditions; climate is the average pattern over many years",
       "accepted": null,
       "hint": "Climate is the long-term average.",
@@ -241,19 +459,37 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y8 Science KM, Unit 4 Rocks, Climate, Universe",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Climate Change and Living Sustainably – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/climate-change-and-living-sustainably/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.rcu.cli.002",
       "subject": "science",
       "unit": "rocks-climate-universe",
       "topic": "greenhouse",
-      "skill_tags": ["climate", "greenhouse-effect"],
+      "skill_tags": [
+        "climate",
+        "greenhouse-effect"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What is the greenhouse effect?",
-      "options": ["Plants growing in greenhouses", "Gases in the atmosphere trapping heat from the Sun", "The hole in the ozone layer", "Sunlight bouncing off ice caps"],
+      "options": [
+        "Plants growing in greenhouses",
+        "Gases in the atmosphere trapping heat from the Sun",
+        "The hole in the ozone layer",
+        "Sunlight bouncing off ice caps"
+      ],
       "answer": "Gases in the atmosphere trapping heat from the Sun",
       "accepted": null,
       "hint": "Without it, Earth would be far too cold. Too much of it warms the planet.",
@@ -261,59 +497,126 @@
       "working_required": false,
       "estimated_seconds": 45,
       "source": "CHS Y8 Science KM, Unit 4 Rocks, Climate, Universe",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Climate Change and Living Sustainably – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/climate-change-and-living-sustainably/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.rcu.cli.003",
       "subject": "science",
       "unit": "rocks-climate-universe",
       "topic": "greenhouse",
-      "skill_tags": ["climate", "greenhouse-effect"],
+      "skill_tags": [
+        "climate",
+        "greenhouse-effect"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "multi-select",
       "prompt": "Which of these are greenhouse gases?",
-      "options": ["Carbon dioxide", "Oxygen", "Methane", "Nitrogen", "Water vapour", "Helium"],
-      "answer": ["Carbon dioxide", "Methane", "Water vapour"],
+      "options": [
+        "Carbon dioxide",
+        "Oxygen",
+        "Methane",
+        "Nitrogen",
+        "Water vapour",
+        "Helium"
+      ],
+      "answer": [
+        "Carbon dioxide",
+        "Methane",
+        "Water vapour"
+      ],
       "accepted": null,
       "hint": "Three of them trap infrared radiation. Oxygen, nitrogen and helium don't.",
       "explanation": "Main greenhouse gases: water vapour (most common), CO2, methane, nitrous oxide. Oxygen and nitrogen are the bulk of the atmosphere but don't absorb infrared, so they aren't greenhouse gases.",
       "working_required": false,
       "estimated_seconds": 50,
       "source": "CHS Y8 Science KM, Unit 4 Rocks, Climate, Universe",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Climate Change and Living Sustainably – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/climate-change-and-living-sustainably/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.rcu.cli.004",
       "subject": "science",
       "unit": "rocks-climate-universe",
       "topic": "climate-change",
-      "skill_tags": ["climate", "climate-change"],
+      "skill_tags": [
+        "climate",
+        "climate-change"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "multi-select",
       "prompt": "Which human activities contribute to climate change?",
-      "options": ["Burning fossil fuels", "Cutting down forests (deforestation)", "Recycling paper", "Driving petrol cars", "Walking to school", "Generating electricity by burning coal"],
-      "answer": ["Burning fossil fuels", "Cutting down forests (deforestation)", "Driving petrol cars", "Generating electricity by burning coal"],
+      "options": [
+        "Burning fossil fuels",
+        "Cutting down forests (deforestation)",
+        "Recycling paper",
+        "Driving petrol cars",
+        "Walking to school",
+        "Generating electricity by burning coal"
+      ],
+      "answer": [
+        "Burning fossil fuels",
+        "Cutting down forests (deforestation)",
+        "Driving petrol cars",
+        "Generating electricity by burning coal"
+      ],
       "accepted": null,
       "hint": "Anything that releases CO2 or removes the trees that absorb it.",
       "explanation": "Fossil fuel burning releases CO2. Deforestation removes trees that absorb CO2. Petrol cars and coal power are major sources. Recycling and walking REDUCE emissions.",
       "working_required": false,
       "estimated_seconds": 60,
       "source": "CHS Y8 Science KM, Unit 4 Rocks, Climate, Universe",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Climate Change and Living Sustainably – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/climate-change-and-living-sustainably/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.rcu.cli.005",
       "subject": "science",
       "unit": "rocks-climate-universe",
       "topic": "climate-change",
-      "skill_tags": ["climate", "climate-change"],
+      "skill_tags": [
+        "climate",
+        "climate-change"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "Which of these is NOT a consequence of climate change?",
-      "options": ["Rising sea levels", "More extreme weather events", "Melting polar ice caps", "Stronger gravity on Earth"],
+      "options": [
+        "Rising sea levels",
+        "More extreme weather events",
+        "Melting polar ice caps",
+        "Stronger gravity on Earth"
+      ],
       "answer": "Stronger gravity on Earth",
       "accepted": null,
       "hint": "Three are real climate impacts; one is impossible.",
@@ -321,19 +624,37 @@
       "working_required": false,
       "estimated_seconds": 40,
       "source": "CHS Y8 Science KM, Unit 4 Rocks, Climate, Universe",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Climate Change and Living Sustainably – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/climate-change-and-living-sustainably/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.rcu.cli.006",
       "subject": "science",
       "unit": "rocks-climate-universe",
       "topic": "carbon-cycle",
-      "skill_tags": ["carbon-cycle", "climate"],
+      "skill_tags": [
+        "carbon-cycle",
+        "climate"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Which process removes carbon dioxide from the atmosphere?",
-      "options": ["Burning fossil fuels", "Respiration", "Photosynthesis", "Volcanic eruptions"],
+      "options": [
+        "Burning fossil fuels",
+        "Respiration",
+        "Photosynthesis",
+        "Volcanic eruptions"
+      ],
       "answer": "Photosynthesis",
       "accepted": null,
       "hint": "Plants absorb CO2 to make food.",
@@ -341,19 +662,36 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y8 Science KM, Unit 4 Rocks, Climate, Universe",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Climate Change and Living Sustainably – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/climate-change-and-living-sustainably/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.rcu.cli.007",
       "subject": "science",
       "unit": "rocks-climate-universe",
       "topic": "atmosphere",
-      "skill_tags": ["atmosphere"],
+      "skill_tags": [
+        "atmosphere"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What gas makes up about 78% of the Earth's atmosphere?",
-      "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Argon"],
+      "options": [
+        "Oxygen",
+        "Carbon dioxide",
+        "Nitrogen",
+        "Argon"
+      ],
       "answer": "Nitrogen",
       "accepted": null,
       "hint": "It's not the one we breathe in for respiration.",
@@ -361,59 +699,124 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Science KM, Unit 4 Rocks, Climate, Universe",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Atoms, Elements and Compounds – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/atoms-elements-and-compounds/lessons"
+        },
+        {
+          "title": "Climate Change and Living Sustainably – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/climate-change-and-living-sustainably/lessons"
+        }
+      ]
     },
     {
       "id": "sci.rcu.atm.002",
       "subject": "science",
       "unit": "rocks-climate-universe",
       "topic": "atmosphere",
-      "skill_tags": ["atmosphere"],
+      "skill_tags": [
+        "atmosphere"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "numeric",
       "prompt": "Approximately what percentage of the atmosphere is oxygen?",
       "options": null,
       "answer": "21",
-      "accepted": ["21%", "21 percent", "twenty-one", "20%", "20"],
+      "accepted": [
+        "21%",
+        "21 percent",
+        "twenty-one",
+        "20%",
+        "20"
+      ],
       "hint": "About one fifth.",
       "explanation": "Oxygen makes up about 21% of the atmosphere. It's the gas you need for respiration.",
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Science KM, Unit 4 Rocks, Climate, Universe",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Atoms, Elements and Compounds – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/atoms-elements-and-compounds/lessons"
+        },
+        {
+          "title": "Climate Change and Living Sustainably – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/climate-change-and-living-sustainably/lessons"
+        }
+      ]
     },
     {
       "id": "sci.rcu.sol.001",
       "subject": "science",
       "unit": "rocks-climate-universe",
       "topic": "solar-system",
-      "skill_tags": ["solar-system"],
+      "skill_tags": [
+        "solar-system"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "order",
       "prompt": "Order the planets from CLOSEST to FURTHEST from the Sun.",
-      "options": ["Saturn", "Mercury", "Earth", "Jupiter", "Venus", "Mars", "Uranus", "Neptune"],
-      "answer": ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"],
+      "options": [
+        "Saturn",
+        "Mercury",
+        "Earth",
+        "Jupiter",
+        "Venus",
+        "Mars",
+        "Uranus",
+        "Neptune"
+      ],
+      "answer": [
+        "Mercury",
+        "Venus",
+        "Earth",
+        "Mars",
+        "Jupiter",
+        "Saturn",
+        "Uranus",
+        "Neptune"
+      ],
       "accepted": null,
       "hint": "Mnemonic: My Very Educated Mother Just Served Us Noodles.",
       "explanation": "From the Sun outwards: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune. The first four are rocky; the outer four are gas/ice giants.",
       "working_required": false,
       "estimated_seconds": 60,
       "source": "CHS Y8 Science KM, Unit 4 Rocks, Climate, Universe",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Our Solar System and Beyond – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/solar-system-and-beyond/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.rcu.sol.002",
       "subject": "science",
       "unit": "rocks-climate-universe",
       "topic": "solar-system",
-      "skill_tags": ["solar-system"],
+      "skill_tags": [
+        "solar-system"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "What is at the centre of our solar system?",
-      "options": ["The Earth", "The Sun", "The Moon", "Jupiter"],
+      "options": [
+        "The Earth",
+        "The Sun",
+        "The Moon",
+        "Jupiter"
+      ],
       "answer": "The Sun",
       "accepted": null,
       "hint": "Everything else orbits it.",
@@ -421,19 +824,37 @@
       "working_required": false,
       "estimated_seconds": 20,
       "source": "CHS Y8 Science KM, Unit 4 Rocks, Climate, Universe",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Our Solar System and Beyond – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/solar-system-and-beyond/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.rcu.sol.003",
       "subject": "science",
       "unit": "rocks-climate-universe",
       "topic": "solar-system",
-      "skill_tags": ["solar-system", "stars"],
+      "skill_tags": [
+        "solar-system",
+        "stars"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What is the Sun?",
-      "options": ["A planet", "A moon", "A star", "An asteroid"],
+      "options": [
+        "A planet",
+        "A moon",
+        "A star",
+        "An asteroid"
+      ],
       "answer": "A star",
       "accepted": null,
       "hint": "It produces its own light.",
@@ -441,19 +862,36 @@
       "working_required": false,
       "estimated_seconds": 20,
       "source": "CHS Y8 Science KM, Unit 4 Rocks, Climate, Universe",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Our Solar System and Beyond – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/solar-system-and-beyond/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.rcu.sol.004",
       "subject": "science",
       "unit": "rocks-climate-universe",
       "topic": "solar-system",
-      "skill_tags": ["solar-system"],
+      "skill_tags": [
+        "solar-system"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What is the difference between a planet and a star?",
-      "options": ["Stars are larger than planets", "Stars produce their own light; planets only reflect it", "Stars are made of rock; planets are made of gas", "Planets are hotter than stars"],
+      "options": [
+        "Stars are larger than planets",
+        "Stars produce their own light; planets only reflect it",
+        "Stars are made of rock; planets are made of gas",
+        "Planets are hotter than stars"
+      ],
       "answer": "Stars produce their own light; planets only reflect it",
       "accepted": null,
       "hint": "Why does Venus shine in the sky?",
@@ -461,19 +899,36 @@
       "working_required": false,
       "estimated_seconds": 40,
       "source": "CHS Y8 Science KM, Unit 4 Rocks, Climate, Universe",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Our Solar System and Beyond – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/solar-system-and-beyond/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.rcu.grv.001",
       "subject": "science",
       "unit": "rocks-climate-universe",
       "topic": "gravity",
-      "skill_tags": ["gravity"],
+      "skill_tags": [
+        "gravity"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "What is gravity?",
-      "options": ["A push force", "An attractive force between all objects with mass", "A type of energy", "A repulsive force"],
+      "options": [
+        "A push force",
+        "An attractive force between all objects with mass",
+        "A type of energy",
+        "A repulsive force"
+      ],
       "answer": "An attractive force between all objects with mass",
       "accepted": null,
       "hint": "Anything with mass pulls on anything else with mass.",
@@ -481,19 +936,36 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Science KM, Unit 4 Rocks, Climate, Universe",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Forces – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/forces/lessons"
+        },
+        {
+          "title": "Our Solar System and Beyond – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/solar-system-and-beyond/lessons"
+        }
+      ]
     },
     {
       "id": "sci.rcu.grv.002",
       "subject": "science",
       "unit": "rocks-climate-universe",
       "topic": "gravity",
-      "skill_tags": ["gravity"],
+      "skill_tags": [
+        "gravity"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What keeps the planets in orbit around the Sun?",
-      "options": ["Magnetism", "The Sun's gravity", "Air resistance", "Friction"],
+      "options": [
+        "Magnetism",
+        "The Sun's gravity",
+        "Air resistance",
+        "Friction"
+      ],
       "answer": "The Sun's gravity",
       "accepted": null,
       "hint": "The Sun has by far the largest mass in the solar system.",
@@ -501,19 +973,37 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Science KM, Unit 4 Rocks, Climate, Universe",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Forces – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/forces/lessons"
+        },
+        {
+          "title": "Our Solar System and Beyond – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/solar-system-and-beyond/lessons"
+        }
+      ]
     },
     {
       "id": "sci.rcu.grv.003",
       "subject": "science",
       "unit": "rocks-climate-universe",
       "topic": "gravity",
-      "skill_tags": ["gravity", "weight-mass"],
+      "skill_tags": [
+        "gravity",
+        "weight-mass"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What is the difference between mass and weight?",
-      "options": ["They are the same thing", "Mass is how much matter you contain (kg); weight is the force of gravity on you (N)", "Mass is weight in space", "Weight is in kg; mass is in N"],
+      "options": [
+        "They are the same thing",
+        "Mass is how much matter you contain (kg); weight is the force of gravity on you (N)",
+        "Mass is weight in space",
+        "Weight is in kg; mass is in N"
+      ],
       "answer": "Mass is how much matter you contain (kg); weight is the force of gravity on you (N)",
       "accepted": null,
       "hint": "Mass stays the same on the Moon; weight doesn't.",
@@ -521,59 +1011,122 @@
       "working_required": false,
       "estimated_seconds": 45,
       "source": "CHS Y8 Science KM, Unit 4 Rocks, Climate, Universe",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Forces – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/forces/lessons"
+        },
+        {
+          "title": "Our Solar System and Beyond – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/solar-system-and-beyond/lessons"
+        },
+        {
+          "title": "Moving by Force – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/moving-by-force/lessons"
+        }
+      ]
     },
     {
       "id": "sci.rcu.grv.004",
       "subject": "science",
       "unit": "rocks-climate-universe",
       "topic": "gravity",
-      "skill_tags": ["gravity", "weight-mass"],
+      "skill_tags": [
+        "gravity",
+        "weight-mass"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "numeric",
       "prompt": "Bertie has a mass of 50 kg. Earth's gravitational field strength is 10 N/kg. What is Bertie's weight on Earth (in newtons)?",
       "options": null,
       "answer": "500",
-      "accepted": ["500 N", "500N", "500 newtons"],
+      "accepted": [
+        "500 N",
+        "500N",
+        "500 newtons"
+      ],
       "hint": "weight = mass × g",
       "explanation": "weight = mass × g = 50 × 10 = 500 N. On the Moon (g ≈ 1.6 N/kg) Bertie's weight would be only 80 N, but mass is still 50 kg.",
       "working_required": true,
       "estimated_seconds": 45,
       "source": "CHS Y8 Science KM, Unit 4 Rocks, Climate, Universe",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Forces – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/forces/lessons"
+        },
+        {
+          "title": "Our Solar System and Beyond – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/solar-system-and-beyond/lessons"
+        },
+        {
+          "title": "Moving by Force – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/moving-by-force/lessons"
+        }
+      ]
     },
     {
       "id": "sci.rcu.grv.005",
       "subject": "science",
       "unit": "rocks-climate-universe",
       "topic": "gravity",
-      "skill_tags": ["gravity", "weight-mass"],
+      "skill_tags": [
+        "gravity",
+        "weight-mass"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "numeric",
       "prompt": "An object has a mass of 4 kg. The Moon's gravitational field strength is 1.6 N/kg. What is its weight on the Moon (in N)?",
       "options": null,
       "answer": "6.4",
-      "accepted": ["6.4 N", "6.4N"],
+      "accepted": [
+        "6.4 N",
+        "6.4N"
+      ],
       "hint": "weight = mass × gravitational field strength.",
       "explanation": "weight = 4 × 1.6 = 6.4 N. Notice the much smaller gravity on the Moon — that's why astronauts can bounce around.",
       "working_required": true,
       "estimated_seconds": 50,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Forces – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/forces/lessons"
+        },
+        {
+          "title": "Our Solar System and Beyond – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/solar-system-and-beyond/lessons"
+        },
+        {
+          "title": "Moving by Force – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/moving-by-force/lessons"
+        }
+      ]
     },
     {
       "id": "sci.rcu.day.001",
       "subject": "science",
       "unit": "rocks-climate-universe",
       "topic": "day-night-seasons",
-      "skill_tags": ["solar-system", "rotation"],
+      "skill_tags": [
+        "solar-system",
+        "rotation"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "What causes day and night?",
-      "options": ["Earth's tilt", "Earth orbiting the Sun", "Earth spinning (rotating) on its axis", "The Sun moving across the sky"],
+      "options": [
+        "Earth's tilt",
+        "Earth orbiting the Sun",
+        "Earth spinning (rotating) on its axis",
+        "The Sun moving across the sky"
+      ],
       "answer": "Earth spinning (rotating) on its axis",
       "accepted": null,
       "hint": "Earth turns once every 24 hours.",
@@ -581,19 +1134,37 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Science KM, Unit 4 Rocks, Climate, Universe",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Our Solar System and Beyond – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/solar-system-and-beyond/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.rcu.day.002",
       "subject": "science",
       "unit": "rocks-climate-universe",
       "topic": "day-night-seasons",
-      "skill_tags": ["solar-system", "seasons"],
+      "skill_tags": [
+        "solar-system",
+        "seasons"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What causes the seasons?",
-      "options": ["Earth getting closer to the Sun in summer", "The tilt of Earth's axis as it orbits the Sun", "The Moon's phases", "Different speeds of Earth's rotation"],
+      "options": [
+        "Earth getting closer to the Sun in summer",
+        "The tilt of Earth's axis as it orbits the Sun",
+        "The Moon's phases",
+        "Different speeds of Earth's rotation"
+      ],
       "answer": "The tilt of Earth's axis as it orbits the Sun",
       "accepted": null,
       "hint": "It's NOT about distance — it's about angle.",
@@ -601,19 +1172,36 @@
       "working_required": false,
       "estimated_seconds": 45,
       "source": "CHS Y8 Science KM, Unit 4 Rocks, Climate, Universe",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Our Solar System and Beyond – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/solar-system-and-beyond/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.rcu.day.003",
       "subject": "science",
       "unit": "rocks-climate-universe",
       "topic": "day-night-seasons",
-      "skill_tags": ["seasons"],
+      "skill_tags": [
+        "seasons"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "When it is summer in the UK, what season is it in Australia?",
-      "options": ["Summer too", "Winter", "Always spring", "Same season as the equator"],
+      "options": [
+        "Summer too",
+        "Winter",
+        "Always spring",
+        "Same season as the equator"
+      ],
       "answer": "Winter",
       "accepted": null,
       "hint": "Australia is in the Southern Hemisphere, tilted the opposite way.",
@@ -621,19 +1209,37 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y8 Science KM, Unit 4 Rocks, Climate, Universe",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Our Solar System and Beyond – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/solar-system-and-beyond/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.rcu.moon.001",
       "subject": "science",
       "unit": "rocks-climate-universe",
       "topic": "moon",
-      "skill_tags": ["solar-system", "moon-phases"],
+      "skill_tags": [
+        "solar-system",
+        "moon-phases"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Roughly how long does the Moon take to orbit the Earth once?",
-      "options": ["24 hours", "About a week", "About 1 month (28 days)", "1 year"],
+      "options": [
+        "24 hours",
+        "About a week",
+        "About 1 month (28 days)",
+        "1 year"
+      ],
       "answer": "About 1 month (28 days)",
       "accepted": null,
       "hint": "Where does the word 'month' come from?",
@@ -641,19 +1247,36 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Science KM, Unit 4 Rocks, Climate, Universe",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Our Solar System and Beyond – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/solar-system-and-beyond/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.rcu.moon.002",
       "subject": "science",
       "unit": "rocks-climate-universe",
       "topic": "moon",
-      "skill_tags": ["moon-phases"],
+      "skill_tags": [
+        "moon-phases"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "Why do we see different phases of the Moon?",
-      "options": ["The Moon changes shape", "Clouds cover parts of it", "We see different amounts of the lit half as the Moon orbits Earth", "The Earth's shadow always falls on it"],
+      "options": [
+        "The Moon changes shape",
+        "Clouds cover parts of it",
+        "We see different amounts of the lit half as the Moon orbits Earth",
+        "The Earth's shadow always falls on it"
+      ],
       "answer": "We see different amounts of the lit half as the Moon orbits Earth",
       "accepted": null,
       "hint": "The Moon doesn't change — but our view of its sunlit side does.",
@@ -661,19 +1284,37 @@
       "working_required": false,
       "estimated_seconds": 50,
       "source": "CHS Y8 Science KM, Unit 4 Rocks, Climate, Universe",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Our Solar System and Beyond – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/solar-system-and-beyond/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.rcu.uni.001",
       "subject": "science",
       "unit": "rocks-climate-universe",
       "topic": "universe",
-      "skill_tags": ["galaxies", "universe"],
+      "skill_tags": [
+        "galaxies",
+        "universe"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What is the name of the galaxy we live in?",
-      "options": ["Andromeda", "The Milky Way", "Sombrero", "The Solar System"],
+      "options": [
+        "Andromeda",
+        "The Milky Way",
+        "Sombrero",
+        "The Solar System"
+      ],
       "answer": "The Milky Way",
       "accepted": null,
       "hint": "You can see it as a faint band of stars across the night sky.",
@@ -681,59 +1322,119 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Science KM, Unit 4 Rocks, Climate, Universe",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Our Solar System and Beyond – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/solar-system-and-beyond/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.rcu.uni.002",
       "subject": "science",
       "unit": "rocks-climate-universe",
       "topic": "universe",
-      "skill_tags": ["galaxies", "universe"],
+      "skill_tags": [
+        "galaxies",
+        "universe"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "order",
       "prompt": "Order these from SMALLEST to LARGEST.",
-      "options": ["Galaxy", "Planet", "Universe", "Star", "Solar System"],
-      "answer": ["Planet", "Star", "Solar System", "Galaxy", "Universe"],
+      "options": [
+        "Galaxy",
+        "Planet",
+        "Universe",
+        "Star",
+        "Solar System"
+      ],
+      "answer": [
+        "Planet",
+        "Star",
+        "Solar System",
+        "Galaxy",
+        "Universe"
+      ],
       "accepted": null,
       "hint": "A planet is smaller than its star; a star is part of a solar system, etc.",
       "explanation": "Smallest to largest: planet → star → solar system → galaxy → universe. The Universe contains everything — all galaxies, all matter, all space.",
       "working_required": false,
       "estimated_seconds": 60,
       "source": "CHS Y8 Science KM, Unit 4 Rocks, Climate, Universe",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Our Solar System and Beyond – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/solar-system-and-beyond/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.rcu.uni.003",
       "subject": "science",
       "unit": "rocks-climate-universe",
       "topic": "universe",
-      "skill_tags": ["universe"],
+      "skill_tags": [
+        "universe"
+      ],
       "tier": "deepen",
       "difficulty": 5,
       "type": "text",
       "prompt": "Astronomers use which unit, equal to the distance light travels in a year, to measure huge distances in space?",
       "options": null,
       "answer": "light year",
-      "accepted": ["light-year", "light years", "lightyear", "ly"],
+      "accepted": [
+        "light-year",
+        "light years",
+        "lightyear",
+        "ly"
+      ],
       "hint": "Two words — it's a distance, not a time, despite the name.",
       "explanation": "A light year is the distance light travels in one year — about 9.46 × 10¹⁵ m. Even the nearest star to the Sun (Proxima Centauri) is 4.2 light years away.",
       "working_required": false,
       "estimated_seconds": 45,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Our Solar System and Beyond – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/solar-system-and-beyond/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.rcu.uni.004",
       "subject": "science",
       "unit": "rocks-climate-universe",
       "topic": "universe",
-      "skill_tags": ["universe", "galaxies"],
+      "skill_tags": [
+        "universe",
+        "galaxies"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "Roughly how old is the Universe?",
-      "options": ["6,000 years", "1 million years", "13.8 billion years", "Infinite — it has no age"],
+      "options": [
+        "6,000 years",
+        "1 million years",
+        "13.8 billion years",
+        "Infinite — it has no age"
+      ],
       "answer": "13.8 billion years",
       "accepted": null,
       "hint": "Billions, not millions. The Universe began with the Big Bang.",
@@ -741,47 +1442,113 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Our Solar System and Beyond – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/solar-system-and-beyond/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.rcu.app.001",
       "subject": "science",
       "unit": "rocks-climate-universe",
       "topic": "applications",
-      "skill_tags": ["climate"],
+      "skill_tags": [
+        "climate"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "multi-select",
       "prompt": "Which of these would help reduce a person's carbon footprint?",
-      "options": ["Driving an electric car charged from renewable electricity", "Burning more coal at home", "Eating more locally grown food", "Walking or cycling for short trips", "Leaving lights on all night", "Using public transport instead of driving alone"],
-      "answer": ["Driving an electric car charged from renewable electricity", "Eating more locally grown food", "Walking or cycling for short trips", "Using public transport instead of driving alone"],
+      "options": [
+        "Driving an electric car charged from renewable electricity",
+        "Burning more coal at home",
+        "Eating more locally grown food",
+        "Walking or cycling for short trips",
+        "Leaving lights on all night",
+        "Using public transport instead of driving alone"
+      ],
+      "answer": [
+        "Driving an electric car charged from renewable electricity",
+        "Eating more locally grown food",
+        "Walking or cycling for short trips",
+        "Using public transport instead of driving alone"
+      ],
       "accepted": null,
       "hint": "Choose the options that REDUCE fossil fuel use.",
       "explanation": "Reducing fossil-fuel use cuts CO2. Renewable-powered EVs, local food (less transport), active travel, and shared transport all help. Coal burning and leaving lights on increase emissions.",
       "working_required": false,
       "estimated_seconds": 70,
       "source": "CHS Y8 Science KM, Unit 4 Rocks, Climate, Universe",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Climate Change and Living Sustainably – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/climate-change-and-living-sustainably/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.rcu.app.002",
       "subject": "science",
       "unit": "rocks-climate-universe",
       "topic": "renewables",
-      "skill_tags": ["energy", "climate"],
+      "skill_tags": [
+        "energy",
+        "climate"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "multi-select",
       "prompt": "Which energy sources are renewable?",
-      "options": ["Coal", "Solar", "Wind", "Natural gas", "Hydroelectric", "Oil"],
-      "answer": ["Solar", "Wind", "Hydroelectric"],
+      "options": [
+        "Coal",
+        "Solar",
+        "Wind",
+        "Natural gas",
+        "Hydroelectric",
+        "Oil"
+      ],
+      "answer": [
+        "Solar",
+        "Wind",
+        "Hydroelectric"
+      ],
       "accepted": null,
       "hint": "Renewable = never runs out / replaces itself.",
       "explanation": "Solar, wind and hydro are renewable — they come from natural processes that won't run out. Coal, oil and gas are fossil fuels — finite, and release CO2 when burned.",
       "working_required": false,
       "estimated_seconds": 50,
       "source": "CHS Y8 Science KM, Unit 4 Rocks, Climate, Universe",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Moving by Force – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/moving-by-force/lessons"
+        },
+        {
+          "title": "Heating and Cooling – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/heating-and-cooling/lessons"
+        },
+        {
+          "title": "Climate Change and Living Sustainably – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/climate-change-and-living-sustainably/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     }
   ]
 }

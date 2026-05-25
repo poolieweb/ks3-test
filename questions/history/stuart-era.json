@@ -8,12 +8,20 @@
       "subject": "history",
       "unit": "stuart-era",
       "topic": "stuart-era",
-      "skill_tags": ["stuart-era", "monarchy"],
+      "skill_tags": [
+        "stuart-era",
+        "monarchy"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "mcq",
       "prompt": "Which king became the first Stuart monarch of England in 1603?",
-      "options": ["James I", "Charles I", "Henry VIII", "Edward VI"],
+      "options": [
+        "James I",
+        "Charles I",
+        "Henry VIII",
+        "Edward VI"
+      ],
       "answer": "James I",
       "accepted": null,
       "hint": "He was already King James VI of Scotland before taking the English throne.",
@@ -21,39 +29,77 @@
       "working_required": false,
       "estimated_seconds": 20,
       "source": "CHS Y8 History KM, Autumn — Stuart Era",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "The English Civil War – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units/the-english-civil-war-what-can-pamphlets-tell-us-about-17th-century-politics/lessons"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.stu.stu.002",
       "subject": "history",
       "unit": "stuart-era",
       "topic": "stuart-era",
-      "skill_tags": ["stuart-era", "witch-craze"],
+      "skill_tags": [
+        "stuart-era",
+        "witch-craze"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "text",
       "prompt": "What is the name of the book written by King James I in 1597 about witchcraft?",
       "options": null,
       "answer": "Daemonologie",
-      "accepted": ["daemonologie", "Demonology", "demonology"],
+      "accepted": [
+        "daemonologie",
+        "Demonology",
+        "demonology"
+      ],
       "hint": "Its name comes from the Greek word for demons.",
       "explanation": "Daemonologie was published in 1597 and argued witchcraft was real and dangerous. It helped fuel witch hunts across Britain.",
       "working_required": false,
       "estimated_seconds": 40,
       "source": "CHS Y8 History KM, Autumn — Stuart Era",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "The English Civil War – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units/the-english-civil-war-what-can-pamphlets-tell-us-about-17th-century-politics/lessons"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        },
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        }
+      ]
     },
     {
       "id": "his.stu.stu.003",
       "subject": "history",
       "unit": "stuart-era",
       "topic": "stuart-era",
-      "skill_tags": ["witch-craze"],
+      "skill_tags": [
+        "witch-craze"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "Roughly what percentage of those executed for witchcraft in early modern Europe were women?",
-      "options": ["About 25%", "About 50%", "About 80%", "About 100%"],
+      "options": [
+        "About 25%",
+        "About 50%",
+        "About 80%",
+        "About 100%"
+      ],
       "answer": "About 80%",
       "accepted": null,
       "hint": "The vast majority — but not all — of those accused were female.",
@@ -61,59 +107,120 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 History KM, Autumn — Witch Craze",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.stu.stu.004",
       "subject": "history",
       "unit": "stuart-era",
       "topic": "stuart-era",
-      "skill_tags": ["witch-craze", "stuart-era"],
+      "skill_tags": [
+        "witch-craze",
+        "stuart-era"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "multi-select",
       "prompt": "Which of these were common reasons women were accused of witchcraft in the 17th century? (Select all that apply)",
-      "options": ["Being a widow or living alone", "Being poor or a beggar", "Owning a pet animal (a 'familiar')", "Being educated at university", "Falling out with a neighbour"],
-      "answer": ["Being a widow or living alone", "Being poor or a beggar", "Owning a pet animal (a 'familiar')", "Falling out with a neighbour"],
+      "options": [
+        "Being a widow or living alone",
+        "Being poor or a beggar",
+        "Owning a pet animal (a 'familiar')",
+        "Being educated at university",
+        "Falling out with a neighbour"
+      ],
+      "answer": [
+        "Being a widow or living alone",
+        "Being poor or a beggar",
+        "Owning a pet animal (a 'familiar')",
+        "Falling out with a neighbour"
+      ],
       "accepted": null,
       "hint": "Think about who was most vulnerable in village communities.",
       "explanation": "Vulnerable women — especially widows, beggars, those with pets ('familiars'), or those involved in disputes — were the most common targets. University education was reserved for men.",
       "working_required": false,
       "estimated_seconds": 45,
       "source": "CHS Y8 History KM, Autumn — Witch Craze",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        },
+        {
+          "title": "The English Civil War – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units/the-english-civil-war-what-can-pamphlets-tell-us-about-17th-century-politics/lessons"
+        }
+      ]
     },
     {
       "id": "his.stu.stu.005",
       "subject": "history",
       "unit": "stuart-era",
       "topic": "stuart-era",
-      "skill_tags": ["witch-craze"],
+      "skill_tags": [
+        "witch-craze"
+      ],
       "tier": "strengthen",
       "difficulty": 2,
       "type": "text",
       "prompt": "What name was given to Matthew Hopkins, the man who led witch hunts in East Anglia between 1644 and 1647?",
       "options": null,
       "answer": "Witchfinder General",
-      "accepted": ["witchfinder general", "the Witchfinder General"],
+      "accepted": [
+        "witchfinder general",
+        "the Witchfinder General"
+      ],
       "hint": "His self-given title sounds like a military rank.",
       "explanation": "Matthew Hopkins called himself the 'Witchfinder General' and was responsible for around 300 executions during the English Civil War period.",
       "working_required": false,
       "estimated_seconds": 40,
       "source": "CHS Y8 History KM, Autumn — Witch Craze",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.stu.stu.006",
       "subject": "history",
       "unit": "stuart-era",
       "topic": "stuart-era",
-      "skill_tags": ["witch-craze", "stuart-era"],
+      "skill_tags": [
+        "witch-craze",
+        "stuart-era"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "Which of these is the BEST explanation for why witch hunts increased during the 1640s in England?",
-      "options": ["The weather was unusually warm", "The English Civil War caused fear, breakdown of order and economic hardship", "Witches were genuinely more powerful", "Catholics were taking over the country"],
+      "options": [
+        "The weather was unusually warm",
+        "The English Civil War caused fear, breakdown of order and economic hardship",
+        "Witches were genuinely more powerful",
+        "Catholics were taking over the country"
+      ],
       "answer": "The English Civil War caused fear, breakdown of order and economic hardship",
       "accepted": null,
       "hint": "Times of crisis often produce scapegoats.",
@@ -121,19 +228,40 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 History KM, Autumn — Witch Craze",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        },
+        {
+          "title": "The English Civil War – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units/the-english-civil-war-what-can-pamphlets-tell-us-about-17th-century-politics/lessons"
+        }
+      ]
     },
     {
       "id": "his.stu.stu.007",
       "subject": "history",
       "unit": "stuart-era",
       "topic": "stuart-era",
-      "skill_tags": ["stuart-era"],
+      "skill_tags": [
+        "stuart-era"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "What was the Gunpowder Plot of 1605?",
-      "options": ["A plan to blow up Parliament and kill King James I", "A naval battle against Spain", "A peasant uprising in the north", "A plot to steal the crown jewels"],
+      "options": [
+        "A plan to blow up Parliament and kill King James I",
+        "A naval battle against Spain",
+        "A peasant uprising in the north",
+        "A plot to steal the crown jewels"
+      ],
       "answer": "A plan to blow up Parliament and kill King James I",
       "accepted": null,
       "hint": "Remember, remember the 5th of November.",
@@ -141,39 +269,73 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 History KM, Autumn — Stuart Era",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "The English Civil War – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units/the-english-civil-war-what-can-pamphlets-tell-us-about-17th-century-politics/lessons"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.stu.stu.008",
       "subject": "history",
       "unit": "stuart-era",
       "topic": "stuart-era",
-      "skill_tags": ["stuart-era"],
+      "skill_tags": [
+        "stuart-era"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "text",
       "prompt": "Who was the most famous member of the Gunpowder Plot, caught guarding the gunpowder in the cellars of Parliament?",
       "options": null,
       "answer": "Guy Fawkes",
-      "accepted": ["guy fawkes", "Guido Fawkes", "Fawkes"],
+      "accepted": [
+        "guy fawkes",
+        "Guido Fawkes",
+        "Fawkes"
+      ],
       "hint": "Effigies of him are burned every 5th November.",
       "explanation": "Guy Fawkes (also called Guido) was a Catholic soldier caught in the cellars with the gunpowder. He's the figure burned on bonfires every November.",
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 History KM, Autumn — Stuart Era",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "The English Civil War – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units/the-english-civil-war-what-can-pamphlets-tell-us-about-17th-century-politics/lessons"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.stu.stu.009",
       "subject": "history",
       "unit": "stuart-era",
       "topic": "stuart-era",
-      "skill_tags": ["age-of-exploration", "exploration"],
+      "skill_tags": [
+        "age-of-exploration",
+        "exploration"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "mcq",
       "prompt": "What was the 'Age of Exploration'?",
-      "options": ["A period when European explorers travelled the world by sea (roughly 1400s–1600s)", "The age when railways were built", "A period of wars between England and France", "When humans first went into space"],
+      "options": [
+        "A period when European explorers travelled the world by sea (roughly 1400s–1600s)",
+        "The age when railways were built",
+        "A period of wars between England and France",
+        "When humans first went into space"
+      ],
       "answer": "A period when European explorers travelled the world by sea (roughly 1400s–1600s)",
       "accepted": null,
       "hint": "Think Columbus, Magellan, Drake.",
@@ -181,59 +343,112 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 History KM, Autumn — Age of Exploration",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.stu.stu.010",
       "subject": "history",
       "unit": "stuart-era",
       "topic": "stuart-era",
-      "skill_tags": ["age-of-exploration", "exploration"],
+      "skill_tags": [
+        "age-of-exploration",
+        "exploration"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "text",
       "prompt": "Which Italian explorer, sailing for Spain in 1492, reached the Americas (though he thought it was Asia)?",
       "options": null,
       "answer": "Christopher Columbus",
-      "accepted": ["columbus", "Columbus", "christopher columbus", "Cristoforo Colombo"],
+      "accepted": [
+        "columbus",
+        "Columbus",
+        "christopher columbus",
+        "Cristoforo Colombo"
+      ],
       "hint": "His first name shares with a Disney film about a saint who carried Christ.",
       "explanation": "Columbus reached the Caribbean in 1492 while trying to find a westward route to Asia. He never realised he'd reached a continent unknown to Europe.",
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y8 History KM, Autumn — Age of Exploration",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.stu.stu.011",
       "subject": "history",
       "unit": "stuart-era",
       "topic": "stuart-era",
-      "skill_tags": ["age-of-exploration", "diversity"],
+      "skill_tags": [
+        "age-of-exploration",
+        "diversity"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "text",
       "prompt": "What is the name of the indigenous peoples of north-eastern North America that English colonists encountered in the early 1600s?",
       "options": null,
       "answer": "Algonquians",
-      "accepted": ["algonquians", "Algonquin", "algonquin", "Algonkian"],
+      "accepted": [
+        "algonquians",
+        "Algonquin",
+        "algonquin",
+        "Algonkian"
+      ],
       "hint": "Their name begins with 'Al-' and includes tribes like the Powhatan.",
       "explanation": "The Algonquians were a large group of related indigenous peoples in north-eastern North America. They had their own complex societies long before European arrival.",
       "working_required": false,
       "estimated_seconds": 45,
       "source": "CHS Y8 History KM, Autumn — Age of Exploration (diversity)",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.stu.stu.012",
       "subject": "history",
       "unit": "stuart-era",
       "topic": "stuart-era",
-      "skill_tags": ["age-of-exploration"],
+      "skill_tags": [
+        "age-of-exploration"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Which of these was NOT a main motive for European exploration in the 1500s and 1600s?",
-      "options": ["Gold (wealth and trade)", "God (spreading Christianity)", "Glory (national prestige)", "Green energy (renewable resources)"],
+      "options": [
+        "Gold (wealth and trade)",
+        "God (spreading Christianity)",
+        "Glory (national prestige)",
+        "Green energy (renewable resources)"
+      ],
       "answer": "Green energy (renewable resources)",
       "accepted": null,
       "hint": "Three of these are often called the 'Three Gs'.",
@@ -241,19 +456,37 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 History KM, Autumn — Age of Exploration",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.stu.stu.013",
       "subject": "history",
       "unit": "stuart-era",
       "topic": "stuart-era",
-      "skill_tags": ["age-of-exploration", "exploration"],
+      "skill_tags": [
+        "age-of-exploration",
+        "exploration"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "What was the name of the first permanent English colony in North America, founded in 1607?",
-      "options": ["Plymouth", "Jamestown", "New York", "Roanoke"],
+      "options": [
+        "Plymouth",
+        "Jamestown",
+        "New York",
+        "Roanoke"
+      ],
       "answer": "Jamestown",
       "accepted": null,
       "hint": "Named after the king on the throne at the time.",
@@ -261,19 +494,36 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "UK NC KS3 — Age of Exploration",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.stu.stu.014",
       "subject": "history",
       "unit": "stuart-era",
       "topic": "stuart-era",
-      "skill_tags": ["age-of-exploration"],
+      "skill_tags": [
+        "age-of-exploration"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What was the Mayflower?",
-      "options": ["A ship that carried Pilgrim settlers from England to America in 1620", "A spice ship from the East Indies", "A warship in the Spanish Armada", "A pirate vessel captained by Francis Drake"],
+      "options": [
+        "A ship that carried Pilgrim settlers from England to America in 1620",
+        "A spice ship from the East Indies",
+        "A warship in the Spanish Armada",
+        "A pirate vessel captained by Francis Drake"
+      ],
       "answer": "A ship that carried Pilgrim settlers from England to America in 1620",
       "accepted": null,
       "hint": "It carried Puritan separatists seeking religious freedom.",
@@ -281,59 +531,123 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "UK NC KS3 — Age of Exploration",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.stu.stu.015",
       "subject": "history",
       "unit": "stuart-era",
       "topic": "stuart-era",
-      "skill_tags": ["age-of-exploration", "exploration"],
+      "skill_tags": [
+        "age-of-exploration",
+        "exploration"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "multi-select",
       "prompt": "Which of these were consequences of European exploration of the Americas for indigenous peoples? (Select all that apply)",
-      "options": ["Devastating disease outbreaks (e.g. smallpox)", "Loss of land and forced removal", "Enslavement and forced labour", "Improvement in their economy through trade", "Destruction of culture and religion"],
-      "answer": ["Devastating disease outbreaks (e.g. smallpox)", "Loss of land and forced removal", "Enslavement and forced labour", "Destruction of culture and religion"],
+      "options": [
+        "Devastating disease outbreaks (e.g. smallpox)",
+        "Loss of land and forced removal",
+        "Enslavement and forced labour",
+        "Improvement in their economy through trade",
+        "Destruction of culture and religion"
+      ],
+      "answer": [
+        "Devastating disease outbreaks (e.g. smallpox)",
+        "Loss of land and forced removal",
+        "Enslavement and forced labour",
+        "Destruction of culture and religion"
+      ],
       "accepted": null,
       "hint": "Four of these were catastrophic; one is a modern misconception.",
       "explanation": "European contact was disastrous for indigenous populations — diseases like smallpox killed up to 90% of some communities, and survivors faced land theft, enslavement and cultural destruction.",
       "working_required": false,
       "estimated_seconds": 50,
       "source": "CHS Y8 History KM, Autumn — Age of Exploration",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.stu.stu.016",
       "subject": "history",
       "unit": "stuart-era",
       "topic": "stuart-era",
-      "skill_tags": ["stuart-era", "monarchy"],
+      "skill_tags": [
+        "stuart-era",
+        "monarchy"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "order",
       "prompt": "Put these Stuart-era events in chronological order, earliest first.",
-      "options": ["Founding of Jamestown colony", "Daemonologie published by James VI", "Execution of Charles I", "Gunpowder Plot"],
-      "answer": ["Daemonologie published by James VI", "Gunpowder Plot", "Founding of Jamestown colony", "Execution of Charles I"],
+      "options": [
+        "Founding of Jamestown colony",
+        "Daemonologie published by James VI",
+        "Execution of Charles I",
+        "Gunpowder Plot"
+      ],
+      "answer": [
+        "Daemonologie published by James VI",
+        "Gunpowder Plot",
+        "Founding of Jamestown colony",
+        "Execution of Charles I"
+      ],
       "accepted": null,
       "hint": "Daemonologie (1597), Gunpowder Plot (1605), Jamestown (1607), Charles I executed (1649).",
       "explanation": "These all fall in the late 16th to mid 17th century: Daemonologie 1597, Gunpowder Plot 1605, Jamestown founded 1607, Charles I beheaded after the Civil War in 1649.",
       "working_required": false,
       "estimated_seconds": 60,
       "source": "CHS Y8 History KM, Autumn — Stuart Era",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "The English Civil War – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units/the-english-civil-war-what-can-pamphlets-tell-us-about-17th-century-politics/lessons"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.stu.stu.017",
       "subject": "history",
       "unit": "stuart-era",
       "topic": "stuart-era",
-      "skill_tags": ["stuart-era"],
+      "skill_tags": [
+        "stuart-era"
+      ],
       "tier": "strengthen",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "Which Stuart king was executed by Parliament in 1649 after the English Civil War?",
-      "options": ["James I", "Charles I", "Charles II", "James II"],
+      "options": [
+        "James I",
+        "Charles I",
+        "Charles II",
+        "James II"
+      ],
       "answer": "Charles I",
       "accepted": null,
       "hint": "He was the son of James I and lost a war to Oliver Cromwell.",
@@ -341,19 +655,36 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "UK NC KS3 — Stuart Era",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "The English Civil War – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units/the-english-civil-war-what-can-pamphlets-tell-us-about-17th-century-politics/lessons"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.stu.stu.018",
       "subject": "history",
       "unit": "stuart-era",
       "topic": "stuart-era",
-      "skill_tags": ["witch-craze"],
+      "skill_tags": [
+        "witch-craze"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "How might the actions of King James I have made witch hunts more dangerous in England after 1603?",
-      "options": ["He banned witch trials entirely", "His book Daemonologie gave royal authority to the belief that witches were real and should be hunted", "He invited witches to court", "He passed laws protecting accused women"],
+      "options": [
+        "He banned witch trials entirely",
+        "His book Daemonologie gave royal authority to the belief that witches were real and should be hunted",
+        "He invited witches to court",
+        "He passed laws protecting accused women"
+      ],
       "answer": "His book Daemonologie gave royal authority to the belief that witches were real and should be hunted",
       "accepted": null,
       "hint": "Royal endorsement made witch hunting seem legitimate.",
@@ -361,19 +692,37 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y8 History KM, Autumn — Witch Craze",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.stu.stu.019",
       "subject": "history",
       "unit": "stuart-era",
       "topic": "stuart-era",
-      "skill_tags": ["age-of-exploration", "exploration"],
+      "skill_tags": [
+        "age-of-exploration",
+        "exploration"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "What is the 'Columbian Exchange'?",
-      "options": ["A type of stock market", "The transfer of plants, animals, people, diseases and ideas between the Old and New Worlds after 1492", "A peace treaty between England and Spain", "An exchange of prisoners after a war"],
+      "options": [
+        "A type of stock market",
+        "The transfer of plants, animals, people, diseases and ideas between the Old and New Worlds after 1492",
+        "A peace treaty between England and Spain",
+        "An exchange of prisoners after a war"
+      ],
       "answer": "The transfer of plants, animals, people, diseases and ideas between the Old and New Worlds after 1492",
       "accepted": null,
       "hint": "Named after Christopher Columbus.",
@@ -381,59 +730,114 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "UK NC KS3 — Age of Exploration",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.stu.stu.020",
       "subject": "history",
       "unit": "stuart-era",
       "topic": "stuart-era",
-      "skill_tags": ["age-of-exploration"],
+      "skill_tags": [
+        "age-of-exploration"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "multi-select",
       "prompt": "Which crops were brought from the Americas to Europe as part of the Columbian Exchange? (Select all that apply)",
-      "options": ["Potatoes", "Tomatoes", "Wheat", "Maize (corn)", "Rice"],
-      "answer": ["Potatoes", "Tomatoes", "Maize (corn)"],
+      "options": [
+        "Potatoes",
+        "Tomatoes",
+        "Wheat",
+        "Maize (corn)",
+        "Rice"
+      ],
+      "answer": [
+        "Potatoes",
+        "Tomatoes",
+        "Maize (corn)"
+      ],
       "accepted": null,
       "hint": "Wheat and rice came FROM the Old World — not to it.",
       "explanation": "Potatoes, tomatoes, maize, chocolate and chillies all came from the Americas. Wheat and rice were Old World crops taken to the Americas.",
       "working_required": false,
       "estimated_seconds": 40,
       "source": "UK NC KS3 — Age of Exploration",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.stu.stu.021",
       "subject": "history",
       "unit": "stuart-era",
       "topic": "stuart-era",
-      "skill_tags": ["age-of-exploration"],
+      "skill_tags": [
+        "age-of-exploration"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "text",
       "prompt": "Which Tudor sea captain became the first Englishman to sail around the world (circumnavigate the globe) between 1577 and 1580?",
       "options": null,
       "answer": "Francis Drake",
-      "accepted": ["francis drake", "Sir Francis Drake", "Drake"],
+      "accepted": [
+        "francis drake",
+        "Sir Francis Drake",
+        "Drake"
+      ],
       "hint": "He was later knighted by Elizabeth I and helped defeat the Spanish Armada.",
       "explanation": "Sir Francis Drake circumnavigated the world from 1577–80 aboard the Golden Hind. To the Spanish he was a pirate; to the English a hero.",
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y8 History KM, Autumn — Age of Exploration",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.stu.stu.022",
       "subject": "history",
       "unit": "stuart-era",
       "topic": "stuart-era",
-      "skill_tags": ["witch-craze"],
+      "skill_tags": [
+        "witch-craze"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What was a 'familiar' in the context of witch beliefs in the 17th century?",
-      "options": ["A close friend or relative", "An animal companion thought to be a demon helper", "A magic spell book", "A relative of the king"],
+      "options": [
+        "A close friend or relative",
+        "An animal companion thought to be a demon helper",
+        "A magic spell book",
+        "A relative of the king"
+      ],
       "answer": "An animal companion thought to be a demon helper",
       "accepted": null,
       "hint": "Often a cat, toad or hare.",
@@ -441,19 +845,37 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 History KM, Autumn — Witch Craze",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.stu.stu.023",
       "subject": "history",
       "unit": "stuart-era",
       "topic": "stuart-era",
-      "skill_tags": ["stuart-era", "witch-craze"],
+      "skill_tags": [
+        "stuart-era",
+        "witch-craze"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "Why might historians describe the witch craze as an example of 'scapegoating'?",
-      "options": ["Because witches kept goats", "Because vulnerable people were blamed for problems that had other real causes (disease, bad harvests, war)", "Because goats were used in witch trials", "Because witches were always priests"],
+      "options": [
+        "Because witches kept goats",
+        "Because vulnerable people were blamed for problems that had other real causes (disease, bad harvests, war)",
+        "Because goats were used in witch trials",
+        "Because witches were always priests"
+      ],
       "answer": "Because vulnerable people were blamed for problems that had other real causes (disease, bad harvests, war)",
       "accepted": null,
       "hint": "A scapegoat is someone unfairly blamed for the problems of others.",
@@ -461,19 +883,40 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y8 History KM, Autumn — Witch Craze",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "The English Civil War – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units/the-english-civil-war-what-can-pamphlets-tell-us-about-17th-century-politics/lessons"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        },
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        }
+      ]
     },
     {
       "id": "his.stu.stu.024",
       "subject": "history",
       "unit": "stuart-era",
       "topic": "stuart-era",
-      "skill_tags": ["age-of-exploration"],
+      "skill_tags": [
+        "age-of-exploration"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "Why was control of the seas so important to European nations during the Age of Exploration?",
-      "options": ["Sea travel was the fastest way to move goods, soldiers and settlers; controlling sea routes meant controlling trade and empire", "Because all gold was found at sea", "Because there were no roads in Europe", "Because they enjoyed fishing"],
+      "options": [
+        "Sea travel was the fastest way to move goods, soldiers and settlers; controlling sea routes meant controlling trade and empire",
+        "Because all gold was found at sea",
+        "Because there were no roads in Europe",
+        "Because they enjoyed fishing"
+      ],
       "answer": "Sea travel was the fastest way to move goods, soldiers and settlers; controlling sea routes meant controlling trade and empire",
       "accepted": null,
       "hint": "Empires were built on shipping lanes.",
@@ -481,27 +924,54 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "UK NC KS3 — Age of Exploration",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.stu.stu.025",
       "subject": "history",
       "unit": "stuart-era",
       "topic": "stuart-era",
-      "skill_tags": ["stuart-era"],
+      "skill_tags": [
+        "stuart-era"
+      ],
       "tier": "strengthen",
       "difficulty": 2,
       "type": "text",
       "prompt": "Complete the saying: 'Remember, remember the ___ of November' — referring to the Gunpowder Plot.",
       "options": null,
       "answer": "5th",
-      "accepted": ["fifth", "5", "5th", "five"],
+      "accepted": [
+        "fifth",
+        "5",
+        "5th",
+        "five"
+      ],
       "hint": "Bonfire Night is on this date.",
       "explanation": "The 5th of November 1605 was the day the Gunpowder Plot was discovered. It's commemorated every year with bonfires and fireworks (Bonfire Night).",
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 History KM, Autumn — Stuart Era",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "The English Civil War – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units/the-english-civil-war-what-can-pamphlets-tell-us-about-17th-century-politics/lessons"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     }
   ]
 }

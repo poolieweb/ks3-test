@@ -8,12 +8,19 @@
       "subject": "history",
       "unit": "industrial-revolution",
       "topic": "industrial-revolution",
-      "skill_tags": ["industrial-revolution"],
+      "skill_tags": [
+        "industrial-revolution"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "mcq",
       "prompt": "What is the 'Industrial Revolution'?",
-      "options": ["A period of rapid change when factories, machines and steam power transformed how things were made", "A war between France and Britain", "The age when humans discovered electricity for the first time", "A type of farming method"],
+      "options": [
+        "A period of rapid change when factories, machines and steam power transformed how things were made",
+        "A war between France and Britain",
+        "The age when humans discovered electricity for the first time",
+        "A type of farming method"
+      ],
       "answer": "A period of rapid change when factories, machines and steam power transformed how things were made",
       "accepted": null,
       "hint": "Think factories, machines, steam, smoke.",
@@ -21,19 +28,36 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 History KM, Spring/Summer — Industrial Revolution",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.ind.ind.002",
       "subject": "history",
       "unit": "industrial-revolution",
       "topic": "industrial-revolution",
-      "skill_tags": ["industrial-revolution"],
+      "skill_tags": [
+        "industrial-revolution"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "In which country did the Industrial Revolution begin?",
-      "options": ["France", "Britain", "Germany", "USA"],
+      "options": [
+        "France",
+        "Britain",
+        "Germany",
+        "USA"
+      ],
       "answer": "Britain",
       "accepted": null,
       "hint": "It started here before spreading abroad.",
@@ -41,99 +65,194 @@
       "working_required": false,
       "estimated_seconds": 20,
       "source": "CHS Y8 History KM — Industrial Revolution",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.ind.ind.003",
       "subject": "history",
       "unit": "industrial-revolution",
       "topic": "industrial-revolution",
-      "skill_tags": ["cottonopolis", "industrial-revolution"],
+      "skill_tags": [
+        "cottonopolis",
+        "industrial-revolution"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "text",
       "prompt": "What nickname was given to Manchester because of its huge cotton industry?",
       "options": null,
       "answer": "Cottonopolis",
-      "accepted": ["cottonopolis", "Cotton-opolis", "Cottonopolis "],
+      "accepted": [
+        "cottonopolis",
+        "Cotton-opolis",
+        "Cottonopolis "
+      ],
       "hint": "It combines 'cotton' with the Greek word for 'city' (polis).",
       "explanation": "Manchester was nicknamed 'Cottonopolis' — the cotton city — because it became the world centre of cotton manufacturing in the 19th century.",
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y8 History KM — Cottonopolis",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Cities: What Are They Like to Live In? – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/cities-what-are-they-like-to-live-in/lessons"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        },
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        }
+      ]
     },
     {
       "id": "his.ind.ind.004",
       "subject": "history",
       "unit": "industrial-revolution",
       "topic": "industrial-revolution",
-      "skill_tags": ["cottonopolis"],
+      "skill_tags": [
+        "cottonopolis"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "multi-select",
       "prompt": "Which factors helped Manchester become Cottonopolis? (Select all that apply)",
-      "options": ["Wet climate (good for spinning cotton thread)", "Coal nearby in Lancashire to power steam engines", "The port of Liverpool nearby for importing raw cotton", "Lots of fast-flowing rivers and streams for early water-powered mills", "Volcanic soil"],
-      "answer": ["Wet climate (good for spinning cotton thread)", "Coal nearby in Lancashire to power steam engines", "The port of Liverpool nearby for importing raw cotton", "Lots of fast-flowing rivers and streams for early water-powered mills"],
+      "options": [
+        "Wet climate (good for spinning cotton thread)",
+        "Coal nearby in Lancashire to power steam engines",
+        "The port of Liverpool nearby for importing raw cotton",
+        "Lots of fast-flowing rivers and streams for early water-powered mills",
+        "Volcanic soil"
+      ],
+      "answer": [
+        "Wet climate (good for spinning cotton thread)",
+        "Coal nearby in Lancashire to power steam engines",
+        "The port of Liverpool nearby for importing raw cotton",
+        "Lots of fast-flowing rivers and streams for early water-powered mills"
+      ],
       "accepted": null,
       "hint": "Manchester had four big advantages and zero volcanoes.",
       "explanation": "Manchester had a damp climate (great for cotton), nearby coal, the port of Liverpool for importing raw cotton from America, and fast streams to power early mills.",
       "working_required": false,
       "estimated_seconds": 50,
       "source": "CHS Y8 History KM — Cottonopolis (Manchester)",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Cities: What Are They Like to Live In? – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/cities-what-are-they-like-to-live-in/lessons"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.ind.ind.005",
       "subject": "history",
       "unit": "industrial-revolution",
       "topic": "industrial-revolution",
-      "skill_tags": ["industrial-revolution"],
+      "skill_tags": [
+        "industrial-revolution"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "text",
       "prompt": "What name is given to the large buildings where many workers used machines together to mass-produce goods?",
       "options": null,
       "answer": "factories",
-      "accepted": ["factory", "Factory", "Factories", "mill", "mills"],
+      "accepted": [
+        "factory",
+        "Factory",
+        "Factories",
+        "mill",
+        "mills"
+      ],
       "hint": "These replaced cottage industries — and in the cotton industry were often called 'mills'.",
       "explanation": "Factories (called 'mills' in the cotton trade) brought workers together with powered machines in one building. This replaced the older 'cottage industry' where work was done at home.",
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y8 History KM — Industrial Revolution",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.ind.ind.006",
       "subject": "history",
       "unit": "industrial-revolution",
       "topic": "industrial-revolution",
-      "skill_tags": ["industrial-revolution"],
+      "skill_tags": [
+        "industrial-revolution"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "text",
       "prompt": "Which Scottish engineer's improvements to the steam engine in the 1760s–80s helped power the Industrial Revolution?",
       "options": null,
       "answer": "James Watt",
-      "accepted": ["james watt", "Watt", "watt"],
+      "accepted": [
+        "james watt",
+        "Watt",
+        "watt"
+      ],
       "hint": "The unit of power is named after him.",
       "explanation": "James Watt's improved steam engine (patented 1769) was much more efficient than earlier designs. It powered factories, mines and eventually trains. The 'watt' unit of power is named after him.",
       "working_required": false,
       "estimated_seconds": 40,
       "source": "UK NC KS3 — Industrial Revolution",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.ind.ind.007",
       "subject": "history",
       "unit": "industrial-revolution",
       "topic": "industrial-revolution",
-      "skill_tags": ["industrial-revolution"],
+      "skill_tags": [
+        "industrial-revolution"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "What is 'urbanisation'?",
-      "options": ["People moving from countryside to cities", "Building motorways", "Inventing new machines", "Mining underground"],
+      "options": [
+        "People moving from countryside to cities",
+        "Building motorways",
+        "Inventing new machines",
+        "Mining underground"
+      ],
       "answer": "People moving from countryside to cities",
       "accepted": null,
       "hint": "It's the growth of urban (city) areas.",
@@ -141,19 +260,37 @@
       "working_required": false,
       "estimated_seconds": 20,
       "source": "CHS Y8 History KM — Industrial Revolution",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.ind.ind.008",
       "subject": "history",
       "unit": "industrial-revolution",
       "topic": "industrial-revolution",
-      "skill_tags": ["industrial-revolution", "urbanisation"],
+      "skill_tags": [
+        "industrial-revolution",
+        "urbanisation"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Roughly how much did Manchester's population grow during the 19th century?",
-      "options": ["It doubled (from 75,000 to 150,000)", "It grew about 10 times (from 75,000 to over 700,000)", "It stayed the same", "It halved"],
+      "options": [
+        "It doubled (from 75,000 to 150,000)",
+        "It grew about 10 times (from 75,000 to over 700,000)",
+        "It stayed the same",
+        "It halved"
+      ],
       "answer": "It grew about 10 times (from 75,000 to over 700,000)",
       "accepted": null,
       "hint": "Manchester's population exploded during the cotton boom.",
@@ -161,39 +298,88 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 History KM — Cottonopolis",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        },
+        {
+          "title": "Cities: What Are They Like to Live In? – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/cities-what-are-they-like-to-live-in/lessons"
+        },
+        {
+          "title": "KS3 Geography – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zvnrq6f"
+        }
+      ]
     },
     {
       "id": "his.ind.ind.009",
       "subject": "history",
       "unit": "industrial-revolution",
       "topic": "industrial-revolution",
-      "skill_tags": ["industrial-revolution"],
+      "skill_tags": [
+        "industrial-revolution"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "multi-select",
       "prompt": "Which of these were common problems faced by workers in industrial cities? (Select all that apply)",
-      "options": ["Overcrowded slum housing", "Disease (cholera, typhus)", "Long working hours (12–16 hours)", "Dangerous unguarded machinery", "Excellent free healthcare"],
-      "answer": ["Overcrowded slum housing", "Disease (cholera, typhus)", "Long working hours (12–16 hours)", "Dangerous unguarded machinery"],
+      "options": [
+        "Overcrowded slum housing",
+        "Disease (cholera, typhus)",
+        "Long working hours (12–16 hours)",
+        "Dangerous unguarded machinery",
+        "Excellent free healthcare"
+      ],
+      "answer": [
+        "Overcrowded slum housing",
+        "Disease (cholera, typhus)",
+        "Long working hours (12–16 hours)",
+        "Dangerous unguarded machinery"
+      ],
       "accepted": null,
       "hint": "Healthcare was very basic — life expectancy in industrial cities was shockingly low.",
       "explanation": "Industrial cities were dangerous places. Workers faced cramped slums, polluted water (causing cholera and typhus), 12–16 hour shifts, and lethal machinery with no safety guards. Manchester's life expectancy dropped to just 26 in some areas.",
       "working_required": false,
       "estimated_seconds": 45,
       "source": "CHS Y8 History KM — Industrial Revolution social",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.ind.ind.010",
       "subject": "history",
       "unit": "industrial-revolution",
       "topic": "industrial-revolution",
-      "skill_tags": ["industrial-revolution", "child-labour"],
+      "skill_tags": [
+        "industrial-revolution",
+        "child-labour"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "Why were children commonly employed in factories and mines during the Industrial Revolution?",
-      "options": ["They were paid less than adults and small enough to fit in tight spaces", "They were stronger than adults", "It was the law that all children had to work", "There were no adults available"],
+      "options": [
+        "They were paid less than adults and small enough to fit in tight spaces",
+        "They were stronger than adults",
+        "It was the law that all children had to work",
+        "There were no adults available"
+      ],
       "answer": "They were paid less than adults and small enough to fit in tight spaces",
       "accepted": null,
       "hint": "Factory owners cared about cost, and child bodies could do certain jobs.",
@@ -201,19 +387,37 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 History KM — Industrial Revolution",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.ind.ind.011",
       "subject": "history",
       "unit": "industrial-revolution",
       "topic": "industrial-revolution",
-      "skill_tags": ["industrial-revolution", "child-labour"],
+      "skill_tags": [
+        "industrial-revolution",
+        "child-labour"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What did the 1833 Factory Act do?",
-      "options": ["Banned all factories", "Limited working hours for children and required some schooling (no under-9s in textile mills, max 9-hour day for 9–13 year olds)", "Made factories free to enter", "Gave women the right to vote"],
+      "options": [
+        "Banned all factories",
+        "Limited working hours for children and required some schooling (no under-9s in textile mills, max 9-hour day for 9–13 year olds)",
+        "Made factories free to enter",
+        "Gave women the right to vote"
+      ],
       "answer": "Limited working hours for children and required some schooling (no under-9s in textile mills, max 9-hour day for 9–13 year olds)",
       "accepted": null,
       "hint": "It was one of the first laws protecting child workers.",
@@ -221,39 +425,71 @@
       "working_required": false,
       "estimated_seconds": 40,
       "source": "UK NC KS3 — Industrial Revolution",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.ind.ind.012",
       "subject": "history",
       "unit": "industrial-revolution",
       "topic": "industrial-revolution",
-      "skill_tags": ["industrial-revolution"],
+      "skill_tags": [
+        "industrial-revolution"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "text",
       "prompt": "Which fuel was burned to power the new steam engines and factories during the Industrial Revolution?",
       "options": null,
       "answer": "coal",
-      "accepted": ["Coal", "coal"],
+      "accepted": [
+        "Coal",
+        "coal"
+      ],
       "hint": "A black rock dug from underground.",
       "explanation": "Coal was the fuel of the Industrial Revolution. It powered steam engines, heated furnaces to make iron, and warmed homes. Britain had huge coal reserves.",
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 History KM — Industrial Revolution",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.ind.ind.013",
       "subject": "history",
       "unit": "industrial-revolution",
       "topic": "industrial-revolution",
-      "skill_tags": ["industrial-revolution"],
+      "skill_tags": [
+        "industrial-revolution"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What was the 'Spinning Jenny' invented by James Hargreaves in 1764?",
-      "options": ["A machine that spun multiple threads of cotton at once", "A new type of factory", "A train", "A way of dyeing cloth"],
+      "options": [
+        "A machine that spun multiple threads of cotton at once",
+        "A new type of factory",
+        "A train",
+        "A way of dyeing cloth"
+      ],
       "answer": "A machine that spun multiple threads of cotton at once",
       "accepted": null,
       "hint": "It revolutionised the cotton industry by spinning many threads with one operator.",
@@ -261,19 +497,36 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 History KM — Industrial Revolution",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.ind.ind.014",
       "subject": "history",
       "unit": "industrial-revolution",
       "topic": "industrial-revolution",
-      "skill_tags": ["industrial-revolution"],
+      "skill_tags": [
+        "industrial-revolution"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What was the world's first inter-city passenger railway, opened in 1830?",
-      "options": ["The London to Brighton railway", "The Liverpool and Manchester Railway", "The Edinburgh to Glasgow railway", "The Bristol and Bath railway"],
+      "options": [
+        "The London to Brighton railway",
+        "The Liverpool and Manchester Railway",
+        "The Edinburgh to Glasgow railway",
+        "The Bristol and Bath railway"
+      ],
       "answer": "The Liverpool and Manchester Railway",
       "accepted": null,
       "hint": "It linked two big cities in the north-west — including Cottonopolis.",
@@ -281,19 +534,37 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 History KM — Cottonopolis",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.ind.ind.015",
       "subject": "history",
       "unit": "industrial-revolution",
       "topic": "industrial-revolution",
-      "skill_tags": ["liberty-dawn", "industrial-revolution"],
+      "skill_tags": [
+        "liberty-dawn",
+        "industrial-revolution"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "What does the phrase 'Liberty's Dawn' refer to in the context of the Industrial Revolution?",
-      "options": ["The historian Emma Griffin's argument that industrialisation actually IMPROVED the lives of many ordinary people", "A famous painting", "A type of factory", "The first sunrise of the 19th century"],
+      "options": [
+        "The historian Emma Griffin's argument that industrialisation actually IMPROVED the lives of many ordinary people",
+        "A famous painting",
+        "A type of factory",
+        "The first sunrise of the 19th century"
+      ],
       "answer": "The historian Emma Griffin's argument that industrialisation actually IMPROVED the lives of many ordinary people",
       "accepted": null,
       "hint": "It's the title of a 2013 book by historian Emma Griffin.",
@@ -301,39 +572,80 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y8 History KM, Spring — Liberty's Dawn",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.ind.ind.016",
       "subject": "history",
       "unit": "industrial-revolution",
       "topic": "industrial-revolution",
-      "skill_tags": ["liberty-dawn"],
+      "skill_tags": [
+        "liberty-dawn"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "multi-select",
       "prompt": "According to the 'Liberty's Dawn' interpretation, which were positive consequences of industrialisation for some working people? (Select all that apply)",
-      "options": ["Higher wages than rural work", "More freedom to choose their employer", "Rising literacy and political awareness", "Better food and clothing as prices fell", "An automatic right to vote"],
-      "answer": ["Higher wages than rural work", "More freedom to choose their employer", "Rising literacy and political awareness", "Better food and clothing as prices fell"],
+      "options": [
+        "Higher wages than rural work",
+        "More freedom to choose their employer",
+        "Rising literacy and political awareness",
+        "Better food and clothing as prices fell",
+        "An automatic right to vote"
+      ],
+      "answer": [
+        "Higher wages than rural work",
+        "More freedom to choose their employer",
+        "Rising literacy and political awareness",
+        "Better food and clothing as prices fell"
+      ],
       "accepted": null,
       "hint": "Voting rights came later through political reform, not industrialisation itself.",
       "explanation": "Griffin argued industrialisation brought higher wages, more freedom (you could quit one job and find another), literacy through Sunday schools, and cheaper consumer goods. Voting rights came later through political struggle.",
       "working_required": false,
       "estimated_seconds": 50,
       "source": "CHS Y8 History KM, Spring — Liberty's Dawn",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.ind.ind.017",
       "subject": "history",
       "unit": "industrial-revolution",
       "topic": "industrial-revolution",
-      "skill_tags": ["liberty-dawn", "industrial-revolution"],
+      "skill_tags": [
+        "liberty-dawn",
+        "industrial-revolution"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "Why might historians DISAGREE with the 'Liberty's Dawn' interpretation?",
-      "options": ["Average wages rose, but so did death rates, child labour, slum housing and pollution — many people's lives clearly got worse", "All historians agree it was great", "Workers had no jobs at all before the revolution", "Industry didn't really change anything"],
+      "options": [
+        "Average wages rose, but so did death rates, child labour, slum housing and pollution — many people's lives clearly got worse",
+        "All historians agree it was great",
+        "Workers had no jobs at all before the revolution",
+        "Industry didn't really change anything"
+      ],
       "answer": "Average wages rose, but so did death rates, child labour, slum housing and pollution — many people's lives clearly got worse",
       "accepted": null,
       "hint": "Historians are split — Griffin's optimistic view is one of several interpretations.",
@@ -341,19 +653,37 @@
       "working_required": false,
       "estimated_seconds": 40,
       "source": "CHS Y8 History KM — Liberty's Dawn (interpretations)",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.ind.ind.018",
       "subject": "history",
       "unit": "industrial-revolution",
       "topic": "industrial-revolution",
-      "skill_tags": ["cottonopolis", "industrial-revolution"],
+      "skill_tags": [
+        "cottonopolis",
+        "industrial-revolution"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What is the link between Manchester's cotton industry and the Trans-Atlantic Slave Trade?",
-      "options": ["No link — Manchester cotton was grown in Yorkshire", "Manchester mills processed raw cotton picked by enslaved people on plantations in the American South", "Manchester mill workers were enslaved", "Manchester sold cotton to enslaved people"],
+      "options": [
+        "No link — Manchester cotton was grown in Yorkshire",
+        "Manchester mills processed raw cotton picked by enslaved people on plantations in the American South",
+        "Manchester mill workers were enslaved",
+        "Manchester sold cotton to enslaved people"
+      ],
       "answer": "Manchester mills processed raw cotton picked by enslaved people on plantations in the American South",
       "accepted": null,
       "hint": "Where did the raw cotton come from?",
@@ -361,19 +691,41 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y8 History KM — Cottonopolis (Manchester)",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Cities: What Are They Like to Live In? – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/cities-what-are-they-like-to-live-in/lessons"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        },
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        }
+      ]
     },
     {
       "id": "his.ind.ind.019",
       "subject": "history",
       "unit": "industrial-revolution",
       "topic": "industrial-revolution",
-      "skill_tags": ["abolition", "cottonopolis"],
+      "skill_tags": [
+        "abolition",
+        "cottonopolis"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "During the American Civil War (1861–65), the Union blockaded the South and Manchester's cotton supply was cut off. What was the 'Lancashire Cotton Famine'?",
-      "options": ["A famine when Manchester workers ate cotton", "A period when Manchester mills closed and workers starved, yet many still publicly supported Lincoln and the abolition of slavery", "A wheat shortage in Lancashire", "A time when no one wanted cotton clothes"],
+      "options": [
+        "A famine when Manchester workers ate cotton",
+        "A period when Manchester mills closed and workers starved, yet many still publicly supported Lincoln and the abolition of slavery",
+        "A wheat shortage in Lancashire",
+        "A time when no one wanted cotton clothes"
+      ],
       "answer": "A period when Manchester mills closed and workers starved, yet many still publicly supported Lincoln and the abolition of slavery",
       "accepted": null,
       "hint": "Manchester workers made a remarkable moral choice despite their own hunger.",
@@ -381,39 +733,78 @@
       "working_required": false,
       "estimated_seconds": 50,
       "source": "CHS Y8 History KM — Manchester, abolition",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        },
+        {
+          "title": "Cities: What Are They Like to Live In? – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/cities-what-are-they-like-to-live-in/lessons"
+        }
+      ]
     },
     {
       "id": "his.ind.ind.020",
       "subject": "history",
       "unit": "industrial-revolution",
       "topic": "industrial-revolution",
-      "skill_tags": ["abolition"],
+      "skill_tags": [
+        "abolition"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "text",
       "prompt": "What was the name of the influential anti-slavery campaign group founded in 1787 (which Wilberforce was part of)?",
       "options": null,
       "answer": "Society for the Abolition of the Slave Trade",
-      "accepted": ["abolition society", "Society for the Abolition of the Slave Trade", "Society for Effecting the Abolition of the Slave Trade", "the Abolition Society"],
+      "accepted": [
+        "abolition society",
+        "Society for the Abolition of the Slave Trade",
+        "Society for Effecting the Abolition of the Slave Trade",
+        "the Abolition Society"
+      ],
       "hint": "It has 'Society', 'Abolition' and 'Slave Trade' in the name.",
       "explanation": "Founded in 1787 by Thomas Clarkson, Granville Sharp and others, the Society organised petitions, pamphlets and the famous Brookes ship diagram. Wilberforce represented them in Parliament.",
       "working_required": false,
       "estimated_seconds": 50,
       "source": "UK NC KS3 — Abolition",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.ind.ind.021",
       "subject": "history",
       "unit": "industrial-revolution",
       "topic": "industrial-revolution",
-      "skill_tags": ["abolition", "diversity"],
+      "skill_tags": [
+        "abolition",
+        "diversity"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Why was Olaudah Equiano's autobiography so powerful for the abolition movement?",
-      "options": ["It was the first detailed first-person account from a formerly enslaved person, written in English", "It was free of charge", "He was a politician", "It was a children's book"],
+      "options": [
+        "It was the first detailed first-person account from a formerly enslaved person, written in English",
+        "It was free of charge",
+        "He was a politician",
+        "It was a children's book"
+      ],
       "answer": "It was the first detailed first-person account from a formerly enslaved person, written in English",
       "accepted": null,
       "hint": "What made his voice unique compared to white abolitionists?",
@@ -421,19 +812,36 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y8 History KM, Spring — Slave Trade/Abolition",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.ind.ind.022",
       "subject": "history",
       "unit": "industrial-revolution",
       "topic": "industrial-revolution",
-      "skill_tags": ["industrial-revolution"],
+      "skill_tags": [
+        "industrial-revolution"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What was a 'cottage industry'?",
-      "options": ["A business making tiny cottage models", "A system where goods (like cloth) were made by people working at home with simple tools", "A type of farming", "A trade in roof thatching"],
+      "options": [
+        "A business making tiny cottage models",
+        "A system where goods (like cloth) were made by people working at home with simple tools",
+        "A type of farming",
+        "A trade in roof thatching"
+      ],
       "answer": "A system where goods (like cloth) were made by people working at home with simple tools",
       "accepted": null,
       "hint": "Cottage = small home — and it's what came BEFORE the factory.",
@@ -441,19 +849,36 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 History KM — Industrial Revolution",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.ind.ind.023",
       "subject": "history",
       "unit": "industrial-revolution",
       "topic": "industrial-revolution",
-      "skill_tags": ["industrial-revolution"],
+      "skill_tags": [
+        "industrial-revolution"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What were 'Luddites'?",
-      "options": ["Factory owners", "Skilled textile workers who smashed machines because they were destroying their jobs and wages (1811–16)", "Politicians who supported factories", "Religious leaders"],
+      "options": [
+        "Factory owners",
+        "Skilled textile workers who smashed machines because they were destroying their jobs and wages (1811–16)",
+        "Politicians who supported factories",
+        "Religious leaders"
+      ],
       "answer": "Skilled textile workers who smashed machines because they were destroying their jobs and wages (1811–16)",
       "accepted": null,
       "hint": "Their name is still used today for someone who hates new technology.",
@@ -461,19 +886,36 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "UK NC KS3 — Industrial Revolution",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.ind.ind.024",
       "subject": "history",
       "unit": "industrial-revolution",
       "topic": "industrial-revolution",
-      "skill_tags": ["industrial-revolution"],
+      "skill_tags": [
+        "industrial-revolution"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "What happened at the Peterloo Massacre in Manchester in 1819?",
-      "options": ["Cavalry charged a peaceful crowd demanding the vote and reform, killing around 18 people and injuring 700", "Manchester was bombed", "A factory exploded", "A football match turned violent"],
+      "options": [
+        "Cavalry charged a peaceful crowd demanding the vote and reform, killing around 18 people and injuring 700",
+        "Manchester was bombed",
+        "A factory exploded",
+        "A football match turned violent"
+      ],
       "answer": "Cavalry charged a peaceful crowd demanding the vote and reform, killing around 18 people and injuring 700",
       "accepted": null,
       "hint": "It happened at St Peter's Field — the name is a dark joke combining 'Peter' with 'Waterloo'.",
@@ -481,39 +923,78 @@
       "working_required": false,
       "estimated_seconds": 45,
       "source": "CHS Y8 History KM — Manchester / Industrial Revolution political",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.ind.ind.025",
       "subject": "history",
       "unit": "industrial-revolution",
       "topic": "industrial-revolution",
-      "skill_tags": ["industrial-revolution"],
+      "skill_tags": [
+        "industrial-revolution"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "order",
       "prompt": "Put these Industrial Revolution inventions/events in chronological order.",
-      "options": ["Liverpool and Manchester Railway opens", "Spinning Jenny invented", "Watt's improved steam engine patented", "Peterloo Massacre"],
-      "answer": ["Spinning Jenny invented", "Watt's improved steam engine patented", "Peterloo Massacre", "Liverpool and Manchester Railway opens"],
+      "options": [
+        "Liverpool and Manchester Railway opens",
+        "Spinning Jenny invented",
+        "Watt's improved steam engine patented",
+        "Peterloo Massacre"
+      ],
+      "answer": [
+        "Spinning Jenny invented",
+        "Watt's improved steam engine patented",
+        "Peterloo Massacre",
+        "Liverpool and Manchester Railway opens"
+      ],
       "accepted": null,
       "hint": "Spinning Jenny 1764, Watt 1769, Peterloo 1819, railway 1830.",
       "explanation": "Spinning Jenny (1764), Watt's steam engine (1769), Peterloo Massacre (1819), Liverpool–Manchester Railway (1830).",
       "working_required": false,
       "estimated_seconds": 60,
       "source": "CHS Y8 History KM — Industrial Revolution",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.ind.ind.026",
       "subject": "history",
       "unit": "industrial-revolution",
       "topic": "industrial-revolution",
-      "skill_tags": ["industrial-revolution"],
+      "skill_tags": [
+        "industrial-revolution"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "What is a 'slum'?",
-      "options": ["A very poor, overcrowded area of a city with bad housing and sanitation", "A type of factory", "A wealthy neighbourhood", "A new invention"],
+      "options": [
+        "A very poor, overcrowded area of a city with bad housing and sanitation",
+        "A type of factory",
+        "A wealthy neighbourhood",
+        "A new invention"
+      ],
       "answer": "A very poor, overcrowded area of a city with bad housing and sanitation",
       "accepted": null,
       "hint": "Engels described Manchester's worst neighbourhoods as some of the worst he'd ever seen.",
@@ -521,39 +1002,72 @@
       "working_required": false,
       "estimated_seconds": 20,
       "source": "CHS Y8 History KM — Industrial Revolution social",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.ind.ind.027",
       "subject": "history",
       "unit": "industrial-revolution",
       "topic": "industrial-revolution",
-      "skill_tags": ["industrial-revolution"],
+      "skill_tags": [
+        "industrial-revolution"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "text",
       "prompt": "Which German thinker wrote 'The Condition of the Working Class in England' (1845) based on his time observing Manchester's slums?",
       "options": null,
       "answer": "Friedrich Engels",
-      "accepted": ["engels", "Engels", "friedrich engels"],
+      "accepted": [
+        "engels",
+        "Engels",
+        "friedrich engels"
+      ],
       "hint": "He later co-wrote The Communist Manifesto with Karl Marx.",
       "explanation": "Friedrich Engels lived in Manchester in the 1840s working for his father's textile business. His book described the appalling conditions he saw. He later co-wrote The Communist Manifesto with Karl Marx.",
       "working_required": false,
       "estimated_seconds": 50,
       "source": "UK NC KS3 — Industrial Revolution / Manchester",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.ind.ind.028",
       "subject": "history",
       "unit": "industrial-revolution",
       "topic": "industrial-revolution",
-      "skill_tags": ["industrial-revolution"],
+      "skill_tags": [
+        "industrial-revolution"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Which disease, spread by dirty water, killed thousands in industrial cities during the 19th century?",
-      "options": ["Plague", "Cholera", "Malaria", "Flu"],
+      "options": [
+        "Plague",
+        "Cholera",
+        "Malaria",
+        "Flu"
+      ],
       "answer": "Cholera",
       "accepted": null,
       "hint": "Doctor John Snow famously traced an outbreak to a single water pump in 1854.",
@@ -561,39 +1075,79 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 History KM — Industrial Revolution social",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.ind.ind.029",
       "subject": "history",
       "unit": "industrial-revolution",
       "topic": "industrial-revolution",
-      "skill_tags": ["industrial-revolution"],
+      "skill_tags": [
+        "industrial-revolution"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "multi-select",
       "prompt": "Which were causes of the Industrial Revolution starting in Britain (not other countries)? (Select all that apply)",
-      "options": ["Plentiful coal and iron", "Wealth from colonies and the slave trade", "A stable government and laws protecting business", "Access to colonial markets for selling goods", "Britain having no farms"],
-      "answer": ["Plentiful coal and iron", "Wealth from colonies and the slave trade", "A stable government and laws protecting business", "Access to colonial markets for selling goods"],
+      "options": [
+        "Plentiful coal and iron",
+        "Wealth from colonies and the slave trade",
+        "A stable government and laws protecting business",
+        "Access to colonial markets for selling goods",
+        "Britain having no farms"
+      ],
+      "answer": [
+        "Plentiful coal and iron",
+        "Wealth from colonies and the slave trade",
+        "A stable government and laws protecting business",
+        "Access to colonial markets for selling goods"
+      ],
       "accepted": null,
       "hint": "Britain had four big advantages over rivals.",
       "explanation": "Britain had coal, iron, capital from empire and slavery, a stable government, and a global empire that provided raw materials AND markets to sell finished goods to. This combination wasn't matched elsewhere until later.",
       "working_required": false,
       "estimated_seconds": 50,
       "source": "CHS Y8 History KM — Industrial Revolution causes",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.ind.ind.030",
       "subject": "history",
       "unit": "industrial-revolution",
       "topic": "industrial-revolution",
-      "skill_tags": ["industrial-revolution"],
+      "skill_tags": [
+        "industrial-revolution"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "What is a 'capitalist' in the context of the Industrial Revolution?",
-      "options": ["A person who lives in a capital city", "A factory or business owner who invests money to make profit", "A type of soldier", "Someone who writes books"],
+      "options": [
+        "A person who lives in a capital city",
+        "A factory or business owner who invests money to make profit",
+        "A type of soldier",
+        "Someone who writes books"
+      ],
       "answer": "A factory or business owner who invests money to make profit",
       "accepted": null,
       "hint": "Think of mill owners who invested money to make more money.",
@@ -601,59 +1155,115 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "UK NC KS3 — Industrial Revolution",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.ind.ind.031",
       "subject": "history",
       "unit": "industrial-revolution",
       "topic": "industrial-revolution",
-      "skill_tags": ["industrial-revolution"],
+      "skill_tags": [
+        "industrial-revolution"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "text",
       "prompt": "What name was given to the early workers' movement in the 1830s–40s that demanded voting rights for working-class men?",
       "options": null,
       "answer": "Chartism",
-      "accepted": ["chartism", "Chartists", "the Chartists"],
+      "accepted": [
+        "chartism",
+        "Chartists",
+        "the Chartists"
+      ],
       "hint": "Named after their 'People's Charter' of six demands.",
       "explanation": "Chartism was a working-class movement built around six demands in their 'People's Charter' (1838): votes for all men, secret ballots, equal constituencies, paid MPs, no property requirement for MPs, annual elections. Most were eventually achieved.",
       "working_required": false,
       "estimated_seconds": 45,
       "source": "UK NC KS3 — Industrial Revolution political",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.ind.ind.032",
       "subject": "history",
       "unit": "industrial-revolution",
       "topic": "industrial-revolution",
-      "skill_tags": ["industrial-revolution"],
+      "skill_tags": [
+        "industrial-revolution"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "multi-select",
       "prompt": "Which positive long-term consequences did the Industrial Revolution bring to Britain? (Select all that apply)",
-      "options": ["Higher overall wealth and wages over time", "Mass-produced cheap consumer goods", "Improved transport (railways, canals)", "Eventually, the rise of trade unions and workers' rights", "An end to all poverty"],
-      "answer": ["Higher overall wealth and wages over time", "Mass-produced cheap consumer goods", "Improved transport (railways, canals)", "Eventually, the rise of trade unions and workers' rights"],
+      "options": [
+        "Higher overall wealth and wages over time",
+        "Mass-produced cheap consumer goods",
+        "Improved transport (railways, canals)",
+        "Eventually, the rise of trade unions and workers' rights",
+        "An end to all poverty"
+      ],
+      "answer": [
+        "Higher overall wealth and wages over time",
+        "Mass-produced cheap consumer goods",
+        "Improved transport (railways, canals)",
+        "Eventually, the rise of trade unions and workers' rights"
+      ],
       "accepted": null,
       "hint": "The Industrial Revolution didn't end poverty — that's still a problem today.",
       "explanation": "The Industrial Revolution made Britain richer overall, produced cheaper goods, built railways and canals, and led to trade unions and workers' rights. But poverty was not ended — inequality remained, and many lived in slums.",
       "working_required": false,
       "estimated_seconds": 50,
       "source": "CHS Y8 History KM — Industrial Revolution consequences",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.ind.ind.033",
       "subject": "history",
       "unit": "industrial-revolution",
       "topic": "industrial-revolution",
-      "skill_tags": ["abolition"],
+      "skill_tags": [
+        "abolition"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "Why did Parliament finally pass the Slavery Abolition Act in 1833?",
-      "options": ["Slave rebellions (especially in Jamaica), economic decline of plantations, mass abolitionist campaigning, AND a recent reform of Parliament made it possible", "Only because the King demanded it", "Because slavery had already ended naturally", "Because slave owners asked for it"],
+      "options": [
+        "Slave rebellions (especially in Jamaica), economic decline of plantations, mass abolitionist campaigning, AND a recent reform of Parliament made it possible",
+        "Only because the King demanded it",
+        "Because slavery had already ended naturally",
+        "Because slave owners asked for it"
+      ],
       "answer": "Slave rebellions (especially in Jamaica), economic decline of plantations, mass abolitionist campaigning, AND a recent reform of Parliament made it possible",
       "accepted": null,
       "hint": "Multiple causes combined — including the 1832 Reform Act changing who was in Parliament.",
@@ -661,19 +1271,36 @@
       "working_required": false,
       "estimated_seconds": 50,
       "source": "CHS Y8 History KM — Abolition",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.ind.ind.034",
       "subject": "history",
       "unit": "industrial-revolution",
       "topic": "industrial-revolution",
-      "skill_tags": ["abolition"],
+      "skill_tags": [
+        "abolition"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What was controversial about the 1833 Slavery Abolition Act?",
-      "options": ["The British government paid £20 million in compensation — to slave OWNERS, not to enslaved people", "It freed slaves overnight with no problems", "It only applied to British people", "It made slavery legal again"],
+      "options": [
+        "The British government paid £20 million in compensation — to slave OWNERS, not to enslaved people",
+        "It freed slaves overnight with no problems",
+        "It only applied to British people",
+        "It made slavery legal again"
+      ],
       "answer": "The British government paid £20 million in compensation — to slave OWNERS, not to enslaved people",
       "accepted": null,
       "hint": "Who got paid as a result of the Act?",
@@ -681,19 +1308,37 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y8 History KM — Abolition",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        }
+      ]
     },
     {
       "id": "his.ind.ind.035",
       "subject": "history",
       "unit": "industrial-revolution",
       "topic": "industrial-revolution",
-      "skill_tags": ["cottonopolis", "industrial-revolution"],
+      "skill_tags": [
+        "cottonopolis",
+        "industrial-revolution"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "Why did Manchester get the nickname 'shock city' in the 19th century?",
-      "options": ["Its electric lights shocked visitors", "It grew so fast and was so unlike anywhere else (huge factories, slums, smoke and immense wealth side-by-side) that visitors were astonished", "Earthquakes were common there", "Its football team was shocking"],
+      "options": [
+        "Its electric lights shocked visitors",
+        "It grew so fast and was so unlike anywhere else (huge factories, slums, smoke and immense wealth side-by-side) that visitors were astonished",
+        "Earthquakes were common there",
+        "Its football team was shocking"
+      ],
       "answer": "It grew so fast and was so unlike anywhere else (huge factories, slums, smoke and immense wealth side-by-side) that visitors were astonished",
       "accepted": null,
       "hint": "Historian Asa Briggs called it a 'shock city' because it shocked observers.",
@@ -701,7 +1346,21 @@
       "working_required": false,
       "estimated_seconds": 40,
       "source": "CHS Y8 History KM — Cottonopolis / Manchester",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Cities: What Are They Like to Live In? – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/geography-secondary-ks3/units/cities-what-are-they-like-to-live-in/lessons"
+        },
+        {
+          "title": "KS3 History – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zrw76sg"
+        },
+        {
+          "title": "KS3 History Units – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/history-secondary-ks3/units"
+        }
+      ]
     }
   ]
 }

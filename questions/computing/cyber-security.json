@@ -8,12 +8,20 @@
       "subject": "computing",
       "unit": "cyber-security",
       "topic": "cyber-security",
-      "skill_tags": ["cyber-security", "malware"],
+      "skill_tags": [
+        "cyber-security",
+        "malware"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "mcq",
       "prompt": "What is malware?",
-      "options": ["A type of friendly software", "Software designed to damage, disrupt or gain access to a computer", "Hardware that helps networks", "An office software suite"],
+      "options": [
+        "A type of friendly software",
+        "Software designed to damage, disrupt or gain access to a computer",
+        "Hardware that helps networks",
+        "An office software suite"
+      ],
       "answer": "Software designed to damage, disrupt or gain access to a computer",
       "accepted": null,
       "hint": "'Mal' means bad. 'Ware' is short for software.",
@@ -21,19 +29,37 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Cybersecurity – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-cybersecurity/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.cyb.csc.002",
       "subject": "computing",
       "unit": "cyber-security",
       "topic": "cyber-security",
-      "skill_tags": ["cyber-security", "phishing"],
+      "skill_tags": [
+        "cyber-security",
+        "phishing"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "mcq",
       "prompt": "What is phishing?",
-      "options": ["A type of fishing competition", "Tricking someone into giving out personal information, often by fake emails", "A way of encrypting data", "A kind of antivirus software"],
+      "options": [
+        "A type of fishing competition",
+        "Tricking someone into giving out personal information, often by fake emails",
+        "A way of encrypting data",
+        "A kind of antivirus software"
+      ],
       "answer": "Tricking someone into giving out personal information, often by fake emails",
       "accepted": null,
       "hint": "It sounds like 'fishing' — they're fishing for your information.",
@@ -41,19 +67,37 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Cybersecurity – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-cybersecurity/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.cyb.csc.003",
       "subject": "computing",
       "unit": "cyber-security",
       "topic": "cyber-security",
-      "skill_tags": ["cyber-security", "malware"],
+      "skill_tags": [
+        "cyber-security",
+        "malware"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "Which of these is a type of malware that spreads by attaching itself to other files?",
-      "options": ["Firewall", "Virus", "Router", "Cookie"],
+      "options": [
+        "Firewall",
+        "Virus",
+        "Router",
+        "Cookie"
+      ],
       "answer": "Virus",
       "accepted": null,
       "hint": "Named after something that spreads in biology.",
@@ -61,19 +105,37 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Cybersecurity – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-cybersecurity/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.cyb.csc.004",
       "subject": "computing",
       "unit": "cyber-security",
       "topic": "cyber-security",
-      "skill_tags": ["cyber-security", "malware"],
+      "skill_tags": [
+        "cyber-security",
+        "malware"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What is ransomware?",
-      "options": ["Free software you can use anytime", "Malware that locks your files and demands payment to unlock them", "A type of firewall", "A backup program"],
+      "options": [
+        "Free software you can use anytime",
+        "Malware that locks your files and demands payment to unlock them",
+        "A type of firewall",
+        "A backup program"
+      ],
       "answer": "Malware that locks your files and demands payment to unlock them",
       "accepted": null,
       "hint": "Think 'ransom' — kidnappers demanding money.",
@@ -81,19 +143,36 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Cybersecurity – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-cybersecurity/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.cyb.csc.005",
       "subject": "computing",
       "unit": "cyber-security",
       "topic": "cyber-security",
-      "skill_tags": ["cyber-security"],
+      "skill_tags": [
+        "cyber-security"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What is the main job of a firewall?",
-      "options": ["To put out fires in the server room", "To control what network traffic is allowed in and out of a network", "To back up your files", "To install software updates"],
+      "options": [
+        "To put out fires in the server room",
+        "To control what network traffic is allowed in and out of a network",
+        "To back up your files",
+        "To install software updates"
+      ],
       "answer": "To control what network traffic is allowed in and out of a network",
       "accepted": null,
       "hint": "Imagine a wall that blocks dangerous things from getting through.",
@@ -101,79 +180,161 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Cybersecurity – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-cybersecurity/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.cyb.csc.006",
       "subject": "computing",
       "unit": "cyber-security",
       "topic": "cyber-security",
-      "skill_tags": ["cyber-security"],
+      "skill_tags": [
+        "cyber-security"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "multi-select",
       "prompt": "Which of these are features of a STRONG password? (Select all that apply)",
-      "options": ["Uses your pet's name", "Mixes upper and lower case letters", "Includes numbers and symbols", "Is at least 12 characters long", "Is the same as your email password", "Is your date of birth"],
-      "answer": ["Mixes upper and lower case letters", "Includes numbers and symbols", "Is at least 12 characters long"],
+      "options": [
+        "Uses your pet's name",
+        "Mixes upper and lower case letters",
+        "Includes numbers and symbols",
+        "Is at least 12 characters long",
+        "Is the same as your email password",
+        "Is your date of birth"
+      ],
+      "answer": [
+        "Mixes upper and lower case letters",
+        "Includes numbers and symbols",
+        "Is at least 12 characters long"
+      ],
       "accepted": null,
       "hint": "Avoid anything someone could guess or look up about you.",
       "explanation": "Strong passwords are long (12+ characters), mix cases, numbers and symbols, and aren't reused or based on personal info someone could find on social media.",
       "working_required": false,
       "estimated_seconds": 45,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Cybersecurity – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-cybersecurity/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.cyb.csc.007",
       "subject": "computing",
       "unit": "cyber-security",
       "topic": "cyber-security",
-      "skill_tags": ["cyber-security"],
+      "skill_tags": [
+        "cyber-security"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "text",
       "prompt": "What is the name for the security check where, after entering a password, you also enter a code from your phone or an app? (3 letters)",
       "options": null,
       "answer": "2FA",
-      "accepted": ["two-factor authentication", "Two-factor authentication", "2-factor authentication", "MFA", "two factor authentication"],
+      "accepted": [
+        "two-factor authentication",
+        "Two-factor authentication",
+        "2-factor authentication",
+        "MFA",
+        "two factor authentication"
+      ],
       "hint": "Two... Factor... Authentication.",
       "explanation": "2FA (Two-Factor Authentication) adds a second check on top of your password — usually a code from your phone or an authenticator app. Even if someone steals your password, they can't get in without the second factor.",
       "working_required": false,
       "estimated_seconds": 30,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Cybersecurity – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-cybersecurity/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.cyb.csc.008",
       "subject": "computing",
       "unit": "cyber-security",
       "topic": "cyber-security",
-      "skill_tags": ["cyber-security", "phishing"],
+      "skill_tags": [
+        "cyber-security",
+        "phishing"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "multi-select",
       "prompt": "Which of these are warning signs that an email might be a phishing attempt? (Select all that apply)",
-      "options": ["Urgent threats like 'Your account will be closed!'", "Spelling and grammar mistakes", "Asks you to click a strange link and log in", "Comes from someone you know with a normal message", "Asks for your password or bank details"],
-      "answer": ["Urgent threats like 'Your account will be closed!'", "Spelling and grammar mistakes", "Asks you to click a strange link and log in", "Asks for your password or bank details"],
+      "options": [
+        "Urgent threats like 'Your account will be closed!'",
+        "Spelling and grammar mistakes",
+        "Asks you to click a strange link and log in",
+        "Comes from someone you know with a normal message",
+        "Asks for your password or bank details"
+      ],
+      "answer": [
+        "Urgent threats like 'Your account will be closed!'",
+        "Spelling and grammar mistakes",
+        "Asks you to click a strange link and log in",
+        "Asks for your password or bank details"
+      ],
       "accepted": null,
       "hint": "Phishing emails try to scare you into acting quickly without thinking.",
       "explanation": "Phishing emails often use urgency, contain mistakes, link to fake login pages, and ask for credentials. Real organisations don't ask for passwords by email.",
       "working_required": false,
       "estimated_seconds": 50,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Cybersecurity – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-cybersecurity/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.cyb.csc.009",
       "subject": "computing",
       "unit": "cyber-security",
       "topic": "cyber-security",
-      "skill_tags": ["cyber-security"],
+      "skill_tags": [
+        "cyber-security"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What is encryption?",
-      "options": ["Deleting data so it's gone forever", "Scrambling data so only someone with the right key can read it", "Backing up data to the cloud", "Compressing data to take up less space"],
+      "options": [
+        "Deleting data so it's gone forever",
+        "Scrambling data so only someone with the right key can read it",
+        "Backing up data to the cloud",
+        "Compressing data to take up less space"
+      ],
       "answer": "Scrambling data so only someone with the right key can read it",
       "accepted": null,
       "hint": "It's how WhatsApp keeps your messages private.",
@@ -181,19 +342,36 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Cybersecurity – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-cybersecurity/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.cyb.csc.010",
       "subject": "computing",
       "unit": "cyber-security",
       "topic": "cyber-security",
-      "skill_tags": ["cyber-security"],
+      "skill_tags": [
+        "cyber-security"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "What does antivirus software do?",
-      "options": ["Speeds up your hard drive", "Detects and removes malware from a computer", "Stops people typing rude words", "Encrypts your Wi-Fi"],
+      "options": [
+        "Speeds up your hard drive",
+        "Detects and removes malware from a computer",
+        "Stops people typing rude words",
+        "Encrypts your Wi-Fi"
+      ],
       "answer": "Detects and removes malware from a computer",
       "accepted": null,
       "hint": "It's named after what it fights against.",
@@ -201,19 +379,36 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Cybersecurity – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-cybersecurity/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.cyb.csc.011",
       "subject": "computing",
       "unit": "cyber-security",
       "topic": "cyber-security",
-      "skill_tags": ["cyber-security"],
+      "skill_tags": [
+        "cyber-security"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What is 'social engineering' in cyber security?",
-      "options": ["Designing social media apps", "Building online communities", "Tricking people into revealing information or doing something insecure", "A way of writing code in groups"],
+      "options": [
+        "Designing social media apps",
+        "Building online communities",
+        "Tricking people into revealing information or doing something insecure",
+        "A way of writing code in groups"
+      ],
       "answer": "Tricking people into revealing information or doing something insecure",
       "accepted": null,
       "hint": "It targets people, not computers.",
@@ -221,19 +416,36 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Cybersecurity – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-cybersecurity/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.cyb.csc.012",
       "subject": "computing",
       "unit": "cyber-security",
       "topic": "cyber-security",
-      "skill_tags": ["cyber-security"],
+      "skill_tags": [
+        "cyber-security"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "Why is keeping software UPDATED important for cyber security?",
-      "options": ["Updates make the screen brighter", "Updates often fix security weaknesses (patches) that attackers could exploit", "Updates use up storage space, which is good", "It only makes the icons prettier"],
+      "options": [
+        "Updates make the screen brighter",
+        "Updates often fix security weaknesses (patches) that attackers could exploit",
+        "Updates use up storage space, which is good",
+        "It only makes the icons prettier"
+      ],
       "answer": "Updates often fix security weaknesses (patches) that attackers could exploit",
       "accepted": null,
       "hint": "Updates aren't just about new features — they fix holes.",
@@ -241,19 +453,36 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Cybersecurity – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-cybersecurity/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.cyb.csc.013",
       "subject": "computing",
       "unit": "cyber-security",
       "topic": "cyber-security",
-      "skill_tags": ["cyber-security"],
+      "skill_tags": [
+        "cyber-security"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "Bertie gets a text saying: 'Royal Mail: your parcel is held, pay £1.99 here: rmail-paynow.co/xyz'. What is this MOST LIKELY?",
-      "options": ["A genuine Royal Mail message", "A phishing attempt (smishing)", "A virus infection on his phone", "A friendly reminder from his bank"],
+      "options": [
+        "A genuine Royal Mail message",
+        "A phishing attempt (smishing)",
+        "A virus infection on his phone",
+        "A friendly reminder from his bank"
+      ],
       "answer": "A phishing attempt (smishing)",
       "accepted": null,
       "hint": "Urgent payment + odd link + small amount = classic scam tactic.",
@@ -261,59 +490,115 @@
       "working_required": false,
       "estimated_seconds": 40,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Cybersecurity – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-cybersecurity/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.cyb.csc.014",
       "subject": "computing",
       "unit": "cyber-security",
       "topic": "cyber-security",
-      "skill_tags": ["cyber-security"],
+      "skill_tags": [
+        "cyber-security"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "multi-select",
       "prompt": "Which of these would help protect a school's network from cyber attacks? (Select all that apply)",
-      "options": ["Strong unique passwords for each account", "Sharing one password between all staff", "Up-to-date antivirus software", "A firewall on the network", "Letting students plug in any USB stick they find", "Training users to spot phishing"],
-      "answer": ["Strong unique passwords for each account", "Up-to-date antivirus software", "A firewall on the network", "Training users to spot phishing"],
+      "options": [
+        "Strong unique passwords for each account",
+        "Sharing one password between all staff",
+        "Up-to-date antivirus software",
+        "A firewall on the network",
+        "Letting students plug in any USB stick they find",
+        "Training users to spot phishing"
+      ],
+      "answer": [
+        "Strong unique passwords for each account",
+        "Up-to-date antivirus software",
+        "A firewall on the network",
+        "Training users to spot phishing"
+      ],
       "accepted": null,
       "hint": "Two of these would make things WORSE.",
       "explanation": "Good defences: strong unique passwords, antivirus, firewalls, user training. Bad ideas: sharing passwords (defeats the point), plugging in unknown USBs (a known malware vector).",
       "working_required": false,
       "estimated_seconds": 55,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Cybersecurity – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-cybersecurity/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.cyb.csc.015",
       "subject": "computing",
       "unit": "cyber-security",
       "topic": "cyber-security",
-      "skill_tags": ["cyber-security"],
+      "skill_tags": [
+        "cyber-security"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "text",
       "prompt": "What is the general name for software designed to harm a computer? (One word)",
       "options": null,
       "answer": "malware",
-      "accepted": ["Malware", "MALWARE"],
+      "accepted": [
+        "Malware",
+        "MALWARE"
+      ],
       "hint": "Mal- (bad) + -ware (software).",
       "explanation": "Malware is the general term for malicious software, including viruses, worms, trojans, ransomware and spyware.",
       "working_required": false,
       "estimated_seconds": 25,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Cybersecurity – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-cybersecurity/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.cyb.csc.016",
       "subject": "computing",
       "unit": "cyber-security",
       "topic": "cyber-security",
-      "skill_tags": ["encryption"],
+      "skill_tags": [
+        "encryption"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "mcq",
       "prompt": "What is encryption?",
-      "options": ["Deleting data permanently", "Scrambling data so only authorised users with the correct key can read it", "Backing up data to an external drive", "Compressing files to save storage space"],
+      "options": [
+        "Deleting data permanently",
+        "Scrambling data so only authorised users with the correct key can read it",
+        "Backing up data to an external drive",
+        "Compressing files to save storage space"
+      ],
       "answer": "Scrambling data so only authorised users with the correct key can read it",
       "accepted": null,
       "hint": "Think of a secret code that only the intended recipient can decode.",
@@ -321,19 +606,37 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Cybersecurity – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-cybersecurity/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.cyb.csc.017",
       "subject": "computing",
       "unit": "cyber-security",
       "topic": "cyber-security",
-      "skill_tags": ["encryption", "network-security"],
+      "skill_tags": [
+        "encryption",
+        "network-security"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "mcq",
       "prompt": "What does HTTPS provide when you visit a website?",
-      "options": ["A faster internet connection", "A secure, encrypted connection between your browser and the website", "A free subscription to the website", "Protection from all viruses"],
+      "options": [
+        "A faster internet connection",
+        "A secure, encrypted connection between your browser and the website",
+        "A free subscription to the website",
+        "Protection from all viruses"
+      ],
       "answer": "A secure, encrypted connection between your browser and the website",
       "accepted": null,
       "hint": "The 'S' in HTTPS stands for Secure.",
@@ -341,19 +644,40 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Cybersecurity – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-cybersecurity/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        },
+        {
+          "title": "Computer Networks and Data Transmission – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-networks-and-data-transmission/lessons"
+        }
+      ]
     },
     {
       "id": "com.cyb.csc.018",
       "subject": "computing",
       "unit": "cyber-security",
       "topic": "cyber-security",
-      "skill_tags": ["network-security"],
+      "skill_tags": [
+        "network-security"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "What is a brute force attack?",
-      "options": ["Physically destroying a computer to steal its hard drive", "Systematically trying every possible password combination until the correct one is found", "Sending thousands of fake login requests to slow a server", "Tricking someone into revealing their password"],
+      "options": [
+        "Physically destroying a computer to steal its hard drive",
+        "Systematically trying every possible password combination until the correct one is found",
+        "Sending thousands of fake login requests to slow a server",
+        "Tricking someone into revealing their password"
+      ],
       "answer": "Systematically trying every possible password combination until the correct one is found",
       "accepted": null,
       "hint": "Imagine trying every key on a huge key ring one by one until you find the right one.",
@@ -361,19 +685,36 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Cybersecurity – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-cybersecurity/lessons"
+        },
+        {
+          "title": "Computer Networks and Data Transmission – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-networks-and-data-transmission/lessons"
+        }
+      ]
     },
     {
       "id": "com.cyb.csc.019",
       "subject": "computing",
       "unit": "cyber-security",
       "topic": "cyber-security",
-      "skill_tags": ["social-engineering"],
+      "skill_tags": [
+        "social-engineering"
+      ],
       "tier": "strengthen",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "What is social engineering in a cyber-security context?",
-      "options": ["Programming social media apps", "Manipulating people psychologically into revealing passwords or sensitive information", "Building networks across several offices", "Writing code that works on all operating systems"],
+      "options": [
+        "Programming social media apps",
+        "Manipulating people psychologically into revealing passwords or sensitive information",
+        "Building networks across several offices",
+        "Writing code that works on all operating systems"
+      ],
       "answer": "Manipulating people psychologically into revealing passwords or sensitive information",
       "accepted": null,
       "hint": "It targets the human, not the computer — exploiting trust or fear.",
@@ -381,19 +722,36 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Cybersecurity – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-cybersecurity/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.cyb.csc.020",
       "subject": "computing",
       "unit": "cyber-security",
       "topic": "cyber-security",
-      "skill_tags": ["two-factor-auth"],
+      "skill_tags": [
+        "two-factor-auth"
+      ],
       "tier": "strengthen",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "What is two-factor authentication (2FA)?",
-      "options": ["Using two different computers to log in", "Verifying your identity using two separate methods, such as a password and a phone code", "Having two different passwords for the same account", "Logging in twice in a row to confirm your identity"],
+      "options": [
+        "Using two different computers to log in",
+        "Verifying your identity using two separate methods, such as a password and a phone code",
+        "Having two different passwords for the same account",
+        "Logging in twice in a row to confirm your identity"
+      ],
       "answer": "Verifying your identity using two separate methods, such as a password and a phone code",
       "accepted": null,
       "hint": "Even if someone steals your password, they'd still need the second factor.",
@@ -401,19 +759,36 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Cybersecurity – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-cybersecurity/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.cyb.csc.021",
       "subject": "computing",
       "unit": "cyber-security",
       "topic": "cyber-security",
-      "skill_tags": ["dos-attack"],
+      "skill_tags": [
+        "dos-attack"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What is a Denial of Service (DoS) attack?",
-      "options": ["Installing ransomware on a victim's computer", "Flooding a server with so many requests that it becomes overwhelmed and unavailable to real users", "Sending phishing emails to employees", "Stealing a password using brute force"],
+      "options": [
+        "Installing ransomware on a victim's computer",
+        "Flooding a server with so many requests that it becomes overwhelmed and unavailable to real users",
+        "Sending phishing emails to employees",
+        "Stealing a password using brute force"
+      ],
       "answer": "Flooding a server with so many requests that it becomes overwhelmed and unavailable to real users",
       "accepted": null,
       "hint": "The attacker isn't stealing data — they're stopping the service from working.",
@@ -421,79 +796,160 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Cybersecurity – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-cybersecurity/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.cyb.csc.022",
       "subject": "computing",
       "unit": "cyber-security",
       "topic": "cyber-security",
-      "skill_tags": ["social-engineering"],
+      "skill_tags": [
+        "social-engineering"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "order",
       "prompt": "Put these steps of a phishing attack in the correct order.",
-      "options": ["Attacker steals the victim's credentials", "Victim enters their username and password on the fake site", "Victim clicks the link in the email", "Attacker sends a fake email pretending to be a trusted organisation"],
-      "answer": ["Attacker sends a fake email pretending to be a trusted organisation", "Victim clicks the link in the email", "Victim enters their username and password on the fake site", "Attacker steals the victim's credentials"],
+      "options": [
+        "Attacker steals the victim's credentials",
+        "Victim enters their username and password on the fake site",
+        "Victim clicks the link in the email",
+        "Attacker sends a fake email pretending to be a trusted organisation"
+      ],
+      "answer": [
+        "Attacker sends a fake email pretending to be a trusted organisation",
+        "Victim clicks the link in the email",
+        "Victim enters their username and password on the fake site",
+        "Attacker steals the victim's credentials"
+      ],
       "accepted": null,
       "hint": "Start with the fake email being sent. End with the attacker getting what they want.",
       "explanation": "A phishing attack follows this chain: fake email sent → victim clicks link → victim logs in on fake site → credentials stolen. Each step relies on the victim trusting the fake communication.",
       "working_required": false,
       "estimated_seconds": 55,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Cybersecurity – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-cybersecurity/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.cyb.csc.023",
       "subject": "computing",
       "unit": "cyber-security",
       "topic": "cyber-security",
-      "skill_tags": ["network-security"],
+      "skill_tags": [
+        "network-security"
+      ],
       "tier": "deepen",
       "difficulty": 3,
       "type": "multi-select",
       "prompt": "Which of the following make a password most secure? (Select all that apply)",
-      "options": ["It is long (12+ characters)", "It uses a mix of letters, numbers and symbols", "It is not a dictionary word or common phrase", "It is unique — not reused on other sites", "It includes your date of birth", "It is the same as your username"],
-      "answer": ["It is long (12+ characters)", "It uses a mix of letters, numbers and symbols", "It is not a dictionary word or common phrase", "It is unique — not reused on other sites"],
+      "options": [
+        "It is long (12+ characters)",
+        "It uses a mix of letters, numbers and symbols",
+        "It is not a dictionary word or common phrase",
+        "It is unique — not reused on other sites",
+        "It includes your date of birth",
+        "It is the same as your username"
+      ],
+      "answer": [
+        "It is long (12+ characters)",
+        "It uses a mix of letters, numbers and symbols",
+        "It is not a dictionary word or common phrase",
+        "It is unique — not reused on other sites"
+      ],
       "accepted": null,
       "hint": "Personal information and reused passwords are the enemy of good security.",
       "explanation": "Strong passwords are long, complex (mixed characters), avoid dictionary words that brute-force tools try first, and are unique per site so a breach on one service doesn't expose others.",
       "working_required": false,
       "estimated_seconds": 50,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Cybersecurity – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-cybersecurity/lessons"
+        },
+        {
+          "title": "Computer Networks and Data Transmission – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-networks-and-data-transmission/lessons"
+        }
+      ]
     },
     {
       "id": "com.cyb.csc.024",
       "subject": "computing",
       "unit": "cyber-security",
       "topic": "cyber-security",
-      "skill_tags": ["encryption"],
+      "skill_tags": [
+        "encryption"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "text",
       "prompt": "What does SSL/TLS provide for data sent over the internet?",
       "options": null,
       "answer": "encryption",
-      "accepted": ["Encryption", "encrypted connection", "secure connection", "a secure encrypted connection", "data encryption"],
+      "accepted": [
+        "Encryption",
+        "encrypted connection",
+        "secure connection",
+        "a secure encrypted connection",
+        "data encryption"
+      ],
       "hint": "It's what HTTPS uses — it scrambles the data in transit.",
       "explanation": "SSL (Secure Sockets Layer) and its successor TLS (Transport Layer Security) provide encryption for data sent over the internet. They are the security protocols that underpin HTTPS, protecting data from being intercepted.",
       "working_required": false,
       "estimated_seconds": 35,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Cybersecurity – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-cybersecurity/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.cyb.csc.025",
       "subject": "computing",
       "unit": "cyber-security",
       "topic": "cyber-security",
-      "skill_tags": ["network-security"],
+      "skill_tags": [
+        "network-security"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "What is the key difference between a computer virus and a worm?",
-      "options": ["A virus is more dangerous than a worm in every situation", "A worm can spread to other computers without any user action; a virus needs a user to run or open an infected file", "A worm only affects mobile phones; a virus only affects PCs", "A virus encrypts files; a worm deletes them"],
+      "options": [
+        "A virus is more dangerous than a worm in every situation",
+        "A worm can spread to other computers without any user action; a virus needs a user to run or open an infected file",
+        "A worm only affects mobile phones; a virus only affects PCs",
+        "A virus encrypts files; a worm deletes them"
+      ],
       "answer": "A worm can spread to other computers without any user action; a virus needs a user to run or open an infected file",
       "accepted": null,
       "hint": "One needs you to do something — open a file, click a link. The other spreads automatically.",
@@ -501,7 +957,17 @@
       "working_required": false,
       "estimated_seconds": 45,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Introduction to Cybersecurity – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/introduction-to-cybersecurity/lessons"
+        },
+        {
+          "title": "Computer Networks and Data Transmission – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-networks-and-data-transmission/lessons"
+        }
+      ]
     }
   ]
 }

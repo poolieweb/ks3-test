@@ -8,12 +8,19 @@
       "subject": "computing",
       "unit": "binary-data",
       "topic": "binary-data",
-      "skill_tags": ["binary"],
+      "skill_tags": [
+        "binary"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "mcq",
       "prompt": "How many different digits are used in the binary number system?",
-      "options": ["1", "2", "8", "10"],
+      "options": [
+        "1",
+        "2",
+        "8",
+        "10"
+      ],
       "answer": "2",
       "accepted": null,
       "hint": "Binary is 'base 2' — the clue is in the name.",
@@ -21,74 +28,133 @@
       "working_required": false,
       "estimated_seconds": 20,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Data Representation: Text and Numbers – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/data-representation-text-and-numbers/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.bin.bid.002",
       "subject": "computing",
       "unit": "binary-data",
       "topic": "binary-data",
-      "skill_tags": ["binary"],
+      "skill_tags": [
+        "binary"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "text",
       "prompt": "What is the name for a single binary digit (a 0 or a 1)?",
       "options": null,
       "answer": "bit",
-      "accepted": ["Bit", "BIT", "a bit"],
+      "accepted": [
+        "Bit",
+        "BIT",
+        "a bit"
+      ],
       "hint": "It's short for 'BInary digiT'.",
       "explanation": "A single 0 or 1 is called a bit — short for BInary digiT. 8 bits make a byte.",
       "working_required": false,
       "estimated_seconds": 20,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Data Representation: Text and Numbers – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/data-representation-text-and-numbers/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.bin.bid.003",
       "subject": "computing",
       "unit": "binary-data",
       "topic": "binary-data",
-      "skill_tags": ["binary"],
+      "skill_tags": [
+        "binary"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "numeric",
       "prompt": "How many bits are in a byte?",
       "options": null,
       "answer": "8",
-      "accepted": ["eight"],
+      "accepted": [
+        "eight"
+      ],
       "hint": "Think 'oct...' — but it's a number.",
       "explanation": "There are 8 bits in 1 byte. A byte can store a value from 0 to 255 (or one character of text).",
       "working_required": false,
       "estimated_seconds": 20,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Data Representation: Text and Numbers – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/data-representation-text-and-numbers/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.bin.bid.004",
       "subject": "computing",
       "unit": "binary-data",
       "topic": "binary-data",
-      "skill_tags": ["binary", "denary"],
+      "skill_tags": [
+        "binary",
+        "denary"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "numeric",
       "prompt": "Convert the binary number 0001 to denary.",
       "options": null,
       "answer": "1",
-      "accepted": ["01", "001"],
+      "accepted": [
+        "01",
+        "001"
+      ],
       "hint": "Only the rightmost column (worth 1) has a 1 in it.",
       "explanation": "Place values from right to left: 1, 2, 4, 8. Only the 1-column is on, so 0001 = 1.",
       "working_required": true,
       "estimated_seconds": 60,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Data Representation: Text and Numbers – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/data-representation-text-and-numbers/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.bin.bid.005",
       "subject": "computing",
       "unit": "binary-data",
       "topic": "binary-data",
-      "skill_tags": ["binary", "denary"],
+      "skill_tags": [
+        "binary",
+        "denary"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "numeric",
@@ -101,14 +167,27 @@
       "working_required": true,
       "estimated_seconds": 75,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Data Representation: Text and Numbers – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/data-representation-text-and-numbers/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.bin.bid.006",
       "subject": "computing",
       "unit": "binary-data",
       "topic": "binary-data",
-      "skill_tags": ["binary", "denary"],
+      "skill_tags": [
+        "binary",
+        "denary"
+      ],
       "tier": "strengthen",
       "difficulty": 2,
       "type": "numeric",
@@ -121,14 +200,27 @@
       "working_required": true,
       "estimated_seconds": 75,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Data Representation: Text and Numbers – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/data-representation-text-and-numbers/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.bin.bid.007",
       "subject": "computing",
       "unit": "binary-data",
       "topic": "binary-data",
-      "skill_tags": ["binary", "denary"],
+      "skill_tags": [
+        "binary",
+        "denary"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "numeric",
@@ -141,14 +233,27 @@
       "working_required": true,
       "estimated_seconds": 60,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Data Representation: Text and Numbers – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/data-representation-text-and-numbers/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.bin.bid.008",
       "subject": "computing",
       "unit": "binary-data",
       "topic": "binary-data",
-      "skill_tags": ["binary", "denary"],
+      "skill_tags": [
+        "binary",
+        "denary"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "numeric",
@@ -161,14 +266,27 @@
       "working_required": true,
       "estimated_seconds": 90,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Data Representation: Text and Numbers – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/data-representation-text-and-numbers/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.bin.bid.009",
       "subject": "computing",
       "unit": "binary-data",
       "topic": "binary-data",
-      "skill_tags": ["binary", "denary"],
+      "skill_tags": [
+        "binary",
+        "denary"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "numeric",
@@ -181,14 +299,27 @@
       "working_required": true,
       "estimated_seconds": 120,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Data Representation: Text and Numbers – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/data-representation-text-and-numbers/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.bin.bid.010",
       "subject": "computing",
       "unit": "binary-data",
       "topic": "binary-data",
-      "skill_tags": ["binary", "denary"],
+      "skill_tags": [
+        "binary",
+        "denary"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "numeric",
@@ -201,34 +332,62 @@
       "working_required": true,
       "estimated_seconds": 90,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Data Representation: Text and Numbers – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/data-representation-text-and-numbers/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.bin.bid.011",
       "subject": "computing",
       "unit": "binary-data",
       "topic": "binary-data",
-      "skill_tags": ["binary", "denary"],
+      "skill_tags": [
+        "binary",
+        "denary"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "numeric",
       "prompt": "Convert the denary number 6 to a 4-bit binary number.",
       "options": null,
       "answer": "0110",
-      "accepted": ["110"],
+      "accepted": [
+        "110"
+      ],
       "hint": "Columns 8 4 2 1. Which add up to 6? Put 1 in those columns.",
       "explanation": "6 = 4 + 2. So columns 4 and 2 are on, columns 8 and 1 are off → 0110.",
       "working_required": true,
       "estimated_seconds": 90,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Data Representation: Text and Numbers – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/data-representation-text-and-numbers/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.bin.bid.012",
       "subject": "computing",
       "unit": "binary-data",
       "topic": "binary-data",
-      "skill_tags": ["binary", "denary"],
+      "skill_tags": [
+        "binary",
+        "denary"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "numeric",
@@ -241,39 +400,72 @@
       "working_required": true,
       "estimated_seconds": 90,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Data Representation: Text and Numbers – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/data-representation-text-and-numbers/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.bin.bid.013",
       "subject": "computing",
       "unit": "binary-data",
       "topic": "binary-data",
-      "skill_tags": ["binary", "denary"],
+      "skill_tags": [
+        "binary",
+        "denary"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "numeric",
       "prompt": "Convert the denary number 100 to an 8-bit binary number.",
       "options": null,
       "answer": "01100100",
-      "accepted": ["1100100"],
+      "accepted": [
+        "1100100"
+      ],
       "hint": "Columns 128 64 32 16 8 4 2 1. Start with the largest column that fits.",
       "explanation": "100 = 64 + 32 + 4. So columns 64, 32 and 4 are on → 01100100.",
       "working_required": true,
       "estimated_seconds": 120,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Data Representation: Text and Numbers – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/data-representation-text-and-numbers/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.bin.bid.014",
       "subject": "computing",
       "unit": "binary-data",
       "topic": "binary-data",
-      "skill_tags": ["hex", "binary"],
+      "skill_tags": [
+        "hex",
+        "binary"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "Hexadecimal is base-?",
-      "options": ["2", "8", "10", "16"],
+      "options": [
+        "2",
+        "8",
+        "10",
+        "16"
+      ],
       "answer": "16",
       "accepted": null,
       "hint": "'Hex' = six, 'deci' = ten. 6 + 10 = ?",
@@ -281,19 +473,36 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Data Representation: Text and Numbers – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/data-representation-text-and-numbers/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.bin.bid.015",
       "subject": "computing",
       "unit": "binary-data",
       "topic": "binary-data",
-      "skill_tags": ["hex"],
+      "skill_tags": [
+        "hex"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "In hexadecimal, what denary value does the letter 'A' represent?",
-      "options": ["1", "10", "11", "15"],
+      "options": [
+        "1",
+        "10",
+        "11",
+        "15"
+      ],
       "answer": "10",
       "accepted": null,
       "hint": "After 9, hex carries on with letters: A=?, B=?, ...",
@@ -301,19 +510,36 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Data Representation: Text and Numbers – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/data-representation-text-and-numbers/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.bin.bid.016",
       "subject": "computing",
       "unit": "binary-data",
       "topic": "binary-data",
-      "skill_tags": ["hex"],
+      "skill_tags": [
+        "hex"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "In hexadecimal, what denary value does the letter 'F' represent?",
-      "options": ["6", "11", "15", "16"],
+      "options": [
+        "6",
+        "11",
+        "15",
+        "16"
+      ],
       "answer": "15",
       "accepted": null,
       "hint": "F is the LAST hex digit. The hex digits go 0-9 then A,B,C,D,E,F.",
@@ -321,19 +547,36 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Data Representation: Text and Numbers – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/data-representation-text-and-numbers/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.bin.bid.017",
       "subject": "computing",
       "unit": "binary-data",
       "topic": "binary-data",
-      "skill_tags": ["machine-code"],
+      "skill_tags": [
+        "machine-code"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "What is machine code?",
-      "options": ["A language only humans can read", "Instructions written in binary that the CPU can directly execute", "Another name for Python", "A type of network cable"],
+      "options": [
+        "A language only humans can read",
+        "Instructions written in binary that the CPU can directly execute",
+        "Another name for Python",
+        "A type of network cable"
+      ],
       "answer": "Instructions written in binary that the CPU can directly execute",
       "accepted": null,
       "hint": "Computers only really understand 0s and 1s.",
@@ -341,19 +584,36 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.bin.bid.018",
       "subject": "computing",
       "unit": "binary-data",
       "topic": "binary-data",
-      "skill_tags": ["machine-code"],
+      "skill_tags": [
+        "machine-code"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Why do programmers usually write code in languages like Python rather than machine code?",
-      "options": ["Machine code is illegal", "Python is faster than machine code", "High-level languages are much easier for humans to read and write", "Machine code can't run on modern computers"],
+      "options": [
+        "Machine code is illegal",
+        "Python is faster than machine code",
+        "High-level languages are much easier for humans to read and write",
+        "Machine code can't run on modern computers"
+      ],
       "answer": "High-level languages are much easier for humans to read and write",
       "accepted": null,
       "hint": "Reading 11010101 vs reading 'print(\"hello\")' — which is easier?",
@@ -361,19 +621,36 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.bin.bid.019",
       "subject": "computing",
       "unit": "binary-data",
       "topic": "binary-data",
-      "skill_tags": ["fde-cycle"],
+      "skill_tags": [
+        "fde-cycle"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "What do the letters F, D and E stand for in the FDE cycle?",
-      "options": ["Find, Display, Erase", "Fetch, Decode, Execute", "File, Data, Edit", "Format, Define, Enter"],
+      "options": [
+        "Find, Display, Erase",
+        "Fetch, Decode, Execute",
+        "File, Data, Edit",
+        "Format, Define, Enter"
+      ],
       "answer": "Fetch, Decode, Execute",
       "accepted": null,
       "hint": "It's the cycle the CPU goes through for each instruction.",
@@ -381,39 +658,76 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.bin.bid.020",
       "subject": "computing",
       "unit": "binary-data",
       "topic": "binary-data",
-      "skill_tags": ["fde-cycle"],
+      "skill_tags": [
+        "fde-cycle"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "order",
       "prompt": "Put the stages of the Fetch-Decode-Execute cycle in the correct order.",
-      "options": ["Execute the instruction", "Decode the instruction", "Fetch the next instruction from memory"],
-      "answer": ["Fetch the next instruction from memory", "Decode the instruction", "Execute the instruction"],
+      "options": [
+        "Execute the instruction",
+        "Decode the instruction",
+        "Fetch the next instruction from memory"
+      ],
+      "answer": [
+        "Fetch the next instruction from memory",
+        "Decode the instruction",
+        "Execute the instruction"
+      ],
       "accepted": null,
       "hint": "The letters are in the right order: F, D, E.",
       "explanation": "The CPU first fetches the instruction from memory, then decodes it to work out what to do, then executes (performs) it. Then the cycle repeats.",
       "working_required": false,
       "estimated_seconds": 40,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.bin.bid.021",
       "subject": "computing",
       "unit": "binary-data",
       "topic": "binary-data",
-      "skill_tags": ["fde-cycle"],
+      "skill_tags": [
+        "fde-cycle"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "In the Fetch-Decode-Execute cycle, which stage involves the CPU working out what the instruction means?",
-      "options": ["Fetch", "Decode", "Execute", "Reset"],
+      "options": [
+        "Fetch",
+        "Decode",
+        "Execute",
+        "Reset"
+      ],
       "answer": "Decode",
       "accepted": null,
       "hint": "Decode means to translate or make sense of.",
@@ -421,19 +735,36 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.bin.bid.022",
       "subject": "computing",
       "unit": "binary-data",
       "topic": "binary-data",
-      "skill_tags": ["binary"],
+      "skill_tags": [
+        "binary"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "How does a computer represent a letter like 'A' inside its memory?",
-      "options": ["As a tiny picture", "As an analogue signal", "As a binary number using a code like ASCII", "As a hex colour"],
+      "options": [
+        "As a tiny picture",
+        "As an analogue signal",
+        "As a binary number using a code like ASCII",
+        "As a hex colour"
+      ],
       "answer": "As a binary number using a code like ASCII",
       "accepted": null,
       "hint": "Computers only store binary, so each character has a number code.",
@@ -441,19 +772,36 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Data Representation: Text and Numbers – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/data-representation-text-and-numbers/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.bin.bid.023",
       "subject": "computing",
       "unit": "binary-data",
       "topic": "binary-data",
-      "skill_tags": ["binary"],
+      "skill_tags": [
+        "binary"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "How is an image stored in a computer?",
-      "options": ["As a single colour value", "As a grid of pixels, each with a binary colour code", "As a piece of text describing the picture", "As an analogue signal"],
+      "options": [
+        "As a single colour value",
+        "As a grid of pixels, each with a binary colour code",
+        "As a piece of text describing the picture",
+        "As an analogue signal"
+      ],
       "answer": "As a grid of pixels, each with a binary colour code",
       "accepted": null,
       "hint": "Zoom in really far on a picture — what do you see?",
@@ -461,14 +809,26 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Data Representation: Text and Numbers – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/data-representation-text-and-numbers/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.bin.bid.024",
       "subject": "computing",
       "unit": "binary-data",
       "topic": "binary-data",
-      "skill_tags": ["binary"],
+      "skill_tags": [
+        "binary"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "numeric",
@@ -481,14 +841,26 @@
       "working_required": true,
       "estimated_seconds": 75,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Data Representation: Text and Numbers – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/data-representation-text-and-numbers/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.bin.bid.025",
       "subject": "computing",
       "unit": "binary-data",
       "topic": "binary-data",
-      "skill_tags": ["binary"],
+      "skill_tags": [
+        "binary"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "numeric",
@@ -501,19 +873,36 @@
       "working_required": true,
       "estimated_seconds": 60,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Data Representation: Text and Numbers – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/data-representation-text-and-numbers/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.bin.fde.001",
       "subject": "computing",
       "unit": "binary-data",
       "topic": "FDE cycle",
-      "skill_tags": ["fde-cycle"],
+      "skill_tags": [
+        "fde-cycle"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "What does the Program Counter (PC) hold in the CPU?",
-      "options": ["The result of the last calculation", "The address in memory of the next instruction to be fetched", "The current instruction being decoded", "The total number of instructions run so far"],
+      "options": [
+        "The result of the last calculation",
+        "The address in memory of the next instruction to be fetched",
+        "The current instruction being decoded",
+        "The total number of instructions run so far"
+      ],
       "answer": "The address in memory of the next instruction to be fetched",
       "accepted": null,
       "hint": "It keeps track of where the CPU is up to in the program.",
@@ -521,19 +910,36 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.bin.fde.002",
       "subject": "computing",
       "unit": "binary-data",
       "topic": "FDE cycle",
-      "skill_tags": ["fde-cycle"],
+      "skill_tags": [
+        "fde-cycle"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What is the Current Instruction Register (CIR)?",
-      "options": ["A register that stores the result of arithmetic", "A register that holds the instruction currently being decoded by the CPU", "A register that stores the address of the next instruction", "A register that holds data loaded from memory"],
+      "options": [
+        "A register that stores the result of arithmetic",
+        "A register that holds the instruction currently being decoded by the CPU",
+        "A register that stores the address of the next instruction",
+        "A register that holds data loaded from memory"
+      ],
       "answer": "A register that holds the instruction currently being decoded by the CPU",
       "accepted": null,
       "hint": "'Current Instruction' — it holds the one being worked on right now.",
@@ -541,19 +947,36 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.bin.fde.003",
       "subject": "computing",
       "unit": "binary-data",
       "topic": "FDE cycle",
-      "skill_tags": ["fde-cycle"],
+      "skill_tags": [
+        "fde-cycle"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What does the Memory Address Register (MAR) do?",
-      "options": ["It stores the result of the last ALU calculation", "It holds the address of the memory location currently being read from or written to", "It stores the instruction being decoded", "It counts how many instructions have been executed"],
+      "options": [
+        "It stores the result of the last ALU calculation",
+        "It holds the address of the memory location currently being read from or written to",
+        "It stores the instruction being decoded",
+        "It counts how many instructions have been executed"
+      ],
       "answer": "It holds the address of the memory location currently being read from or written to",
       "accepted": null,
       "hint": "MAR = Memory Address Register — it stores an address, not the data itself.",
@@ -561,19 +984,36 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.bin.fde.004",
       "subject": "computing",
       "unit": "binary-data",
       "topic": "FDE cycle",
-      "skill_tags": ["fde-cycle"],
+      "skill_tags": [
+        "fde-cycle"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What does the ALU (Arithmetic Logic Unit) do during the Execute stage of the FDE cycle?",
-      "options": ["It fetches the next instruction from memory", "It stores completed results to the hard drive", "It performs arithmetic calculations and logical operations (e.g. comparisons)", "It decodes the binary instruction into actions"],
+      "options": [
+        "It fetches the next instruction from memory",
+        "It stores completed results to the hard drive",
+        "It performs arithmetic calculations and logical operations (e.g. comparisons)",
+        "It decodes the binary instruction into actions"
+      ],
       "answer": "It performs arithmetic calculations and logical operations (e.g. comparisons)",
       "accepted": null,
       "hint": "ALU: Arithmetic (maths) and Logic (comparisons like greater than / equal to).",
@@ -581,19 +1021,36 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.bin.fde.005",
       "subject": "computing",
       "unit": "binary-data",
       "topic": "FDE cycle",
-      "skill_tags": ["fde-cycle"],
+      "skill_tags": [
+        "fde-cycle"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "What happens to the Program Counter (PC) immediately after an instruction is fetched?",
-      "options": ["It is reset to zero", "It is incremented by 1 (pointing to the next instruction)", "It is deleted", "It stores the result of the execute stage"],
+      "options": [
+        "It is reset to zero",
+        "It is incremented by 1 (pointing to the next instruction)",
+        "It is deleted",
+        "It stores the result of the execute stage"
+      ],
       "answer": "It is incremented by 1 (pointing to the next instruction)",
       "accepted": null,
       "hint": "After fetching instruction at address 5, where should the CPU go next?",
@@ -601,7 +1058,17 @@
       "working_required": false,
       "estimated_seconds": 40,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     }
   ]
 }

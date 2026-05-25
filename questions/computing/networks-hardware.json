@@ -8,12 +8,20 @@
       "subject": "computing",
       "unit": "networks-hardware",
       "topic": "networks-hardware",
-      "skill_tags": ["lan", "wan"],
+      "skill_tags": [
+        "lan",
+        "wan"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "mcq",
       "prompt": "What does LAN stand for?",
-      "options": ["Large Area Network", "Local Area Network", "Linked Access Node", "Light Auxiliary Network"],
+      "options": [
+        "Large Area Network",
+        "Local Area Network",
+        "Linked Access Node",
+        "Light Auxiliary Network"
+      ],
       "answer": "Local Area Network",
       "accepted": null,
       "hint": "Think 'local' — like one school or one house.",
@@ -21,19 +29,37 @@
       "working_required": false,
       "estimated_seconds": 20,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Networks and Data Transmission – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-networks-and-data-transmission/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.net.nwh.002",
       "subject": "computing",
       "unit": "networks-hardware",
       "topic": "networks-hardware",
-      "skill_tags": ["wan", "lan"],
+      "skill_tags": [
+        "wan",
+        "lan"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "mcq",
       "prompt": "What does WAN stand for?",
-      "options": ["Wireless Access Node", "Wide Area Network", "Web Access Network", "Wired Area Node"],
+      "options": [
+        "Wireless Access Node",
+        "Wide Area Network",
+        "Web Access Network",
+        "Wired Area Node"
+      ],
       "answer": "Wide Area Network",
       "accepted": null,
       "hint": "It's the opposite of 'local' — much bigger.",
@@ -41,19 +67,37 @@
       "working_required": false,
       "estimated_seconds": 20,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Networks and Data Transmission – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-networks-and-data-transmission/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.net.nwh.003",
       "subject": "computing",
       "unit": "networks-hardware",
       "topic": "networks-hardware",
-      "skill_tags": ["wan", "lan"],
+      "skill_tags": [
+        "wan",
+        "lan"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "Which of these is the best example of a WAN?",
-      "options": ["The computers in your classroom", "Your home Wi-Fi", "The Internet", "A printer connected by USB"],
+      "options": [
+        "The computers in your classroom",
+        "Your home Wi-Fi",
+        "The Internet",
+        "A printer connected by USB"
+      ],
       "answer": "The Internet",
       "accepted": null,
       "hint": "WANs span huge distances — across cities or countries.",
@@ -61,19 +105,37 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Networks and Data Transmission – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-networks-and-data-transmission/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.net.nwh.004",
       "subject": "computing",
       "unit": "networks-hardware",
       "topic": "networks-hardware",
-      "skill_tags": ["routers", "networks"],
+      "skill_tags": [
+        "routers",
+        "networks"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "What is the main job of a router?",
-      "options": ["To store files for backup", "To direct data between different networks", "To display images on a screen", "To convert binary into denary"],
+      "options": [
+        "To store files for backup",
+        "To direct data between different networks",
+        "To display images on a screen",
+        "To convert binary into denary"
+      ],
       "answer": "To direct data between different networks",
       "accepted": null,
       "hint": "Think about what 'route' means — finding the way.",
@@ -81,39 +143,74 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Networks and Data Transmission – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-networks-and-data-transmission/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.net.nwh.005",
       "subject": "computing",
       "unit": "networks-hardware",
       "topic": "networks-hardware",
-      "skill_tags": ["routers", "networks"],
+      "skill_tags": [
+        "routers",
+        "networks"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "text",
       "prompt": "What piece of network hardware connects your home network to the Internet?",
       "options": null,
       "answer": "router",
-      "accepted": ["Router", "a router", "the router"],
+      "accepted": [
+        "Router",
+        "a router",
+        "the router"
+      ],
       "hint": "It has lights on the front and Wi-Fi comes from it.",
       "explanation": "A router connects your home LAN to the wider internet (a WAN), routing data packets between them.",
       "working_required": false,
       "estimated_seconds": 25,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Networks and Data Transmission – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-networks-and-data-transmission/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.net.nwh.006",
       "subject": "computing",
       "unit": "networks-hardware",
       "topic": "networks-hardware",
-      "skill_tags": ["networks", "hardware"],
+      "skill_tags": [
+        "networks",
+        "hardware"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Which device is used to connect multiple devices together on a single LAN?",
-      "options": ["Switch", "Monitor", "Power supply", "Hard drive"],
+      "options": [
+        "Switch",
+        "Monitor",
+        "Power supply",
+        "Hard drive"
+      ],
       "answer": "Switch",
       "accepted": null,
       "hint": "Not a router — this one only deals with devices inside one network.",
@@ -121,39 +218,82 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Networks and Data Transmission – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-networks-and-data-transmission/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        },
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        }
+      ]
     },
     {
       "id": "com.net.nwh.007",
       "subject": "computing",
       "unit": "networks-hardware",
       "topic": "networks-hardware",
-      "skill_tags": ["networks"],
+      "skill_tags": [
+        "networks"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "multi-select",
       "prompt": "Which of the following are advantages of using a network? (Select all that apply)",
-      "options": ["Share files between users", "Share a single printer", "Less risk of viruses spreading", "Communicate via messaging or email", "Each computer always works independently"],
-      "answer": ["Share files between users", "Share a single printer", "Communicate via messaging or email"],
+      "options": [
+        "Share files between users",
+        "Share a single printer",
+        "Less risk of viruses spreading",
+        "Communicate via messaging or email",
+        "Each computer always works independently"
+      ],
+      "answer": [
+        "Share files between users",
+        "Share a single printer",
+        "Communicate via messaging or email"
+      ],
       "accepted": null,
       "hint": "Two of these are actually disadvantages or wrong.",
       "explanation": "Networks let you share files, share devices like printers, and communicate easily. Viruses can spread MORE easily on networks, and computers are dependent on the network working.",
       "working_required": false,
       "estimated_seconds": 40,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Networks and Data Transmission – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-networks-and-data-transmission/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.net.nwh.008",
       "subject": "computing",
       "unit": "networks-hardware",
       "topic": "networks-hardware",
-      "skill_tags": ["hardware"],
+      "skill_tags": [
+        "hardware"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "mcq",
       "prompt": "Which of these is an example of an INPUT device?",
-      "options": ["Monitor", "Speaker", "Keyboard", "Printer"],
+      "options": [
+        "Monitor",
+        "Speaker",
+        "Keyboard",
+        "Printer"
+      ],
       "answer": "Keyboard",
       "accepted": null,
       "hint": "Input = data going INTO the computer.",
@@ -161,59 +301,116 @@
       "working_required": false,
       "estimated_seconds": 20,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.net.nwh.009",
       "subject": "computing",
       "unit": "networks-hardware",
       "topic": "networks-hardware",
-      "skill_tags": ["hardware"],
+      "skill_tags": [
+        "hardware"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "multi-select",
       "prompt": "Which of these are OUTPUT devices? (Select all that apply)",
-      "options": ["Microphone", "Monitor", "Speaker", "Mouse", "Printer", "Webcam"],
-      "answer": ["Monitor", "Speaker", "Printer"],
+      "options": [
+        "Microphone",
+        "Monitor",
+        "Speaker",
+        "Mouse",
+        "Printer",
+        "Webcam"
+      ],
+      "answer": [
+        "Monitor",
+        "Speaker",
+        "Printer"
+      ],
       "accepted": null,
       "hint": "Output = data coming OUT of the computer to you.",
       "explanation": "Monitors, speakers and printers all output data from the computer. Microphones, mice and webcams are input devices.",
       "working_required": false,
       "estimated_seconds": 40,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.net.nwh.010",
       "subject": "computing",
       "unit": "networks-hardware",
       "topic": "networks-hardware",
-      "skill_tags": ["hardware"],
+      "skill_tags": [
+        "hardware"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "text",
       "prompt": "What does CPU stand for?",
       "options": null,
       "answer": "Central Processing Unit",
-      "accepted": ["central processing unit", "Central processing unit", "CPU"],
+      "accepted": [
+        "central processing unit",
+        "Central processing unit",
+        "CPU"
+      ],
       "hint": "It's the 'brain' of the computer — three words.",
       "explanation": "CPU stands for Central Processing Unit. It carries out instructions and is often called the 'brain' of the computer.",
       "working_required": false,
       "estimated_seconds": 25,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.net.nwh.011",
       "subject": "computing",
       "unit": "networks-hardware",
       "topic": "networks-hardware",
-      "skill_tags": ["hardware", "storage"],
+      "skill_tags": [
+        "hardware",
+        "storage"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "mcq",
       "prompt": "What does RAM stand for?",
-      "options": ["Read Access Memory", "Random Access Memory", "Rapid Action Module", "Read And Modify"],
+      "options": [
+        "Read Access Memory",
+        "Random Access Memory",
+        "Rapid Action Module",
+        "Read And Modify"
+      ],
       "answer": "Random Access Memory",
       "accepted": null,
       "hint": "Starts with 'Random'.",
@@ -221,19 +418,37 @@
       "working_required": false,
       "estimated_seconds": 20,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.net.nwh.012",
       "subject": "computing",
       "unit": "networks-hardware",
       "topic": "networks-hardware",
-      "skill_tags": ["hardware", "storage"],
+      "skill_tags": [
+        "hardware",
+        "storage"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "mcq",
       "prompt": "What does ROM stand for?",
-      "options": ["Random Output Memory", "Reusable Online Memory", "Read Only Memory", "Rapid Operation Module"],
+      "options": [
+        "Random Output Memory",
+        "Reusable Online Memory",
+        "Read Only Memory",
+        "Rapid Operation Module"
+      ],
       "answer": "Read Only Memory",
       "accepted": null,
       "hint": "You can read from it, but you can't change it.",
@@ -241,19 +456,37 @@
       "working_required": false,
       "estimated_seconds": 20,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.net.nwh.013",
       "subject": "computing",
       "unit": "networks-hardware",
       "topic": "networks-hardware",
-      "skill_tags": ["storage", "hardware"],
+      "skill_tags": [
+        "storage",
+        "hardware"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Which statement about RAM is correct?",
-      "options": ["RAM keeps data when the computer is switched off", "RAM is slower than the hard disk", "RAM loses its contents when the computer is switched off", "RAM is used only for permanent storage"],
+      "options": [
+        "RAM keeps data when the computer is switched off",
+        "RAM is slower than the hard disk",
+        "RAM loses its contents when the computer is switched off",
+        "RAM is used only for permanent storage"
+      ],
       "answer": "RAM loses its contents when the computer is switched off",
       "accepted": null,
       "hint": "Think about what 'volatile' means.",
@@ -261,19 +494,37 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.net.nwh.014",
       "subject": "computing",
       "unit": "networks-hardware",
       "topic": "networks-hardware",
-      "skill_tags": ["storage", "hardware"],
+      "skill_tags": [
+        "storage",
+        "hardware"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Which type of storage has NO moving parts and is faster than a traditional hard drive?",
-      "options": ["HDD", "SSD", "DVD", "Magnetic tape"],
+      "options": [
+        "HDD",
+        "SSD",
+        "DVD",
+        "Magnetic tape"
+      ],
       "answer": "SSD",
       "accepted": null,
       "hint": "'Solid State' — nothing spins inside it.",
@@ -281,59 +532,110 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.net.nwh.015",
       "subject": "computing",
       "unit": "networks-hardware",
       "topic": "networks-hardware",
-      "skill_tags": ["storage"],
+      "skill_tags": [
+        "storage"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "text",
       "prompt": "What does SSD stand for? (3 words)",
       "options": null,
       "answer": "Solid State Drive",
-      "accepted": ["solid state drive", "Solid-State Drive", "SSD"],
+      "accepted": [
+        "solid state drive",
+        "Solid-State Drive",
+        "SSD"
+      ],
       "hint": "Solid... State... ?",
       "explanation": "SSD stands for Solid State Drive. It's a type of storage that uses flash memory chips instead of spinning disks.",
       "working_required": false,
       "estimated_seconds": 25,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.net.nwh.016",
       "subject": "computing",
       "unit": "networks-hardware",
       "topic": "networks-hardware",
-      "skill_tags": ["storage"],
+      "skill_tags": [
+        "storage"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "text",
       "prompt": "What does HDD stand for? (3 words)",
       "options": null,
       "answer": "Hard Disk Drive",
-      "accepted": ["hard disk drive", "Hard Drive", "hard drive", "HDD"],
+      "accepted": [
+        "hard disk drive",
+        "Hard Drive",
+        "hard drive",
+        "HDD"
+      ],
       "hint": "Hard... Disk... ?",
       "explanation": "HDD stands for Hard Disk Drive — a storage device that uses magnetic spinning disks (platters) to store data.",
       "working_required": false,
       "estimated_seconds": 25,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.net.nwh.017",
       "subject": "computing",
       "unit": "networks-hardware",
       "topic": "networks-hardware",
-      "skill_tags": ["storage", "hardware"],
+      "skill_tags": [
+        "storage",
+        "hardware"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Which of these is NON-VOLATILE (keeps its contents when the power goes off)?",
-      "options": ["RAM", "CPU cache", "SSD", "Registers"],
+      "options": [
+        "RAM",
+        "CPU cache",
+        "SSD",
+        "Registers"
+      ],
       "answer": "SSD",
       "accepted": null,
       "hint": "Where do your saved files live when the computer is off?",
@@ -341,19 +643,36 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.net.nwh.018",
       "subject": "computing",
       "unit": "networks-hardware",
       "topic": "networks-hardware",
-      "skill_tags": ["storage"],
+      "skill_tags": [
+        "storage"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Why does a computer need both RAM and a hard drive (or SSD)?",
-      "options": ["RAM is cheap, so it stores everything permanently", "The hard drive is fast, so it does the calculations", "RAM is fast for active work; the hard drive stores files permanently", "They do the same job, just in different places"],
+      "options": [
+        "RAM is cheap, so it stores everything permanently",
+        "The hard drive is fast, so it does the calculations",
+        "RAM is fast for active work; the hard drive stores files permanently",
+        "They do the same job, just in different places"
+      ],
       "answer": "RAM is fast for active work; the hard drive stores files permanently",
       "accepted": null,
       "hint": "One is fast but temporary; the other is slower but permanent.",
@@ -361,19 +680,36 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.net.nwh.019",
       "subject": "computing",
       "unit": "networks-hardware",
       "topic": "networks-hardware",
-      "skill_tags": ["hardware"],
+      "skill_tags": [
+        "hardware"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "Which component is responsible for actually carrying out the instructions of a program?",
-      "options": ["Hard drive", "RAM", "CPU", "Monitor"],
+      "options": [
+        "Hard drive",
+        "RAM",
+        "CPU",
+        "Monitor"
+      ],
       "answer": "CPU",
       "accepted": null,
       "hint": "The 'brain' of the computer.",
@@ -381,19 +717,37 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.net.nwh.020",
       "subject": "computing",
       "unit": "networks-hardware",
       "topic": "networks-hardware",
-      "skill_tags": ["networks", "hardware"],
+      "skill_tags": [
+        "networks",
+        "hardware"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What does NIC stand for in computer networking?",
-      "options": ["Network Internet Cable", "Network Interface Card", "Networked Input Channel", "New Internet Connection"],
+      "options": [
+        "Network Internet Cable",
+        "Network Interface Card",
+        "Networked Input Channel",
+        "New Internet Connection"
+      ],
       "answer": "Network Interface Card",
       "accepted": null,
       "hint": "It's the hardware that lets a computer join a network.",
@@ -401,19 +755,40 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Networks and Data Transmission – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-networks-and-data-transmission/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        },
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        }
+      ]
     },
     {
       "id": "com.net.nwh.021",
       "subject": "computing",
       "unit": "networks-hardware",
       "topic": "networks-hardware",
-      "skill_tags": ["networks"],
+      "skill_tags": [
+        "networks"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Which of the following is needed to connect to the Internet from home?",
-      "options": ["A modem/router and an Internet Service Provider (ISP)", "Just a monitor", "A USB stick", "Only a printer"],
+      "options": [
+        "A modem/router and an Internet Service Provider (ISP)",
+        "Just a monitor",
+        "A USB stick",
+        "Only a printer"
+      ],
       "answer": "A modem/router and an Internet Service Provider (ISP)",
       "accepted": null,
       "hint": "You need a device AND a company to provide the connection.",
@@ -421,19 +796,36 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Networks and Data Transmission – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-networks-and-data-transmission/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.net.nwh.022",
       "subject": "computing",
       "unit": "networks-hardware",
       "topic": "networks-hardware",
-      "skill_tags": ["networks"],
+      "skill_tags": [
+        "networks"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "A small business has 15 computers in one office, all connected with cables to share a printer and files. What kind of network is this?",
-      "options": ["WAN", "LAN", "The Internet", "WAN and LAN combined"],
+      "options": [
+        "WAN",
+        "LAN",
+        "The Internet",
+        "WAN and LAN combined"
+      ],
       "answer": "LAN",
       "accepted": null,
       "hint": "One office = small area = local.",
@@ -441,39 +833,80 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Networks and Data Transmission – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-networks-and-data-transmission/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.net.nwh.023",
       "subject": "computing",
       "unit": "networks-hardware",
       "topic": "networks-hardware",
-      "skill_tags": ["networks", "lan", "wan"],
+      "skill_tags": [
+        "networks",
+        "lan",
+        "wan"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "multi-select",
       "prompt": "Which of the following are typically TRUE of a WAN compared to a LAN? (Select all that apply)",
-      "options": ["Covers a larger geographical area", "Usually owned by a single organisation", "Often connects multiple LANs together", "Uses leased communication lines or public infrastructure", "Always faster than a LAN"],
-      "answer": ["Covers a larger geographical area", "Often connects multiple LANs together", "Uses leased communication lines or public infrastructure"],
+      "options": [
+        "Covers a larger geographical area",
+        "Usually owned by a single organisation",
+        "Often connects multiple LANs together",
+        "Uses leased communication lines or public infrastructure",
+        "Always faster than a LAN"
+      ],
+      "answer": [
+        "Covers a larger geographical area",
+        "Often connects multiple LANs together",
+        "Uses leased communication lines or public infrastructure"
+      ],
       "accepted": null,
       "hint": "WANs are bigger but not usually owned by one company, and not always faster.",
       "explanation": "WANs cover large areas, connect multiple LANs and use leased/public infrastructure. They are usually NOT owned by one organisation and are typically SLOWER than LANs because of the distances involved.",
       "working_required": false,
       "estimated_seconds": 50,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Networks and Data Transmission – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-networks-and-data-transmission/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.net.nwh.024",
       "subject": "computing",
       "unit": "networks-hardware",
       "topic": "networks-hardware",
-      "skill_tags": ["storage"],
+      "skill_tags": [
+        "storage"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "Bertie's laptop is slow when he opens lots of tabs but has plenty of empty hard drive space. Which upgrade is most likely to help?",
-      "options": ["A bigger hard drive", "More RAM", "A faster monitor", "A new keyboard"],
+      "options": [
+        "A bigger hard drive",
+        "More RAM",
+        "A faster monitor",
+        "A new keyboard"
+      ],
       "answer": "More RAM",
       "accepted": null,
       "hint": "The issue is running lots of things at once, not storing files.",
@@ -481,27 +914,54 @@
       "working_required": false,
       "estimated_seconds": 40,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Systems and Data Science – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-systems-and-data-science/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     },
     {
       "id": "com.net.nwh.025",
       "subject": "computing",
       "unit": "networks-hardware",
       "topic": "networks-hardware",
-      "skill_tags": ["networks", "routers"],
+      "skill_tags": [
+        "networks",
+        "routers"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "text",
       "prompt": "What is the name for a small unit of data that is sent across a network?",
       "options": null,
       "answer": "packet",
-      "accepted": ["Packet", "data packet", "packets"],
+      "accepted": [
+        "Packet",
+        "data packet",
+        "packets"
+      ],
       "hint": "It rhymes with 'jacket'.",
       "explanation": "Data sent across a network is split into small chunks called packets. Each packet has an address so routers know where to send it.",
       "working_required": false,
       "estimated_seconds": 30,
       "source": "UK NC KS3 Computing",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Computer Networks and Data Transmission – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/computing-secondary-ks3/units/computer-networks-and-data-transmission/lessons"
+        },
+        {
+          "title": "KS3 Computing – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7tp34j"
+        }
+      ]
     }
   ]
 }

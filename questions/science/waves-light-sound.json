@@ -8,12 +8,19 @@
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "waves",
-      "skill_tags": ["waves"],
+      "skill_tags": [
+        "waves"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "mcq",
       "prompt": "What do all waves transfer?",
-      "options": ["Matter", "Energy", "Mass", "Atoms"],
+      "options": [
+        "Matter",
+        "Energy",
+        "Mass",
+        "Atoms"
+      ],
       "answer": "Energy",
       "accepted": null,
       "hint": "Think about the wave going past a bobbing duck — the duck doesn't travel with it.",
@@ -21,19 +28,36 @@
       "working_required": false,
       "estimated_seconds": 20,
       "source": "CHS Y8 Science KM, Unit 3 Waves, Light and Sound",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.wav.002",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "waves",
-      "skill_tags": ["waves"],
+      "skill_tags": [
+        "waves"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "Which is the distance between two neighbouring peaks of a wave?",
-      "options": ["Amplitude", "Frequency", "Wavelength", "Period"],
+      "options": [
+        "Amplitude",
+        "Frequency",
+        "Wavelength",
+        "Period"
+      ],
       "answer": "Wavelength",
       "accepted": null,
       "hint": "The 'length' of one full wave.",
@@ -41,19 +65,37 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Science KM, Unit 3 Waves, Light and Sound",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.wav.003",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "waves",
-      "skill_tags": ["waves", "amplitude"],
+      "skill_tags": [
+        "waves",
+        "amplitude"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "What does the amplitude of a wave represent?",
-      "options": ["The speed of the wave", "How loud or bright the wave is (energy)", "How many waves pass per second", "The distance between peaks"],
+      "options": [
+        "The speed of the wave",
+        "How loud or bright the wave is (energy)",
+        "How many waves pass per second",
+        "The distance between peaks"
+      ],
       "answer": "How loud or bright the wave is (energy)",
       "accepted": null,
       "hint": "Bigger amplitude = more energy.",
@@ -61,19 +103,37 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Science KM, Unit 3 Waves, Light and Sound",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.wav.004",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "waves",
-      "skill_tags": ["waves", "frequency"],
+      "skill_tags": [
+        "waves",
+        "frequency"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What is frequency measured in?",
-      "options": ["Metres (m)", "Seconds (s)", "Hertz (Hz)", "Newtons (N)"],
+      "options": [
+        "Metres (m)",
+        "Seconds (s)",
+        "Hertz (Hz)",
+        "Newtons (N)"
+      ],
       "answer": "Hertz (Hz)",
       "accepted": null,
       "hint": "Named after the scientist Heinrich Hertz.",
@@ -81,19 +141,36 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Science KM, Unit 3 Waves, Light and Sound",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.wav.005",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "waves",
-      "skill_tags": ["waves"],
+      "skill_tags": [
+        "waves"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What is the key difference between transverse and longitudinal waves?",
-      "options": ["Transverse are faster than longitudinal", "Transverse vibrate at right angles to direction of travel; longitudinal vibrate along it", "Transverse only travel in solids", "There is no difference"],
+      "options": [
+        "Transverse are faster than longitudinal",
+        "Transverse vibrate at right angles to direction of travel; longitudinal vibrate along it",
+        "Transverse only travel in solids",
+        "There is no difference"
+      ],
       "answer": "Transverse vibrate at right angles to direction of travel; longitudinal vibrate along it",
       "accepted": null,
       "hint": "Think slinky shaken side-to-side (transverse) vs pushed back-and-forth (longitudinal).",
@@ -101,19 +178,37 @@
       "working_required": false,
       "estimated_seconds": 45,
       "source": "CHS Y8 Science KM, Unit 3 Waves, Light and Sound",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.wav.006",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "waves",
-      "skill_tags": ["waves", "sound"],
+      "skill_tags": [
+        "waves",
+        "sound"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Sound waves are an example of which type of wave?",
-      "options": ["Transverse", "Longitudinal", "Electromagnetic", "Standing"],
+      "options": [
+        "Transverse",
+        "Longitudinal",
+        "Electromagnetic",
+        "Standing"
+      ],
       "answer": "Longitudinal",
       "accepted": null,
       "hint": "Air particles vibrate back and forth in the same direction as the sound travels.",
@@ -121,19 +216,36 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Science KM, Unit 3 Waves, Light and Sound",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.snd.001",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "sound",
-      "skill_tags": ["sound"],
+      "skill_tags": [
+        "sound"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "mcq",
       "prompt": "How is sound produced?",
-      "options": ["By light hitting an object", "By something vibrating", "By electricity in wires", "By magnets attracting"],
+      "options": [
+        "By light hitting an object",
+        "By something vibrating",
+        "By electricity in wires",
+        "By magnets attracting"
+      ],
       "answer": "By something vibrating",
       "accepted": null,
       "hint": "Touch a speaker when music plays — what can you feel?",
@@ -141,19 +253,36 @@
       "working_required": false,
       "estimated_seconds": 20,
       "source": "CHS Y8 Science KM, Unit 3 Waves, Light and Sound",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.snd.002",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "sound",
-      "skill_tags": ["sound"],
+      "skill_tags": [
+        "sound"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Sound cannot travel through which of these?",
-      "options": ["Air", "Water", "Steel", "A vacuum"],
+      "options": [
+        "Air",
+        "Water",
+        "Steel",
+        "A vacuum"
+      ],
       "answer": "A vacuum",
       "accepted": null,
       "hint": "Sound needs particles to vibrate — what doesn't have any?",
@@ -161,39 +290,78 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Science KM, Unit 3 Waves, Light and Sound",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.snd.003",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "sound",
-      "skill_tags": ["sound"],
+      "skill_tags": [
+        "sound"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "order",
       "prompt": "Order these from SLOWEST to FASTEST speed of sound.",
-      "options": ["Steel", "Water", "Air"],
-      "answer": ["Air", "Water", "Steel"],
+      "options": [
+        "Steel",
+        "Water",
+        "Air"
+      ],
+      "answer": [
+        "Air",
+        "Water",
+        "Steel"
+      ],
       "accepted": null,
       "hint": "Closer-packed particles transfer vibrations faster.",
       "explanation": "Sound travels fastest in solids (steel ~5000 m/s), slower in liquids (water ~1500 m/s), slowest in gases (air ~340 m/s). Tighter particle spacing = faster vibration transfer.",
       "working_required": false,
       "estimated_seconds": 40,
       "source": "CHS Y8 Science KM, Unit 3 Waves, Light and Sound",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.snd.004",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "sound",
-      "skill_tags": ["sound", "frequency", "pitch"],
+      "skill_tags": [
+        "sound",
+        "frequency",
+        "pitch"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "Which property of a sound wave determines its pitch?",
-      "options": ["Amplitude", "Frequency", "Speed", "Wavelength in a vacuum"],
+      "options": [
+        "Amplitude",
+        "Frequency",
+        "Speed",
+        "Wavelength in a vacuum"
+      ],
       "answer": "Frequency",
       "accepted": null,
       "hint": "High pitch = lots of waves per second.",
@@ -201,19 +369,37 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Science KM, Unit 3 Waves, Light and Sound",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.snd.005",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "sound",
-      "skill_tags": ["sound", "amplitude"],
+      "skill_tags": [
+        "sound",
+        "amplitude"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "Which property of a sound wave determines its loudness?",
-      "options": ["Amplitude", "Frequency", "Wavelength", "Speed"],
+      "options": [
+        "Amplitude",
+        "Frequency",
+        "Wavelength",
+        "Speed"
+      ],
       "answer": "Amplitude",
       "accepted": null,
       "hint": "Bigger waves carry more energy → louder sound.",
@@ -221,19 +407,37 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Science KM, Unit 3 Waves, Light and Sound",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.snd.006",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "hearing",
-      "skill_tags": ["hearing", "sound"],
+      "skill_tags": [
+        "hearing",
+        "sound"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What is the typical frequency range of human hearing?",
-      "options": ["1 Hz to 100 Hz", "20 Hz to 20,000 Hz", "100 Hz to 1000 Hz", "1 Hz to 1 million Hz"],
+      "options": [
+        "1 Hz to 100 Hz",
+        "20 Hz to 20,000 Hz",
+        "100 Hz to 1000 Hz",
+        "1 Hz to 1 million Hz"
+      ],
       "answer": "20 Hz to 20,000 Hz",
       "accepted": null,
       "hint": "20 to 20 thousand.",
@@ -241,19 +445,37 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Science KM, Unit 3 Waves, Light and Sound",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.snd.007",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "hearing",
-      "skill_tags": ["sound", "frequency"],
+      "skill_tags": [
+        "sound",
+        "frequency"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "Sound waves above 20,000 Hz are called what?",
-      "options": ["Infrasound", "Ultrasound", "Microsound", "Hypersound"],
+      "options": [
+        "Infrasound",
+        "Ultrasound",
+        "Microsound",
+        "Hypersound"
+      ],
       "answer": "Ultrasound",
       "accepted": null,
       "hint": "'Ultra' means above the human range.",
@@ -261,59 +483,122 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Science KM, Unit 3 Waves, Light and Sound",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.snd.008",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "hearing",
-      "skill_tags": ["hearing"],
+      "skill_tags": [
+        "hearing"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "order",
       "prompt": "Order these parts of the ear in the order sound travels through them.",
-      "options": ["Cochlea", "Ear drum", "Ear canal", "Small bones (ossicles)", "Auditory nerve"],
-      "answer": ["Ear canal", "Ear drum", "Small bones (ossicles)", "Cochlea", "Auditory nerve"],
+      "options": [
+        "Cochlea",
+        "Ear drum",
+        "Ear canal",
+        "Small bones (ossicles)",
+        "Auditory nerve"
+      ],
+      "answer": [
+        "Ear canal",
+        "Ear drum",
+        "Small bones (ossicles)",
+        "Cochlea",
+        "Auditory nerve"
+      ],
       "accepted": null,
       "hint": "Sound enters the outer ear and ends up as a signal sent to the brain.",
       "explanation": "Sound goes: ear canal → ear drum (vibrates) → ossicles (amplify) → cochlea (converts vibration to nerve signal) → auditory nerve → brain.",
       "working_required": false,
       "estimated_seconds": 60,
       "source": "CHS Y8 Science KM, Unit 3 Waves, Light and Sound",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.snd.009",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "sound",
-      "skill_tags": ["sound", "calculations"],
+      "skill_tags": [
+        "sound",
+        "calculations"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "numeric",
       "prompt": "You see lightning and hear thunder 6 seconds later. Sound travels at 340 m/s in air. How far away is the storm (in metres)?",
       "options": null,
       "answer": "2040",
-      "accepted": ["2040 m", "2040m", "2,040"],
+      "accepted": [
+        "2040 m",
+        "2040m",
+        "2,040"
+      ],
       "hint": "distance = speed × time",
       "explanation": "distance = speed × time = 340 × 6 = 2040 m. Light travels almost instantly, so the delay is just the sound time.",
       "working_required": true,
       "estimated_seconds": 60,
       "source": "CHS Y8 Science KM, Unit 3 Waves, Light and Sound",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        },
+        {
+          "title": "Solutions – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/solutions/lessons"
+        }
+      ]
     },
     {
       "id": "sci.wls.snd.010",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "echoes",
-      "skill_tags": ["sound", "reflection"],
+      "skill_tags": [
+        "sound",
+        "reflection"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What is an echo?",
-      "options": ["A sound that travels through walls", "A sound that has been reflected back", "Two sounds played at once", "A sound below human hearing"],
+      "options": [
+        "A sound that travels through walls",
+        "A sound that has been reflected back",
+        "Two sounds played at once",
+        "A sound below human hearing"
+      ],
       "answer": "A sound that has been reflected back",
       "accepted": null,
       "hint": "It happens when sound bounces off a surface.",
@@ -321,59 +606,110 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Science KM, Unit 3 Waves, Light and Sound",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.snd.011",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "echoes",
-      "skill_tags": ["sound", "ultrasound"],
+      "skill_tags": [
+        "sound",
+        "ultrasound"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "numeric",
       "prompt": "A submarine sends an ultrasound pulse. It takes 0.4 s for the echo to return from the seabed. Sound travels at 1500 m/s in water. How deep is the seabed (in metres)?",
       "options": null,
       "answer": "300",
-      "accepted": ["300 m", "300m"],
+      "accepted": [
+        "300 m",
+        "300m"
+      ],
       "hint": "Total distance = speed × time. But that's THERE AND BACK — depth is half.",
       "explanation": "Total distance = 1500 × 0.4 = 600 m. Sound went down AND came back, so depth = 600 ÷ 2 = 300 m. This is how echo sounding (sonar) works.",
       "working_required": true,
       "estimated_seconds": 90,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.lt.001",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "light",
-      "skill_tags": ["light"],
+      "skill_tags": [
+        "light"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "numeric",
       "prompt": "What is the approximate speed of light in a vacuum (in m/s)? Give your answer as 300,000,000 or in standard form.",
       "options": null,
       "answer": "300000000",
-      "accepted": ["3x10^8", "3 x 10^8", "300,000,000", "300000000 m/s", "3×10⁸"],
+      "accepted": [
+        "3x10^8",
+        "3 x 10^8",
+        "300,000,000",
+        "300000000 m/s",
+        "3×10⁸"
+      ],
       "hint": "Three hundred million metres per second.",
       "explanation": "Light in a vacuum travels at about 3 × 10⁸ m/s (300,000,000 m/s). Nothing can travel faster.",
       "working_required": false,
       "estimated_seconds": 40,
       "source": "CHS Y8 Science KM, Unit 3 Waves, Light and Sound",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.lt.002",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "light",
-      "skill_tags": ["light"],
+      "skill_tags": [
+        "light"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "Compared with sound, light travels...",
-      "options": ["Slower", "Much faster", "At the same speed", "Only in liquids"],
+      "options": [
+        "Slower",
+        "Much faster",
+        "At the same speed",
+        "Only in liquids"
+      ],
       "answer": "Much faster",
       "accepted": null,
       "hint": "You see the firework before you hear it.",
@@ -381,19 +717,36 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Science KM, Unit 3 Waves, Light and Sound",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.lt.003",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "light",
-      "skill_tags": ["light"],
+      "skill_tags": [
+        "light"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Can light travel through a vacuum?",
-      "options": ["No, it needs particles", "Yes — that's how sunlight reaches Earth", "Only red light can", "Only in space"],
+      "options": [
+        "No, it needs particles",
+        "Yes — that's how sunlight reaches Earth",
+        "Only red light can",
+        "Only in space"
+      ],
       "answer": "Yes — that's how sunlight reaches Earth",
       "accepted": null,
       "hint": "Light is an electromagnetic wave — different from sound.",
@@ -401,19 +754,37 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Science KM, Unit 3 Waves, Light and Sound",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.lt.004",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "reflection",
-      "skill_tags": ["light", "reflection"],
+      "skill_tags": [
+        "light",
+        "reflection"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What is the law of reflection?",
-      "options": ["Angle of incidence is twice the angle of reflection", "Angle of incidence equals angle of reflection", "Light always reflects at 90°", "Reflection only happens at smooth surfaces"],
+      "options": [
+        "Angle of incidence is twice the angle of reflection",
+        "Angle of incidence equals angle of reflection",
+        "Light always reflects at 90°",
+        "Reflection only happens at smooth surfaces"
+      ],
       "answer": "Angle of incidence equals angle of reflection",
       "accepted": null,
       "hint": "The angle going in matches the angle coming out.",
@@ -421,39 +792,73 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y8 Science KM, Unit 3 Waves, Light and Sound",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.lt.005",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "reflection",
-      "skill_tags": ["light", "reflection"],
+      "skill_tags": [
+        "light",
+        "reflection"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "numeric",
       "prompt": "A ray of light hits a mirror at an angle of incidence of 35°. What is the angle of reflection?",
       "options": null,
       "answer": "35",
-      "accepted": ["35°", "35 degrees", "thirty-five"],
+      "accepted": [
+        "35°",
+        "35 degrees",
+        "thirty-five"
+      ],
       "hint": "Law of reflection.",
       "explanation": "Angle of incidence = angle of reflection. 35° in → 35° out. Both measured from the normal.",
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Science KM, Unit 3 Waves, Light and Sound",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.lt.006",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "reflection",
-      "skill_tags": ["reflection"],
+      "skill_tags": [
+        "reflection"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "What is 'diffuse reflection'?",
-      "options": ["Reflection from a perfectly smooth surface", "Reflection from a rough surface, scattering light in many directions", "Total reflection inside glass", "Reflection of only blue light"],
+      "options": [
+        "Reflection from a perfectly smooth surface",
+        "Reflection from a rough surface, scattering light in many directions",
+        "Total reflection inside glass",
+        "Reflection of only blue light"
+      ],
       "answer": "Reflection from a rough surface, scattering light in many directions",
       "accepted": null,
       "hint": "Why doesn't a wooden table act like a mirror?",
@@ -461,19 +866,37 @@
       "working_required": false,
       "estimated_seconds": 45,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.lt.007",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "refraction",
-      "skill_tags": ["light", "refraction"],
+      "skill_tags": [
+        "light",
+        "refraction"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "What is refraction?",
-      "options": ["Light bouncing off a mirror", "Light bending as it passes from one material to another", "Light being absorbed", "Light splitting into colours"],
+      "options": [
+        "Light bouncing off a mirror",
+        "Light bending as it passes from one material to another",
+        "Light being absorbed",
+        "Light splitting into colours"
+      ],
       "answer": "Light bending as it passes from one material to another",
       "accepted": null,
       "hint": "Like when a straw looks bent in a glass of water.",
@@ -481,19 +904,36 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Science KM, Unit 3 Waves, Light and Sound",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.lt.008",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "refraction",
-      "skill_tags": ["refraction"],
+      "skill_tags": [
+        "refraction"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "When light travels from air into a denser material like glass, it bends...",
-      "options": ["Away from the normal", "Towards the normal", "Doesn't bend at all", "At 90°"],
+      "options": [
+        "Away from the normal",
+        "Towards the normal",
+        "Doesn't bend at all",
+        "At 90°"
+      ],
       "answer": "Towards the normal",
       "accepted": null,
       "hint": "Light slows down going into glass — that bends it towards the perpendicular.",
@@ -501,19 +941,37 @@
       "working_required": false,
       "estimated_seconds": 40,
       "source": "CHS Y8 Science KM, Unit 3 Waves, Light and Sound",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.lt.009",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "dispersion",
-      "skill_tags": ["light", "dispersion"],
+      "skill_tags": [
+        "light",
+        "dispersion"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What happens when white light passes through a prism?",
-      "options": ["It is absorbed", "It splits into the colours of the spectrum", "It becomes faster", "It bounces back"],
+      "options": [
+        "It is absorbed",
+        "It splits into the colours of the spectrum",
+        "It becomes faster",
+        "It bounces back"
+      ],
       "answer": "It splits into the colours of the spectrum",
       "accepted": null,
       "hint": "Think rainbow.",
@@ -521,39 +979,86 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Science KM, Unit 3 Waves, Light and Sound",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.lt.010",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "dispersion",
-      "skill_tags": ["dispersion", "spectrum"],
+      "skill_tags": [
+        "dispersion",
+        "spectrum"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "order",
       "prompt": "Put the colours of the visible spectrum in order from LONGEST to SHORTEST wavelength.",
-      "options": ["Blue", "Red", "Yellow", "Violet", "Green", "Orange", "Indigo"],
-      "answer": ["Red", "Orange", "Yellow", "Green", "Blue", "Indigo", "Violet"],
+      "options": [
+        "Blue",
+        "Red",
+        "Yellow",
+        "Violet",
+        "Green",
+        "Orange",
+        "Indigo"
+      ],
+      "answer": [
+        "Red",
+        "Orange",
+        "Yellow",
+        "Green",
+        "Blue",
+        "Indigo",
+        "Violet"
+      ],
       "accepted": null,
       "hint": "Mnemonic: Richard Of York Gave Battle In Vain. Red has the longest wavelength.",
       "explanation": "Visible spectrum from longest to shortest wavelength: red, orange, yellow, green, blue, indigo, violet. Red bends least in a prism; violet bends most.",
       "working_required": false,
       "estimated_seconds": 60,
       "source": "CHS Y8 Science KM, Unit 3 Waves, Light and Sound",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.lt.011",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "colour",
-      "skill_tags": ["light", "colour"],
+      "skill_tags": [
+        "light",
+        "colour"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Why does a red apple look red?",
-      "options": ["It produces red light", "It absorbs red light and reflects other colours", "It reflects red light and absorbs the other colours", "It refracts only red"],
+      "options": [
+        "It produces red light",
+        "It absorbs red light and reflects other colours",
+        "It reflects red light and absorbs the other colours",
+        "It refracts only red"
+      ],
       "answer": "It reflects red light and absorbs the other colours",
       "accepted": null,
       "hint": "Coloured objects subtract colours from white light.",
@@ -561,19 +1066,37 @@
       "working_required": false,
       "estimated_seconds": 35,
       "source": "CHS Y8 Science KM, Unit 3 Waves, Light and Sound",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.lt.012",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "colour",
-      "skill_tags": ["light", "colour"],
+      "skill_tags": [
+        "light",
+        "colour"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "A blue book is viewed under a red light. What colour does it appear?",
-      "options": ["Blue", "Red", "Purple", "Black"],
+      "options": [
+        "Blue",
+        "Red",
+        "Purple",
+        "Black"
+      ],
       "answer": "Black",
       "accepted": null,
       "hint": "If only red light is present and the book absorbs red... what's reflected?",
@@ -581,19 +1104,37 @@
       "working_required": false,
       "estimated_seconds": 50,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.lt.013",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "colour",
-      "skill_tags": ["colour", "filters"],
+      "skill_tags": [
+        "colour",
+        "filters"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "What does a green filter do to white light?",
-      "options": ["It absorbs all colours", "It reflects green and lets through everything else", "It absorbs all colours except green", "It refracts green more"],
+      "options": [
+        "It absorbs all colours",
+        "It reflects green and lets through everything else",
+        "It absorbs all colours except green",
+        "It refracts green more"
+      ],
       "answer": "It absorbs all colours except green",
       "accepted": null,
       "hint": "Filters work by absorption — they let one colour through.",
@@ -601,19 +1142,37 @@
       "working_required": false,
       "estimated_seconds": 45,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.lt.014",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "eye",
-      "skill_tags": ["eye", "light"],
+      "skill_tags": [
+        "eye",
+        "light"
+      ],
       "tier": "introduce",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "Which part of the eye focuses light onto the retina?",
-      "options": ["Pupil", "Iris", "Lens", "Cornea only"],
+      "options": [
+        "Pupil",
+        "Iris",
+        "Lens",
+        "Cornea only"
+      ],
       "answer": "Lens",
       "accepted": null,
       "hint": "It changes shape to focus on near or far objects.",
@@ -621,19 +1180,36 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "CHS Y8 Science KM, Unit 3 Waves, Light and Sound",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.lt.015",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "eye",
-      "skill_tags": ["eye"],
+      "skill_tags": [
+        "eye"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What is the function of the retina?",
-      "options": ["Controls how much light enters the eye", "Detects light and sends signals to the brain", "Refracts light", "Protects the front of the eye"],
+      "options": [
+        "Controls how much light enters the eye",
+        "Detects light and sends signals to the brain",
+        "Refracts light",
+        "Protects the front of the eye"
+      ],
       "answer": "Detects light and sends signals to the brain",
       "accepted": null,
       "hint": "It's at the back of the eye, full of light-sensitive cells.",
@@ -641,39 +1217,84 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "CHS Y8 Science KM, Unit 3 Waves, Light and Sound",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.em.001",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "em-spectrum",
-      "skill_tags": ["electromagnetic-spectrum"],
+      "skill_tags": [
+        "electromagnetic-spectrum"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "order",
       "prompt": "Order these parts of the electromagnetic spectrum from LONGEST to SHORTEST wavelength.",
-      "options": ["X-rays", "Visible light", "Radio waves", "Microwaves", "Ultraviolet", "Infrared", "Gamma rays"],
-      "answer": ["Radio waves", "Microwaves", "Infrared", "Visible light", "Ultraviolet", "X-rays", "Gamma rays"],
+      "options": [
+        "X-rays",
+        "Visible light",
+        "Radio waves",
+        "Microwaves",
+        "Ultraviolet",
+        "Infrared",
+        "Gamma rays"
+      ],
+      "answer": [
+        "Radio waves",
+        "Microwaves",
+        "Infrared",
+        "Visible light",
+        "Ultraviolet",
+        "X-rays",
+        "Gamma rays"
+      ],
       "accepted": null,
       "hint": "Mnemonic: 'Roman Men Invented Very Unusual X-ray Guns'.",
       "explanation": "EM spectrum, longest to shortest wavelength: Radio, Microwave, Infrared, Visible, Ultraviolet, X-rays, Gamma. As wavelength decreases, frequency and energy both increase.",
       "working_required": false,
       "estimated_seconds": 90,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.em.002",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "em-spectrum",
-      "skill_tags": ["electromagnetic-spectrum"],
+      "skill_tags": [
+        "electromagnetic-spectrum"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Which type of electromagnetic wave is used for communication, including mobile phones and Wi-Fi?",
-      "options": ["X-rays", "Microwaves and radio waves", "Gamma rays", "Ultraviolet"],
+      "options": [
+        "X-rays",
+        "Microwaves and radio waves",
+        "Gamma rays",
+        "Ultraviolet"
+      ],
       "answer": "Microwaves and radio waves",
       "accepted": null,
       "hint": "These travel long distances and pass through walls.",
@@ -681,19 +1302,36 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.em.003",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "em-spectrum",
-      "skill_tags": ["electromagnetic-spectrum"],
+      "skill_tags": [
+        "electromagnetic-spectrum"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "Which EM wave is most useful for taking pictures of broken bones?",
-      "options": ["Infrared", "Microwaves", "X-rays", "Radio waves"],
+      "options": [
+        "Infrared",
+        "Microwaves",
+        "X-rays",
+        "Radio waves"
+      ],
       "answer": "X-rays",
       "accepted": null,
       "hint": "They pass through soft tissue but are absorbed by bone.",
@@ -701,19 +1339,36 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.em.004",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "em-spectrum",
-      "skill_tags": ["electromagnetic-spectrum"],
+      "skill_tags": [
+        "electromagnetic-spectrum"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "mcq",
       "prompt": "Why is too much ultraviolet (UV) from the Sun dangerous?",
-      "options": ["It heats the body up", "It can damage skin cells and cause skin cancer", "It bounces off the skin", "It only makes you tan, never burns"],
+      "options": [
+        "It heats the body up",
+        "It can damage skin cells and cause skin cancer",
+        "It bounces off the skin",
+        "It only makes you tan, never burns"
+      ],
       "answer": "It can damage skin cells and cause skin cancer",
       "accepted": null,
       "hint": "Sunscreen protects against it — why?",
@@ -721,19 +1376,36 @@
       "working_required": false,
       "estimated_seconds": 40,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.em.005",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "em-spectrum",
-      "skill_tags": ["electromagnetic-spectrum"],
+      "skill_tags": [
+        "electromagnetic-spectrum"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "Which EM wave is given off by hot objects and used in TV remotes and thermal imaging?",
-      "options": ["Visible light", "Infrared", "Ultraviolet", "Gamma rays"],
+      "options": [
+        "Visible light",
+        "Infrared",
+        "Ultraviolet",
+        "Gamma rays"
+      ],
       "answer": "Infrared",
       "accepted": null,
       "hint": "All warm objects emit it — the word means 'below red'.",
@@ -741,39 +1413,80 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.em.006",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "em-spectrum",
-      "skill_tags": ["electromagnetic-spectrum"],
+      "skill_tags": [
+        "electromagnetic-spectrum"
+      ],
       "tier": "deepen",
       "difficulty": 5,
       "type": "multi-select",
       "prompt": "Select all the statements that are true about ALL electromagnetic waves.",
-      "options": ["They travel at the speed of light in a vacuum", "They are transverse waves", "They need particles to travel", "They transfer energy", "They can be reflected and refracted", "They all have the same wavelength"],
-      "answer": ["They travel at the speed of light in a vacuum", "They are transverse waves", "They transfer energy", "They can be reflected and refracted"],
+      "options": [
+        "They travel at the speed of light in a vacuum",
+        "They are transverse waves",
+        "They need particles to travel",
+        "They transfer energy",
+        "They can be reflected and refracted",
+        "They all have the same wavelength"
+      ],
+      "answer": [
+        "They travel at the speed of light in a vacuum",
+        "They are transverse waves",
+        "They transfer energy",
+        "They can be reflected and refracted"
+      ],
       "accepted": null,
       "hint": "EM waves DON'T need particles. They have different wavelengths.",
       "explanation": "All EM waves: travel at 3 × 10⁸ m/s in vacuum, are transverse, transfer energy, and can be reflected/refracted. They do NOT need particles (unlike sound) and have different wavelengths across the spectrum.",
       "working_required": false,
       "estimated_seconds": 75,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.wav.007",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "wave types",
-      "skill_tags": ["transverse-longitudinal"],
+      "skill_tags": [
+        "transverse-longitudinal"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "mcq",
       "prompt": "What type of wave is a sound wave?",
-      "options": ["Transverse", "Longitudinal", "Electromagnetic", "Standing"],
+      "options": [
+        "Transverse",
+        "Longitudinal",
+        "Electromagnetic",
+        "Standing"
+      ],
       "answer": "Longitudinal",
       "accepted": null,
       "hint": "Think about how a slinky spring moves when you push it back and forth.",
@@ -781,19 +1494,36 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.wav.008",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "wave types",
-      "skill_tags": ["transverse-longitudinal"],
+      "skill_tags": [
+        "transverse-longitudinal"
+      ],
       "tier": "introduce",
       "difficulty": 1,
       "type": "mcq",
       "prompt": "Light waves (and other electromagnetic waves) are which type of wave?",
-      "options": ["Longitudinal", "Transverse", "Pressure", "Compressional"],
+      "options": [
+        "Longitudinal",
+        "Transverse",
+        "Pressure",
+        "Compressional"
+      ],
       "answer": "Transverse",
       "accepted": null,
       "hint": "Think about a rope being shaken up and down — the oscillation is at right angles to the direction of travel.",
@@ -801,19 +1531,36 @@
       "working_required": false,
       "estimated_seconds": 25,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.wav.009",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "wave types",
-      "skill_tags": ["transverse-longitudinal"],
+      "skill_tags": [
+        "transverse-longitudinal"
+      ],
       "tier": "strengthen",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "In a transverse wave, how do particles move relative to the direction the wave travels?",
-      "options": ["Parallel to the wave direction", "Perpendicular (at right angles) to the wave direction", "In circles around the wave direction", "They do not move at all"],
+      "options": [
+        "Parallel to the wave direction",
+        "Perpendicular (at right angles) to the wave direction",
+        "In circles around the wave direction",
+        "They do not move at all"
+      ],
       "answer": "Perpendicular (at right angles) to the wave direction",
       "accepted": null,
       "hint": "Transverse — like a rope being shaken side-to-side while the wave moves along the rope.",
@@ -821,19 +1568,36 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.wav.010",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "wave types",
-      "skill_tags": ["transverse-longitudinal"],
+      "skill_tags": [
+        "transverse-longitudinal"
+      ],
       "tier": "strengthen",
       "difficulty": 2,
       "type": "mcq",
       "prompt": "In a longitudinal wave, how do particles move relative to the direction the wave travels?",
-      "options": ["Perpendicular to the wave direction", "Parallel to the wave direction", "In spirals", "They stay completely still"],
+      "options": [
+        "Perpendicular to the wave direction",
+        "Parallel to the wave direction",
+        "In spirals",
+        "They stay completely still"
+      ],
       "answer": "Parallel to the wave direction",
       "accepted": null,
       "hint": "Think about pushing a slinky spring back and forth along its length.",
@@ -841,19 +1605,36 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.wav.011",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "wave types",
-      "skill_tags": ["transverse-longitudinal"],
+      "skill_tags": [
+        "transverse-longitudinal"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What is a 'compression' in a longitudinal wave?",
-      "options": ["A region where particles are spread far apart", "A region where particles are pushed close together", "The peak of a transverse wave", "The trough of a transverse wave"],
+      "options": [
+        "A region where particles are spread far apart",
+        "A region where particles are pushed close together",
+        "The peak of a transverse wave",
+        "The trough of a transverse wave"
+      ],
       "answer": "A region where particles are pushed close together",
       "accepted": null,
       "hint": "Compress = squash together. Think of squashing a spring.",
@@ -861,19 +1642,36 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.wav.012",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "wave types",
-      "skill_tags": ["transverse-longitudinal"],
+      "skill_tags": [
+        "transverse-longitudinal"
+      ],
       "tier": "strengthen",
       "difficulty": 3,
       "type": "mcq",
       "prompt": "What is a 'rarefaction' in a longitudinal wave?",
-      "options": ["A region where particles are packed closely together", "A region where particles are spread further apart", "The wavelength of the wave", "The amplitude of the wave"],
+      "options": [
+        "A region where particles are packed closely together",
+        "A region where particles are spread further apart",
+        "The wavelength of the wave",
+        "The amplitude of the wave"
+      ],
       "answer": "A region where particles are spread further apart",
       "accepted": null,
       "hint": "Rare = less common, spread out. The opposite of a compression.",
@@ -881,27 +1679,59 @@
       "working_required": false,
       "estimated_seconds": 30,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     },
     {
       "id": "sci.wls.wav.013",
       "subject": "science",
       "unit": "waves-light-sound",
       "topic": "wave types",
-      "skill_tags": ["transverse-longitudinal"],
+      "skill_tags": [
+        "transverse-longitudinal"
+      ],
       "tier": "deepen",
       "difficulty": 4,
       "type": "multi-select",
       "prompt": "Which of these are transverse waves? (Select all that apply)",
-      "options": ["Light", "Sound", "Water surface waves", "Seismic P-waves", "Radio waves"],
-      "answer": ["Light", "Water surface waves", "Radio waves"],
+      "options": [
+        "Light",
+        "Sound",
+        "Water surface waves",
+        "Seismic P-waves",
+        "Radio waves"
+      ],
+      "answer": [
+        "Light",
+        "Water surface waves",
+        "Radio waves"
+      ],
       "accepted": null,
       "hint": "Sound and seismic P-waves are longitudinal. EM waves and water ripples are transverse.",
       "explanation": "Transverse waves oscillate perpendicular to their direction of travel. Light, water surface waves and radio waves are all transverse. Sound and seismic P-waves are longitudinal — particles vibrate parallel to the wave direction.",
       "working_required": false,
       "estimated_seconds": 45,
       "source": "UK NC KS3",
-      "version": 1
+      "version": 1,
+      "further_learning": [
+        {
+          "title": "Sound, Light and Vision – Oak National Academy",
+          "url": "https://www.thenational.academy/teachers/programmes/science-secondary-ks3/units/sound-light-and-vision/lessons"
+        },
+        {
+          "title": "KS3 Science – BBC Bitesize",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9ddmp3"
+        }
+      ]
     }
   ]
 }
