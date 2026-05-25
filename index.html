@@ -168,6 +168,7 @@
 //=============================================================================
 const APP = {
   HMAC_SECRET: "change-me-bertie-2026-revision",  // shared with parent.html — edit both!
+  SYNC_URL: "https://ks3-test-sync.poolieweb.workers.dev",  // empty string disables cloud sync
   EPOCH_DAYS_BASE: new Date(2026, 0, 1).getTime(),  // 1 Jan 2026
   SESSION_TARGET_QUESTIONS: 15,
   WORKING_CHECK_INTERVAL: 6,
@@ -241,7 +242,9 @@ function loadState() {
 }
 
 function saveState() {
+  State.updated = Date.now();
   localStorage.setItem("revisionGameState", JSON.stringify(State));
+  schedulePush();
 }
 
 //=============================================================================
@@ -546,7 +549,8 @@ function renderHome() {
         <button class="btn-secondary" onclick="showAchievements()">🏆 Achievements (${State.achievements.length}/${ACHIEVEMENTS.length})</button>
         <button class="btn-secondary" onclick="showHistory()">📜 History</button>
         <button class="btn-secondary" onclick="exportData()">💾 Export</button>
-        <button class="btn-ghost" onclick="if(confirm('Reset all progress? This cannot be undone.')) { localStorage.removeItem('revisionGameState'); location.reload(); }">Reset</button>
+        <button class="btn-secondary" onclick="showSyncModal()">☁️ Sync${getSyncPin() ? ' ✓' : ''}</button>
+        <button class="btn-ghost" onclick="if(confirm('Reset all progress on this device? This also disconnects cloud sync. Cannot be undone.')) { localStorage.removeItem('revisionGameState'); localStorage.removeItem('syncPin'); location.reload(); }">Reset</button>
       </div>
     </div>
   `;
@@ -1405,12 +1409,142 @@ window.copyCode = (code) => {
 };
 
 //=============================================================================
+// CLOUD SYNC (Cloudflare Worker + KV, keyed by 6-digit PIN)
+//=============================================================================
+function getSyncPin() { return localStorage.getItem("syncPin"); }
+
+async function syncPull() {
+  const pin = getSyncPin();
+  if (!pin || !APP.SYNC_URL) return false;
+  try {
+    const ctl = new AbortController();
+    const to = setTimeout(() => ctl.abort(), 5000);
+    const r = await fetch(`${APP.SYNC_URL}/state/${pin}`, { signal: ctl.signal });
+    clearTimeout(to);
+    if (r.status === 404) return false;
+    if (!r.ok) return false;
+    const remote = await r.json();
+    if (!remote || typeof remote !== "object") return false;
+    const remoteUpdated = remote.updated || 0;
+    const localUpdated = State.updated || 0;
+    if (remoteUpdated > localUpdated) {
+      State = remote;
+      ensureSchema();
+      localStorage.setItem("revisionGameState", JSON.stringify(State));
+      return true;
+    }
+    if (localUpdated > remoteUpdated) schedulePush(0);
+  } catch (e) { console.warn("Sync pull failed", e); }
+  return false;
+}
+
+let pushTimer = null;
+function schedulePush(delayMs = 2000) {
+  if (!getSyncPin() || !APP.SYNC_URL) return;
+  if (pushTimer) clearTimeout(pushTimer);
+  pushTimer = setTimeout(syncPush, delayMs);
+}
+
+async function syncPush() {
+  pushTimer = null;
+  const pin = getSyncPin();
+  if (!pin || !APP.SYNC_URL) return;
+  try {
+    await fetch(`${APP.SYNC_URL}/state/${pin}`, {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(State),
+    });
+  } catch (e) { console.warn("Sync push failed", e); }
+}
+
+window.showSyncModal = () => {
+  const pin = getSyncPin();
+  const inner = pin ? syncModalConnected(pin) : syncModalSetup();
+  const bg = document.createElement("div");
+  bg.className = "modal-bg";
+  bg.id = "syncModalBg";
+  bg.onclick = (e) => { if (e.target === bg) closeSyncModal(); };
+  bg.innerHTML = `<div class="modal"></div>`;
+  bg.firstElementChild.innerHTML = inner;
+  document.body.appendChild(bg);
+};
+
+function syncModalSetup() {
+  return `
+    <h2>☁️ Sync across devices</h2>
+    <p style="color: var(--muted);">Get a 6-digit code. Use the same code on any device — iPad, phone, laptop — to share progress.</p>
+    <div style="margin: 20px 0;">
+      <button class="btn-primary" style="width: 100%; margin-bottom: 12px;" onclick="generateAndShowPin()">🎲 Create a new sync code</button>
+      <div style="text-align: center; color: var(--muted); margin: 8px 0;">— or —</div>
+      <p style="margin: 8px 0;">Already have a code? Enter it:</p>
+      <input type="text" id="syncPinInput" placeholder="6-digit code" maxlength="6" inputmode="numeric" class="text-input" style="width: 100%; margin-bottom: 8px; text-align: center; letter-spacing: 4px; font-family: 'Menlo', monospace; font-size: 18px;">
+      <button class="btn-secondary" style="width: 100%;" onclick="connectExistingPin()">Connect</button>
+    </div>
+    <button class="btn-ghost" style="width: 100%;" onclick="closeSyncModal()">Cancel</button>
+  `;
+}
+
+function syncModalConnected(pin) {
+  return `
+    <h2>☁️ Sync active</h2>
+    <p style="color: var(--muted);">Your sync code (use the same one on other devices):</p>
+    <div style="font-family: 'Menlo', monospace; font-size: 32px; font-weight: 700; letter-spacing: 6px; text-align: center; padding: 16px; background: var(--primary); color: white; border-radius: 12px; margin: 16px 0;">${pin}</div>
+    <p style="font-size: 13px; color: var(--muted);">Progress saves automatically a couple of seconds after each change. On another device, open Sync and enter this code.</p>
+    <div style="display: flex; gap: 8px; margin-top: 20px;">
+      <button class="btn-secondary" style="flex: 1;" onclick="forcePull()">↓ Pull now</button>
+      <button class="btn-ghost" style="flex: 1;" onclick="disconnectSync()">Disconnect</button>
+    </div>
+    <button class="btn-primary" style="width: 100%; margin-top: 8px;" onclick="closeSyncModal()">Done</button>
+  `;
+}
+
+window.closeSyncModal = () => {
+  const bg = document.getElementById("syncModalBg");
+  if (bg) bg.remove();
+};
+
+window.generateAndShowPin = async () => {
+  const pin = String(Math.floor(100000 + Math.random() * 900000));
+  localStorage.setItem("syncPin", pin);
+  State.updated = Date.now();
+  await syncPush();
+  closeSyncModal();
+  showSyncModal();
+};
+
+window.connectExistingPin = async () => {
+  const input = document.getElementById("syncPinInput");
+  const pin = (input.value || "").trim();
+  if (!/^\d{6}$/.test(pin)) { alert("Enter a 6-digit code."); return; }
+  localStorage.setItem("syncPin", pin);
+  const pulled = await syncPull();
+  closeSyncModal();
+  if (pulled) renderHome();
+  showSyncModal();
+};
+
+window.forcePull = async () => {
+  const pulled = await syncPull();
+  closeSyncModal();
+  if (pulled) renderHome();
+};
+
+window.disconnectSync = () => {
+  if (!confirm("Disconnect cloud sync? Your progress on this device stays — it just won't sync anymore.")) return;
+  localStorage.removeItem("syncPin");
+  closeSyncModal();
+  renderHome();
+};
+
+//=============================================================================
 // BOOT
 //=============================================================================
 async function boot() {
   loadState();
   await loadProfile();
   await loadQuestionBanks();
+  await syncPull();
   renderApp();
 }
 

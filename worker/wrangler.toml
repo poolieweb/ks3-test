@@ -1,0 +1,8 @@
+name = "ks3-test-sync"
+main = "worker.js"
+compatibility_date = "2026-05-25"
+
+# After running `wrangler kv namespace create STATE`, paste the returned id below.
+[[kv_namespaces]]
+binding = "STATE"
+id = "21c6ba3b662347a6bf691a796e6566ae"
