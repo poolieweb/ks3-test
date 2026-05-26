@@ -1,0 +1,651 @@
+/* =============================================================================
+   NEON TOKYO STRIKE — drop-in theme for Bertie's Revision Game
+   ----------------------------------------------------------------------------
+   Apply by adding 3 lines to the <head> of index.html, AFTER the existing
+   inline <style> block:
+
+     <link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Orbitron:wght@500;700;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="theme-neon-tokyo.css">
+     <script src="theme-neon-tokyo.js" defer></script>
+
+   Kanji glyphs use system CJK fonts (Hiragino on macOS/iOS, Yu Gothic on Windows,
+   Noto Sans CJK on Android — all OSes Bertie might use). No JP web-font needed.
+
+   The companion JS adds kanji watermarks and labels as real DOM nodes (the
+   engine re-renders innerHTML on every screen change — a MutationObserver in
+   the script re-decorates after each render).
+   ============================================================================= */
+
+/* ---- 1. PALETTE & TOKEN OVERRIDES ----------------------------------------- */
+:root {
+  /* base */
+  --bg:           #05050a;
+  --bg-2:         #0a0a14;
+  --bg-3:         #11111e;
+  --card:         #0d0d18;
+  --text:         #f4f4ff;
+  --muted:        rgba(255,255,255,0.55);
+  --border:       rgba(255,255,255,0.12);
+
+  /* neon accents */
+  --primary:      #ff1a8c;          /* hot magenta — main brand */
+  --primary-dark: #c80f6d;
+  --accent:       #00e5ff;          /* electric cyan */
+  --good:         #00e5ff;          /* cyan = success */
+  --bad:          #ff3344;          /* red = wrong */
+  --warn:         #ffe23a;          /* yellow = warning */
+
+  /* per-subject neon hues (district colors) */
+  --science:    #00e5ff;
+  --history:    #ff1a8c;
+  --geography:  #ffe23a;
+  --computing:  #ff3344;
+
+  /* fonts */
+  --font-display: "Russo One", "Orbitron", system-ui, sans-serif;
+  --font-mono:    "JetBrains Mono", ui-monospace, "Menlo", monospace;
+  /* Kanji: just use sans-serif — every modern OS's default sans-serif
+     chain includes CJK glyphs (Hiragino/Yu/Noto). Listing them explicitly
+     pins the family BEFORE the OS gets to do per-glyph fallback, which can
+     leave tofu boxes on systems where the explicit font isn't installed. */
+  --font-kanji:   sans-serif;
+  --font-body:    "Russo One", system-ui, sans-serif;
+
+  color-scheme: dark;
+}
+
+/* ---- 2. PAGE FRAME -------------------------------------------------------- */
+html, body {
+  background: var(--bg) !important;
+  color: var(--text) !important;
+  font-family: var(--font-display);
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "ss01", "ss02";
+}
+
+/* full-page scanlines + grid overlay */
+body::before {
+  content: "";
+  position: fixed; inset: 0; pointer-events: none; z-index: 1;
+  background-image: repeating-linear-gradient(0deg, rgba(255,255,255,0.04) 0 1px, transparent 1px 3px);
+}
+body::after {
+  content: "";
+  position: fixed; inset: 0; pointer-events: none; z-index: 1;
+  background:
+    radial-gradient(80% 50% at 50% 0%, rgba(255,26,140,0.10) 0%, transparent 60%),
+    radial-gradient(60% 50% at 100% 100%, rgba(0,229,255,0.08) 0%, transparent 60%);
+}
+
+.app { position: relative; z-index: 2; padding: 24px 16px 80px; max-width: 1000px; }
+
+/* ---- 3. TOPBAR ------------------------------------------------------------ */
+.topbar { border-bottom: 1px solid var(--border); padding: 18px 4px 14px; }
+.topbar .logo {
+  font-family: var(--font-display); font-size: 22px; letter-spacing: 2px;
+  color: var(--text) !important; text-transform: uppercase;
+  display: flex; align-items: center; gap: 10px;
+}
+.topbar .logo .nt-logo-kanji {
+  font-family: sans-serif; font-size: 14px;
+  font-weight: 700; color: var(--primary); letter-spacing: 3px;
+  text-transform: none;
+}
+.topbar .stats { font-family: var(--font-mono); font-size: 11px; letter-spacing: 1.5px; gap: 14px; }
+.topbar .stats span { color: var(--muted) !important; text-transform: uppercase; }
+.topbar .stats span strong { color: var(--accent) !important; font-weight: 700; }
+
+/* ---- 4. CARDS ------------------------------------------------------------- */
+.card {
+  background: var(--card) !important;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  box-shadow:
+    inset 0 0 24px rgba(255,26,140,0.04),
+    0 8px 24px rgba(0,0,0,0.55);
+  position: relative;
+  padding: 22px !important;
+}
+/* corner brackets on cards */
+.card::before, .card::after {
+  content: ""; position: absolute; width: 14px; height: 14px;
+  pointer-events: none;
+}
+.card::before {
+  top: 6px; left: 6px;
+  border-top: 2px solid var(--accent); border-left: 2px solid var(--accent);
+}
+.card::after {
+  bottom: 6px; right: 6px;
+  border-bottom: 2px solid var(--accent); border-right: 2px solid var(--accent);
+}
+
+h1, h2, h3 {
+  font-family: var(--font-display); letter-spacing: 1px;
+  text-transform: uppercase; color: var(--text);
+}
+h1 { font-size: 26px; }
+h2 { font-size: 20px; }
+h3 { font-size: 16px; }
+
+/* small kanji caption under H1 (injected by JS as .nt-h1-kanji) */
+.card h1 + .nt-h1-kanji {
+  font-family: sans-serif; font-size: 11px; color: var(--primary);
+  letter-spacing: 4px; margin-top: 4px; font-weight: 700;
+  text-transform: none;
+}
+
+/* ---- 5. BUTTONS ----------------------------------------------------------- */
+button {
+  font-family: var(--font-display) !important;
+  letter-spacing: 2px !important; text-transform: uppercase;
+  border-radius: 2px !important;
+  transition: transform .1s, box-shadow .2s, background .2s, color .2s !important;
+}
+.btn-primary {
+  background: linear-gradient(90deg, var(--primary), #ff5577) !important;
+  color: #fff !important;
+  clip-path: polygon(8px 0, 100% 0, calc(100% - 8px) 100%, 0 100%);
+  box-shadow: 0 0 18px rgba(255,26,140,0.55), inset 0 1px 0 rgba(255,255,255,0.25) !important;
+  border: none !important;
+}
+.btn-primary:hover {
+  background: linear-gradient(90deg, #ff3a9c, var(--primary)) !important;
+  box-shadow: 0 0 26px rgba(255,26,140,0.8), inset 0 1px 0 rgba(255,255,255,0.4) !important;
+}
+.btn-secondary {
+  background: transparent !important;
+  color: var(--accent) !important;
+  border: 1px solid var(--accent) !important;
+  padding: 10px 16px !important;
+  font-size: 13px !important;
+}
+.btn-secondary:hover {
+  background: rgba(0,229,255,0.12) !important;
+  box-shadow: 0 0 14px rgba(0,229,255,0.6);
+}
+.btn-ghost {
+  color: var(--muted) !important;
+  background: transparent !important;
+  border: 1px dashed var(--border) !important;
+}
+.btn-ghost:hover { color: var(--text) !important; border-color: var(--muted) !important; }
+
+/* ---- 6. SUBJECT CARDS (HOME) ---------------------------------------------- */
+.subject-grid { gap: 14px !important; }
+
+.subject-card {
+  background: var(--bg-2) !important;
+  border: 1px solid var(--border);
+  color: var(--text) !important;
+  position: relative; overflow: hidden;
+  padding: 16px 14px 14px !important;
+  border-radius: 0 !important;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%);
+  text-align: left !important;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+  transition: transform .15s, box-shadow .2s !important;
+  display: flex !important; flex-direction: column;
+}
+.subject-card > div[onclick] { flex: 1; }
+.subject-card:hover { transform: translateY(-3px) !important; }
+
+/* giant kanji watermark behind each card (rendered as real .nt-watermark span
+   by theme-neon-tokyo.js; styled here) */
+.subject-card .nt-watermark {
+  position: absolute; right: 6px; bottom: -14px;
+  font-family: sans-serif; font-weight: 700; font-size: 96px;
+  line-height: 1; opacity: 0.45; letter-spacing: normal;
+  pointer-events: none; z-index: 0; user-select: none;
+}
+.subject-card.science   .nt-watermark { color: var(--science);   }
+.subject-card.history   .nt-watermark { color: var(--history);   }
+.subject-card.geography .nt-watermark { color: var(--geography); }
+.subject-card.computing .nt-watermark { color: var(--computing); }
+
+/* per-subject accent border + glow + tinted overlay */
+.subject-card.science {
+  background: linear-gradient(160deg, rgba(0,229,255,0.10), transparent 60%), var(--bg-2) !important;
+  border-color: rgba(0,229,255,0.45);
+  box-shadow: 0 6px 18px rgba(0,229,255,0.18), inset 0 0 30px rgba(0,229,255,0.06);
+}
+.subject-card.history {
+  background: linear-gradient(160deg, rgba(255,26,140,0.10), transparent 60%), var(--bg-2) !important;
+  border-color: rgba(255,26,140,0.45);
+  box-shadow: 0 6px 18px rgba(255,26,140,0.18), inset 0 0 30px rgba(255,26,140,0.06);
+}
+.subject-card.geography {
+  background: linear-gradient(160deg, rgba(255,226,58,0.10), transparent 60%), var(--bg-2) !important;
+  border-color: rgba(255,226,58,0.45);
+  box-shadow: 0 6px 18px rgba(255,226,58,0.18), inset 0 0 30px rgba(255,226,58,0.06);
+}
+.subject-card.computing {
+  background: linear-gradient(160deg, rgba(255,51,68,0.10), transparent 60%), var(--bg-2) !important;
+  border-color: rgba(255,51,68,0.45);
+  box-shadow: 0 6px 18px rgba(255,51,68,0.18), inset 0 0 30px rgba(255,51,68,0.06);
+}
+
+/* district label above the subject name */
+.subject-card h3 {
+  position: relative; font-size: 22px; margin-bottom: 4px !important;
+  letter-spacing: 2px; text-transform: uppercase;
+}
+/* district label (rendered as real .nt-prefix div by JS) */
+.subject-card .nt-prefix {
+  position: relative; z-index: 1;
+  font-family: var(--font-mono); font-size: 9px; letter-spacing: 2px;
+  opacity: 0.75; text-transform: uppercase;
+  margin-bottom: 2px;
+}
+.subject-card.science   .nt-prefix { color: var(--science); }
+.subject-card.history   .nt-prefix { color: var(--history); }
+.subject-card.geography .nt-prefix { color: var(--geography); }
+.subject-card.computing .nt-prefix { color: var(--computing); }
+
+.subject-card.science h3     { color: var(--science); }
+.subject-card.history h3     { color: var(--history); }
+.subject-card.geography h3   { color: var(--geography); }
+.subject-card.computing h3   { color: var(--computing); }
+
+.subject-card .icon {
+  display: none; /* emoji icon replaced by giant kanji watermark */
+}
+
+.subject-card .meta {
+  font-family: var(--font-mono); font-size: 10px; letter-spacing: 1.5px;
+  color: var(--muted) !important; text-transform: uppercase;
+}
+
+/* progress bar */
+.progress {
+  background: rgba(255,255,255,0.06) !important;
+  border: 1px solid var(--border) !important;
+  height: 6px !important; border-radius: 0 !important;
+  clip-path: polygon(0 0, 100% 0, calc(100% - 3px) 100%, 0 100%);
+}
+.progress-bar {
+  background: linear-gradient(90deg, var(--primary), var(--accent)) !important;
+  box-shadow: 0 0 8px var(--primary);
+}
+.subject-card.science   .progress-bar { background: var(--science);   box-shadow: 0 0 10px var(--science); }
+.subject-card.history   .progress-bar { background: var(--history);   box-shadow: 0 0 10px var(--history); }
+.subject-card.geography .progress-bar { background: var(--geography); box-shadow: 0 0 10px var(--geography); }
+.subject-card.computing .progress-bar { background: var(--computing); box-shadow: 0 0 10px var(--computing); }
+
+/* keep card text above the kanji watermark */
+.subject-card > * { position: relative; z-index: 1; }
+
+/* small action buttons inside subject cards — kill their inline styles */
+.subject-card .home-actions {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px !important;
+  margin-top: 10px !important;
+}
+.subject-card .home-actions button {
+  background: rgba(0,0,0,0.45) !important;
+  border: 1px solid var(--border) !important;
+  color: var(--text) !important;
+  font-family: var(--font-mono) !important;
+  font-size: 9px !important; letter-spacing: 1px !important;
+  padding: 6px 4px !important;
+  border-radius: 0 !important;
+  clip-path: none !important;
+  white-space: nowrap;
+  text-align: center;
+  line-height: 1.2;
+}
+.subject-card .home-actions button:hover {
+  background: rgba(255,255,255,0.08) !important;
+  border-color: var(--accent) !important;
+  color: var(--accent) !important;
+}
+/* boss button (red) — override the inline #c0392b */
+.subject-card .home-actions button[onclick*="startBossBattle"] {
+  background: linear-gradient(90deg, var(--bad), #c61f30) !important;
+  border-color: var(--bad) !important;
+  color: #fff !important;
+  box-shadow: 0 0 10px rgba(255,51,68,0.45);
+}
+.subject-card .home-actions button[onclick*="startBossBattle"]:hover {
+  background: linear-gradient(90deg, #ff4a5a, var(--bad)) !important;
+}
+
+/* ---- 7. STATS GRID -------------------------------------------------------- */
+.stats-grid { gap: 10px !important; }
+.stat-box {
+  background: var(--bg-2) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 0 !important;
+  padding: 14px 10px !important;
+  clip-path: polygon(0 0, 100% 0, calc(100% - 6px) 100%, 0 100%);
+  position: relative;
+}
+.stat-box .value {
+  font-family: var(--font-display) !important;
+  font-size: 28px !important; line-height: 1 !important;
+  color: var(--accent) !important;
+  text-shadow: 0 0 10px var(--accent);
+  letter-spacing: 1px;
+}
+.stat-box .label {
+  font-family: var(--font-mono) !important;
+  font-size: 9px !important; letter-spacing: 1.5px; margin-top: 6px !important;
+  text-transform: uppercase; color: var(--muted) !important;
+}
+
+/* ---- 8. SESSION / QUESTION ------------------------------------------------ */
+.session-header { border-bottom: 1px dashed var(--border); padding-bottom: 8px; margin-bottom: 12px; }
+.question-counter {
+  font-family: var(--font-mono) !important; font-size: 11px !important;
+  letter-spacing: 2px; color: var(--accent) !important;
+  text-transform: uppercase;
+}
+
+.question-meta { gap: 6px !important; }
+.tag {
+  background: transparent !important;
+  border: 1px solid var(--border) !important;
+  color: var(--muted) !important;
+  font-family: var(--font-mono) !important; font-size: 10px !important;
+  letter-spacing: 1.5px !important;
+  border-radius: 0 !important; padding: 2px 7px !important;
+  text-transform: uppercase;
+}
+.tag.tier-introduce  { color: #8be0a8 !important; border-color: #8be0a866 !important; background: rgba(139,224,168,0.08) !important; }
+.tag.tier-strengthen { color: var(--warn) !important;  border-color: rgba(255,226,58,0.4) !important;  background: rgba(255,226,58,0.08) !important; }
+.tag.tier-deepen     { color: var(--primary) !important; border-color: rgba(255,26,140,0.4) !important; background: rgba(255,26,140,0.08) !important; }
+
+.question-prompt {
+  font-family: var(--font-display) !important;
+  font-size: 20px !important; line-height: 1.35 !important;
+  color: var(--text) !important;
+  padding: 14px 14px 14px 36px !important;
+  position: relative;
+  background: linear-gradient(180deg, rgba(0,229,255,0.06), transparent);
+  border: 1px solid rgba(0,229,255,0.25);
+  clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px);
+  margin: 6px 0 16px !important;
+}
+.question-prompt .nt-q-kanji {
+  position: absolute; left: 8px; top: 6px;
+  font-family: sans-serif; font-weight: 700;
+  font-size: 26px; color: var(--accent); opacity: 0.55; line-height: 1;
+  pointer-events: none;
+}
+
+/* MCQ options as attack cards */
+.options { gap: 7px !important; }
+.option {
+  background: rgba(255,255,255,0.03) !important;
+  border: 1px solid var(--border) !important;
+  color: var(--text) !important;
+  font-family: var(--font-display) !important;
+  font-size: 15px !important; letter-spacing: 0.5px;
+  padding: 12px 14px !important;
+  border-radius: 0 !important;
+  clip-path: polygon(0 0, 100% 0, calc(100% - 8px) 100%, 0 100%);
+  position: relative;
+  transition: all .15s !important;
+}
+.option:hover {
+  border-color: var(--accent) !important;
+  background: rgba(0,229,255,0.06) !important;
+}
+.option.selected {
+  border-color: var(--primary) !important;
+  background: linear-gradient(90deg, rgba(255,26,140,0.2), transparent) !important;
+  box-shadow: 0 0 14px rgba(255,26,140,0.45), inset 0 0 16px rgba(255,26,140,0.12);
+}
+/* state badge injected by JS as .nt-opt-badge */
+.option .nt-opt-badge {
+  position: absolute; right: 14px; top: 50%; transform: translateY(-50%);
+  font-family: sans-serif; font-size: 11px;
+  letter-spacing: 2px;
+  pointer-events: none;
+}
+.option .nt-opt-badge.sel  { color: var(--primary); }
+.option .nt-opt-badge.good { color: var(--good); }
+.option .nt-opt-badge.bad  { color: var(--bad); }
+.option.correct {
+  border-color: var(--good) !important;
+  background: rgba(0,229,255,0.12) !important;
+  box-shadow: 0 0 16px rgba(0,229,255,0.4);
+}
+.option.incorrect {
+  border-color: var(--bad) !important;
+  background: rgba(255,51,68,0.12) !important;
+}
+
+/* ---- 9. TEXT INPUT / CANVAS PAD ------------------------------------------- */
+.input-row .text-input,
+.text-input {
+  background: var(--bg-2) !important;
+  border: 1px solid var(--border) !important;
+  color: var(--text) !important;
+  border-radius: 0 !important;
+  font-family: var(--font-mono) !important;
+  letter-spacing: 1px;
+}
+.text-input:focus {
+  border-color: var(--accent) !important;
+  box-shadow: 0 0 12px rgba(0,229,255,0.4) !important;
+  outline: none;
+}
+
+.canvas-wrap {
+  background: var(--bg-2) !important;
+  border: 1px dashed var(--border) !important;
+  border-radius: 0 !important;
+}
+.canvas-toolbar { background: var(--bg-3) !important; border-bottom: 1px solid var(--border) !important; }
+.canvas-toolbar button {
+  background: rgba(255,255,255,0.04) !important;
+  border: 1px solid var(--border) !important;
+  color: var(--text) !important;
+  font-family: var(--font-mono) !important;
+  font-size: 11px !important; letter-spacing: 1px;
+  border-radius: 0 !important;
+}
+.canvas-toolbar button.active {
+  background: var(--primary) !important; border-color: var(--primary) !important; color: #fff !important;
+  box-shadow: 0 0 8px rgba(255,26,140,0.6);
+}
+.canvas-toolbar .toolbar-hint { font-family: var(--font-mono); font-size: 10px; letter-spacing: 1px; color: var(--muted); }
+#scratchText { background: var(--bg-2) !important; color: var(--text) !important; }
+
+/* ---- 10. FEEDBACK / ANSWER REVEAL ----------------------------------------- */
+.feedback {
+  border-radius: 0 !important;
+  padding: 14px 14px 14px 18px !important;
+  position: relative;
+}
+.feedback.correct {
+  background: rgba(0,229,255,0.08) !important;
+  border-left: 3px solid var(--good) !important;
+  box-shadow: inset 0 0 30px rgba(0,229,255,0.05);
+}
+.feedback.incorrect {
+  background: rgba(255,51,68,0.08) !important;
+  border-left: 3px solid var(--bad) !important;
+  box-shadow: inset 0 0 30px rgba(255,51,68,0.05);
+}
+.feedback .explanation { color: var(--text) !important; opacity: 0.85; font-family: -apple-system, system-ui, sans-serif; font-size: 14px; }
+.feedback .further-learning { color: var(--muted) !important; font-family: var(--font-mono); font-size: 12px; }
+.feedback .further-learning a { color: var(--accent) !important; }
+
+/* ---- 11. BOSS BANNER + BOSS MODE ------------------------------------------ */
+.boss-banner {
+  background:
+    repeating-linear-gradient(45deg, rgba(255,226,58,0.06) 0 12px, transparent 12px 24px),
+    linear-gradient(135deg, rgba(255,51,68,0.4), var(--bg-2)) !important;
+  border: 1px solid var(--bad) !important;
+  border-radius: 0 !important;
+  position: relative; overflow: hidden;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 10px 100%, 0 calc(100% - 10px));
+  box-shadow: 0 0 24px rgba(255,51,68,0.4);
+}
+/* giant 'boss' kanji watermark, injected by JS as .nt-boss-kanji */
+.boss-banner .nt-boss-kanji {
+  position: absolute; right: -8px; bottom: -32px;
+  font-family: sans-serif; font-weight: 700; font-size: 140px;
+  color: var(--bad); opacity: 0.25; line-height: 1;
+  pointer-events: none; user-select: none;
+}
+.boss-banner .nt-boss-warn {
+  font-family: var(--font-mono); font-size: 10px; letter-spacing: 4px;
+  color: var(--warn); margin-bottom: 4px;
+}
+.boss-banner .icon { display: none; }
+.boss-banner h3 {
+  color: #fff !important; font-family: var(--font-display);
+  font-size: 22px; letter-spacing: 3px;
+  position: relative; z-index: 1;
+}
+.boss-banner p {
+  color: rgba(255,255,255,0.85) !important;
+  font-family: var(--font-mono); font-size: 11px; letter-spacing: 1px;
+  position: relative; z-index: 1;
+}
+.boss-banner button {
+  background: #fff !important; color: var(--bad) !important;
+  font-family: var(--font-display) !important; letter-spacing: 3px;
+  box-shadow: 0 0 14px rgba(255,255,255,0.4) !important;
+  clip-path: polygon(8px 0, 100% 0, calc(100% - 8px) 100%, 0 100%);
+}
+.boss-timer {
+  background: rgba(255,51,68,0.2) !important; color: var(--bad) !important;
+  font-family: var(--font-mono) !important; border-radius: 0 !important;
+  border: 1px solid var(--bad);
+}
+.boss-timer.warn { background: rgba(255,226,58,0.2) !important; color: var(--warn) !important; border-color: var(--warn); }
+.boss-timer.crit { background: rgba(255,51,68,0.3) !important; color: var(--bad) !important; }
+
+/* ---- 12. PILLS / SKILL ROWS / TREE ---------------------------------------- */
+.pill {
+  border-radius: 0 !important; font-family: var(--font-mono) !important;
+  font-size: 10px !important; letter-spacing: 1.5px; padding: 3px 10px !important;
+  text-transform: uppercase;
+}
+.pill.good    { background: rgba(0,229,255,0.12) !important; color: var(--good) !important; border: 1px solid var(--good); }
+.pill.bad     { background: rgba(255,51,68,0.12) !important; color: var(--bad)  !important; border: 1px solid var(--bad); }
+.pill.neutral { background: rgba(255,255,255,0.06) !important; color: var(--muted) !important; border: 1px solid var(--border); }
+
+.skill-row .skill-bar { background: rgba(255,255,255,0.06) !important; }
+.skill-row .skill-bar-fill { background: linear-gradient(90deg, var(--primary), var(--accent)) !important; }
+.skill-row .skill-name { color: var(--text) !important; }
+.skill-row .skill-score { color: var(--muted) !important; font-family: var(--font-mono); }
+
+.tree-node summary:hover { background: rgba(255,26,140,0.08) !important; }
+.tree-node summary::before { color: var(--accent) !important; }
+.tree-node-content { border-left: 1px solid var(--border) !important; }
+.tree-label { color: var(--text) !important; }
+.tree-meta { color: var(--muted) !important; font-family: var(--font-mono); font-size: 10px; letter-spacing: 1px; }
+.tree-pct { color: var(--accent) !important; font-family: var(--font-mono); }
+.tree-bar { background: rgba(255,255,255,0.06) !important; }
+.tree-leaf:hover { background: rgba(0,229,255,0.05) !important; }
+.tree-practice {
+  background: transparent !important;
+  border: 1px solid var(--primary) !important;
+  color: var(--primary) !important;
+  border-radius: 0 !important;
+  font-family: var(--font-mono) !important; font-size: 10px !important;
+  letter-spacing: 1.5px !important;
+  clip-path: polygon(4px 0, 100% 0, calc(100% - 4px) 100%, 0 100%);
+}
+.tree-practice:hover { background: var(--primary) !important; color: #fff !important; box-shadow: 0 0 10px var(--primary); }
+
+/* ---- 13. END SCREEN / REWARD CODE ----------------------------------------- */
+.end-screen { padding: 28px !important; }
+.celebration .emoji {
+  filter: drop-shadow(0 0 20px var(--primary)) drop-shadow(0 0 40px var(--primary));
+  animation: ntPulse 1.8s ease-in-out infinite;
+}
+.celebration h1 {
+  font-family: var(--font-display);
+  font-size: 32px !important; letter-spacing: 4px;
+  text-shadow: 0 0 18px var(--primary);
+}
+@keyframes ntPulse {
+  0%, 100% { transform: scale(1); filter: drop-shadow(0 0 20px var(--primary)); }
+  50%      { transform: scale(1.06); filter: drop-shadow(0 0 40px var(--primary)) drop-shadow(0 0 60px var(--accent)); }
+}
+
+.end-screen .code-display {
+  font-family: var(--font-mono) !important;
+  background: linear-gradient(135deg, rgba(255,26,140,0.18), rgba(0,229,255,0.1)) !important;
+  border: 1px solid var(--primary);
+  color: var(--text) !important;
+  border-radius: 0 !important;
+  letter-spacing: 2px !important;
+  text-shadow: 0 0 10px var(--primary);
+  box-shadow:
+    0 0 28px rgba(255,26,140,0.45),
+    inset 0 0 24px rgba(255,26,140,0.15);
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%);
+  padding: 18px 22px !important;
+  position: relative;
+}
+/* code label injected by JS as .nt-code-label */
+.nt-code-label {
+  font-family: var(--font-mono); font-size: 10px;
+  color: var(--warn); letter-spacing: 3px;
+  margin-bottom: 6px;
+  text-align: center;
+}
+.end-screen .code-display.big {
+  background: linear-gradient(135deg, rgba(255,226,58,0.22), rgba(255,26,140,0.15)) !important;
+  border-color: var(--warn);
+  box-shadow: 0 0 32px rgba(255,226,58,0.5), inset 0 0 24px rgba(255,226,58,0.18);
+}
+.end-screen .code-display.streak {
+  background: linear-gradient(135deg, rgba(255,226,58,0.25), rgba(255,51,68,0.18)) !important;
+  border-color: var(--warn);
+}
+.end-screen .code-display.report {
+  background: rgba(255,255,255,0.04) !important;
+  border-color: var(--muted); color: var(--muted) !important;
+  box-shadow: none; text-shadow: none;
+}
+
+/* ---- 14. MODAL ------------------------------------------------------------ */
+.modal-bg { background: rgba(0,0,0,0.78) !important; backdrop-filter: blur(6px); }
+.modal {
+  background: var(--card) !important;
+  border: 1px solid var(--accent) !important;
+  border-radius: 0 !important;
+  box-shadow: 0 0 40px rgba(0,229,255,0.3), inset 0 0 30px rgba(0,229,255,0.05);
+  color: var(--text);
+}
+
+/* ---- 15. ACHIEVEMENT TOAST ------------------------------------------------ */
+.achievement-toast {
+  background: var(--card) !important;
+  border: 1px solid var(--warn) !important;
+  border-left: 4px solid var(--warn) !important;
+  border-radius: 0 !important;
+  box-shadow: 0 0 24px rgba(255,226,58,0.4);
+  font-family: var(--font-mono);
+}
+.achievement-toast .ach-title {
+  font-family: var(--font-display) !important;
+  color: var(--warn) !important;
+  letter-spacing: 2px; text-transform: uppercase;
+}
+.achievement-toast .ach-desc { color: var(--muted) !important; font-size: 11px; letter-spacing: 1px; }
+
+/* ---- 16. LEDGER ENTRIES (history) ----------------------------------------- */
+.ledger-entry { border-bottom: 1px dashed var(--border) !important; font-family: var(--font-mono); color: var(--text); }
+
+/* ---- 17. MOBILE TWEAKS ---------------------------------------------------- */
+@media (max-width: 600px) {
+  .question-prompt { font-size: 16px !important; padding-left: 32px !important; }
+  .subject-card::before { font-size: 92px; }
+  .end-screen .code-display { font-size: 18px !important; padding: 14px !important; }
+  .celebration h1 { font-size: 22px !important; letter-spacing: 2px; }
+}
+
+/* ---- 18. SUBTLE PAGE GLOW BEHIND ------------------------------------------ */
+/* (Removed: the .app::before 交換 corner kanji didn't render reliably as a
+   pseudo-element. Can be re-added via .nt-page-watermark in the decor JS if
+   wanted.) */
