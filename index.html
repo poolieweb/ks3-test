@@ -1029,7 +1029,7 @@ window.showHint = () => {
   $$("#orderArea .order-item").forEach(o => o.classList.remove("disabled"));
   if ($("#textInput")) { $("#textInput").disabled = false; $("#textInput").focus(); }
   const fb = $("#feedback");
-  fb.innerHTML = `<div class="feedback" style="background: #fff3e0; border-left: 4px solid var(--accent);">
+  fb.innerHTML = `<div class="feedback" style=" border-left: 4px solid var(--accent);">
     <strong>💡 Hint:</strong> ${escapeHtml(q.hint)}
   </div>`;
 };
