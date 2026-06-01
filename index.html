@@ -461,7 +461,13 @@ function bossEligible(subjectSlug) {
 // ANSWER VALIDATION
 //=============================================================================
 function normaliseText(s) {
-  return String(s || "").trim().toLowerCase().replace(/\s+/g, " ");
+  return String(s || "")
+    .trim()
+    .toLowerCase()
+    .replace(/\s+/g, " ")
+    .replace(/[.!?,;:'"]+$/g, "")   // strip trailing punctuation (e.g. "Engels." → "Engels")
+    .replace(/^['"]+/g, "")          // strip leading quotes
+    .trim();
 }
 
 function checkAnswer(q, response) {
